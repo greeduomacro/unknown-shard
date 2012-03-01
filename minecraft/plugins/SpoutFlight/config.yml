@@ -1,0 +1,8 @@
+useOldPermissions: false
+maxGravity: 2.0
+stopDrifting: true
+sendNotifications: true
+default_gravity: 1.0
+maxSpeed: 10
+default_speed: 5
+useOps: true

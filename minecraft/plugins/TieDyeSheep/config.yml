@@ -1,0 +1,18 @@
+color:
+    WHITE: 1
+    BLUE: 1
+    GREEN: 1
+    CYAN: 1
+    PINK: 1
+    SILVER: 1
+    BROWN: 1
+    YELLOW: 1
+    BLACK: 1
+    MAGENTA: 1
+    LIGHT_BLUE: 1
+    LIME: 1
+    ORANGE: 1
+    PURPLE: 1
+    RED: 1
+    GRAY: 1
+TieDyeSheep: 0.1.1

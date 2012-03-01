@@ -1,0 +1,3 @@
+kick:
+    kick-player-if-client-detected: false
+    kickmessage: The admin has blocked Zombe + CJB. Please remove from your client.

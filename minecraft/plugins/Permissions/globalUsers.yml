@@ -1,0 +1,21 @@
+users:
+    despized:
+        permissions:
+        groups:
+        - Admins
+    xpincushionx:
+        permissions:
+        groups:
+        - Admins
+    fiend800:
+        permissions:
+        groups:
+        - Peon
+    1337tank:
+        permissions:
+        groups:
+        - Peon
+    Gleeged:
+        permissions:
+        groups:
+        - Peon

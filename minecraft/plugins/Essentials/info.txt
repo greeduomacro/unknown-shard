@@ -1,0 +1,82 @@
+&6--------- 11/19/2011 ---------
+&2Minecraft was released to version 1.0 Hopefully to get it up and running soon on our server and keep up to date from there on.
+
+&6--------- 11/12/2011 ---------
+&2Updated Spoutcraft 769
+&2Updated BookWorm 1.8.1
+&2Updated mcMMO 1.1.17
+&2Updated SpoutFlight 1.3
+&2Updated SuperLog 2.3
+&2Updated Reporter 2.8.1
+
+&6--------- 10/31/2011 ---------
+&2Updated Spout 510
+&2Updated Spoutcraft 718
+
+&6--------- 10/29/2011 ---------
+&2Updated Essentials to 2.6.4
+&2Updated ScubaKit to 3.0.0.C
+&2Updated Spout to 1.0.6-502
+&2Updated Spoutcraft client to 703
+&2Updated SuperLog to 2.2
+
+&6--------- 10/28/2011 ---------
+&2Preparing to update a few plugins since I found out that they have new versions.  Hopefully update within the next day or two.
+
+&6--------- 10/21/2011 ---------
+&2Updated the server to build 1337
+&2Updated the following plugins.
+&2BookWorm 1.8
+&2Essentials 2.6.3
+&2MMOCore 1.7
+
+&6--------- 10/18/2011 ---------
+&2Updated the following plugins.
+&2CFBanner 1.9.3
+&2ecoCreature 0.0.7a
+&2Reporter 2.8.0
+&2Spout 1.0.6-449
+&2WorldBorder 1.4.4
+
+&6--------- 10/15/2011 ---------
+&2Updated CFBanner plugin.  Will update the other plugin versions that changed next time I take the server down.
+
+&6--------- 10/14/2011 ---------
+&2Added the chat system to the forums also added a FAQ editor so I can edit the FAQs on the backend of the server to suit our needs.
+
+&6--------- 10/11/2011 ---------
+&2Hope tonight to test out the latest Craftbukkit build version 1317. To see what has been fixed.  Only working with 1.8.1 still.  No 1.9 builds have been created that are stable yet.
+&2Well tried the 1317 build update which just spammed errors for a few minutes.  I updated a few plugins and the newer spout client has shortcuts and hotkeys build in.  Located in Options and then Controls.
+
+&6--------- 10/09/2011 ---------
+&2Server online and downtime status are recorded by www.minestatus.net and www.ddsecurity.us  Please check there first if you have issues connecting to the server.
+
+&6--------- 10/07/2011 ---------
+&2Updated a lot of the website visual appearance and added a few more sections on the forums.  Working on a helpdesk/ticket system right now.
+
+&6--------- 10/06/2011 ---------
+&2Reverted back to CraftBukkit 1185 version due to some errors.  Updated SpoutKeyCommands plugin and Updated the ScubaKit plugin.  Defragmented server files and backups.  Updated quite a few things on the website along with a bunch of screenshots added by Kari and I.  Also testing out possible teamspeak replacement for audio communication.  Fixed the issues with coords and compass display on spoutcraft.  Expanded the world from 1200 to 1400.
+
+&6--------- 10/05/2011 ---------
+&2Updated to craftbukkit 1240 version
+&2Added more stuff to the website.
+
+&6--------- 10/04/2011 ---------
+&2Updated http://ddsecurity.us
+&2Added forum sections.  Working on report system for website.
+&2Moving everything from facebook to this website since I am done with facebook.
+
+&6--------- 10/02/2011 ---------
+&2Decreased the amount of money for tnt from 10k to 5k.
+&2Back on my desktop due to funding and player interaction.
+&2Updated quite a few plugins.
+&2Preparing for 1.9
+
+&6--------- 09/28/2011 ---------
+&2Added quite a few achievements ingame.
+&2Pin added readable bookcases near the starting newb house.
+
+&6------ Old News ------
+&2Finally running stable build of bukkit 1185.
+&2Iron Blocks and Workbenches are now able to be locked down.
+&2Users can use the /report command to report bugs or bad players.

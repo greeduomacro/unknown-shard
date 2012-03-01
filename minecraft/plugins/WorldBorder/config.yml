@@ -1,0 +1,12 @@
+message: You have reached the edge of this world.
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+debug-mode: false
+whoosh-effect: false
+round-border: true
+cfg-version: 3
+worlds:
+    world:
+        radius: 1400
+        z: 568.46875
+        x: 179.5625

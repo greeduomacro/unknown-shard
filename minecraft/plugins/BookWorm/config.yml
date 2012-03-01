@@ -1,0 +1,66 @@
+strings:
+    no-permission: You do not have permission to do that.
+    command-undo-fail: Unable to undo.
+    write-done: 'Wrote line: %t'
+    command-replace: replace
+    command-erase-done: Text erased.
+    command-invalid: Invalid command.
+    by: by
+    command-replace-done: Text replaced.
+    command-eraseall: eraseall
+    placed-book: 'Book placed in bookshelf:'
+    command-undo-done: Undo successful.
+    command-help-text: "Special commands:\n   /%c -chat -- toggle chat write mode\n\
+        \   /%c -read <page> -- read the specified page\n   /%c -undo -- undo the\
+        \ last write action\n   /%c -erase <text> -- erase the given text\n   /%c\
+        \ -replace <old text> -> <new text> -- replace text\n   /%c -title <new title>\
+        \ -- change the book's title\n   /%c -eraseall -- erase the entire book"
+    page: page
+    write-fail: You cannot write in a book that is not yours.
+    removed-book: 'Removed book:'
+    command-read: read
+    command-title: title
+    usage-write: 'Use /%c <text> to add text to your book.
+
+        You can use a double-colon :: to create a new paragraph.
+
+        Left click on a bookcase to place your book.
+
+        Type /%c -help to see special commands.'
+    command-chatmode-on: Chat write mode enabled.
+    copied-book: 'Copied book:'
+    read-divider: '--------------------------------------------------'
+    new-book-created: 'New book created: %t'
+    usage-read: Right click to read.
+    command-chatmode-off: Chat write mode disabled.
+    command-help: help
+    must-hold-book: You must be holding a single book to write.
+    command-replace-fail: Text not found.
+    usage-start: Use /%c <title> to start your book.
+    cannot-destroy: You can't destroy someone else's bookshelf!
+    command-chatmode: chat
+    command-eraseall-done: Book contents erased.
+    placed-book-fail: You cannot put a book here.
+    book: Book
+    command-erase: erase
+    command-undo: undo
+formatting:
+    indent-size: 4
+    line-length: 55
+    page-length: 6
+general:
+    secret-amazing-code-do-not-change: bs
+    text-color: 10
+    book-info-achievement: true
+    keep-all-books-loaded: false
+    require-book-to-copy: false
+    use-full-filenames: true
+    clean-interval: 600
+    drop-bookshelf-on-break: false
+    show-title-on-held-change: true
+    remove-delay: 300
+    check-worldguard: true
+    make-real-copy: false
+    auto-chat-mode: true
+    text-color-2: 15
+    use-spout-features: true

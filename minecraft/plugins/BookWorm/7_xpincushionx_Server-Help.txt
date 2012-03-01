@@ -1,0 +1,4 @@
+7
+Server Help
+xpincushionx
+To see the current message of the day, use the /motd command. ::To see the current news, then use the /news command.  ::To see the help menu, use the /help command.  To see a certain page of the help menu, then use /help <page number>

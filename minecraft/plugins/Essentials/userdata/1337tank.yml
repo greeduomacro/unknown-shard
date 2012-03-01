@@ -1,0 +1,39 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1318242195168
+    lastteleport: 1318046439714
+    logout: 1318242346898
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+jailed: false
+lastlocation:
+    yaw: -259.80536
+    pitch: 5.106336
+    z: 348.21875
+    y: 64.0
+    world: world
+    x: -536.25
+homes:
+    home:
+        yaw: -345.8568
+        pitch: 16.26657
+        z: 470.6875
+        y: 65.0
+        world: world
+        x: 121.46875
+    goldy:
+        yaw: -270.37598
+        pitch: 14.170518
+        z: -92.28125
+        y: 72.0
+        world: world
+        x: 547.3125
+money: 6024.0
+nickname: Tanky

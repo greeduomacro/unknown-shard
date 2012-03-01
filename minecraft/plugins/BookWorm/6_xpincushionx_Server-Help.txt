@@ -1,0 +1,4 @@
+6
+Server Help
+xpincushionx
+If you want to find out how much the item you are holding is worth, use the /worth command. ::If you want to sell the item you are holding, use the /sell hand command. Though note, if your inventory has multilple slots full of the same item you are selling, it will sell all of them.

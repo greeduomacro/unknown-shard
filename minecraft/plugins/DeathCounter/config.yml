@@ -1,0 +1,41 @@
+settings:
+    permissions: true
+    economy: true
+    save_interval: 30
+    leaderboard: 5
+    log: '[<fullname>] '
+    log_verbosity: 0
+    storage:
+        type: YAML
+        info:
+            filename: users.yml
+            database: users
+            server: localhost
+            port: 3306
+            username: username
+            password: password
+economy:
+    pig: 0.1
+    sheep: 0.1
+    cow: 0.1
+    squid: 1.0
+    chicken: 0.1
+    spider: 5.0
+    skeleton: 2.0
+    zombie: 2.0
+    creeper: 7.0
+    ghast: 5.0
+    pigzombie: 5.0
+    wolf: 3.0
+    slime: 1.0
+    player: 10.0
+    enderman: 0.0
+    silverfish: 0.0
+    cavespider: 0.0
+messages:
+    header: '&2Leaders -Top <num>- (<field>)'
+    first_rank: '&2#<rank> - <name> (<kills>)'
+    second_rank: '&2#<rank> - <name> (<kills>)'
+    third_rank: '&2#<rank> - <name> (<kills>)'
+    other_rank: '&2#<rank> - <name> (<kills>)'
+    own_rank: '&3--- #<rank> - <name> (<kills>) ---'

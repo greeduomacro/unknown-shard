@@ -1,0 +1,15 @@
+ForceSinglePlayerClientKickMessage: This server requires Spoutcraft! http://bit.ly/unleashtheflow
+AuthenticateSpoutcraft: true
+ForceSinglePlayerClient: false
+AllowVisualCheats: false
+TeleportSmoothing: true
+ChunkDataCache: true
+AuthenticateTicks: 200
+AutoUpdate: true
+AllowSkyCheat: false
+AllowClearWaterCheat: false
+AllowStarsCheat: false
+AllowWeatherCheat: false
+AllowTimeCheat: false
+AllowCoordsCheat: false
+AllowEntityLabelCheat: false

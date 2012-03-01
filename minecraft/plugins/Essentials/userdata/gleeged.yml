@@ -1,0 +1,22 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1316811013080
+    lastteleport: 1316811013362
+    logout: 1316811099010
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+jailed: false
+lastlocation:
+    yaw: 285.2403
+    pitch: 7.653088
+    z: 494.05634473303905
+    y: 67.0
+    world: world
+    x: 77.43088778299257

@@ -1,0 +1,12 @@
+debug false
+default-bracket default
+default-bracket-interval 6 hours
+fractional-digits 0
+initial-money 100.0
+money-name derp
+money-name-plural derps
+use-op-permissions false
+payday-interval 1 day
+save-interval 1 minute
+silent-wages false
+use-permissions-plugin true

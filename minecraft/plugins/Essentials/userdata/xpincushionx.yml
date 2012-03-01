@@ -1,0 +1,39 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1321782294358
+    lastteleport: 1321742966067
+    logout: 1321782665735
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+jailed: false
+lastlocation:
+    yaw: 32.097748
+    pitch: 8.999993
+    z: 193.65625
+    y: 25.0
+    world: world
+    x: 796.71875
+nickname: PIN
+homes:
+    pin:
+        yaw: 157.50008
+        pitch: 11.249998
+        z: 317.76241700695454
+        y: 63.0
+        world: world
+        x: 113.56739587281108
+    mine:
+        yaw: 32.097748
+        pitch: 8.999993
+        z: 193.65625
+        y: 25.0
+        world: world
+        x: 796.71875
+money: 11730.0
