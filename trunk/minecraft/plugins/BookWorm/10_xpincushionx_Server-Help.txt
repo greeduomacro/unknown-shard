@@ -1,0 +1,4 @@
+10
+Server Help
+xpincushionx
+To set your home point, use the /home <home name command> ::You can have 2 home locations.  There is a 5 second delay  before you teleport home.  Also, there is a 30 minute window before you can use the /home command again.

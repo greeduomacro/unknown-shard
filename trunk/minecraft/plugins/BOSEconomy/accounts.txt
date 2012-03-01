@@ -1,0 +1,78 @@
+despized {
+	type player
+	money 5928.0
+}
+xpincushionx {
+	type player
+	money 15958.0
+}
+fiend800 {
+	type player
+	money 29949.0
+}
+1337tank {
+	type player
+	money 20341.0
+}
+Admin {
+	type bank
+	money 89857.0
+	members {
+	}
+	owners {
+	}
+}
+Dread {
+	type bank
+	money 1070151.0
+	members {
+	}
+	owners {
+		despized 
+	}
+}
+Kari {
+	type bank
+	money 1220707.0
+	members {
+	}
+	owners {
+		xpincushionx 
+	}
+}
+Dustin {
+	type bank
+	money 0.0
+	members {
+	}
+	owners {
+		1337tank 
+	}
+}
+Merlin {
+	type bank
+	money 0.0
+	members {
+	}
+	owners {
+		fiend800 
+	}
+}
+Gleeged {
+	type player
+	money 19441.0
+}
+RjGoldy {
+	type player
+	money 17859.0
+}
+Goldy {
+	type bank
+	money 1051649.0
+	members {
+	}
+	owners {
+		Goldy 
+		RjGoldy 
+	}
+}

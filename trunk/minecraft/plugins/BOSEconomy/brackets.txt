@@ -1,0 +1,342 @@
+mining {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+herbalism {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+donkey {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 70.0
+	members {
+	}
+}
+derpaus {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 120.0
+	members {
+	}
+}
+unarmed {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+lord {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 110.0
+	members {
+	}
+}
+king {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 150.0
+	members {
+	}
+}
+turtle {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 80.0
+	members {
+	}
+}
+knight {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 100.0
+	members {
+	}
+}
+newbie {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 40.0
+	members {
+	}
+}
+baron {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 130.0
+	members {
+	}
+}
+archery {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+swords {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+pissant {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 20.0
+	members {
+		Gleeged 1
+		fiend800 1
+		1337tank 1
+		despized 1
+		xpincushionx 1
+		RjGoldy 1
+	}
+}
+taming {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+repair {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+woodcutting {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+acrobatics {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+newblet {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+axes {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+peon {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 30.0
+	members {
+		Gleeged 1
+		fiend800 1
+		1337tank 1
+		despized 1
+		xpincushionx 1
+		RjGoldy 1
+	}
+}
+blacksmith {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 50.0
+	members {
+	}
+}
+default {
+	type wage
+	disabled false
+	excluded true
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 10.0
+	members {
+		Gleeged 1
+		fiend800 1
+		1337tank 1
+		despized 1
+		xpincushionx 1
+		RjGoldy 1
+	}
+}
+newb {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 60.0
+	members {
+	}
+}
+Admin {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 2500.0
+	members {
+	}
+}
+christ {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 140.0
+	members {
+	}
+}
+squire {
+	type wage
+	disabled false
+	excluded false
+	locked false
+	master 
+	onlineMode false
+	bracketInterval 
+	value 90.0
+	members {
+	}
+}

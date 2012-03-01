@@ -1,0 +1,4 @@
+8
+Server Help
+xpincushionx
+To check your income balance, use /econ. ::For a full list of all the econ commands, as well as help setting up a bank account, use the /econ help command. ::To purchase a house, please let an admin know by using /report <your name>  :: To figure out the price of adding protections to something you have built, first find out the number of blocks there are.  The price is $1 per block*9.  The 9 represents the 9 protections you would be buying. ::

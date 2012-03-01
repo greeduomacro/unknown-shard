@@ -1,0 +1,93 @@
+groups:
+    Peon:
+        default: true
+        info:
+            prefix: '&2'
+            suffix: '&f'
+            build: true
+        permissions:
+            - 'bookworm.create'
+            - 'bookworm.write.own'
+            - 'bookworm.place.own'
+            - 'bookworm.copy.own'
+            - 'bookworm.copy.others'
+            - 'bookworm.remove.own'
+            - 'bookworm.destroy.own'
+            - 'spoutkeycommands.use'
+            - 'gcb.access'
+            - 'deathcounter.users'
+            - 'reporter.report'
+            - 'ecoCreature.Creature.*'
+            - 'essentials.balance'
+            - 'essentials.balancetop'
+            - 'essentials.pay'
+            - 'essentials.sell'
+            - 'essentials.worth'
+            - 'essentials.afk'
+            - 'essentials.compass'
+            - 'essentials.depth'
+            - 'essentials.getpos'
+            - 'essentials.help'
+            - 'essentials.helpop'
+            - 'essentials.ignore'
+            - 'essentials.info'
+            - 'essentials.mail'
+            - 'essentials.mail.send'
+            - 'essentials.me'
+            - 'essentials.motd'
+            - 'essentials.msg'
+            - 'essentials.nick'
+            - 'essentials.rules'
+            - 'essentials.seen'
+            - 'essentials.suicide'
+            - 'essentials.ping'
+            - 'essentials.delhome'
+            - 'essentials.home'
+            - 'essentials.sethome'
+            - 'essentials.sethome.multiple'
+            - 'essentials.signs.use.*'
+            - 'essentials.sleepingignored'
+            - 'lwc.protect'
+            - 'BOSEconomy.common.*'
+            - 'ScubaKit.ScubaGear.*'
+            - 'tombstone.use'
+            - 'tombstone.large'
+            - 'tombstone.lwc'
+            - 'tombstone.sign'
+            - 'tombstone.freesign'
+            - 'tombstone.quickloot'
+            - 'tombstone.cmd.tomblist'
+            - 'tombstone.cmd.tombfind'
+            - 'mcmmo.item.chimaerawing'
+            - 'mcmmo.skills.*'
+            - 'mcmmo.ability.*'
+            - 'mcmmo.commands.whois'
+            - 'mcmmo.commands.party'
+            - 'mcmmo.chat.partychat'
+            - 'mmo.info.compass'
+            - 'mmo.info.coords'
+            - 'mmo.info.display'
+            - 'worldedit.navigation.unstuck'
+    Moderator:
+        default: false
+        info:
+            prefix: '&b'
+            suffix: '&f'
+            build: true
+        inheritance:
+            - Peon
+        permissions:
+            - 'lwc.mod'
+            - '-tombstone.freesign'
+            - '-tombstone.freechest'
+    Admins:
+        default: false
+        info:
+            prefix: '&4'
+            suffix: '&f'
+            build: true
+        permissions:
+            - '*'
+            - 'nocheat.*'
+            - '-tombstone.freesign'
+            - '-tombstone.freechest'

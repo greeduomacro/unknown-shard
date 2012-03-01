@@ -1,0 +1,14 @@
+lwcRemove: false
+tombRemove: false
+lwcTimeout: 3600
+noDestroy: true
+logEvents: true
+lwcEnable: true
+playerMessage: true
+destroyQuickLoot: true
+noInterfere: true
+lwcPublic: false
+tombSign: true
+removeTime: 18000
+saveTombList: true
+skipBuildCheck: true

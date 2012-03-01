@@ -1,0 +1,33 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1320881601296
+    lastteleport: 1320162464974
+    jail: 0
+    logout: 1320882142897
+powertoolsenabled: true
+muted: false
+inventory:
+    size: 0
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+jailed: false
+lastlocation:
+    yaw: -196.29321
+    pitch: 5.999977
+    z: 612.8227811991976
+    y: 63.0
+    world: world
+    x: 473.30000001192093
+nickname: Goldy
+homes:
+    home:
+        yaw: 2.1140137
+        pitch: 21.299732
+        z: -94.84130335410092
+        y: 77.0
+        world: world
+        x: 533.0272732672195
+money: 11224.0

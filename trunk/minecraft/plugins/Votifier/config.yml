@@ -1,0 +1,3 @@
+port: 8192
+host: 0.0.0.0
+listener_folder: plugins/Votifier/listeners

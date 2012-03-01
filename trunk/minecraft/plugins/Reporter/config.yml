@@ -1,0 +1,17 @@
+# Reporter Configuration File
+# Plugin Version: 2.8.0
+# Config Version: 4
+# 10/15/2011 12:36:17
+general:
+    messaging:
+        listOnLogin: true
+    locale: en_US
+    localeAutoDownload: true
+    canViewSubmittedReports: true
+database:
+    type: sqlite
+    dbName: reports.db
+    host: localhost:3306
+    database: Reporter
+    username: root
+    password: root

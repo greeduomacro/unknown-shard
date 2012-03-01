@@ -1,0 +1,42 @@
+npc: false
+socialspy: false
+timestamps:
+    login: 1321254427961
+    lastteleport: 1321219015850
+    logout: 1321254522938
+powertoolsenabled: true
+muted: false
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+jailed: false
+lastlocation:
+    yaw: 209.23584
+    pitch: 13.0500555
+    z: 392.38511737460595
+    y: 44.0
+    world: world
+    x: 127.49154724910252
+nickname: DREAD
+unlimited:
+- 264
+- 12
+inventory:
+    size: 0
+homes:
+    dread:
+        yaw: -280.96893
+        pitch: 19.79983
+        z: 349.197767379193
+        y: 66.0
+        world: world
+        x: 152.90392128335117
+    mine:
+        yaw: 358.65137
+        pitch: 15.89992
+        z: 550.2744858182754
+        y: 68.0
+        world: world
+        x: 157.82909333954763
+money: 260.0

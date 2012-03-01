@@ -1,0 +1,13 @@
+#Core Configuration
+update_download: true
+update_hours: 24
+show_display_name: true
+show_player_faces: true
+database:
+    username: root
+    isolation: SERIALIZABLE
+    logging: false
+    driver: org.sqlite.JDBC
+    rebuild: false
+    password: ''
+    url: jdbc:sqlite:{DIR}{NAME}.db

@@ -1,0 +1,16 @@
+scubaValues:
+  leatherAir: 320
+  diamondAir: 320
+  ironAir: 320
+  pumpkinAir: 2025
+  chainAir: 320
+  defaultAir: 320
+  goldAir: 320
+system:
+  debugLogs: false
+  ignorePermissions: true
+  blockHatInstalled: false
+  airOverridesIfHigher: true
+  SuperPerms: true
+  firstRun: false
+  displayRemainingAirMessage: true

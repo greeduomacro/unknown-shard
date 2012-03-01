@@ -1,0 +1,4 @@
+9
+Server Help
+xpincushionx
+To set up hot keys for yourself, use the /skc command
