@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseFactionTrap</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Factions.html">Back to Server.Factions</a></h4>
+      <h2>BaseFactionTrap : <a href="BaseTrap.html">BaseTrap</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="FactionExplosionTrap.html">FactionExplosionTrap</a>, <a href="FactionGasTrap.html">FactionGasTrap</a>, <a href="FactionSawTrap.html">FactionSawTrap</a>, <a href="FactionSpikeTrap.html">FactionSpikeTrap</a></h4>
+      (<font color="blue">ctor</font>) BaseFactionTrap( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseFactionTrap( <a href="Faction1.html">Faction</a> f, <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> itemID )<br>
+      <a href="AllowedPlacing.html">AllowedPlacing</a> AllowedPlacing( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AttackMessage( <font color="blue">get</font>; )<br>
+      TimeSpan ConcealPeriod( <font color="blue">get</font>; )<br>
+      TimeSpan DecayPeriod( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DisarmMessage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> EffectSound( <font color="blue">get</font>; )<br>
+      <a href="Faction1.html">Faction</a> Faction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MessageHue( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Placer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SilverFromDisarm( <font color="blue">get</font>; )<br>
+      DateTime TimeOfPlacement( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BeginConceal()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckDecay()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Conceal()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoAttackEffect( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoVisibleEffect()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsEnemy( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> IsValidLocation()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> IsValidLocation( <a href="Point3D.html">Point3D</a> p, <a href="Map.html">Map</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> m, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTrigger( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> PrivateOverheadLocalizedMessage( <a href="Mobile.html">Mobile</a> to, <font color="blue">int</font> number, <font color="blue">int</font> hue, <font color="blue">string</font> name, <font color="blue">string</font> args )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

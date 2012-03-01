@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseTransmutationContainer</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseTransmutationContainer : <a href="Container.html">Container</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="BagOfResources.html">BagOfResources</a>, <a href="BoxOfTransmutation.html">BoxOfTransmutation</a>, <a href="MagicBasket.html">MagicBasket</a></h4>
+<h4>Nested Types: <a href="Recipe.html">Recipe</a>, <a href="TransmuteEntry.html">TransmuteEntry</a>, <a href="TransmuteGump.html">TransmuteGump</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddRecipe( <font color="blue">int</font> id, <font color="blue">int</font> minstr, <font color="blue">int</font> mindex, <font color="blue">int</font> minint, <a href="SkillName.html">SkillName</a>[] skills, <font color="blue">int</font>[] minlevel, Type[] ingredients, <font color="blue">int</font>[] quantity )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddRecipe( <font color="blue">int</font> id, <font color="blue">int</font> minstr, <font color="blue">int</font> mindex, <font color="blue">int</font> minint, <a href="SkillName.html">SkillName</a>[] skills, <font color="blue">int</font>[] minlevel, Type[] ingredients, <font color="blue">int</font>[] quantity, <font color="blue">string</font>[] proptests )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckRequirements( <a href="Mobile.html">Mobile</a> from, <a href="Recipe.html">Recipe</a> s )<br>
+      (<font color="blue">ctor</font>) BaseTransmutationContainer( <font color="blue">int</font> itemid )<br>
+      (<font color="blue">ctor</font>) BaseTransmutationContainer( <a href="Serial.html">Serial</a> serial )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a> Bounds( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultDropSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultGumpID( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> UsesRemaining( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> ConsumeAll()<br>
+      <font color="blue">bool</font> ContainsInterface( Type[] typearray, Type type )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoTransmute( <a href="Mobile.html">Mobile</a> from, <a href="Recipe.html">Recipe</a> r )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDrop( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDropInto( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnItemLifted( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> Transmute( <a href="Mobile.html">Mobile</a> from )<br>
+   </body>
+</html>

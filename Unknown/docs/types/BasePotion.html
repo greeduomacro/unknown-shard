@@ -1,0 +1,25 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BasePotion</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BasePotion : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ICraftable.html">ICraftable</a></h2>
+<h4>Derived Types: <a href="BaseAgilityPotion.html">BaseAgilityPotion</a>, <a href="BaseCurePotion.html">BaseCurePotion</a>, <a href="BaseExplosionPotion.html">BaseExplosionPotion</a>, <a href="BaseHealPotion.html">BaseHealPotion</a>, <a href="BaseMedicalHealPotion.html">BaseMedicalHealPotion</a>, <a href="BasePoisonPotion.html">BasePoisonPotion</a>, <a href="BaseRefreshPotion.html">BaseRefreshPotion</a>, <a href="BaseStrengthPotion.html">BaseStrengthPotion</a>, <a href="CurePotionPet.html">CurePotionPet</a>, <a href="GreaterCurePotionPet.html">GreaterCurePotionPet</a>, <a href="GreaterHealPotionPet.html">GreaterHealPotionPet</a>, <a href="HealPotionPet.html">HealPotionPet</a>, <a href="NightSightPotion.html">NightSightPotion</a>, <a href="PetResurrectPotion.html">PetResurrectPotion</a>, <a href="PetShrinkPotion.html">PetShrinkPotion</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> HasFreeHand( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PlayDrinkEffect( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> Scale( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> v )<br>
+      (<font color="blue">static</font>) <font color="blue">double</font> Scale( <a href="Mobile.html">Mobile</a> m, <font color="blue">double</font> v )<br>
+      (<font color="blue">static</font>) TimeSpan Scale( <a href="Mobile.html">Mobile</a> m, TimeSpan v )<br>
+      (<font color="blue">ctor</font>) BasePotion( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BasePotion( <font color="blue">int</font> itemID, <a href="PotionEffect.html">PotionEffect</a> effect )<br>
+      <font color="blue">int</font> LabelNumber( <font color="blue">get</font>; )<br>
+      <a href="PotionEffect.html">PotionEffect</a> PotionEffect( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> RequireFreeHand( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Drink( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CraftItem.html">CraftItem</a> craftItem, <font color="blue">int</font> resHue )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

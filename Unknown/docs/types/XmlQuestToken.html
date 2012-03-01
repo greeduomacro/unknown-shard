@@ -1,0 +1,90 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlQuestToken</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>XmlQuestToken : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IXmlQuest.html">IXmlQuest</a></h2>
+<h4>Derived Types: <a href="OriginalQuestNote.html">OriginalQuestNote</a>, <a href="QuestNote.html">QuestNote</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) XmlQuestToken()<br>
+      (<font color="blue">ctor</font>) XmlQuestToken( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) XmlQuestToken( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">string</font> AddJournalEntry( <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AlreadyDone( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> AttachmentString( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AutoReward( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanSeeReward( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Completed1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Completed2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Completed3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Completed4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Completed5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ConfigFile( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerMobile.html">PlayerMobile</a> Creator( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Description1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Description2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Description3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Description4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Description5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Difficulty( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> Expiration( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ExpirationString( <font color="blue">get</font>; )<br>
+      TimeSpan ExpiresIn( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSkillUse( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsCompleted( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsExpired( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsValid( <font color="blue">get</font>; )<br>
+      ArrayList Journal( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> LoadConfig( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Name( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan NextRepeatable( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> NoteString( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Objective1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Objective2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Objective3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Objective4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Objective5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerMobile.html">PlayerMobile</a> Owner( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Container.html">Container</a> Pack( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> PartyEnabled( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PartyRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> PlayerMade( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Repeatable( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Container.html">Container</a> ReturnContainer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="XmlAttachment.html">XmlAttachment</a> RewardAttachment( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Item.html">Item</a> RewardItem( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> RewardString( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> State1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> State2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> State3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> State4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> State5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Status( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime TimeCreated( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TitleString( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> WasMoved( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AttachToCallback( <font color="blue">object</font> state )<br>
+      <font color="blue">void</font> CalculateWeight( <a href="Item.html">Item</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> CheckAutoReward()<br>
+      <font color="blue">void</font> CheckOwnerFlag()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> CheckRewardItem()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Invalidate()<br>
+      <font color="blue">void</font> LoadXmlConfig( <font color="blue">string</font> filename )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAdded( <font color="blue">object</font> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDroppedToWorld( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> point )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnItemLifted( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSkillUse( <a href="Mobile.html">Mobile</a> m, <a href="Skill.html">Skill</a> skill, <font color="blue">bool</font> success )<br>
+      <font color="blue">void</font> PackItem( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> PackItemsMovable( <a href="Container.html">Container</a> pack, <font color="blue">bool</font> canmove )<br>
+      <font color="blue">void</font> QuestCompletionAttachment()<br>
+      <font color="blue">void</font> RestoreRewardAttachment()<br>
+      <font color="blue">void</font> ReturnReward()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Server.Items.IXmlQuest.get_Deleted()<br>
+      <font color="blue">void</font> UpdateWeight()<br>
+   </body>
+</html>

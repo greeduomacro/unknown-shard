@@ -1,0 +1,9 @@
+04/02/2009
+5:54AM
+
+1. Added some easier utilization on treasuremaps also some core mods to allow me to edit them better by using xml.
+2. Tweaked so I can actually specify which spells monsters can use and when.
+3. Did another xml add that allows certain npcs have a commanding npc.  Also allows following of multiple npcs.
+4. Fixed britain quest #9 issue with spawning.
+
+GM Darky

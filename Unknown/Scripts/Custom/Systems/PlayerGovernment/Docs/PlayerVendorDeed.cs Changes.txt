@@ -1,0 +1,40 @@
+PlayerVendorDeed.cs
+
+#
+#-----------[OPEN]----------------------------
+#
+
+PlayerVendorDeed.cs
+
+#
+#-----------[FIND]---------------------------- ~ LINE 38
+#
+
+		public override void OnDoubleClick( Mobile from ) 
+		{
+
+#
+#-----------[ADD AFTER]-----------------------
+#
+
+		PlayerMobile pm = (PlayerMobile)from;
+
+#
+#-----------[FIND]---------------------------- ~ LINE 55
+#
+
+	v.SayTo( from, 503246 ); // Ah! it feels good to be working again. 
+
+				this.Delete();
+			}
+
+#
+#-----------[ADD AFTER]-------------------------
+#
+
+		else if ( pm.City != null ) 
+			{
+				from.SendMessage( "You may only place City vendors in your house when you are a citizen of a city." );
+			}
+
+

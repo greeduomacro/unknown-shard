@@ -1,0 +1,79 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - HouseFoundation</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Multis.html">Back to Server.Multis</a></h4>
+      <h2>HouseFoundation : <a href="BaseHouse.html">BaseHouse</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="DesignInsertTarget.html">DesignInsertTarget</a></h4>
+      (<font color="blue">static</font>) <a href="ComponentVerification.html">ComponentVerification</a> Verification( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddStairsTo( <font color="blue">ref</font> <a href="MultiComponentList.html">MultiComponentList</a> mcl )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ApplyFoundation( <a href="FoundationType.html">FoundationType</a> type, <a href="MultiComponentList.html">MultiComponentList</a> mcl )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> DeleteStairs( <a href="MultiComponentList.html">MultiComponentList</a> mcl, <font color="blue">int</font> id, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Backup( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Build( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Clear( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Close( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Commit( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Delete( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Level( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Restore( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Revert( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Roof( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_RoofDelete( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Stairs( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Designer_Sync( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DesignInsert_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Speech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GetFoundationGraphics( <a href="FoundationType.html">FoundationType</a> type, <font color="blue">out</font> <font color="blue">int</font> east, <font color="blue">out</font> <font color="blue">int</font> south, <font color="blue">out</font> <font color="blue">int</font> post, <font color="blue">out</font> <font color="blue">int</font> corner )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetLevelZ( <font color="blue">int</font> level, <a href="HouseFoundation.html">HouseFoundation</a> house )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetZLevel( <font color="blue">int</font> z, <a href="HouseFoundation.html">HouseFoundation</a> house )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsSignHanger( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsStair( <font color="blue">int</font> id, <font color="blue">ref</font> <font color="blue">int</font> dir )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsStairBlock( <font color="blue">int</font> id )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> QueryDesignDetails( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TraceValidity( <a href="NetState.html">NetState</a> state, <font color="blue">int</font> itemID )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> ValidPiece( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> ValidPiece( <font color="blue">int</font> itemID, <font color="blue">bool</font> roof )<br>
+      (<font color="blue">ctor</font>) HouseFoundation( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) HouseFoundation( <a href="Mobile.html">Mobile</a> owner, <font color="blue">int</font> multiID, <font color="blue">int</font> maxLockdowns, <font color="blue">int</font> maxSecures )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a>[] Area( <font color="blue">get</font>; )<br>
+      <a href="DesignState.html">DesignState</a> BackupState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> BaseBanLocation( <font color="blue">get</font>; )<br>
+      <a href="MultiComponentList.html">MultiComponentList</a> Components( <font color="blue">get</font>; )<br>
+      <a href="DesignState.html">DesignState</a> CurrentState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CustomizationCost( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Customizer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DefaultPrice( <font color="blue">get</font>; )<br>
+      <a href="DesignState.html">DesignState</a> DesignState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Fixtures( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsActive( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsAosRules( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> LastRevision( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxLevels( <font color="blue">get</font>; )<br>
+      <a href="Item.html">Item</a> SignHanger( <font color="blue">get</font>; )<br>
+      <a href="Item.html">Item</a> Signpost( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> SignpostGraphic( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="FoundationType.html">FoundationType</a> Type( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AddFixture( <a href="Item.html">Item</a> item, <a href="MultiTileEntry.html">MultiTileEntry</a> mte )<br>
+      <font color="blue">void</font> AddFixtures( <a href="Mobile.html">Mobile</a> from, <a href="MultiTileEntry.html">MultiTileEntry</a>[] list )<br>
+      <font color="blue">void</font> BeginCustomize( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> CheckSignpost()<br>
+      <font color="blue">bool</font> CheckWall( <a href="MultiComponentList.html">MultiComponentList</a> mcl, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">void</font> ClearFixtures( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> EndConfirmCommit( <a href="Mobile.html">Mobile</a> from )<br>
+      <a href="MultiComponentList.html">MultiComponentList</a> GetEmptyFoundation()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetMaxUpdateRange()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetUpdateRange( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsFixture( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">bool</font> IsHiddenToCustomizer( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMapChange()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SendInfoTo( <a href="NetState.html">NetState</a> state )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> SetInitialState()<br>
+   </body>
+</html>

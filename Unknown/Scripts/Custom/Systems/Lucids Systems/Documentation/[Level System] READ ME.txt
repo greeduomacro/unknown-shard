@@ -1,0 +1,40 @@
+**********************Lucid Naguals Easy Level System*****************************
+************************Originally Created by Andyboi*********************************
+
+What It Is :
+This is your normal level system with a few twists, it uses A_Li_Ns central memory system to
+allow you not to have to make any PlayerMobile edits, and also to not have to add a storage
+unit into each players pack. It has several custom rewards for levels and skill points, along with 
+ranks and a unique age system. Another nice feature about this system is it is very easily installed
+and removed from any server no matter how developed.
+
+Installation :
+Simple... extract the files anywhere into your Customs folder, and open your BaseCreature.cs file,
+located in : Scripts/Engines/AI/Creature/BaseCreature.cs
+
+If your BaseCreature.cs is not modded, scroll down to lines, 4172 and 4173 which should read
+Titles.AwardFame( ds.m_Mobile, totalFame, true );
+Titles.AwardKarma( ds.m_Mobile, totalKarma, true );
+
+Below these lines add this line..
+EXPValidate.EXPTest(ds.m_Mobile,this);//Mod for Level System
+
+If your BaseCreature.cs is modded, look for the following lines..
+Titles.AwardFame( ds.m_Mobile, totalFame, true );
+Titles.AwardKarma( ds.m_Mobile, totalKarma, true );
+
+and below these add this..
+EXPValidate.EXPTest(ds.m_Mobile,this);//Mod for Level System
+
+The comment at the end makes it easy to remove it if you ever see the need to ( commenting
+is good practice for any developer and I strongly reccommend it for distro file mods )
+
+[For those who use the older version]
+Once you have completed the above simply restart your server, wait for it to load, type
+[mylevel and enjoy!!
+
+[Important Notes]
+Do not spawn the Level Control Stone it will cause your shard to crash. The stone is no longer needed and will be removed in the next release. It couldn't be removed in this release because there were too many references to it in the existing scripts. I had to leave it in for the previous users so they could upgrade their Level Keepers.
+
+Questions or comments??
+Feel free to post any questions or comments and/or PM me!!

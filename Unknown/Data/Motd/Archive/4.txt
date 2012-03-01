@@ -1,0 +1,8 @@
+05/05/2009
+2:31PM
+
+1. Still tweaking some of the stat gains to allow more then just strength gaining.  I also edited the first 100% of skill gain to be a little slower.
+2. Cleaned up backend storage.
+3. Trying to finalize the planning stage of the next main quest chain.
+
+GM Darky

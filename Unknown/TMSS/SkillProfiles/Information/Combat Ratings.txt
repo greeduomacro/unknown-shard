@@ -1,0 +1,32 @@
+This is the output for Combat Ratings on 5/12/2011 8:39:19 PM
+
+
+General: 
+	-Manual: False
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 300
+	-Strength: 300
+	-Dexterity: 300
+	-Intelligence: 3000
+	-Skill Force: True
+	-Name: Combat Ratings
+	-Num Allowed Skills: 700
+	-Skill Sum: 700
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+
+
+
+	Index: 0 Name: Archery is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 1 Name: Fencing is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 2 Name: Mace Fighting is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 3 Name: Parrying is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 4 Name: Swordsmanship is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 5 Name: Tactics is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 6 Name: Wrestling is True, with Max of: 100, Cap of 10, and Weight of 1
+
+True, with Max of: 100, Cap of 10, and Weight of 1

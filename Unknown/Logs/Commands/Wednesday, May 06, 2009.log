@@ -1,0 +1,36 @@
+##############################
+Log started on 5/6/2009 4:46:25 AM
+
+##############################
+Log started on 5/6/2009 4:58:49 PM
+
+##############################
+Log started on 5/6/2009 10:24:44 PM
+
+5/7/2009 9:38:59 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1521 1510 1'
+5/7/2009 9:39:09 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlquestnpc'
+5/7/2009 9:39:10 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1520, 1511, 3) in Trammel: "xmlquestnpc"
+5/7/2009 9:39:10 PM: 192.168.1.1: Serials: 0x1C55; 
+5/7/2009 9:39:16 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set cantwalk true'
+5/7/2009 9:39:17 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'cantwalk' of 0x1C55 "Dalilia" (no account) to 'True'
+5/7/2009 9:39:22 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmledit '
+5/7/2009 9:39:54 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+5/7/2009 9:39:55 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1C55 "Dalilia" (no account)
+5/7/2009 9:52:42 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bola'
+5/7/2009 9:52:43 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1520, 1512, 5) in Trammel: "bola"
+5/7/2009 9:52:43 PM: 192.168.1.1: Serials: 0x40011461; 
+5/7/2009 9:52:46 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+5/7/2009 9:52:46 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40011461 (Bola)
+5/7/2009 9:52:50 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bolaball'
+5/7/2009 9:52:51 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1521, 1513, 8) in Trammel: "bolaball"
+5/7/2009 9:52:51 PM: 192.168.1.1: Serials: 0x40011462; 
+5/7/2009 9:52:54 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+5/7/2009 9:52:54 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40011462 (BolaBall)
+5/7/2009 9:53:28 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add prc'
+5/7/2009 9:53:34 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add orc'
+5/7/2009 9:53:36 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1520, 1512, 5) in Trammel: "orc"
+5/7/2009 9:53:36 PM: 192.168.1.1: Serials: 0x1C57; 
+5/7/2009 9:53:36 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+5/7/2009 9:53:37 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1C57 "Kerghug" (no account)
+5/7/2009 10:02:52 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+5/7/2009 10:05:26 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '

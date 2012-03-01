@@ -1,0 +1,38 @@
+This is the output for Actions on 5/12/2011 8:39:19 PM
+
+
+General: 
+	-Manual: False
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 300
+	-Strength: 300
+	-Dexterity: 300
+	-Intelligence: 3000
+	-Skill Force: True
+	-Name: Actions
+	-Num Allowed Skills: 700
+	-Skill Sum: 700
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+
+
+
+	Index: 0 Name: Animal Taming is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 1 Name: Begging is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 2 Name: Camping is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 3 Name: Cartography is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 4 Name: Detecting Hidden is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 5 Name: Discordance is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 6 Name: Hiding is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 7 Name: Inscription is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 8 Name: Peacemaking is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 9 Name: Poisoning is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 10 Name: Provocation is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 11 Name: Spirit Speak is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 12 Name: Tracking is True, with Max of: 100, Cap of 10, and Weight of 1
+
+True, with Max of: 100, Cap of 10, and Weight of 1

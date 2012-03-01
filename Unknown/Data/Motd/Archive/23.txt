@@ -1,0 +1,28 @@
+03/25/2009
+10:12PM
+
+1. Updated all quest npc spawns to be non-movable so that players would be able to address them easier.
+2. Added more player owned housing within the city limits.
+3. Fixed minor errors in the quest systems that would cause the npcs to not respond to the players.
+4. Added Skeletal Dungeon levels 1 and 2.
+5. Fixed naming issue with Skeletal Equipment.
+6. Finished Multipart instance Skeletal Quest.
+7. Fixed the respawn rates in Britain Graveyard.
+8. Added 4 more rent to own houses near britain.
+9. Fixed reward bug with havenquests 1-10.
+10. Updated and Fixed jail system and afkchecker.
+11. Added talismans that you carry in your backpack that have bonuses.
+12. updated the webpage status information shown on the server status page.
+13. Added a couple special evil npcs.
+14. Added special bags with amounts of reagents to specify.
+15. Added advanced archery system to make it a little more balanced.
+16. Did multiple tweaks to the skillgains and stat gains to be more adaptive to players.
+17. Multiple items for medical crafting.
+18. Animal Crafting is being worked on.
+19. Fixed peacemaking to work like it used to work.  area effect instead of single target.
+20. Added treasure chests that are spawnable.
+21. Added a Unique Shovel used for treasure hunting.
+22. Added body paint to paint yourself with.
+23. BIG EDIT, adding level system for all players.  With benefits in leveling.
+
+GM Darky

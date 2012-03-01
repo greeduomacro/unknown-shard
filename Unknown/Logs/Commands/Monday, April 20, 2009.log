@@ -1,0 +1,171 @@
+##############################
+Log started on 4/20/2009 4:45:13 AM
+
+4/20/2009 10:31:27 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'chat '
+4/20/2009 10:50:27 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c mother fucker, I just died cause I lagged'
+4/20/2009 12:00:06 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'afk '
+4/20/2009 12:24:44 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'afk '
+4/20/2009 1:31:37 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c I'm not but I know wayne was'
+4/20/2009 3:13:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+##############################
+Log started on 4/20/2009 3:52:09 PM
+
+##############################
+Log started on 4/20/2009 4:00:54 PM
+
+4/20/2009 5:00:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:06:39 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c let me know how the quest works out for the main quest for the samurai class.'
+4/20/2009 5:06:58 PM: 98.176.160.60: Player 0x1204 "Qin-Jao" ('goldy') used command 'c found something wrong already, first part'
+4/20/2009 5:07:09 PM: 98.176.160.60: Player 0x1204 "Qin-Jao" ('goldy') used command 'c nothing to kill'
+4/20/2009 5:07:17 PM: 98.176.160.60: Player 0x1204 "Qin-Jao" ('goldy') used command 'chat '
+4/20/2009 5:07:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:08:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+4/20/2009 5:08:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (338, 762, -1) in Malas: "xmlspawner"
+4/20/2009 5:08:08 PM: 127.0.0.1: Serials: 0x4000580C; 
+4/20/2009 5:08:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x4000580C 'Spawner' [338, 762] (Malas) : ronin
+4/20/2009 5:08:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+4/20/2009 5:08:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (337, 776, -1) in Malas: "xmlspawner"
+4/20/2009 5:08:24 PM: 127.0.0.1: Serials: 0x4000582A; 
+4/20/2009 5:08:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x4000582A 'Spawner' [337, 776] (Malas) : ronin
+4/20/2009 5:08:50 PM: 98.176.160.60: Player 0x1204 "Qin-Jao" ('goldy') used command 'c mabye there a little strong for the newb quest'
+4/20/2009 5:08:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x4000580C (XmlSpawner) to '00:01:00'
+4/20/2009 5:08:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x4000580C (XmlSpawner) to '00:03:00'
+4/20/2009 5:09:02 PM: 98.176.160.60: Player 0x1204 "Qin-Jao" ('goldy') used command 'c '
+4/20/2009 5:09:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:09:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') resurrecting 0x1204 "Qin-Jao" ('goldy')
+4/20/2009 5:09:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x4000582A (XmlSpawner) to '00:01:00'
+4/20/2009 5:09:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x4000582A (XmlSpawner) to '00:03:00'
+4/20/2009 5:09:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:09:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') resurrecting 0x1204 "Qin-Jao" ('goldy')
+4/20/2009 5:10:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:10:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') resurrecting 0x1204 "Qin-Jao" ('goldy')
+4/20/2009 5:11:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x4000580C 'Spawner' [338, 762] (Malas) : cursedsoul
+4/20/2009 5:11:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x4000580C 'Spawner' [338, 762] (Malas) : ronin to cursedsoul
+4/20/2009 5:12:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 5:12:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 5:12:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000580C (XmlSpawner)
+4/20/2009 5:12:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 5:12:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000582A (XmlSpawner)
+4/20/2009 5:12:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+4/20/2009 5:12:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (338, 763, -1) in Malas: "xmlspawner"
+4/20/2009 5:12:19 PM: 127.0.0.1: Serials: 0x400058DB; 
+4/20/2009 5:12:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x400058DB (XmlSpawner) to '00:01:00'
+4/20/2009 5:12:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x400058DB (XmlSpawner) to '00:03:00'
+4/20/2009 5:12:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x400058DB (XmlSpawner) to '3'
+4/20/2009 5:12:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x400058DB (XmlSpawner) to '3'
+4/20/2009 5:12:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x400058DB 'Spawner' [338, 763] (Malas) : cursedsoul
+4/20/2009 5:12:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+4/20/2009 5:14:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 5:14:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40005912 (XmlSpawner)
+4/20/2009 5:14:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:14:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') resurrecting 0x1204 "Qin-Jao" ('goldy')
+4/20/2009 5:15:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 5:19:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 5:19:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 5:23:14 PM: 98.176.160.60: Player 0x1204 "Qin-Jao" ('goldy') used command 'chat '
+4/20/2009 5:23:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+4/20/2009 5:23:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'restart '
+##############################
+Log started on 4/20/2009 5:26:07 PM
+
+4/20/2009 5:27:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'afk '
+4/20/2009 5:30:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 5:30:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 5:30:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 5:31:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 5:32:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'afk '
+4/20/2009 5:47:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'afk '
+4/20/2009 5:52:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'chat '
+4/20/2009 5:52:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c alright that should fix the issue. you alright with me restarting the server again?'
+4/20/2009 5:53:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:54:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'bc Server will be getting Restarted due to update on samurai quest.'
+4/20/2009 5:55:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:56:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 5:57:39 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'restart '
+##############################
+Log started on 4/20/2009 6:00:26 PM
+
+4/20/2009 6:02:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 6:06:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 6:06:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go tokuno'
+4/20/2009 6:06:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go tokuno'
+4/20/2009 6:07:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Tokuno'
+4/20/2009 6:07:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 4'
+4/20/2009 6:07:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 854 1282 25'
+4/20/2009 6:07:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 6:07:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:07:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:08:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+4/20/2009 6:08:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:20:56 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:24:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+4/20/2009 6:25:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x400006C9 (XmlSpawner) to '3'
+4/20/2009 6:25:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x400006C9 (XmlSpawner) to '3'
+4/20/2009 6:25:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x400006CA (XmlSpawner) to '3'
+4/20/2009 6:25:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x400006CA (XmlSpawner) to '3'
+4/20/2009 6:26:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+4/20/2009 6:38:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:39:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Protected' of 0x40013830 (HonorCandle) to 'False'
+4/20/2009 6:39:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:39:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Protected' of 0x40013830 (HonorCandle) to 'True'
+4/20/2009 6:39:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Protected' of 0x40013830 (HonorCandle) to 'False'
+4/20/2009 6:39:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:39:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Protected' of 0x40013831 (HonorCandle) to 'False'
+4/20/2009 6:39:56 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:40:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Protected' of 0x4001382F (HonorCandle) to 'False'
+4/20/2009 6:40:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:40:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:40:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Protected' of 0x4001382E (HonorCandle) to 'True'
+4/20/2009 6:41:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 6:42:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+4/20/2009 6:43:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400006EA 'Spawner' [426, 771] (Malas) : ninja to ninja/karma/-1500
+4/20/2009 6:44:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400006EA 'Spawner' [426, 771] (Malas) : ninja/karma/-1500 to ninja/karma/-5000
+4/20/2009 6:44:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400006EA 'Spawner' [426, 771] (Malas) : ninja/karma/-5000 to ninja/murderer/true
+4/20/2009 6:44:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400006EA 'Spawner' [426, 771] (Malas) : ninja/murderer/true to ninja/karma/-10000
+4/20/2009 6:44:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400006EA 'Spawner' [426, 771] (Malas) : ninja/karma/-10000 to ninja
+4/20/2009 6:44:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/20/2009 6:46:03 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Criminal' of 0x1052 "Paco" (no account) to 'True'
+4/20/2009 6:46:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400006EA 'Spawner' [426, 771] (Malas) : ninja to ninja/criminal/true
+4/20/2009 6:46:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x40000708 'Spawner' [421, 777] (Malas) : ninja to ninja/criminal/true
+4/20/2009 6:47:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x40000701 'Spawner' [414, 769] (Malas) : ninja to ninja/criminal/true
+4/20/2009 6:50:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 6:51:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add nin'
+4/20/2009 6:51:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (418, 769, -1) in Malas: "NinjaTabi"
+4/20/2009 6:51:44 PM: 127.0.0.1: Serials: 0x40000A9C; 
+4/20/2009 6:51:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/20/2009 6:51:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 6:51:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000A9C (NinjaTabi)
+4/20/2009 6:51:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 6:51:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000701 (XmlSpawner)
+4/20/2009 6:51:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 6:51:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000708 (XmlSpawner)
+4/20/2009 6:51:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/20/2009 6:51:56 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400006EA (XmlSpawner)
+4/20/2009 6:52:03 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (418, 771, -1) in Malas: "YoungNinja"
+4/20/2009 6:52:04 PM: 127.0.0.1: Serials: 0x105A; 
+4/20/2009 6:52:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+4/20/2009 6:56:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/20/2009 7:00:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+##############################
+Log started on 4/20/2009 8:17:56 PM
+

@@ -1,0 +1,25 @@
+##############################
+Log started on 4/28/2009 3:40:39 AM
+
+4/28/2009 3:57:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 2675 2187 0'
+4/28/2009 3:57:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmledit '
+4/28/2009 5:20:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmledit '
+4/28/2009 5:20:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/28/2009 5:20:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/28/2009 5:20:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/28/2009 5:20:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/28/2009 5:20:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/28/2009 5:20:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/28/2009 5:20:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+4/28/2009 5:23:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DespawnTime' of 0x40007170 (XmlSpawner) to '00:30:00'
+4/28/2009 5:24:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DespawnTime' of 0x40007171 (XmlSpawner) to '00:30:00'
+4/28/2009 5:24:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DespawnTime' of 0x40007172 (XmlSpawner) to '00:30:00'
+4/28/2009 5:25:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DespawnTime' of 0x40007173 (XmlSpawner) to '00:30:00'
+4/28/2009 5:25:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+4/28/2009 5:25:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/28/2009 5:26:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/28/2009 5:26:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+##############################
+Log started on 4/28/2009 8:50:16 PM
+
+4/28/2009 9:34:52 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'chat '

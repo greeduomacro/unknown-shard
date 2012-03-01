@@ -1,0 +1,796 @@
+##############################
+Log started on 11/12/2007 12:27:32 AM
+
+##############################
+Log started on 11/12/2007 6:57:51 AM
+
+11/12/2007 6:58:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/12/2007 6:58:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/12/2007 6:58:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1434 1698 0'
+11/12/2007 6:59:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 6:59:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add queststone'
+11/12/2007 6:59:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1431, 1689, 20) in Trammel: "queststone"
+11/12/2007 6:59:22 AM: 127.0.0.1: Serials: 0x40000155; 
+11/12/2007 6:59:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/12/2007 6:59:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Add static 2082 set movable False hue 0 light Circle225'
+11/12/2007 6:59:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1441, 1691, 20) in Trammel: "static" "2082" "set" "movable" "False" "hue" "0" "light" "Circle225"
+11/12/2007 6:59:58 AM: 127.0.0.1: Serials: 0x40000158; 
+11/12/2007 7:00:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000158 (Static)
+11/12/2007 7:00:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Add static 2082 set movable False hue 0 light Circle225'
+11/12/2007 7:00:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1441, 1692, 25) in Trammel: "static" "2082" "set" "movable" "False" "hue" "0" "light" "Circle225"
+11/12/2007 7:00:08 AM: 127.0.0.1: Serials: 0x4000015B; 
+11/12/2007 7:00:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'TileZ 0 static 2083 set movable False hue 0 light {light}'
+11/12/2007 7:00:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building from (1424, 1692, 0) to (1440, 1692, 0) in Trammel: "static" "2083" "set" "movable" "False" "hue" "0" "light" "{light}"
+11/12/2007 7:00:23 AM: 127.0.0.1: Serials: 0x4000018C; 0x4000018E; 0x40000190; 0x400001EB; 0x400001EF; 0x400001F0; 0x400001F2; 0x400001F3; 0x400001F4; 0x400001F5; 0x400001F6; 0x400001F7; 0x400001F8; 0x400001F9; 0x400001FA; 0x400001FB; 0x400001FC; 
+11/12/2007 7:00:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000018C (Static)
+11/12/2007 7:00:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000018E (Static)
+11/12/2007 7:00:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000190 (Static)
+11/12/2007 7:00:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001EB (Static)
+11/12/2007 7:00:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001EF (Static)
+11/12/2007 7:00:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F0 (Static)
+11/12/2007 7:00:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F2 (Static)
+11/12/2007 7:00:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F3 (Static)
+11/12/2007 7:00:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F4 (Static)
+11/12/2007 7:00:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F5 (Static)
+11/12/2007 7:00:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F6 (Static)
+11/12/2007 7:00:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F7 (Static)
+11/12/2007 7:00:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F9 (Static)
+11/12/2007 7:00:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001F8 (Static)
+11/12/2007 7:00:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001FC (Static)
+11/12/2007 7:00:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001FB (Static)
+11/12/2007 7:00:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40002DE2 (MetalDoor)
+11/12/2007 7:00:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:00:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400001FA (Static)
+11/12/2007 7:01:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Add MetalDoor2 WestCCW'
+11/12/2007 7:01:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1438, 1692, 0) in Trammel: "MetalDoor2" "WestCCW"
+11/12/2007 7:01:22 AM: 127.0.0.1: Serials: 0x40000203; 
+11/12/2007 7:01:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/12/2007 7:01:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'TileZ 20 static 2083 set movable False hue 0 light {light}'
+11/12/2007 7:01:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building from (1424, 1692, 20) to (1440, 1692, 20) in Trammel: "static" "2083" "set" "movable" "False" "hue" "0" "light" "{light}"
+11/12/2007 7:01:55 AM: 127.0.0.1: Serials: 0x40000204; 0x40000205; 0x40000206; 0x40000207; 0x40000208; 0x40000209; 0x4000020A; 0x4000020B; 0x4000020C; 0x4000020D; 0x4000020E; 0x4000020F; 0x40000210; 0x40000211; 0x40000213; 0x40000214; 0x40000215; 
+11/12/2007 7:02:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000015B (Static)
+11/12/2007 7:02:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000215 (Static)
+11/12/2007 7:02:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000214 (Static)
+11/12/2007 7:02:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000213 (Static)
+11/12/2007 7:02:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000211 (Static)
+11/12/2007 7:02:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000210 (Static)
+11/12/2007 7:02:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000020F (Static)
+11/12/2007 7:02:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000020D (Static)
+11/12/2007 7:02:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000020E (Static)
+11/12/2007 7:02:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000020C (Static)
+11/12/2007 7:02:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000020B (Static)
+11/12/2007 7:02:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000020A (Static)
+11/12/2007 7:02:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000208 (Static)
+11/12/2007 7:02:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000209 (Static)
+11/12/2007 7:02:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000207 (Static)
+11/12/2007 7:02:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000206 (Static)
+11/12/2007 7:02:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000204 (Static)
+11/12/2007 7:02:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:02:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000205 (Static)
+11/12/2007 7:02:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:02:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/12/2007 7:02:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1509, 1581, 20) in Trammel: "xmlspawner"
+11/12/2007 7:02:58 AM: 127.0.0.1: Serials: 0x4000028C; 
+11/12/2007 7:03:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028C 'Spawner' [1509, 1581] (Trammel) : animalbreeder
+11/12/2007 7:03:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/12/2007 7:03:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/12/2007 7:03:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3686 2519 0'
+11/12/2007 7:04:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:04:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add forum'
+11/12/2007 7:04:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3631, 2615, 0) in Trammel: "ForumBulletinBoard"
+11/12/2007 7:04:41 AM: 127.0.0.1: Serials: 0x400002A5; 
+11/12/2007 7:04:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'flip '
+11/12/2007 7:04:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'flip '
+11/12/2007 7:04:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:04:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400002A5 (ForumBulletinBoard)
+11/12/2007 7:05:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:05:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 7:05:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40011795 (BulletinBoard)
+11/12/2007 7:05:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add forum'
+11/12/2007 7:05:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3672, 2624, 0) in Trammel: "ForumBulletinBoard"
+11/12/2007 7:05:32 AM: 127.0.0.1: Serials: 0x400002A6; 
+11/12/2007 7:05:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:05:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:05:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:05:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:05:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:05:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 7:06:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/12/2007 7:06:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3643, 2531, 0) in Trammel: "xmlspawner"
+11/12/2007 7:06:35 AM: 127.0.0.1: Serials: 0x400002A9; 
+11/12/2007 7:06:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002A9 'Spawner' [3643, 2531] (Trammel) : animalbreeder
+11/12/2007 7:06:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/12/2007 7:08:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400002A9 (XmlSpawner) to '3'
+11/12/2007 7:08:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400002A9 (XmlSpawner) to '3'
+11/12/2007 7:13:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck '
+11/12/2007 7:13:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 7:13:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck '
+11/12/2007 7:13:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') Issuing AFK Check to: 0x4 "Briana" ('briana') 
+11/12/2007 7:14:59 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Passed AFK Check. 
+11/12/2007 7:15:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 7:16:59 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:16:59 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:16:59 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:16:59 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:01 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Failed AFK Check. 
+11/12/2007 7:17:08 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Jailed. 
+11/12/2007 7:17:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 7:17:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'unjail '
+11/12/2007 7:17:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 7:20:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'go haven'
+11/12/2007 7:20:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 7:21:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'animate '
+11/12/2007 7:22:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck '
+11/12/2007 7:22:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck '
+11/12/2007 7:23:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck force'
+11/12/2007 7:23:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') Issuing AFK Check to: 0x4 "Briana" ('briana') 
+11/12/2007 7:23:46 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') Passed AFK Check. 
+11/12/2007 7:24:37 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'afk '
+11/12/2007 7:25:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'viewforums '
+11/12/2007 7:25:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/12/2007 7:29:05 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'afk '
+11/12/2007 7:30:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 7:30:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/12/2007 7:32:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2991'
+11/12/2007 7:32:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2991'
+11/12/2007 7:32:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2970'
+11/12/2007 7:32:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2970'
+11/12/2007 7:32:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2960'
+11/12/2007 7:32:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2960'
+11/12/2007 7:39:42 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'e pouts'
+11/12/2007 7:39:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'addallpoints '
+11/12/2007 7:40:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'addallmobfactions '
+11/12/2007 7:40:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002A9 'Spawner' [3643, 2531] (Trammel) : animaltrainer
+11/12/2007 1:58:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 2:00:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/12/2007 2:01:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '795'
+11/12/2007 2:01:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '199'
+11/12/2007 2:01:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '199'
+11/12/2007 2:01:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '776'
+11/12/2007 2:01:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '796'
+11/12/2007 2:02:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2950'
+11/12/2007 2:02:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2950'
+11/12/2007 2:02:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2940'
+11/12/2007 2:02:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2940'
+11/12/2007 2:02:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2930'
+11/12/2007 2:02:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2930'
+11/12/2007 2:02:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2920'
+11/12/2007 2:02:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2920'
+11/12/2007 2:02:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hbue 1'
+11/12/2007 2:02:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 1'
+11/12/2007 2:02:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '1'
+11/12/2007 2:02:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 0'
+11/12/2007 2:02:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '0'
+11/12/2007 2:03:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/12/2007 2:03:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '217'
+11/12/2007 2:03:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '64'
+11/12/2007 2:03:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '195'
+11/12/2007 2:03:50 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '127'
+11/12/2007 2:03:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '134'
+11/12/2007 2:03:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '191'
+11/12/2007 2:04:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '210'
+11/12/2007 2:04:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '220'
+11/12/2007 2:04:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '243'
+11/12/2007 2:04:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '246'
+11/12/2007 2:04:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '841'
+11/12/2007 2:04:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '840'
+11/12/2007 2:04:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '827'
+11/12/2007 2:04:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '290'
+11/12/2007 2:04:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '203'
+11/12/2007 2:04:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '787'
+11/12/2007 2:04:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '20'
+11/12/2007 2:04:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '28'
+11/12/2007 2:04:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '784'
+11/12/2007 2:05:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '242'
+11/12/2007 2:05:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '808'
+11/12/2007 2:05:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '807'
+11/12/2007 2:05:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '807'
+11/12/2007 2:05:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '308'
+11/12/2007 2:05:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '101'
+11/12/2007 2:05:13 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '786'
+11/12/2007 2:05:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '757'
+11/12/2007 2:05:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '300'
+11/12/2007 2:05:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '10'
+11/12/2007 2:05:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '9'
+11/12/2007 2:05:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '43'
+11/12/2007 2:05:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '40'
+11/12/2007 2:05:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '38'
+11/12/2007 2:05:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '313'
+11/12/2007 2:05:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '303'
+11/12/2007 2:05:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '774'
+11/12/2007 2:05:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '318'
+11/12/2007 2:05:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '196'
+11/12/2007 2:05:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '777'
+11/12/2007 2:05:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '62'
+11/12/2007 2:05:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '180'
+11/12/2007 2:05:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '106'
+11/12/2007 2:06:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '61'
+11/12/2007 2:06:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '172'
+11/12/2007 2:06:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '59'
+11/12/2007 2:06:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '12'
+11/12/2007 2:06:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '104'
+11/12/2007 2:06:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '158'
+11/12/2007 2:06:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '107'
+11/12/2007 2:06:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '13'
+11/12/2007 2:06:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '160'
+11/12/2007 2:06:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '159'
+11/12/2007 2:06:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '108'
+11/12/2007 2:06:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '15'
+11/12/2007 2:06:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '166'
+11/12/2007 2:06:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '161'
+11/12/2007 2:06:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '16'
+11/12/2007 2:06:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '175'
+11/12/2007 2:06:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '123'
+11/12/2007 2:06:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '164'
+11/12/2007 2:06:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '58'
+11/12/2007 2:06:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '165'
+11/12/2007 2:06:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '2'
+11/12/2007 2:06:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '18'
+11/12/2007 2:06:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '247'
+11/12/2007 2:06:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '176'
+11/12/2007 2:06:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '128'
+11/12/2007 2:06:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '804'
+11/12/2007 2:06:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '783'
+11/12/2007 2:06:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '8'
+11/12/2007 2:06:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '47'
+11/12/2007 2:06:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '66'
+11/12/2007 2:06:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '129'
+11/12/2007 2:06:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '304'
+11/12/2007 2:07:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '315'
+11/12/2007 2:07:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '746'
+11/12/2007 2:07:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '785'
+11/12/2007 2:07:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '785'
+11/12/2007 2:07:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '785'
+11/12/2007 2:07:13 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '80'
+11/12/2007 2:07:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '4'
+11/12/2007 2:07:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '130'
+11/12/2007 2:07:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '754'
+11/12/2007 2:07:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '755'
+11/12/2007 2:07:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '758'
+11/12/2007 2:07:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '753'
+11/12/2007 2:07:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '67'
+11/12/2007 2:07:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '131'
+11/12/2007 2:07:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '767'
+11/12/2007 2:07:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '769'
+11/12/2007 2:07:50 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '773'
+11/12/2007 2:07:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '766'
+11/12/2007 2:07:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '1'
+11/12/2007 2:07:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '84'
+11/12/2007 2:07:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '772'
+11/12/2007 2:07:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '319'
+11/12/2007 2:08:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '306'
+11/12/2007 2:08:24 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '83'
+11/12/2007 2:08:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '135'
+11/12/2007 2:08:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '241'
+11/12/2007 2:08:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '136'
+11/12/2007 2:08:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '137'
+11/12/2007 2:08:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '85'
+11/12/2007 2:08:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '87'
+11/12/2007 2:08:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '7'
+11/12/2007 2:08:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '182'
+11/12/2007 2:08:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '17'
+11/12/2007 2:08:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '41'
+11/12/2007 2:08:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '189'
+11/12/2007 2:08:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '141'
+11/12/2007 2:08:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '775'
+11/12/2007 2:08:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '789'
+11/12/2007 2:08:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '45'
+11/12/2007 2:08:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '44'
+11/12/2007 2:08:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '42'
+11/12/2007 2:09:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '790'
+11/12/2007 2:09:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '314'
+11/12/2007 2:09:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '215'
+11/12/2007 2:09:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '244'
+11/12/2007 2:09:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '48'
+11/12/2007 2:09:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '93'
+11/12/2007 2:09:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '311'
+11/12/2007 2:09:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '146'
+11/12/2007 2:09:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '302'
+11/12/2007 2:09:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '147'
+11/12/2007 2:09:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '788'
+11/12/2007 2:09:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '778'
+11/12/2007 2:09:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '152'
+11/12/2007 2:09:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '76'
+11/12/2007 2:09:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '301'
+11/12/2007 2:10:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '250'
+11/12/2007 2:10:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2933'
+11/12/2007 2:10:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2933'
+11/12/2007 2:10:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2934'
+11/12/2007 2:10:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2934'
+11/12/2007 2:10:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2935'
+11/12/2007 2:10:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2935'
+11/12/2007 2:11:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2936'
+11/12/2007 2:11:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2936'
+11/12/2007 2:11:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2937'
+11/12/2007 2:11:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2937'
+11/12/2007 2:11:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2938'
+11/12/2007 2:11:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2938'
+11/12/2007 2:11:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2939'
+11/12/2007 2:11:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2939'
+11/12/2007 2:11:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2940'
+11/12/2007 2:11:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2940'
+11/12/2007 2:11:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2941'
+11/12/2007 2:11:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2941'
+11/12/2007 2:11:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2942'
+11/12/2007 2:11:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2942'
+11/12/2007 6:58:23 PM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'chat '
+11/12/2007 10:59:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:01:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:01:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 11:04:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:04:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 11:04:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/12/2007 11:05:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '38'
+11/12/2007 11:05:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '43'
+11/12/2007 11:05:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '303'
+11/12/2007 11:05:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '795'
+11/12/2007 11:05:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '796'
+11/12/2007 11:05:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:06:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:06:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 11:07:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 11:11:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/12/2007 11:11:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/12/2007 11:13:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:15:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2992'
+11/12/2007 11:15:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2992'
+11/12/2007 11:15:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2996'
+11/12/2007 11:15:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2996'
+11/12/2007 11:15:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2999'
+11/12/2007 11:15:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2999'
+11/12/2007 11:15:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2998'
+11/12/2007 11:15:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2998'
+11/12/2007 11:17:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2987'
+11/12/2007 11:17:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x3 "Jesus" ('Dreadfull') to '2987'
+11/12/2007 11:17:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/12/2007 11:17:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '991'
+11/12/2007 11:17:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '994'
+11/12/2007 11:17:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '991'
+11/12/2007 11:17:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '994'
+11/12/2007 11:17:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '401'
+11/12/2007 11:17:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '745'
+11/12/2007 11:17:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '400'
+11/12/2007 11:17:50 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '744'
+11/12/2007 11:17:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '186'
+11/12/2007 11:17:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '184'
+11/12/2007 11:17:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '185'
+11/12/2007 11:17:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '183'
+11/12/2007 11:17:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '403'
+11/12/2007 11:18:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '402'
+11/12/2007 11:18:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '402'
+11/12/2007 11:18:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "Jesus" ('Dreadfull') to '991'
+11/12/2007 11:18:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:22:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/12/2007 11:22:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3521, 2412, 45) in Trammel: "xmlspawner"
+11/12/2007 11:22:01 PM: 127.0.0.1: Serials: 0x400146AD; 
+11/12/2007 11:22:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 11:23:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400146AD (XmlSpawner)
+11/12/2007 11:23:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add nightshadeplant'
+11/12/2007 11:24:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/12/2007 11:24:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/12/2007 11:24:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1422 1697 0'
+11/12/2007 11:24:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:24:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add queststone'
+11/12/2007 11:24:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1431, 1689, 20) in Trammel: "queststone"
+11/12/2007 11:24:20 PM: 127.0.0.1: Serials: 0x400147B5; 
+11/12/2007 11:24:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 11:24:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400147B5 (QuestStone)
+11/12/2007 11:24:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:25:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:25:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add queststone'
+11/12/2007 11:25:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3643, 2533, 0) in Trammel: "queststone"
+11/12/2007 11:25:18 PM: 127.0.0.1: Serials: 0x4001480C; 
+11/12/2007 11:26:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/12/2007 11:26:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001480C (QuestStone)
+11/12/2007 11:27:46 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'e '
+11/12/2007 11:28:13 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'deathmatch '
+11/12/2007 11:34:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:34:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'resurrect '
+11/12/2007 11:34:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/12/2007 11:40:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:41:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/12/2007 11:41:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/12/2007 11:41:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1422 1697 0'
+11/12/2007 11:44:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:24 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:44:50 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028C 'Spawner' [1509, 1581] (Trammel) : rezzingvet
+11/12/2007 11:45:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:45:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/12/2007 11:45:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/12/2007 11:45:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 2736 2166 1'
+11/12/2007 11:46:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'viewforums '
+11/12/2007 11:47:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/12/2007 11:47:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x4000069D (XmlSpawner) (inBag=False; amount=1)
+11/12/2007 11:47:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x4000069D (XmlSpawner) creating 0x40014BBB (XmlSpawner)
+11/12/2007 11:47:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/12/2007 11:47:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40014BBB (XmlSpawner) to (2707, 2146, 0)
+11/12/2007 11:47:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:28 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:48:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add housesign'
+11/12/2007 11:48:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2747, 2120, 0) in Trammel: "housesign"
+11/12/2007 11:48:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add sign'
+11/12/2007 11:48:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2746, 2120, 0) in Trammel: "sign"
+11/12/2007 11:48:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add signhouse'
+11/12/2007 11:49:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2746, 2120, 0) in Trammel: "TownHouseSign"
+11/12/2007 11:49:04 PM: 127.0.0.1: Serials: 0x40014D84; 
+11/12/2007 11:55:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add townhousesign'
+11/12/2007 11:55:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2777, 2136, 0) in Trammel: "townhousesign"
+11/12/2007 11:55:34 PM: 127.0.0.1: Serials: 0x4001A141; 
+11/12/2007 11:56:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/12/2007 11:57:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:57:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c behave'
+11/12/2007 11:57:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:57:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/12/2007 11:58:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:58:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:58:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/12/2007 11:58:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/12/2007 11:58:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:00:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/13/2007 12:00:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 12:00:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 2675 2170 0'
+11/13/2007 12:00:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add townhousesign'
+11/13/2007 12:00:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2680, 2156, 0) in Trammel: "townhousesign"
+11/13/2007 12:00:36 AM: 127.0.0.1: Serials: 0x4001A1F0; 
+11/13/2007 12:01:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:02:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add townhousesign'
+11/13/2007 12:02:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3616, 2505, 0) in Trammel: "townhousesign"
+11/13/2007 12:02:44 AM: 127.0.0.1: Serials: 0x4001A2A5; 
+11/13/2007 12:05:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add townhousesign'
+11/13/2007 12:05:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3647, 2480, 0) in Trammel: "townhousesign"
+11/13/2007 12:05:56 AM: 127.0.0.1: Serials: 0x4001AE77; 
+11/13/2007 12:05:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 12:06:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001AE77 (TownHouseSign)
+11/13/2007 12:06:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add townhousesign'
+11/13/2007 12:06:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3649, 2480, 0) in Trammel: "townhousesign"
+11/13/2007 12:06:05 AM: 127.0.0.1: Serials: 0x4001AE89; 
+11/13/2007 12:09:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/13/2007 12:09:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3485, 2562, 9) in Trammel: "xmlspawner"
+11/13/2007 12:09:12 AM: 127.0.0.1: Serials: 0x4001B215; 
+11/13/2007 12:09:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 12:09:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B215 (XmlSpawner)
+11/13/2007 12:09:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/13/2007 12:09:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40001119 (XmlSpawner) (inBag=False; amount=1)
+11/13/2007 12:09:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40001119 (XmlSpawner) creating 0x4001B232 (XmlSpawner)
+11/13/2007 12:09:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/13/2007 12:09:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x4001B232 (XmlSpawner) to (3485, 2561, 9)
+11/13/2007 12:09:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4001B232 (XmlSpawner) to '200'
+11/13/2007 12:09:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/13/2007 12:09:58 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'chat '
+11/13/2007 12:10:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c added player housing in town for rent to own'
+11/13/2007 12:11:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 12:11:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/13/2007 12:11:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x4000038E (XmlSpawner) (inBag=False; amount=1)
+11/13/2007 12:11:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x4000038E (XmlSpawner) creating 0x4001B4B7 (XmlSpawner)
+11/13/2007 12:11:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/13/2007 12:11:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x4000038E (XmlSpawner) to (3406, 2652, 48)
+11/13/2007 12:11:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000038E (XmlSpawner) to '50'
+11/13/2007 12:11:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 12:12:00 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c hey'
+11/13/2007 12:12:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c use chat to talk to me iun game, there you go'
+11/13/2007 12:12:04 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'chat '
+11/13/2007 12:12:33 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c hey how do you ride hores?'
+11/13/2007 12:12:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/13/2007 12:12:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 12:12:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3617 2508 0'
+11/13/2007 12:13:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 12:15:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/13/2007 12:15:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 12:15:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3443 2743 48'
+11/13/2007 12:15:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/13/2007 12:15:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 12:15:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3595 2822 36'
+11/13/2007 12:17:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'addallpoints '
+11/13/2007 12:17:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:18:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c heather type [checkpoints'
+11/13/2007 12:18:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c or type "showpoints"'
+11/13/2007 12:18:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'viewforums '
+11/13/2007 12:20:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c added more commands in the basic commands section of the forums ingame.'
+11/13/2007 12:21:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'viewforums '
+11/13/2007 12:23:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:23:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2995'
+11/13/2007 12:23:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x40000A87 (DeathShroud) to '2995'
+11/13/2007 12:23:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:24:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck '
+11/13/2007 12:24:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') Issuing AFK Check to: 0xCD8 "lynix" ('pyachthead') 
+11/13/2007 12:24:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:24:24 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') Passed AFK Check. 
+11/13/2007 12:24:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 12:24:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afkcheck '
+11/13/2007 12:24:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') Issuing AFK Check to: 0x5 "K-Hound" ('k-hound') 
+11/13/2007 12:24:58 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') Passed AFK Check. 
+11/13/2007 12:25:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c checks for players actually playing the game'
+11/13/2007 12:25:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c instead of just running a program to play it'
+11/13/2007 12:25:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c unknown server book=rules and informatioj'
+11/13/2007 12:26:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'viewforums '
+11/13/2007 12:29:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'addallmobfactions '
+11/13/2007 12:34:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 12:34:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 12:35:04 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'e '
+11/13/2007 12:35:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add sockethammer'
+11/13/2007 12:35:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3620, 2513, 0) in Trammel: "sockethammer"
+11/13/2007 12:35:47 AM: 127.0.0.1: Serials: 0x4001B8B4; 
+11/13/2007 12:35:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 12:35:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B8B4 (SocketHammer)
+11/13/2007 1:09:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:10:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 1:10:06 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'e '
+11/13/2007 1:12:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:12:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:13:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') kicking 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:13:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c HAHa'
+11/13/2007 1:13:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:13:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:13:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:13:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:13:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:13:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:14:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add mummy'
+11/13/2007 1:14:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3621, 2413, 45) in Trammel: "mummy"
+11/13/2007 1:14:29 AM: 127.0.0.1: Serials: 0xD86; 
+11/13/2007 1:14:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'kill '
+11/13/2007 1:14:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0xD86 "a mummy" (no account)
+11/13/2007 1:14:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:14:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B94D (Corpse)
+11/13/2007 1:15:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'kill '
+11/13/2007 1:15:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:15:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:15:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x5 "K-Hound" ('k-hound')
+11/13/2007 1:15:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:15:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add '
+11/13/2007 1:16:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Add SwampDragon'
+11/13/2007 1:16:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3624, 2412, 41) in Trammel: "SwampDragon"
+11/13/2007 1:16:22 AM: 127.0.0.1: Serials: 0xD87; 
+11/13/2007 1:16:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 1:17:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B946 (DeathRobe)
+11/13/2007 1:17:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B940 (DeathRobe)
+11/13/2007 1:17:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B5BB (DeathRobe)
+11/13/2007 1:17:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B943 (DeathRobe)
+11/13/2007 1:17:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B94E (Corpse)
+11/13/2007 1:17:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B944 (Corpse)
+11/13/2007 1:17:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B941 (Corpse)
+11/13/2007 1:17:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B93E (Corpse)
+11/13/2007 1:17:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:17:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2998'
+11/13/2007 1:17:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0xD87 "a swamp dragon" (no account) to '2998'
+11/13/2007 1:17:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2995'
+11/13/2007 1:18:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0xD87 "a swamp dragon" (no account) to '2995'
+11/13/2007 1:18:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add cape'
+11/13/2007 1:18:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3632, 2407, 24) in Trammel: "FurCape"
+11/13/2007 1:18:20 AM: 127.0.0.1: Serials: 0x4001B952; 
+11/13/2007 1:18:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add cloak'
+11/13/2007 1:18:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3632, 2411, 24) in Trammel: "cloak"
+11/13/2007 1:18:42 AM: 127.0.0.1: Serials: 0x4001B955; 
+11/13/2007 1:18:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:18:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B952 (FurCape)
+11/13/2007 1:19:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/13/2007 1:19:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000143 (Candle) (inBag=False; amount=1)
+11/13/2007 1:19:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000143 (Candle) creating 0x4001B956 (Candle)
+11/13/2007 1:19:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/13/2007 1:19:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000142 (Dagger) (inBag=False; amount=1)
+11/13/2007 1:19:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000142 (Dagger) creating 0x4001B958 (Dagger)
+11/13/2007 1:19:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000142 (Dagger)
+11/13/2007 1:19:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000143 (Candle)
+11/13/2007 1:19:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000148 (Shirt)
+11/13/2007 1:19:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000149 (ShortPants)
+11/13/2007 1:19:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000014A (Shoes)
+11/13/2007 1:19:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B958 (Dagger)
+11/13/2007 1:19:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B956 (Candle)
+11/13/2007 1:19:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001B955 (Cloak)
+11/13/2007 1:19:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A87 (DeathShroud)
+11/13/2007 1:19:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add gmrobe'
+11/13/2007 1:19:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3632, 2411, 24) in Trammel: "gmrobe"
+11/13/2007 1:19:30 AM: 127.0.0.1: Serials: 0x4001B95B; 
+11/13/2007 1:19:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:19:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 1:19:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD87 "a swamp dragon" (no account)
+11/13/2007 1:20:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 29910'
+11/13/2007 1:20:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x4001B95B (GMRobe) to '29910'
+11/13/2007 1:20:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2910'
+11/13/2007 1:20:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x4001B95B (GMRobe) to '2910'
+11/13/2007 1:20:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2920'
+11/13/2007 1:20:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x4001B95B (GMRobe) to '2920'
+11/13/2007 1:20:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2930'
+11/13/2007 1:20:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x4001B95B (GMRobe) to '2930'
+11/13/2007 1:21:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 1:21:31 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'e '
+11/13/2007 1:23:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'townhouses '
+11/13/2007 1:34:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'online '
+11/13/2007 1:34:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:34:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'restart '

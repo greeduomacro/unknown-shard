@@ -1,0 +1,92 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PremiumSpawner</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>PremiumSpawner : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="InternalTimer47.html">InternalTimer</a>, <a href="WarnTimer1.html">WarnTimer</a></h4>
+      (<font color="blue">ctor</font>) PremiumSpawner()<br>
+      (<font color="blue">ctor</font>) PremiumSpawner( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) PremiumSpawner( <font color="blue">string</font> creatureName )<br>
+      (<font color="blue">ctor</font>) PremiumSpawner( <font color="blue">int</font> amount, <font color="blue">int</font> minDelay, <font color="blue">int</font> maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">string</font> creatureName, <font color="blue">string</font> subSpawnerA, <font color="blue">string</font> subSpawnerB, <font color="blue">string</font> subSpawnerC, <font color="blue">string</font> subSpawnerD, <font color="blue">string</font> subSpawnerE, <font color="blue">int</font> subamountA, <font color="blue">int</font> subamountB, <font color="blue">int</font> subamountC, <font color="blue">int</font> subamountD, <font color="blue">int</font> subamountE )<br>
+      (<font color="blue">ctor</font>) PremiumSpawner( <font color="blue">int</font> amount, TimeSpan minDelay, TimeSpan maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">int</font> spawnRange, <font color="blue">int</font> spawnID, ArrayList creaturesName, ArrayList subSpawnerAA, ArrayList subSpawnerBB, ArrayList subSpawnerCC, ArrayList subSpawnerDD, ArrayList subSpawnerEE, <font color="blue">int</font> subamountA, <font color="blue">int</font> subamountB, <font color="blue">int</font> subamountC, <font color="blue">int</font> subamountD, <font color="blue">int</font> subamountE )<br>
+      <font color="blue">int</font> Count( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList CreaturesName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DeSpawned( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Group( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HomeRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsFull( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsFulla( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsFullb( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsFullc( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsFulld( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsFulle( <font color="blue">get</font>; )<br>
+      TimeSpan MaxDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan MinDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan NextSpawn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Running( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SmartPRS( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SpawnID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SpawnRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SubCountA( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SubCountB( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SubCountC( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SubCountD( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SubCountE( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SubSpawnerA( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SubSpawnerB( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SubSpawnerC( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SubSpawnerD( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SubSpawnerE( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Team( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WayPoint.html">WayPoint</a> WayPoint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> BringToHome()<br>
+      <font color="blue">int</font> CountCreatures( <font color="blue">string</font> creatureName )<br>
+      <font color="blue">int</font> CountCreaturesA( <font color="blue">string</font> subSpawnerA )<br>
+      <font color="blue">int</font> CountCreaturesB( <font color="blue">string</font> subSpawnerB )<br>
+      <font color="blue">int</font> CountCreaturesC( <font color="blue">string</font> subSpawnerC )<br>
+      <font color="blue">int</font> CountCreaturesD( <font color="blue">string</font> subSpawnerD )<br>
+      <font color="blue">int</font> CountCreaturesE( <font color="blue">string</font> subSpawnerE )<br>
+      <font color="blue">void</font> Defrag()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoTimer()<br>
+      <font color="blue">void</font> DoTimer( TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <a href="Point3D.html">Point3D</a> GetSpawnPosition()<br>
+      <font color="blue">void</font> InitSpawn( <font color="blue">int</font> amount, TimeSpan minDelay, TimeSpan maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">int</font> spawnRange, <font color="blue">int</font> spawnID, ArrayList creaturesName, ArrayList subSpawnerAA, ArrayList subSpawnerBB, ArrayList subSpawnerCC, ArrayList subSpawnerDD, ArrayList subSpawnerEE, <font color="blue">int</font> subamountA, <font color="blue">int</font> subamountB, <font color="blue">int</font> subamountC, <font color="blue">int</font> subamountD, <font color="blue">int</font> subamountE )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> OnTick()<br>
+      <font color="blue">void</font> RemoveCreatures()<br>
+      <font color="blue">void</font> RemoveCreatures( <font color="blue">string</font> creatureName )<br>
+      <font color="blue">void</font> RemoveCreaturesA()<br>
+      <font color="blue">void</font> RemoveCreaturesA( <font color="blue">string</font> subSpawnerA )<br>
+      <font color="blue">void</font> RemoveCreaturesB()<br>
+      <font color="blue">void</font> RemoveCreaturesB( <font color="blue">string</font> subSpawnerB )<br>
+      <font color="blue">void</font> RemoveCreaturesC()<br>
+      <font color="blue">void</font> RemoveCreaturesC( <font color="blue">string</font> subSpawnerC )<br>
+      <font color="blue">void</font> RemoveCreaturesD()<br>
+      <font color="blue">void</font> RemoveCreaturesD( <font color="blue">string</font> subSpawnerD )<br>
+      <font color="blue">void</font> RemoveCreaturesE()<br>
+      <font color="blue">void</font> RemoveCreaturesE( <font color="blue">string</font> subSpawnerE )<br>
+      <font color="blue">void</font> Respawn()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> Spawn()<br>
+      <font color="blue">void</font> Spawn( <font color="blue">string</font> creatureName )<br>
+      <font color="blue">void</font> Spawn( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> SpawnA( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> SpawnA( <font color="blue">string</font> subSpawnerA )<br>
+      <font color="blue">void</font> SpawnB( <font color="blue">string</font> subSpawnerB )<br>
+      <font color="blue">void</font> SpawnB( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> SpawnC( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> SpawnC( <font color="blue">string</font> subSpawnerC )<br>
+      <font color="blue">void</font> SpawnD( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> SpawnD( <font color="blue">string</font> subSpawnerD )<br>
+      <font color="blue">void</font> SpawnE( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> SpawnE( <font color="blue">string</font> subSpawnerE )<br>
+      <font color="blue">void</font> Start()<br>
+      <font color="blue">void</font> Stop()<br>
+   </body>
+</html>

@@ -1,0 +1,12 @@
+04/06/2009
+06:00PM
+
+1. Added Yew Beginner Quests 1-3.
+2. Added Magicina Beginner Quests 1-3.
+3. Brung the stats down on the Rat Quest requirements.
+4. Reduced the stat requirements on the Skeletal Quest also.
+5. Fine tuning some more of the gaming mechanics to improve player advancement.
+6. Fixed an issue with britain and haven beginning quests. Was allowing a player to have multiple quests of the same quest.
+7. Tweaked the time base for the stat gain. So it should be a little faster.
+
+GM Darky

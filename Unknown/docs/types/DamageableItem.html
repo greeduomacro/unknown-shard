@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - DamageableItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>DamageableItem : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="DesBookCaseEast.html">DesBookCaseEast</a>, <a href="DesBookCaseSouth.html">DesBookCaseSouth</a>, <a href="DesCityWallEast.html">DesCityWallEast</a>, <a href="DesCityWallSouth.html">DesCityWallSouth</a>, <a href="DesEnergyFieldEast.html">DesEnergyFieldEast</a>, <a href="DesEnergyFieldSouth.html">DesEnergyFieldSouth</a></h4>
+<h4>Nested Types: <a href="ItemLevel.html">ItemLevel</a></h4>
+      (<font color="blue">ctor</font>) DamageableItem( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) DamageableItem( <font color="blue">int</font> StartID, <font color="blue">int</font> HalfID, <font color="blue">int</font> DestroyID )<br>
+      <font color="blue">bool</font> DropsLoot( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Hits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HitsMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> IDDestroyed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> IDHalfHits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> IDStart( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="ItemLevel.html">ItemLevel</a> Level( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="IDamageableItem.html">IDamageableItem</a> Link( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckTarget( <a href="Mobile.html">Mobile</a> from, <a href="Target.html">Target</a> targ, <font color="blue">object</font> targeted )<br>
+      <font color="blue">void</font> Damage( <font color="blue">int</font> amount, <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> willKill )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Delete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">bool</font> Destroy()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnBeforeDestroyed()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDamage( <font color="blue">int</font> amount, <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> willKill )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDestroyed( <a href="WoodenBox.html">WoodenBox</a> lootbox )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragLift( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">void</font> ProvideEntity()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> UpdateHitsToEntity()<br>
+      <font color="blue">void</font> UpdateMaxHitsToEntity()<br>
+   </body>
+</html>

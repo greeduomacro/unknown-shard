@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSkin>
+	<FieldCount>56</FieldCount>
+	<IconMColor>96</IconMColor>
+	<IconMID>3805</IconMID>
+	<IconMX>0</IconMX>
+	<IconMY>0</IconMY>
+	<IconMOn>true</IconMOn>
+	<genericID>2488</genericID>
+	<removeID>2510</removeID>
+	<addID>2511</addID>
+	<ProfileNormalID>3004</ProfileNormalID>
+	<ProfileUsedID>2604</ProfileUsedID>
+	<ButtonOverlay>3004</ButtonOverlay>
+	<ButtonUnderID>247</ButtonUnderID>
+	<ButtonUnderIDPress>248</ButtonUnderIDPress>
+	<ArrowSide>2087</ArrowSide>
+	<ArrowDown>2086</ArrowDown>
+	<SelectUp>2474</SelectUp>
+	<SelectDn>9730</SelectDn>
+	<SelectUnderlay>9385</SelectUnderlay>
+	<ProfileHue>1152</ProfileHue>
+	<ProfileUseText>1358</ProfileUseText>
+	<BlueTextHue>2223</BlueTextHue>
+	<NumPerPage>8</NumPerPage>
+	<DefaultBackgroundColor>0</DefaultBackgroundColor>
+	<EntryDividerWidth>2</EntryDividerWidth>
+	<EntryDividerHeight>20</EntryDividerHeight>
+	<EntryDividerID>2700</EntryDividerID>
+	<EntryCaptionPositionY>50</EntryCaptionPositionY>
+	<EntryCaptionWidth>80</EntryCaptionWidth>
+	<EntryCaptionHeight>40</EntryCaptionHeight>
+	<EntryDefaultIcon>2115</EntryDefaultIcon>
+	<EntryIconY>2</EntryIconY>
+	<EntryIconWidth>50</EntryIconWidth>
+	<EntryIconHeight>50</EntryIconHeight>
+	<EntryButtonUnderlay>0</EntryButtonUnderlay>
+	<EntryDefaultHeight>20</EntryDefaultHeight>
+	<EntryDefaultWidth>400</EntryDefaultWidth>
+	<EntryDefaultCheckUp>2474</EntryDefaultCheckUp>
+	<EntryDefaultCheckDn>9730</EntryDefaultCheckDn>
+	<ListTitleX>0</ListTitleX>
+	<ListTitleY>0</ListTitleY>
+	<ListTitleHue>1152</ListTitleHue>
+	<ListStartX>45</ListStartX>
+	<ListStartY>100</ListStartY>
+	<ListWidth>425</ListWidth>
+	<ListHeight>400</ListHeight>
+	<ListEntrySpacer>2</ListEntrySpacer>
+	<ListButtonOverlay>3004</ListButtonOverlay>
+	<ListUnderButtonN>1795</ListUnderButtonN>
+	<ListUnderButtonP>1795</ListUnderButtonP>
+	<ListColumnIndent>3</ListColumnIndent>
+	<SkinName>Skill Skin</SkinName>
+	<NormalText>1736</NormalText>
+	<HighlightText>53</HighlightText>
+	<White>1152</White>
+	<Black>1</Black>
+	<Red>32</Red>
+	<WindowCount>1</WindowCount>
+	<SkillWindow X="215" Y="28" W="337" H="400" BG="2520" />
+	<ButtonCount>9</ButtonCount>
+	<ListPrevButton X="285" Y="390" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2223" D="2223" />
+	<ListNextButton X="305" Y="390" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2224" D="2224" />
+	<ListDoneButton X="158" Y="177" W="80" H="25" BG="3004" TXT="OK" TX="0" TY="0" U="0" D="0" />
+	<LockButton X="0" Y="0" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2092" D="2092" />
+	<UpButton X="0" Y="0" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2435" D="2436" />
+	<DownButton X="0" Y="0" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2437" D="2438" />
+	<UseButton X="0" Y="0" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2103" D="2104" />
+	<NewGroup X="36" Y="188" W="80" H="25" BG="0" TXT="" TX="0" TY="0" U="0" D="0" />
+	<ExpandContractGroup X="0" Y="0" W="0" H="0" BG="0" TXT="" TX="0" TY="0" U="2087" D="2086" />
+</TMSkin>

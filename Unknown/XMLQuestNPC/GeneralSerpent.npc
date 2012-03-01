@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Serpent</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralSerpent</ConfigFile>
+    <SpeechEntries>11</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Alas a savour of our small town.  Could you help us?</Text>
+    <Condition>GETONTRIGMOB,str&gt;39 &amp; GETONTRIGMOB,str&lt;100 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest1,name]="SerpentQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>One of the guards let out an experimental Horse breed that is ravaging around the area.  They seem to be far West of here.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,SerpentQuest1; GIVE/&lt;questholder/name/SerpentQuest1/notestring/40 Spinelet/objective1/KILLNAMED,Spinelet,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Help we need help we are under attack from bastards of bodom!!</Text>
+    <Condition>GETONTRIGMOB,str&gt;99 &amp; GETONTRIGMOB,str&lt;200 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest2,name]="SerpentQuest2" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest1,name]="SerpentQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>This guard has been fired due to another breed of horse that we crossbread with another creature. Again they are near the treeline.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,SerpentQuest2; GIVE/&lt;questholder/name/SerpentQuest2/notestring/40 Steer/objective1/KILLNAMED,Steer,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;199 &amp; GETONTRIGMOB,str&lt;300 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest3,name]="SerpentQuest3" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest2,name]="SerpentQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Our most prized Mustangs were being traded by an inside source please destroy them for us to not let anyone else tame them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,SerpentQuest3; GIVE/&lt;questholder/name/SerpentQuest3/notestring/40 Stang/objective1/KILLNAMED,Stang,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>50</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Text>You are currently doing a quest.</Text>
+    <Condition>GETONCARRIED,SerpentQuest1,Visible=true | GETONCARRIED,SerpentQuest2,Visible=true | GETONCARRIED,SerpentQuest3,Visible=true | GETONCARRIED,SerpentQuest4,Visible=true | GETONCARRIED,SerpentQuest5,Visible=true | GETONCARRIED,SerpentQuest6,Visible=true | GETONCARRIED,SerpentQuest7,Visible=true | GETONCARRIED,SerpentQuest8,Visible=true | GETONCARRIED,SerpentQuest9,Visible=true | GETONCARRIED,SerpentQuest10,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>I am sorry but you are too much of a weakling to be able to help me. Come back when your stronger.</Text>
+    <Condition>GETONTRIGMOB,str&lt;39</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>You have done the first quest. We thank you.  The next quest requires 100str or more. Come back when you have more strength.</Text>
+    <Condition>~GETONCARRIED,SerpentQuest1,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest1,name]="SerpentQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>You have done the first and second quest.  Nice work. The next quest requires 200str or more.</Text>
+    <Condition>~GETONCARRIED,SerpentQuest2,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest2,name]="SerpentQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Wow 3 quests completed, don't you feel special. The next quest requires 300str or more. Come back when your less like a weakling.</Text>
+    <Condition>~GETONCARRIED,SerpentQuest3,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SerpentQuest3,name]="SerpentQuest3"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

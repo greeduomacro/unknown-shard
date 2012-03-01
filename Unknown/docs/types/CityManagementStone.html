@@ -1,0 +1,80 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - CityManagementStone</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>CityManagementStone : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="CityUpdateTarget.html">CityUpdateTarget</a>, <a href="CityUpdateTimer.html">CityUpdateTimer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> CityUpdate_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) ArrayList ReadRect2DArray( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      (<font color="blue">static</font>) <a href="Rectangle3D.html">Rectangle3D</a>[] ReadRect3DArray( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WriteRect2DArray( <a href="GenericWriter.html">GenericWriter</a> writer, ArrayList ary )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WriteRect3DArray( <a href="GenericWriter.html">GenericWriter</a> writer, <a href="Rectangle3D.html">Rectangle3D</a>[] ary )<br>
+      (<font color="blue">ctor</font>) CityManagementStone()<br>
+      (<font color="blue">ctor</font>) CityManagementStone( <a href="Serial.html">Serial</a> serial )<br>
+      ArrayList AddOns( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Allegiances( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList AllegiancesDeclared( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList AllegiancesInvited( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowHousing( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> AssistMayor( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Banned( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point2D.html">Point2D</a> Center( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Citizens( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> CityName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> CityRules( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CityTreasury( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> CityWebURL( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Coords( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CorpseFee( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CurrentDecore( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Gardens( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasBank( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasHealer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasMarket( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasMoongate( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasStable( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasTavern( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HousingTax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> IncomeTax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsGuarded( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList isLockedDown( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsRegistered( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Level( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxDecore( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Mayor( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> MoongateLocation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Parks( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerCityRegion.html">PlayerCityRegion</a> PCRegion( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Rectangle3D.html">Rectangle3D</a>[] RegionCoords( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ResFee( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="CityResurrectionStone.html">CityResurrectionStone</a> ResStone( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Sponsored( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList toDelete( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> TravelTax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Vendors( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="CityVotingStone.html">CityVotingStone</a> VoteStone( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Waring( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList WarsDeclared( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList WarsInvited( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AdminDoJoin( <a href="Mobile.html">Mobile</a> admin, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> CalculateMaintenance()<br>
+      <font color="blue">bool</font> CheckMayorExist( <a href="Mobile.html">Mobile</a> mayor )<br>
+      <font color="blue">void</font> CheckVendors( <font color="blue">bool</font> citydelete )<br>
+      <font color="blue">bool</font> DeadMayor()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoJoin( <a href="Mobile.html">Mobile</a> mayor, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> DoUpdate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> PickRandomNewMayor()<br>
+      <font color="blue">void</font> PitchMembers()<br>
+      <font color="blue">void</font> RestartTimer()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> UpdateCityStructures( <font color="blue">int</font> level )<br>
+      <font color="blue">void</font> UpdateRegion()<br>
+      <font color="blue">void</font> VerifyAddons()<br>
+   </body>
+</html>

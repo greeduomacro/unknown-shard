@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSkillProfile Name="Actions">
+	<Stats Ena="True" Frc="True" Sum="300" Str="300" Dex="300" Int="300" />
+	<Gumps Man="False" Use="True" Icn="20998" />
+	<Skills Ena="True" Pts="700" Frc="True" Key="True" CEn="False" CSm="20" WEn="True" Cnt="13" />
+	<SkillInfo skn="Animal Taming" skv="100" ske="True" skw="1" skc="10" ski="35" />
+	<SkillInfo skn="Begging" skv="100" ske="True" skw="1" skc="10" ski="6" />
+	<SkillInfo skn="Camping" skv="100" ske="True" skw="1" skc="10" ski="10" />
+	<SkillInfo skn="Cartography" skv="100" ske="True" skw="1" skc="10" ski="12" />
+	<SkillInfo skn="Detecting Hidden" skv="100" ske="True" skw="1" skc="10" ski="14" />
+	<SkillInfo skn="Discordance" skv="100" ske="True" skw="1" skc="10" ski="15" />
+	<SkillInfo skn="Hiding" skv="100" ske="True" skw="1" skc="10" ski="21" />
+	<SkillInfo skn="Inscription" skv="100" ske="True" skw="1" skc="10" ski="23" />
+	<SkillInfo skn="Peacemaking" skv="100" ske="True" skw="1" skc="10" ski="9" />
+	<SkillInfo skn="Poisoning" skv="100" ske="True" skw="1" skc="10" ski="30" />
+	<SkillInfo skn="Provocation" skv="100" ske="True" skw="1" skc="10" ski="22" />
+	<SkillInfo skn="Spirit Speak" skv="100" ske="True" skw="1" skc="10" ski="32" />
+	<SkillInfo skn="Tracking" skv="100" ske="True" skw="1" skc="10" ski="38" />
+</TMSkillProfile>

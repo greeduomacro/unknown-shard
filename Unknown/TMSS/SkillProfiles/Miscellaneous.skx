@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSkillProfile Name="Miscellaneous">
+	<Stats Ena="True" Frc="True" Sum="300" Str="300" Dex="300" Int="300" />
+	<Gumps Man="False" Use="True" Icn="2287" />
+	<Skills Ena="True" Pts="700" Frc="True" Key="True" CEn="False" CSm="20" WEn="True" Cnt="27" />
+	<SkillInfo skn="Alchemy" skv="100" ske="True" skw="1" skc="10" ski="0" />
+	<SkillInfo skn="Blacksmithy" skv="100" ske="True" skw="1" skc="10" ski="7" />
+	<SkillInfo skn="Bowcraft/Fletching" skv="100" ske="True" skw="1" skc="10" ski="8" />
+	<SkillInfo skn="Carpentry" skv="100" ske="True" skw="1" skc="10" ski="11" />
+	<SkillInfo skn="Cooking" skv="100" ske="True" skw="1" skc="10" ski="13" />
+	<SkillInfo skn="Healing" skv="100" ske="True" skw="1" skc="10" ski="17" />
+	<SkillInfo skn="Fishing" skv="100" ske="True" skw="1" skc="10" ski="18" />
+	<SkillInfo skn="Herding" skv="100" ske="True" skw="1" skc="10" ski="20" />
+	<SkillInfo skn="Lockpicking" skv="100" ske="True" skw="1" skc="10" ski="24" />
+	<SkillInfo skn="Magery" skv="100" ske="True" skw="1" skc="10" ski="25" />
+	<SkillInfo skn="Resisting Spells" skv="100" ske="True" skw="1" skc="10" ski="26" />
+	<SkillInfo skn="Snooping" skv="100" ske="True" skw="1" skc="10" ski="28" />
+	<SkillInfo skn="Musicianship" skv="100" ske="True" skw="1" skc="10" ski="29" />
+	<SkillInfo skn="Stealing" skv="100" ske="True" skw="1" skc="10" ski="33" />
+	<SkillInfo skn="Tailoring" skv="100" ske="True" skw="1" skc="10" ski="34" />
+	<SkillInfo skn="Tinkering" skv="100" ske="True" skw="1" skc="10" ski="37" />
+	<SkillInfo skn="Veterinary" skv="100" ske="True" skw="1" skc="10" ski="39" />
+	<SkillInfo skn="Mining" skv="100" ske="True" skw="1" skc="10" ski="45" />
+	<SkillInfo skn="Meditation" skv="100" ske="True" skw="1" skc="10" ski="46" />
+	<SkillInfo skn="Stealth" skv="100" ske="True" skw="1" skc="10" ski="47" />
+	<SkillInfo skn="Remove Trap" skv="100" ske="True" skw="1" skc="10" ski="48" />
+	<SkillInfo skn="Necromancy" skv="100" ske="True" skw="1" skc="10" ski="49" />
+	<SkillInfo skn="Focus" skv="100" ske="True" skw="1" skc="10" ski="50" />
+	<SkillInfo skn="Chivalry" skv="100" ske="True" skw="1" skc="10" ski="51" />
+	<SkillInfo skn="Bushido" skv="100" ske="True" skw="1" skc="10" ski="52" />
+	<SkillInfo skn="Ninjitsu" skv="100" ske="True" skw="1" skc="10" ski="53" />
+	<SkillInfo skn="Spellweaving" skv="100" ske="True" skw="1" skc="10" ski="54" />
+</TMSkillProfile>

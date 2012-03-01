@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSS_Save>
+	<IsSharded>false</IsSharded>
+	<HasRun>true</HasRun>
+	<ShardName>DreadBriana</ShardName>
+	<NotYoursMessage>This is not your ticket. Shame on you! You have to use your ticket.</NotYoursMessage>
+	<HowToUseMessage>This is a Skill Ticket. Use a Skill Stone to get your skills.</HowToUseMessage>
+	<NoTicketMessage>You need a Skill or Cap Ticket to use that.</NoTicketMessage>
+	<Shard>Welcome to DreadBriana. This will help you set your skills.</Shard>
+	<NoShard>Welcome. This ticket will help you set your skills.</NoShard>
+	<SkillHue>96</SkillHue>
+	<StatHue>1155</StatHue>
+	<CenterHue>1153</CenterHue>
+	<CCSkinName>Unnamed Skin</CCSkinName>
+	<CCProfileName>Default Profile</CCProfileName>
+	<ControlSkinName>Unnamed Skin</ControlSkinName>
+	<GumpControlLevel>4</GumpControlLevel>
+	<AdminControlLevel>4</AdminControlLevel>
+</TMSS_Save>

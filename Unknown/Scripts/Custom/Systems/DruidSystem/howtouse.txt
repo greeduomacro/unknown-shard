@@ -1,0 +1,34 @@
+instructions for use
+
+
+included in this package is a command system that came in a package i downloaded. the commands are access level player meaning that if the spell is known the commands can be used as a shortcut to cast the spells.  the commands for casting the spells are:
+
+[summonfirefly
+[hollowreed
+[packofbeasts
+[springoflife
+[graspingroots
+[blendwithforest
+[swarmofinsects
+[volcaniceruption
+[summontreefellow
+[stonecircle
+[enchantedgrove
+[lurestone
+[naturespassage
+[mushroomgateway
+[restorativesoil
+[sheildofearth
+
+
+also included in this package is a druid cloak
+scrolls for all spells
+a druid spell book
+bag of druid reagents
+druid reg stone
+druid vendor with sbinfo
+
+
+its up to you to spawn the vendors and adjust the sbinfo to sell the scrolls and regs to your own specifications
+
+

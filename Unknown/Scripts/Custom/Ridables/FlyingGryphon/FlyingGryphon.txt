@@ -1,0 +1,70 @@
+
+Flying Gryphon, all compiles and no bugs found as yet.  Please let me know if you find any; but know I am still learning to script.
+
+My first submission to the community, Credit goes to the one who made the flying pet script, which I do not know your name, my apologies. 
+And to Admin Vile for the Flying Chimera Script which inspired me. I modified this for RUNUO 2.0 SVN 156.
+
+This is  NOT my script, I take no credit other than I modified it to work with RUNUO 2, and gave it a new name for my shard.  
+This is a modified script of the Flying Chimera script by Admin Vile.
+
+I hope you enjoy it.
+
+Things I am working on: I am still trying to perfect the flying, to make look smoother in flight.
+
+Instruction for Modifying your player mobile 
+
+
+
+In PlayerMobile.cs  around 74  find
+
+public class PlayerMobile : Mobile, IHonorTarget
+	{
+
+and just after this line add:
+
+////////// Edit for Gryphon//////////
+public Timer m_Flyingtimer; //for Gryphon
+///////////End Edit/////////////
+
+
+Then around line 1082 find this line :
+
+public override bool Move( Direction d )
+		{
+
+
+and just under it add the following:
+
+//////////////////////////Edit for Hippogryp////////////////////////////
+if (Mount is Gryphon)
+			{
+				if ( m_Flyingtimer != null )
+				{
+					m_Flyingtimer.Stop();
+					m_Flyingtimer = null;
+					CloseGump( typeof( Gryphongump ) );
+					SendGump(new Gryphongump( this, 0 ) ); 
+				}
+
+			}
+////////////////////////End edit for Gryphon/////////////////////////
+
+
+and around line 1493 look for this line:
+
+public override void OnDoubleClick( Mobile from )
+		{
+			if ( this == from && !Warmode )
+			{
+				IMount mount = Mount;
+
+just after Mount; add the following:
+
+///////////////////edit for Gryphon/////////////////////////////////////////
+if ( mount is Gryphon )
+					from.CloseGump( typeof( Gryphongump ) );
+
+////////////////////end edit for Gryphon/////////////////////////////////////////////
+
+Drop the Gryphon files into your custom folder and your good to go.  Credit goes to Admin Vile for his Flying chimera Script.
+

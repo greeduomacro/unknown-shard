@@ -1,0 +1,220 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Orcish Hunter</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <NoTriggerOnCarried>OrcishQuest1,Visible=true | OrcishQuest2,Visible=true | OrcishQuest3,Visible=true | OrcishQuest4,Visible=true | OrcishQuest5,Visible=true | OrcishQuest6,Visible=true | OrcishQuest7,Visible=true | OrcishQuest8,Visible=true | OrcishQuest9,Visible=true | OrcishQuest10,Visible=true | OrcishQuest11,Visible=true</NoTriggerOnCarried>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>10</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>OrcishQuest1</ConfigFile>
+    <SpeechEntries>16</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Seems you are looking for some type of adventure?</Text>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Well that seems like your quite interested. Would you like to take on a small task for me?</Text>
+    <Keywords>yes, sure, ok, alright, good</Keywords>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>That is not good, well I don't care about your anyways cockfucker!</Text>
+    <Keywords>bad, ugly, depressed, crappy</Keywords>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>Wow you have a foul mouth your MOTHER FUCKING COCK SUCKING SON OF A BITCH!. be gone or I shall sick the guards on your stupid ass.</Text>
+    <Keywords>sexual, shitty, gay, ass, tits, busty, penis, anus, anal, fuck, shit, bitch, slut</Keywords>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <DependsOn />
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Well a test of your worth shall be required, will you test your worth?</Text>
+    <Keywords>sure, quest, yes, accept</Keywords>
+    <DependsOn>20</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>One question, When was digital kingdome born?  All I require is what year did it start.</Text>
+    <Keywords>accept, worth, test, quest, yes, sure</Keywords>
+    <DependsOn>60</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>Splendid, here is the quest for your to take on.</Text>
+    <Keywords>1998</Keywords>
+    <Action>GIVE/&lt;questholder/name/OrcishQuest1/notestring/Please Collect 20 Bolaballs, if your already talking to me then you should know where to find them./objective1/COLLECT,Bolaball,20/objective2/Kill,orc,10/autoreward/true/rewardstring/@bag/ADD/&lt;bola/name/OrcTrophy1&gt;/bankcheck,300</Action>
+    <DependsOn>70</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>Well you were close but not close enough.  It was in the 90s.</Text>
+    <Keywords>1997, 1996, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009</Keywords>
+    <DependsOn>70</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Aww you have the OrcTrophy1, which shows that you have the balls that I have asked for in the past, If you have not.  Then contact staff to fix the bug.  Now lets get to (business).</Text>
+    <Condition>GETONCARRIED,OrcTrophy1,Visible=true</Condition>
+    <DependsOn />
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>120</EntryNumber>
+    <ID>120</ID>
+    <Keywords>business, yes, accept, quest</Keywords>
+    <Action>GIVE&lt;/questholder/name/OrcishQuest2/notestring/First I would like you to find the orc cave. It is close to this area but you must search near some woodelves.  Then Bring me 500 gold if you want to learn more about what your up against./objective1//objective2/COLLECT,gold,500/autoreward/true/rewardstring/@bag/ADD/bankcheck,</Action>
+    <DependsOn>110</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>130</EntryNumber>
+    <ID>130</ID>
+    <Text>Thank you for bringing me the items I requested.  I have one more task for you that is a little more rewarding. Would you like to do this task?</Text>
+    <Condition>GETONCARRIED,CatShit,Visible=true</Condition>
+    <DependsOn />
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>140</EntryNumber>
+    <ID>140</ID>
+    <Keywords>task,quest,accept</Keywords>
+    <Action>GIVE/&lt;questholder/name/ChickenQuest3/notestring/I collect poop. so if you could bring me some Elven Poop that would be very nice I need 10 turds./objective1/COLLECT,ElvenShit,10/autoreward/true/rewardstring/@bag/hue/1941/ADD/&lt;leveldagger/name/CatDagger/hue/1971&gt;/ADD/bankcheck,8000/</Action>
+    <DependsOn>130</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>150</EntryNumber>
+    <ID>150</ID>
+    <Text>Aww you have done all that I have asked you to do. I suppose you would like to learn of my brother. He is located near the Yew Graveyard if you wish. He will only talk to you if you have my turd, dagger and collar.</Text>
+    <Condition>GETONCARRIED,CatDagger,Visible=true</Condition>
+    <DependsOn />
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

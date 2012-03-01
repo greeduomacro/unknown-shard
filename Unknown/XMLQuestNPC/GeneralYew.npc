@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Yew</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralYew</ConfigFile>
+    <SpeechEntries>11</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Alas a savour of our small town.  Could you help us?</Text>
+    <Condition>GETONTRIGMOB,str&gt;39 &amp; GETONTRIGMOB,str&lt;100 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest1,name]="YewQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Seems we have a cook that has left our beloved city and is trying to bring terror to it from his passion.  Please search far East from here for evidence.</Text>
+    <Keywords>Yew,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,YewQuest1; GIVE/&lt;questholder/name/YewQuest1/notestring/40 ToiletStew/objective1/KILLNAMED,ToiletStew,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Help we need help we are under attack from bastards of bodom!!</Text>
+    <Condition>GETONTRIGMOB,str&gt;99 &amp; GETONTRIGMOB,str&lt;200 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest2,name]="YewQuest2" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest1,name]="YewQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>We are greatful for all of the help you have presented to us.  Please aide us against this unmatched evil.</Text>
+    <Keywords>Yew,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,YewQuest2; GIVE/&lt;questholder/name/YewQuest2/notestring/40 PoisonStew/objective1/KILLNAMED,PoisonStew,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;199 &amp; GETONTRIGMOB,str&lt;300 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest3,name]="YewQuest3" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest2,name]="YewQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>I hope this is the last wave from this vengeful cook.  Though everything you have done for us has been a great help.</Text>
+    <Keywords>Yew,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,YewQuest3; GIVE/&lt;questholder/name/YewQuest3/notestring/40 NectraStew/objective1/KILLNAMED,NectraStew,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,4000</Action>
+    <DependsOn>50</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Text>You are currently doing a quest.</Text>
+    <Condition>GETONCARRIED,YewQuest1,Visible=true | GETONCARRIED,YewQuest2,Visible=true | GETONCARRIED,YewQuest3,Visible=true | GETONCARRIED,YewQuest4,Visible=true | GETONCARRIED,YewQuest5,Visible=true | GETONCARRIED,YewQuest6,Visible=true | GETONCARRIED,YewQuest7,Visible=true | GETONCARRIED,YewQuest8,Visible=true | GETONCARRIED,YewQuest9,Visible=true | GETONCARRIED,YewQuest10,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>I am sorry but you are too much of a weakling to be able to help me. Come back when your stronger.</Text>
+    <Condition>GETONTRIGMOB,str&lt;39</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>You have done the first quest. We thank you.  The next quest requires 100str or more. Come back when you have more strength.</Text>
+    <Condition>~GETONCARRIED,YewQuest1,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest1,name]="YewQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>You have done the first and second quest.  Nice work. The next quest requires 200str or more.</Text>
+    <Condition>~GETONCARRIED,YewQuest2,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest2,name]="YewQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Wow 3 quests completed, don't you feel special. The next quest requires 300str or more. Come back when your less like a weakling.</Text>
+    <Condition>~GETONCARRIED,YewQuest3,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,YewQuest3,name]="YewQuest3"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

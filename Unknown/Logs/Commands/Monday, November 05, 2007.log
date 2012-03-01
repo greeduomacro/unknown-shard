@@ -1,0 +1,23 @@
+##############################
+Log started on 11/5/2007 1:07:34 AM
+
+11/5/2007 1:18:09 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'admin '
+11/5/2007 1:18:21 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'admin '
+11/5/2007 1:19:44 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'Set Blessed True'
+11/5/2007 1:19:49 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') set property 'Blessed' of 0x3 "Demon" ('Dreadfull') to 'True'
+11/5/2007 1:19:59 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'props '
+11/5/2007 1:20:41 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'help '
+11/5/2007 1:22:55 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'online '
+11/5/2007 1:28:57 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'pages '
+11/5/2007 1:31:58 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'Add static 7774 set movable False hue 0 light Circle225'
+11/5/2007 1:32:00 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') building at (1432, 1693, 0) in Trammel: "static" "7774" "set" "movable" "False" "hue" "0" "light" "Circle225"
+11/5/2007 1:32:00 AM: 127.0.0.1: Serials: 0x40000158; 
+11/5/2007 1:34:22 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'set name News'
+11/5/2007 1:34:24 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') set property 'name' of 0x40000158 (Static) to 'News'
+11/5/2007 1:34:42 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'add bulletinboard'
+11/5/2007 1:34:43 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') building at (1431, 1695, 0) in Trammel: "bulletinboard"
+11/5/2007 1:34:43 AM: 127.0.0.1: Serials: 0x40000159; 
+11/5/2007 1:34:50 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'remove '
+11/5/2007 1:34:50 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') deleting 0x40000158 (Static)
+11/5/2007 1:35:13 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'admin '
+11/5/2007 1:36:48 AM: 127.0.0.1: Owner 0x3 "Demon" ('Dreadfull') used command 'props '

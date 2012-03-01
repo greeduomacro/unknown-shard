@@ -1,0 +1,48 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseFactionGuard</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Factions.html">Back to Server.Factions</a></h4>
+      <h2>BaseFactionGuard : <a href="BaseCreature.html">BaseCreature</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a></h2>
+<h4>Derived Types: <a href="FactionBerserker.html">FactionBerserker</a>, <a href="FactionDeathKnight.html">FactionDeathKnight</a>, <a href="FactionDragoon.html">FactionDragoon</a>, <a href="FactionHenchman.html">FactionHenchman</a>, <a href="FactionKnight.html">FactionKnight</a>, <a href="FactionMercenary.html">FactionMercenary</a>, <a href="FactionNecromancer.html">FactionNecromancer</a>, <a href="FactionPaladin.html">FactionPaladin</a>, <a href="FactionSorceress.html">FactionSorceress</a>, <a href="FactionWizard.html">FactionWizard</a></h4>
+      (<font color="blue">ctor</font>) BaseFactionGuard( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseFactionGuard( <font color="blue">string</font> title )<br>
+      <font color="blue">bool</font> BardImmune( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ClickTitle( <font color="blue">get</font>; )<br>
+      <a href="Faction1.html">Faction</a> Faction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseAI.html">BaseAI</a> ForcedAI( <font color="blue">get</font>; )<br>
+      <a href="GuardAI.html">GuardAI</a> GuardAI( <font color="blue">get</font>; )<br>
+      <a href="Orders.html">Orders</a> Orders( <font color="blue">get</font>; )<br>
+      TimeSpan ReacquireDelay( <font color="blue">get</font>; )<br>
+      <a href="Town.html">Town</a> Town( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> ChangeReaction( <a href="Faction1.html">Faction</a> faction, <a href="ReactionType.html">ReactionType</a> type )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GenerateBody( <font color="blue">bool</font> isFemale, <font color="blue">bool</font> randomHair )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GenerateRandomHair()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <a href="Item.html">Item</a> Immovable( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsEnemy( <a href="Mobile.html">Mobile</a> m )<br>
+      <a href="Item.html">Item</a> Layered( <a href="Item.html">Item</a> item, <a href="Layer.html">Layer</a> layer )<br>
+      <a href="Item.html">Item</a> Newbied( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDeath( <a href="Container.html">Container</a> c )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> m, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">void</font> PackStrongPotion()<br>
+      <font color="blue">void</font> PackStrongPotions( <font color="blue">int</font> count )<br>
+      <font color="blue">void</font> PackStrongPotions( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> PackWeakPotion()<br>
+      <font color="blue">void</font> PackWeakPotions( <font color="blue">int</font> count )<br>
+      <font color="blue">void</font> PackWeakPotions( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> Register()<br>
+      <a href="Item.html">Item</a> Rehued( <a href="Item.html">Item</a> item, <font color="blue">int</font> hue )<br>
+      <a href="Item.html">Item</a> Resourced( <a href="BaseWeapon.html">BaseWeapon</a> weapon, <a href="CraftResource.html">CraftResource</a> resource )<br>
+      <a href="Item.html">Item</a> Resourced( <a href="BaseArmor.html">BaseArmor</a> armor, <a href="CraftResource.html">CraftResource</a> resource )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> Unregister()<br>
+      <font color="blue">bool</font> WasNamed( <font color="blue">string</font> speech )<br>
+   </body>
+</html>

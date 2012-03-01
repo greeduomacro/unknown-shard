@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BoardGameData</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Solaris.BoardGames.html">Back to Solaris.BoardGames</a></h4>
+      <h2>BoardGameData</h2>
+      (<font color="blue">static</font>) List`1 GameData( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddLose( <font color="blue">string</font> gamename, <a href="Mobile.html">Mobile</a> player )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddWin( <font color="blue">string</font> gamename, <a href="Mobile.html">Mobile</a> player )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ChangeScore( <font color="blue">string</font> gamename, <a href="Mobile.html">Mobile</a> player, <font color="blue">int</font> delta )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Configure()<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetScore( <font color="blue">string</font> gamename, <a href="Mobile.html">Mobile</a> player )<br>
+      (<font color="blue">static</font>) <a href="BoardGamePlayerScore.html">BoardGamePlayerScore</a> GetScoreData( <font color="blue">string</font> gamename, <a href="Mobile.html">Mobile</a> player )<br>
+      (<font color="blue">static</font>) List`1 GetScores( <font color="blue">string</font> gamename )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> IndexOf( <font color="blue">string</font> gamename )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> OnLoad()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> OnSave( <a href="WorldSaveEventArgs.html">WorldSaveEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ResetScores( <font color="blue">string</font> gamename )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetScore( <font color="blue">string</font> gamename, <a href="Mobile.html">Mobile</a> player, <font color="blue">int</font> score )<br>
+      (<font color="blue">ctor</font>) BoardGameData( <font color="blue">string</font> gamename )<br>
+      (<font color="blue">ctor</font>) BoardGameData( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">string</font> GameName( <font color="blue">get</font>; )<br>
+      List`1 Scores( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

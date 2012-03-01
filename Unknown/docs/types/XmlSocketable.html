@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlSocketable</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlSocketable : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+      (<font color="blue">ctor</font>) XmlSocketable()<br>
+      (<font color="blue">ctor</font>) XmlSocketable( <font color="blue">int</font> maxsockets )<br>
+      (<font color="blue">ctor</font>) XmlSocketable( <a href="ASerial.html">ASerial</a> serial )<br>
+      (<font color="blue">ctor</font>) XmlSocketable( <font color="blue">int</font> maxsockets, <a href="SkillName.html">SkillName</a> skillname, <font color="blue">double</font> minskilllevel, Type resource, <font color="blue">int</font> quantity )<br>
+      (<font color="blue">ctor</font>) XmlSocketable( <font color="blue">int</font> maxsockets, <font color="blue">string</font> skillname, <font color="blue">double</font> minskilllevel, <font color="blue">string</font> resource, <font color="blue">int</font> quantity )<br>
+      (<font color="blue">ctor</font>) XmlSocketable( <font color="blue">int</font> maxsockets, <font color="blue">string</font> skillname, <font color="blue">double</font> minskilllevel, <font color="blue">string</font> skillname2, <font color="blue">double</font> minskilllevel2, <font color="blue">string</font> resource, <font color="blue">int</font> quantity )<br>
+      (<font color="blue">ctor</font>) XmlSocketable( <font color="blue">int</font> maxsockets, <a href="SkillName.html">SkillName</a> skillname, <font color="blue">double</font> minskilllevel, <a href="SkillName.html">SkillName</a> skillname2, <font color="blue">double</font> minskilllevel2, Type resource, <font color="blue">int</font> quantity )<br>
+      <font color="blue">int</font> MaxSockets( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> MinSkillLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> MinSkillLevel2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      Type RequiredResource( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SkillName.html">SkillName</a> RequiredSkill( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SkillName.html">SkillName</a> RequiredSkill2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ResourceQuantity( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAttach()<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> OnIdentify( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

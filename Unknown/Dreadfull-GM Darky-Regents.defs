@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<Defs>
+  <Values>
+    <MinDelay>5</MinDelay>
+    <MaxDelay>10</MaxDelay>
+    <SpawnRange>250</SpawnRange>
+    <HomeRange>250</HomeRange>
+    <MinRefractory>0</MinRefractory>
+    <MaxRefractory>0</MaxRefractory>
+    <TODStart>0</TODStart>
+    <TODEnd>0</TODEnd>
+    <Duration>0</Duration>
+    <DespawnTime>0</DespawnTime>
+    <RelativeHome>True</RelativeHome>
+    <IsGroup>False</IsGroup>
+    <Team>0</Team>
+    <ProximityTriggerSound>500</ProximityTriggerSound>
+    <SequentialSpawn>-1</SequentialSpawn>
+    <ProximityRange>-1</ProximityRange>
+    <TODMode>Realtime</TODMode>
+    <KillReset>1</KillReset>
+    <SpawnerName>Regents</SpawnerName>
+    <AllowGhost>False</AllowGhost>
+    <AllowNPC>False</AllowNPC>
+    <SpawnOnTrigger>False</SpawnOnTrigger>
+    <SmartSpawn>False</SmartSpawn>
+    <ExtTrig>False</ExtTrig>
+    <TrigProb>1</TrigProb>
+    <NameList>40:bloodmossplant:garlicplant:ginsengplant:mandrakeplant:nightshadeplant:spiderweb::::::::::::::::::::::::::::::::::</NameList>
+    <SelectionList>40:1:1:1:1:1:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0</SelectionList>
+    <AddGumpX>440</AddGumpX>
+    <AddGumpY>0</AddGumpY>
+    <SpawnerGumpX>0</SpawnerGumpX>
+    <SpawnerGumpY>0</SpawnerGumpY>
+    <FindGumpX>0</FindGumpX>
+    <FindGumpY>0</FindGumpY>
+    <AutoNumber>True</AutoNumber>
+    <AutoNumberValue>30</AutoNumberValue>
+  </Values>
+</Defs>

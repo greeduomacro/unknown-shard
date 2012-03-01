@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseTreasureChest</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseTreasureChest : <a href="LockableContainer.html">LockableContainer</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ITelekinesisable.html">ITelekinesisable</a>, <a href="ILockable.html">ILockable</a>, <a href="ILockpickable.html">ILockpickable</a>, <a href="ICraftable.html">ICraftable</a></h2>
+<h4>Derived Types: <a href="MetalGoldenTreasureChest.html">MetalGoldenTreasureChest</a>, <a href="MetalTreasureChest.html">MetalTreasureChest</a>, <a href="PuzzleChest.html">PuzzleChest</a>, <a href="WoodenTreasureChest.html">WoodenTreasureChest</a></h4>
+<h4>Nested Types: <a href="TreasureLevel.html">TreasureLevel</a>, <a href="TreasureResetTimer.html">TreasureResetTimer</a></h4>
+      (<font color="blue">ctor</font>) BaseTreasureChest( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseTreasureChest( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) BaseTreasureChest( <font color="blue">int</font> itemID, <a href="TreasureLevel.html">TreasureLevel</a> level )<br>
+      <font color="blue">string</font> DefaultName( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsDecoContainer( <font color="blue">get</font>; )<br>
+      <a href="TreasureLevel.html">TreasureLevel</a> Level( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">short</font> MaxSpawnTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">short</font> MinSpawnTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> ClearContents()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GenerateTreasure()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> LockPick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> Reset()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SetLockLevel()<br>
+      <font color="blue">void</font> StartResetTimer()<br>
+   </body>
+</html>

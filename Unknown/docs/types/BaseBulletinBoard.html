@@ -1,0 +1,29 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseBulletinBoard</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseBulletinBoard : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="BulletinBoard.html">BulletinBoard</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> BBClientRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BBPostMessage( <a href="Mobile.html">Mobile</a> from, <a href="BaseBulletinBoard.html">BaseBulletinBoard</a> board, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BBRemoveMessage( <a href="Mobile.html">Mobile</a> from, <a href="BaseBulletinBoard.html">BaseBulletinBoard</a> board, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BBRequestContent( <a href="Mobile.html">Mobile</a> from, <a href="BaseBulletinBoard.html">BaseBulletinBoard</a> board, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BBRequestHeader( <a href="Mobile.html">Mobile</a> from, <a href="BaseBulletinBoard.html">BaseBulletinBoard</a> board, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckTime( DateTime time, TimeSpan range )<br>
+      (<font color="blue">static</font>) <font color="blue">string</font> FormatTS( TimeSpan ts )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) BaseBulletinBoard( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) BaseBulletinBoard( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">string</font> BoardName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckRange( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Cleanup()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> GetLastPostTime( <a href="Mobile.html">Mobile</a> poster, <font color="blue">bool</font> onlyCheckRoot, <font color="blue">ref</font> DateTime lastPostTime )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> PostMessage( <a href="Mobile.html">Mobile</a> from, <a href="BulletinMessage.html">BulletinMessage</a> thread, <font color="blue">string</font> subject, <font color="blue">string</font>[] lines )<br>
+      <font color="blue">void</font> RecurseDelete( <a href="BulletinMessage.html">BulletinMessage</a> msg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

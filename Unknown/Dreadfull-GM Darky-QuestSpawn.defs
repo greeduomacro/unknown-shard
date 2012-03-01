@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<Defs>
+  <Values>
+    <MinDelay>1</MinDelay>
+    <MaxDelay>2</MaxDelay>
+    <SpawnRange>15</SpawnRange>
+    <HomeRange>15</HomeRange>
+    <MinRefractory>0</MinRefractory>
+    <MaxRefractory>0</MaxRefractory>
+    <TODStart>0</TODStart>
+    <TODEnd>0</TODEnd>
+    <Duration>0</Duration>
+    <DespawnTime>0</DespawnTime>
+    <RelativeHome>True</RelativeHome>
+    <IsGroup>False</IsGroup>
+    <Team>0</Team>
+    <ProximityTriggerSound>500</ProximityTriggerSound>
+    <SequentialSpawn>-1</SequentialSpawn>
+    <ProximityRange>10</ProximityRange>
+    <TODMode>Realtime</TODMode>
+    <KillReset>1</KillReset>
+    <SpawnerName>1</SpawnerName>
+    <AllowGhost>False</AllowGhost>
+    <AllowNPC>False</AllowNPC>
+    <SpawnOnTrigger>True</SpawnOnTrigger>
+    <SmartSpawn>False</SmartSpawn>
+    <ExtTrig>False</ExtTrig>
+    <TrigOnCarried>1</TrigOnCarried>
+    <ProximityMessage>You feel unstable in this area.</ProximityMessage>
+    <TrigProb>1</TrigProb>
+    <NameList>40::::::::::::::::::::::::::::::::::::::::</NameList>
+    <SelectionList>40:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0</SelectionList>
+    <AddGumpX>440</AddGumpX>
+    <AddGumpY>0</AddGumpY>
+    <SpawnerGumpX>0</SpawnerGumpX>
+    <SpawnerGumpY>0</SpawnerGumpY>
+    <FindGumpX>0</FindGumpX>
+    <FindGumpY>0</FindGumpY>
+    <AutoNumber>False</AutoNumber>
+    <AutoNumberValue>9</AutoNumberValue>
+  </Values>
+</Defs>

@@ -1,0 +1,9 @@
+04/29/2009
+4:20PM
+
+1. Updated the coding in the afkchecker and jailing system.  Some errors with how it should work and how it was working.
+2. Fixed an error with RatQuest giver.
+3. Fixed Lady Haven, she now will state what quest you have accepted.
+4. Fixed Lady Britain, she now will state what quest you have accepted.
+
+GM Darky

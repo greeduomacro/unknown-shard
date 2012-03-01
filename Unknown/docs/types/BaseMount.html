@@ -1,0 +1,34 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseMount</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>BaseMount : <a href="BaseCreature.html">BaseCreature</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a>, <a href="IMount.html">IMount</a></h2>
+<h4>Derived Types: <a href="ACuSidhe.html">ACuSidhe</a>, <a href="ARedDeath.html">ARedDeath</a>, <a href="BaseWarHorse.html">BaseWarHorse</a>, <a href="Beetle.html">Beetle</a>, <a href="BioMount.html">BioMount</a>, <a href="CuSidhe.html">CuSidhe</a>, <a href="DesertOstard.html">DesertOstard</a>, <a href="FactionWarHorse.html">FactionWarHorse</a>, <a href="FireBeetle.html">FireBeetle</a>, <a href="FireSteed.html">FireSteed</a>, <a href="ForestOstard.html">ForestOstard</a>, <a href="FrenziedOstard.html">FrenziedOstard</a>, <a href="GrizzledMare.html">GrizzledMare</a>, <a href="Gryphon.html">Gryphon</a>, <a href="HellSteed.html">HellSteed</a>, <a href="Hiryu.html">Hiryu</a>, <a href="HolySteed.html">HolySteed</a>, <a href="Horse.html">Horse</a>, <a href="IceSteed.html">IceSteed</a>, <a href="Kirin.html">Kirin</a>, <a href="LesserHiryu.html">LesserHiryu</a>, <a href="Nightmare.html">Nightmare</a>, <a href="ProxySwampy.html">ProxySwampy</a>, <a href="RAntLion.html">RAntLion</a>, <a href="RCentaur.html">RCentaur</a>, <a href="RDaemon.html">RDaemon</a>, <a href="RDragon.html">RDragon</a>, <a href="RDrake.html">RDrake</a>, <a href="RedDeath.html">RedDeath</a>, <a href="Reptalon.html">Reptalon</a>, <a href="RidableEnergyElemental.html">RidableEnergyElemental</a>, <a href="RidableLlama.html">RidableLlama</a>, <a href="RidablePolarbear.html">RidablePolarbear</a>, <a href="Ridgeback.html">Ridgeback</a>, <a href="RPig.html">RPig</a>, <a href="RSandVortex.html">RSandVortex</a>, <a href="RScorpion.html">RScorpion</a>, <a href="RSeaSerpent.html">RSeaSerpent</a>, <a href="RSkeletalDragon.html">RSkeletalDragon</a>, <a href="RSpider.html">RSpider</a>, <a href="RWyvern.html">RWyvern</a>, <a href="SavageRidgeback.html">SavageRidgeback</a>, <a href="ScaledSwampDragon.html">ScaledSwampDragon</a>, <a href="SeaHorse.html">SeaHorse</a>, <a href="SilverSteed.html">SilverSteed</a>, <a href="SkeletalMount.html">SkeletalMount</a>, <a href="SnowSteed.html">SnowSteed</a>, <a href="SwampDragon.html">SwampDragon</a>, <a href="UnholySteed.html">UnholySteed</a>, <a href="Unicorn.html">Unicorn</a>, <a href="Werewolf.html">Werewolf</a></h4>
+<h4>Nested Types: <a href="BlockEntry.html">BlockEntry</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckMountAllowed( <a href="Mobile.html">Mobile</a> mob, <font color="blue">bool</font> message )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ClearMountPrevention( <a href="Mobile.html">Mobile</a> mob )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Dismount( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <a href="BlockMountType.html">BlockMountType</a> GetMountPrevention( <a href="Mobile.html">Mobile</a> mob )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetMountPrevention( <a href="Mobile.html">Mobile</a> mob, <a href="BlockMountType.html">BlockMountType</a> type, TimeSpan duration )<br>
+      (<font color="blue">ctor</font>) BaseMount( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseMount( <font color="blue">string</font> name, <font color="blue">int</font> bodyID, <font color="blue">int</font> itemID, <a href="AIType.html">AIType</a> aiType, <a href="FightMode.html">FightMode</a> fightMode, <font color="blue">int</font> rangePerception, <font color="blue">int</font> rangeFight, <font color="blue">double</font> activeSpeed, <font color="blue">double</font> passiveSpeed )<br>
+      <font color="blue">bool</font> AllowFemaleRider( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AllowMaleRider( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Hue( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ItemID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan MountAbilityDelay( <font color="blue">get</font>; )<br>
+      DateTime NextMountAbility( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Rider( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoMountAbility( <font color="blue">int</font> damage, <a href="Mobile.html">Mobile</a> attacker )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnBeforeDeath()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDisallowedRider( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRiderDamaged( <font color="blue">int</font> amount, <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> willKill )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

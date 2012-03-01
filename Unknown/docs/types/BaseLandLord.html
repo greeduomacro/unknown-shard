@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseLandLord</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>BaseLandLord : <a href="BaseVendor.html">BaseVendor</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a>, <a href="IVendor.html">IVendor</a></h2>
+<h4>Derived Types: <a href="CityLandLord.html">CityLandLord</a>, <a href="LandLord.html">LandLord</a></h4>
+<h4>Nested Types: <a href="InternalTarget39.html">InternalTarget</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> ClearMallVendors()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) BaseLandLord( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseLandLord( <font color="blue">string</font> title )<br>
+      <a href="MallDuration.html">MallDuration</a> Duration( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseHouse.html">BaseHouse</a> Godhouse( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RentCost( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SBInfos( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitSBInfo()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnGoldGiven( <a href="Mobile.html">Mobile</a> from, <a href="Gold.html">Gold</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SayPriceTo( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

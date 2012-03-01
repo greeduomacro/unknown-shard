@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - LockableContainer</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>LockableContainer : <a href="TrapableContainer.html">TrapableContainer</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ITelekinesisable.html">ITelekinesisable</a>, <a href="ILockable.html">ILockable</a>, <a href="ILockpickable.html">ILockpickable</a>, <a href="ICraftable.html">ICraftable</a></h2>
+<h4>Derived Types: <a href="BaseTreasureChest.html">BaseTreasureChest</a>, <a href="BaseTreasureChestMod.html">BaseTreasureChestMod</a>, <a href="FillableContainer.html">FillableContainer</a>, <a href="FinishedWoodenChest.html">FinishedWoodenChest</a>, <a href="GildedWoodenChest.html">GildedWoodenChest</a>, <a href="LargeCrate.html">LargeCrate</a>, <a href="MarkContainer.html">MarkContainer</a>, <a href="MediumCrate.html">MediumCrate</a>, <a href="MetalBox.html">MetalBox</a>, <a href="MetalChest.html">MetalChest</a>, <a href="MetalGoldenChest.html">MetalGoldenChest</a>, <a href="OrnateWoodenChest.html">OrnateWoodenChest</a>, <a href="ParagonChest.html">ParagonChest</a>, <a href="PlainWoodenChest.html">PlainWoodenChest</a>, <a href="SmallCrate.html">SmallCrate</a>, <a href="TransferChest.html">TransferChest</a>, <a href="TreasureMapChest.html">TreasureMapChest</a>, <a href="WoodenBox.html">WoodenBox</a>, <a href="WoodenChest.html">WoodenChest</a>, <a href="WoodenFootLocker.html">WoodenFootLocker</a></h4>
+      (<font color="blue">ctor</font>) LockableContainer( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) LockableContainer( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> DisplaysContent( <font color="blue">get</font>; )<br>
+      <font color="blue">uint</font> KeyValue( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Locked( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> LockLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxLockLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Picker( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RequiredSkill( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> TrapOnLockpick( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> TrapOnOpen( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckContentDisplay( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckItemUse( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckLift( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <font color="blue">ref</font> <a href="LRReason.html">LRReason</a> reject )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckLocked( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> LockPick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CraftItem.html">CraftItem</a> craftItem, <font color="blue">int</font> resHue )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClickSecureTrade( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDropInto( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSnoop( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTelekinesis( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Open( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> TryDropItem( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped, <font color="blue">bool</font> sendFullMessage )<br>
+   </body>
+</html>

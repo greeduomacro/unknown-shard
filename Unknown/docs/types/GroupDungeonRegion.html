@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - GroupDungeonRegion</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Regions.html">Back to Server.Regions</a></h4>
+      <h2>GroupDungeonRegion : <a href="Region.html">Region</a>, IComparable</h2>
+      (<font color="blue">static</font>) <font color="blue">void</font> DungeonCleared( <font color="blue">object</font> state )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GroupWipe( <font color="blue">object</font> state )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> KickCallBack( <font color="blue">object</font> state )<br>
+      (<font color="blue">ctor</font>) GroupDungeonRegion( <a href="GroupDungeonStone.html">GroupDungeonStone</a> stone, <a href="Map.html">Map</a> map, <font color="blue">string</font> name, <a href="Rectangle2D.html">Rectangle2D</a> area )<br>
+      TimeSpan AFKTime( <font color="blue">get</font>; )<br>
+      List`1 PlayerMovements( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="GroupDungeonStone.html">GroupDungeonStone</a> Stone( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowBeneficial( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowHarmful( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowSpawn()<br>
+      <font color="blue">bool</font> CanEnter( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">int</font> CountPlayers()<br>
+      <font color="blue">void</font> DungeonReset()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDeath( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnEnter( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnExit( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnUnregister()<br>
+   </body>
+</html>

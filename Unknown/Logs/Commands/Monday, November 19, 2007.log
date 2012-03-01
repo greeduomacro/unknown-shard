@@ -1,0 +1,161 @@
+##############################
+Log started on 11/19/2007 7:08:54 AM
+
+11/19/2007 7:16:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/19/2007 7:16:26 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/19/2007 7:17:22 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add leveldagger'
+11/19/2007 7:17:26 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3658, 2540, 0) in Trammel: "leveldagger"
+11/19/2007 7:17:26 AM: 127.0.0.1: Serials: 0x400001F0; 
+11/19/2007 7:17:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add thighboots'
+11/19/2007 7:17:37 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3659, 2540, 0) in Trammel: "thighboots"
+11/19/2007 7:17:37 AM: 127.0.0.1: Serials: 0x400001F2; 
+11/19/2007 7:17:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add leaf'
+11/19/2007 7:18:02 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3659, 2540, 0) in Trammel: "LeafChest"
+11/19/2007 7:18:02 AM: 127.0.0.1: Serials: 0x400001F3; 
+11/19/2007 7:18:52 AM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/19/2007 7:19:11 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+11/19/2007 7:19:12 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x400001F3 (LeafChest)
+11/19/2007 7:19:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add armor'
+11/19/2007 7:19:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add level'
+11/19/2007 7:20:11 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/19/2007 7:21:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set newbie true'
+11/19/2007 7:22:05 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/19/2007 7:23:55 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/19/2007 7:25:11 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:25:14 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x400001F0 (LevelDagger) to 'Newbied'
+11/19/2007 7:25:25 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'kill '
+11/19/2007 7:25:26 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') killing 0xCD8 "Kitty" ('briana')
+11/19/2007 7:25:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'resurrect '
+11/19/2007 7:25:46 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') resurrecting 0xCD8 "Kitty" ('briana')
+11/19/2007 7:26:14 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:26:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x400001F2 (ThighBoots) to 'Newbied'
+11/19/2007 7:26:28 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelleather'
+11/19/2007 7:26:36 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3658, 2541, 0) in Trammel: "LevelLeatherArms"
+11/19/2007 7:26:36 AM: 127.0.0.1: Serials: 0x40000206; 
+11/19/2007 7:26:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3657, 2541, 0) in Trammel: "LevelLeatherCap"
+11/19/2007 7:26:43 AM: 127.0.0.1: Serials: 0x40000207; 
+11/19/2007 7:26:58 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:27:00 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000206 (LevelLeatherArms) to 'Newbied'
+11/19/2007 7:27:01 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:27:03 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000206 (LevelLeatherArms) to 'Newbied'
+11/19/2007 7:27:07 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:27:08 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000207 (LevelLeatherCap) to 'Newbied'
+11/19/2007 7:27:19 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelleater'
+11/19/2007 7:27:24 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelleather'
+11/19/2007 7:27:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3657, 2540, 0) in Trammel: "LevelLeatherChest"
+11/19/2007 7:27:34 AM: 127.0.0.1: Serials: 0x40000208; 
+11/19/2007 7:27:46 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:27:49 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000208 (LevelLeatherChest) to 'Newbied'
+11/19/2007 7:27:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelleather'
+11/19/2007 7:28:16 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3657, 2541, 0) in Trammel: "LevelLeatherSkirt"
+11/19/2007 7:28:16 AM: 127.0.0.1: Serials: 0x40000209; 
+11/19/2007 7:28:28 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:28:31 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000209 (LevelLeatherSkirt) to 'Newbied'
+11/19/2007 7:28:52 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelleather'
+11/19/2007 7:29:11 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelbone'
+11/19/2007 7:29:15 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3657, 2541, 0) in Trammel: "LevelBoneGloves"
+11/19/2007 7:29:15 AM: 127.0.0.1: Serials: 0x4000020A; 
+11/19/2007 7:29:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:29:38 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x4000020A (LevelBoneGloves) to 'Newbied'
+11/19/2007 7:30:05 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add reagent'
+11/19/2007 7:30:07 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3657, 2541, 0) in Trammel: "reagent"
+11/19/2007 7:30:14 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add reagentbag'
+11/19/2007 7:30:28 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3657, 2541, 0) in Trammel: "BagOfAllReagents"
+11/19/2007 7:30:28 AM: 127.0.0.1: Serials: 0x4000020B; 
+11/19/2007 7:31:25 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/19/2007 7:35:05 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add shepard'
+11/19/2007 7:37:42 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/19/2007 7:37:55 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set int 3000'
+11/19/2007 7:37:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'int' of 0x3 "GM Jesus" ('Dreadfull') to '3000'
+11/19/2007 7:38:23 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set str 3000'
+11/19/2007 7:38:24 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'str' of 0x3 "GM Jesus" ('Dreadfull') to '3000'
+11/19/2007 7:38:31 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set dex 3000'
+11/19/2007 7:38:33 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'dex' of 0x3 "GM Jesus" ('Dreadfull') to '3000'
+11/19/2007 7:40:42 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'c I can't kill stuff on this char, not player.  Also Coding.... *licks you*'
+11/19/2007 7:40:44 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/19/2007 7:45:46 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/19/2007 7:46:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelkryss'
+11/19/2007 7:46:50 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3578, 2449, 27) in Trammel: "levelkryss"
+11/19/2007 7:46:50 AM: 127.0.0.1: Serials: 0x40000349; 
+11/19/2007 7:46:59 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:47:03 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000349 (LevelKryss) to 'Newbied'
+11/19/2007 7:47:14 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add scissors'
+11/19/2007 7:47:16 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3578, 2449, 27) in Trammel: "scissors"
+11/19/2007 7:47:16 AM: 127.0.0.1: Serials: 0x4000034C; 
+11/19/2007 7:47:22 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add skillet'
+11/19/2007 7:47:24 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3578, 2449, 27) in Trammel: "skillet"
+11/19/2007 7:47:24 AM: 127.0.0.1: Serials: 0x4000034F; 
+11/19/2007 7:47:41 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add jesusbook'
+11/19/2007 7:47:48 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3577, 2449, 26) in Trammel: "jesusbook"
+11/19/2007 7:47:48 AM: 127.0.0.1: Serials: 0x40000354; 
+11/19/2007 7:47:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set loottype newbied true'
+11/19/2007 7:47:59 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'loottype' of 0x40000354 (JesusBook) to 'Newbied'
+11/19/2007 7:50:55 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/19/2007 7:51:28 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:29 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:29 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:30 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:30 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:31 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:32 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:33 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:35 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:36 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:37 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:37 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:39 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:39 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:40 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:41 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:42 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:44 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:45 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:45 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:46 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 7:51:47 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:04:00 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add cloak'
+11/19/2007 8:04:01 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3648, 2532, 0) in Trammel: "cloak"
+11/19/2007 8:04:01 AM: 127.0.0.1: Serials: 0x400003C0; 
+11/19/2007 8:04:02 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+11/19/2007 8:04:03 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x400003C0 (Cloak)
+11/19/2007 8:05:08 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/19/2007 8:05:10 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3611, 2524, 0) in Trammel: "xmlspawner"
+11/19/2007 8:05:10 AM: 127.0.0.1: Serials: 0x400003C1; 
+11/19/2007 8:05:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add staffcloak'
+11/19/2007 8:05:18 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3612, 2523, 0) in Trammel: "staffcloak"
+11/19/2007 8:05:18 AM: 127.0.0.1: Serials: 0x400003C2; 
+11/19/2007 8:05:33 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:35 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:38 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'dupe '
+11/19/2007 8:05:39 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') duping 0x40000767 (XmlSpawner) (inBag=False; amount=1)
+11/19/2007 8:05:39 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') duped 0x40000767 (XmlSpawner) creating 0x400003C3 (XmlSpawner)
+11/19/2007 8:05:41 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/19/2007 8:05:42 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:44 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:44 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:45 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/19/2007 8:05:46 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+11/19/2007 8:05:47 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x400003C1 (XmlSpawner)
+11/19/2007 8:05:58 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/19/2007 8:06:00 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3611, 2522, 0) in Trammel: "xmlspawner"
+11/19/2007 8:06:00 AM: 127.0.0.1: Serials: 0x400003C4; 
+11/19/2007 8:06:55 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x400003C4 'HavenQuest3' [3611, 2522] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/HavenQuest3/loadconfig/true
+##############################
+Log started on 11/19/2007 4:15:25 PM
+
+##############################
+Log started on 11/19/2007 4:20:15 PM
+
+##############################
+Log started on 11/19/2007 4:31:31 PM
+
+##############################
+Log started on 11/19/2007 5:24:54 PM
+

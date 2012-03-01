@@ -1,0 +1,497 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+
+namespace Server.Items
+{
+	public abstract class BaseQuiver : BaseContainer
+	{
+		public override int DefaultGumpID { get { return 65; } }
+		public override int DefaultDropSound { get { return 0x48; } }
+		public override int DefaultMaxWeight { get { return 200; } }
+		
+		public virtual int InitMinHits { get { return 0; } }
+		public virtual int InitMaxHits { get { return 0; } }
+		public virtual int ArtifactRarity { get { return 0; } }
+		public virtual Race RequiredRace { get { return null; } }
+		
+		private Mobile m_Crafter;
+		private ArmorQuality m_Quality;
+		
+		private int m_Hits;
+		private int m_MaxHits;
+		private int m_LowerAmmoCost;
+		
+		private AosAttributes m_AosAttributes;
+		private AosSkillBonuses m_AosSkillBonuses;
+		
+		private double m_Redux;
+		
+		#region Public
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int ReduxPercent
+		{
+			get { return (int)( m_Redux * 100 ); }
+			set
+			{
+				if( value < 0 )
+					value = 0;
+				if( value > 100 )
+					value = 100;
+				m_Redux = ( (double)value ) / 100;
+				
+				if( Parent is Item )
+				{
+					((Item)Parent).UpdateTotals();
+					((Item)Parent).InvalidateProperties();
+				}
+				else if( Parent is Mobile )
+					( (Mobile)Parent ).UpdateTotals();
+				else
+					UpdateTotals();
+				
+				InvalidateProperties();
+			}
+		}
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int Arrows { get { return (int)( TotalWeight * 10 ); } }
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int MaxArrows { get { return MaxWeight * 10; } }
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public AosAttributes Attributes { get { return m_AosAttributes; } set { } }
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public AosSkillBonuses SkillBonuses { get { return m_AosSkillBonuses; } set { } }
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public Mobile Crafter { get { return m_Crafter; } set { m_Crafter = value; InvalidateProperties(); } }
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int HitPoints
+		{
+			get { return m_Hits; }
+			set
+			{
+				if( m_Hits == value )
+					return;
+				
+				if( value > m_MaxHits )
+					value = m_MaxHits;
+				
+				m_Hits = value;
+				
+				InvalidateProperties();
+			}
+		}
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int MaxHitPoints
+		{
+			get { return m_MaxHits; }
+			set { m_MaxHits = value; InvalidateProperties(); }
+		}
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public ArmorQuality Quality
+		{
+			get { return m_Quality; }
+			set { m_Quality = value; InvalidateProperties(); }
+		}
+		
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int LowerAmmoCost { get { return m_LowerAmmoCost; } set { m_LowerAmmoCost = value; InvalidateProperties(); } }
+		
+		#endregion
+		
+		public BaseQuiver( int itemID ) : base( itemID )
+		{
+			Weight = 6.0;
+			Layer = Layer.MiddleTorso;
+			m_AosAttributes = new AosAttributes( this );
+			m_AosSkillBonuses = new AosSkillBonuses( this );
+		}
+		
+		#region Drop | Stack | Weight
+		
+		private Item DropArrows( Mobile from, Item item )
+		{
+			if( Arrows >= MaxArrows )
+			{
+				from.SendLocalizedMessage( 1072666 ); //The container is already at capacity.
+				return null;
+			}
+			if( Arrows + item.Amount > MaxArrows )
+			{
+				Item dupe = (Item)Activator.CreateInstance( item.GetType() );
+				dupe.Amount = MaxArrows - Arrows;
+				item.Amount -= dupe.Amount;
+				from.SendLocalizedMessage( 1072665, dupe.Amount.ToString() ); //~1_QUANTITY~ pieces of ammo were transferred to the quiver due to container limits.
+				return dupe;
+			}
+			else if( Arrows + item.Amount == MaxArrows )
+				from.SendLocalizedMessage( 1072664, item.Amount.ToString() ); //~1_QUANTITY~ pieces of ammo were transferred, filling the quiver.
+			else //if( Arrows + item.Amount < MaxArrows )
+				from.SendLocalizedMessage( 1072675, item.Amount.ToString() ); //~1_QUANTITY~ pieces of ammo were transferred to the quiver due to low stock.
+			
+			return item;
+		}
+		
+		public override bool OnStackAttempt( Mobile from, Item stack, Item item )
+		{
+			if( from == null || item == null )
+				return false;
+			
+			if( !( item is Arrow || item is Bolt ) )
+				return false;
+			
+			Item art = DropArrows( from, item );
+			
+			if( art == null )
+				return false;
+			
+			bool ret = base.OnStackAttempt( from, stack, art );
+			UpdateTotal( art, TotalType.Weight, 0 );
+			return art == item;
+		}
+		
+		public override bool OnDragDropInto( Mobile from, Item item, Point3D p )
+		{
+			if( from == null || item == null )
+				return false;
+			
+			if( !( item is Arrow || item is Bolt ) )
+				return false;
+			
+			Item art = DropArrows( from, item );
+			
+			if( art == null )
+				return false;
+			
+			bool ret = base.OnDragDropInto( from, art, p );
+			UpdateTotal( art, TotalType.Weight, 0 );
+			return art == item;
+		}
+		
+		public override bool TryDropItem( Mobile from, Item item, bool sendFullMessage )
+		{
+			if( from == null || item == null )
+				return false;
+			
+			if( !( item is Arrow || item is Bolt ) )
+				return false;
+			
+			Item art = DropArrows( from, item );
+			
+			if( art == null )
+				return false;
+			
+			bool ret = base.TryDropItem( from, art, sendFullMessage );
+			UpdateTotal( item, TotalType.Weight, 0 );
+			return art == item;
+		}
+		
+		public override void OnItemRemoved( Item item )
+		{
+			if( item == null )
+				return;
+			
+			UpdateTotals();
+			
+			base.OnItemRemoved( item );
+		}
+		
+		public override void UpdateTotal( Item sender, TotalType type, int delta )
+		{
+			base.UpdateTotal( sender, type, delta );
+			
+			if( type == TotalType.Weight )
+			{
+				if( Parent is Item )
+					( Parent as Item ).UpdateTotal( sender, type, (int)( delta * m_Redux ) * -1 );
+				else if( Parent is Mobile )
+					( Parent as Mobile ).UpdateTotal( sender, type, (int)( delta * m_Redux ) * -1 );
+			}
+		}
+		
+		public override int GetTotal( TotalType type )
+		{
+			if( type == TotalType.Weight )
+				return (int)( base.GetTotal( type ) * ( 1.0 - m_Redux ) );
+			
+			return base.GetTotal( type );
+		}
+		
+		#endregion
+		
+		#region Equipping
+		
+		public override bool CanEquip( Mobile from )
+		{
+			if( RequiredRace != null && from.Race != RequiredRace )
+			{
+				if( RequiredRace == Race.Elf )
+					from.SendLocalizedMessage( 1072203 ); // Only Elves may use this.
+				else
+					from.SendMessage( "Only {0} may use this.", RequiredRace.PluralName );
+				
+				return false;
+			}
+			
+			return true;
+		}
+		
+		public override bool OnEquip( Mobile from )
+		{
+			if( Core.AOS )
+				m_AosSkillBonuses.AddTo( from );
+			
+			return base.OnEquip( from );
+		}
+		
+		public override void OnRemoved( object parent )
+		{
+			if( Core.AOS )
+				m_AosSkillBonuses.Remove();
+			
+			return;
+		}
+		
+		#endregion
+		
+		#region Properties
+		
+		public override void GetProperties( ObjectPropertyList list )
+		{
+			base.GetProperties( list );
+			
+			if( m_Crafter != null )
+				list.Add( 1050043, m_Crafter.Name ); // crafted by ~1_NAME~
+			
+			if( m_AosSkillBonuses != null )
+				m_AosSkillBonuses.GetProperties( list );
+			
+			if( m_Quality == ArmorQuality.Exceptional )
+				list.Add( 1060636 ); // exceptional
+			
+			if( RequiredRace == Race.Elf )
+				list.Add( 1075086 ); // Elves Only
+			
+			if( ArtifactRarity > 0 )
+				list.Add( 1061078, ArtifactRarity.ToString() ); // artifact rarity ~1_val~
+			
+			if( this is IUsesRemaining && ( (IUsesRemaining)this ).ShowUsesRemaining )
+				list.Add( 1060584, ( (IUsesRemaining)this ).UsesRemaining.ToString() ); // uses remaining: ~1_val~
+			
+			int prop;
+			
+			if( ReduxPercent != 0 )
+				list.Add( 1072210, ReduxPercent.ToString() ); //Weight reduction: ~1_PERCENTAGE~%
+			
+			if( ( prop = ( m_AosAttributes.WeaponDamage ) ) != 0 )
+				list.Add( 1060401, prop.ToString() ); // damage increase ~1_val~%
+			
+			if( ( prop = m_AosAttributes.DefendChance ) != 0 )
+				list.Add( 1060408, prop.ToString() ); // defense chance increase ~1_val~%
+			
+			if( ( prop = m_AosAttributes.EnhancePotions ) != 0 )
+				list.Add( 1060411, prop.ToString() ); // enhance potions ~1_val~%
+			
+			if( ( prop = m_AosAttributes.CastRecovery ) != 0 )
+				list.Add( 1060412, prop.ToString() ); // faster cast recovery ~1_val~
+			
+			if( ( prop = m_AosAttributes.CastSpeed ) != 0 )
+				list.Add( 1060413, prop.ToString() ); // faster casting ~1_val~
+			
+			if( ( prop = ( m_AosAttributes.AttackChance ) ) != 0 )
+				list.Add( 1060415, prop.ToString() ); // hit chance increase ~1_val~%
+			
+			if( ( prop = m_AosAttributes.BonusDex ) != 0 )
+				list.Add( 1060409, prop.ToString() ); // dexterity bonus ~1_val~
+			
+			if( ( prop = m_AosAttributes.BonusHits ) != 0 )
+				list.Add( 1060431, prop.ToString() ); // hit point increase ~1_val~
+			
+			if( ( prop = m_AosAttributes.BonusInt ) != 0 )
+				list.Add( 1060432, prop.ToString() ); // intelligence bonus ~1_val~
+			
+			if( ( prop = m_AosAttributes.LowerManaCost ) != 0 )
+				list.Add( 1060433, prop.ToString() ); // lower mana cost ~1_val~%
+			
+			if( ( prop = m_AosAttributes.LowerRegCost ) != 0 )
+				list.Add( 1060434, prop.ToString() ); // lower reagent cost ~1_val~%
+			
+			if( ( prop = ( m_AosAttributes.Luck ) ) != 0 )
+				list.Add( 1060436, prop.ToString() ); // luck ~1_val~
+			
+			if( ( prop = m_AosAttributes.BonusMana ) != 0 )
+				list.Add( 1060439, prop.ToString() ); // mana increase ~1_val~
+			
+			if( ( prop = m_AosAttributes.RegenMana ) != 0 )
+				list.Add( 1060440, prop.ToString() ); // mana regeneration ~1_val~
+			
+			if( ( prop = m_AosAttributes.NightSight ) != 0 )
+				list.Add( 1060441 ); // night sight
+			
+			if( ( prop = m_AosAttributes.ReflectPhysical ) != 0 )
+				list.Add( 1060442, prop.ToString() ); // reflect physical damage ~1_val~%
+			
+			if( ( prop = m_AosAttributes.RegenStam ) != 0 )
+				list.Add( 1060443, prop.ToString() ); // stamina regeneration ~1_val~
+			
+			if( ( prop = m_AosAttributes.RegenHits ) != 0 )
+				list.Add( 1060444, prop.ToString() ); // hit point regeneration ~1_val~
+			
+			if( ( prop = m_AosAttributes.SpellChanneling ) != 0 )
+				list.Add( 1060482 ); // spell channeling
+			
+			if( ( prop = m_AosAttributes.SpellDamage ) != 0 )
+				list.Add( 1060483, prop.ToString() ); // spell damage increase ~1_val~%
+			
+			if( ( prop = m_AosAttributes.BonusStam ) != 0 )
+				list.Add( 1060484, prop.ToString() ); // stamina increase ~1_val~
+			
+			if( ( prop = m_AosAttributes.BonusStr ) != 0 )
+				list.Add( 1060485, prop.ToString() ); // strength bonus ~1_val~
+			
+			if( ( prop = m_LowerAmmoCost ) != 0 )
+				list.Add( 1075208, prop.ToString() ); // Lower Ammo Cost ~1_Percentage~%
+			
+			if( ( prop = m_AosAttributes.WeaponSpeed ) != 0 )
+				list.Add( 1060486, prop.ToString() ); // swing speed increase ~1_val~%
+			
+			/*
+            int phys, fire, cold, pois, nrgy;
+
+            GetDamageTypes( null, out phys, out fire, out cold, out pois, out nrgy );
+
+            if( phys != 0 )
+                list.Add( 1060403, phys.ToString() ); // physical damage ~1_val~%
+
+            if( fire != 0 )
+                list.Add( 1060405, fire.ToString() ); // fire damage ~1_val~%
+
+            if( cold != 0 )
+                list.Add( 1060404, cold.ToString() ); // cold damage ~1_val~%
+
+            if( pois != 0 )
+                list.Add( 1060406, pois.ToString() ); // poison damage ~1_val~%
+
+            if( nrgy != 0 )
+                list.Add( 1060407, nrgy.ToString() ); // energy damage ~1_val~%
+			 */
+			
+			if( m_Hits >= 0 && m_MaxHits > 0 )
+				list.Add( 1060639, "{0}\t{1}", m_Hits, m_MaxHits ); // durability ~1_val~ / ~2_val~
+		}
+		
+		#endregion
+		
+		#region SerDeser
+		
+		public BaseQuiver( Serial serial ) : base( serial ) { }
+		
+		private static void SetSaveFlag( ref SaveFlag flags, SaveFlag toSet, bool value ) { if( value ) flags |= toSet; }
+		private static bool GetSaveFlag( SaveFlag flags, SaveFlag toGet ) { return ( flags & toGet ) != 0; }
+		
+		[Flags]
+		private enum SaveFlag
+		{
+			None            = 0x00000000,
+			Quality         = 0x00000001,
+			Hits            = 0x00000002,
+			MaxHits         = 0x00000004,
+			LowerAmmoCost   = 0x00000008,
+			Crafter         = 0x00000010,
+			WeightReduction = 0x00000020
+		}
+		
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+			writer.Write( (int)1 );
+			
+			//Version 1:
+			SaveFlag flags = SaveFlag.None;
+			
+			SetSaveFlag( ref flags, SaveFlag.Quality, m_Quality != ArmorQuality.Regular );
+			SetSaveFlag( ref flags, SaveFlag.Hits, m_Hits != 0 );
+			SetSaveFlag( ref flags, SaveFlag.MaxHits, m_MaxHits != 0 );
+			SetSaveFlag( ref flags, SaveFlag.Crafter, m_Crafter != null );
+			SetSaveFlag( ref flags, SaveFlag.LowerAmmoCost, m_LowerAmmoCost != 0 );
+			SetSaveFlag( ref flags, SaveFlag.WeightReduction, ReduxPercent != 0 );
+			
+			writer.Write( (int)flags );
+			
+			if( GetSaveFlag( flags, SaveFlag.Quality ) )
+				writer.Write( (int)m_Quality );
+			
+			if( GetSaveFlag( flags, SaveFlag.Hits ) )
+				writer.Write( (int)m_Hits );
+			
+			if( GetSaveFlag( flags, SaveFlag.MaxHits ) )
+				writer.Write( (int)m_MaxHits );
+			
+			if( GetSaveFlag( flags, SaveFlag.Crafter ) )
+				writer.Write( m_Crafter );
+			
+			if( GetSaveFlag( flags, SaveFlag.LowerAmmoCost ) )
+				writer.Write( (int)m_LowerAmmoCost );
+			
+			if( GetSaveFlag( flags, SaveFlag.WeightReduction ) )
+				writer.Write( (int)m_Redux );
+			
+			//Version 0:
+			m_AosAttributes.Serialize( writer );
+			m_AosSkillBonuses.Serialize( writer );
+		}
+		
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+			int version = reader.ReadInt();
+			
+			switch( version )
+			{
+				case 1:
+					{
+						SaveFlag flags = (SaveFlag)reader.ReadInt();
+						
+						if( GetSaveFlag( flags, SaveFlag.Quality ) )
+							m_Quality = (ArmorQuality)reader.ReadInt();
+						else
+							m_Quality = ArmorQuality.Regular;
+						
+						if( GetSaveFlag( flags, SaveFlag.Hits ) )
+							m_Hits = reader.ReadInt();
+						
+						if( GetSaveFlag( flags, SaveFlag.MaxHits ) )
+							m_MaxHits = reader.ReadInt();
+						
+						if( GetSaveFlag( flags, SaveFlag.Crafter ) )
+							m_Crafter = reader.ReadMobile();
+						
+						if( GetSaveFlag( flags, SaveFlag.LowerAmmoCost ) )
+							m_LowerAmmoCost = reader.ReadInt();
+						
+						if( GetSaveFlag( flags, SaveFlag.WeightReduction ) )
+							m_Redux = reader.ReadInt();
+						
+						goto case 0;
+					}
+				case 0:
+					{
+						m_AosAttributes = new AosAttributes( this, reader );
+						m_AosSkillBonuses = new AosSkillBonuses( this, reader );
+						break;
+					}
+			}
+		}
+		
+		#endregion
+	}
+}

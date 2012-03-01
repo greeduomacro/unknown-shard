@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<mobiles useFixes="true">
+<!--
+
+Bestiary data.xml for RunUO 2.0 SVN written from scratch by Alari. I've 
+checked everything about as well as I can. Anything that looks too 
+'wrong' is commented out. This has been tested and WILL work on 2.0 SVN 
+rev 186. Earlier or later revisions may have changes to the mobile 
+names. Original Bestiary script by Arul. This is just data.xml for it.
+
+
+<mobiles useFixes="true"> at top of file to enable "fixes", 
+put image to use in fixes directory under Bestiary web dir.
+
+line:
+<mobile type="Server.Mobiles.whatever" name"whatever" [background="whatever.png"] /> 
+
+
+background="Bestiary/.png" 
+
+< ! - - 1 - - > marks personal reminder on creature, feel free to ignore - Alari
+
+-->
+<!-- Scripts\Mobiles\Animals\Bears -->
+	<mobile type="Server.Mobiles.BlackBear" name="black bear" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.BrownBear" name="brown bear" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.GrizzlyBear" name="grizzly bear" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.PolarBear" name="polar bear" background="Bestiary/snow.png" />
+<!-- Scripts\Mobiles\Animals\Birds -->	
+	<mobile type="Server.Mobiles.Chicken" name="chicken" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.Crane" name="crane" />    <!-- 1 -->
+	<mobile type="Server.Mobiles.Eagle" name="eagle" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Phoenix" name="phoenix" />   <!-- 1 -->
+<!-- Scripts\Mobiles\Animals\Canines -->
+	<mobile type="Server.Mobiles.DireWolf" name="dire wolf" />
+	<mobile type="Server.Mobiles.GreyWolf" name="grey wolf" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.TimberWolf" name="timber wolf" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.WhiteWolf" name="white wolf" background="Bestiary/snow.png" />
+<!-- Scripts\Mobiles\Animals\Cows -->	
+	<mobile type="Server.Mobiles.Bull" name="bull" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.Cow" name="cow" background="Bestiary/farm.png" />
+<!-- Scripts\Mobiles\Animals\Felines -->	
+	<mobile type="Server.Mobiles.Cougar" name="cougar" background="Bestiary/jungle.png" />
+	<mobile type="Server.Mobiles.HellCat" name="hell cat" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.Panther" name="panther" background="Bestiary/jungle.png" />
+	<mobile type="Server.Mobiles.PredatorHellCat" name="predator hell cat" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.SnowLeopard" name="snow leopard" background="Bestiary/snow.png" />
+<!-- Scripts\Mobiles\Animals\Misc -->	
+	<mobile type="Server.Mobiles.Boar" name="boar" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.BullFrog" name="bullfrog" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.Dolphin" name="dolphin" background="Bestiary/water.png" />
+	<mobile type="Server.Mobiles.Gaman" name="gaman" />
+	<mobile type="Server.Mobiles.GiantToad" name="giant toad" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.Goat" name="goat" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Gorilla" name="gorilla" background="Bestiary/jungle.png" />
+	<mobile type="Server.Mobiles.GreatHart" name="great hart" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Hind" name="hind" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Llama" name="llama" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.MountainGoat" name="mountain goat" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.PackHorse" name="pack horse" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.PackLlama" name="pack llama" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.Pig" name="pig" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.Sheep" name="sheep" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.Walrus" name="walrus" background="Bestiary/snow.png" />
+<!-- Scripts\Mobiles\Animals\Mounts -->
+	<mobile type="Server.Mobiles.Beetle" name="beetle" />
+	<mobile type="Server.Mobiles.DesertOstard" name="desert ostard" background="Bestiary/desert.png" />
+	<mobile type="Server.Mobiles.FireSteed" name="fire steed" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.ForestOstard" name="forest ostard" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.FrenziedOstard" name="frenzied ostard" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.HellSteed" name="hell steed" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.Hiryu" name="hiryu" />
+<!--	<mobile type="Server.Mobiles.Horse" name="horse" /> shows ettin body due to random type constructors... -->
+	<mobile type="Server.Mobiles.Kirin" name="kirin" />
+	<mobile type="Server.Mobiles.LesserHiryu" name="lesser hiryu" />
+	<mobile type="Server.Mobiles.Nightmare" name="nightmare" />
+	<mobile type="Server.Mobiles.RidableLlama" name="ridable llama" background="Bestiary/farm.png" />
+	<mobile type="Server.Mobiles.Ridgeback" name="ridgeback" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.SavageRidgeback" name="savage ridgeback" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.ScaledSwampDragon" name="scaled swamp dragon" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.SeaHorse" name="seahorse" background="Bestiary/water.png" />
+	<mobile type="Server.Mobiles.SilverSteed" name="silver steed" />
+	<mobile type="Server.Mobiles.SkeletalMount" name="skeletal mount" />
+	<mobile type="Server.Mobiles.SwampDragon" name="swamp dragon" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.Unicorn" name="unicorn" />
+<!-- Scripts\Mobiles\Animals\Reptiles -->
+	<mobile type="Server.Mobiles.Alligator" name="alligator" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.GiantSerpent" name="giant serpent" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.IceSerpent" name="ice serpent" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.IceSnake" name="ice snake" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.LavaLizard" name="lava lizard" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.LavaSerpent" name="lava serpent" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.LavaSnake" name="lava snake" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.SilverSerpent" name="silver serpent" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Snake" name="snake" background="Bestiary/swamp.png" />
+<!-- Scripts\Mobiles\Animals\Rodents -->	
+	<mobile type="Server.Mobiles.GiantRat" name="giant rat" background="Bestiary/sewer.png" />
+	<mobile type="Server.Mobiles.JackRabbit" name="jackrabbit" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Rabbit" name="rabbit" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Sewerrat" name="sewer rat" background="Bestiary/sewer.png" />
+<!-- Scripts\Mobiles\Animals\Slimes -->
+	<mobile type="Server.Mobiles.Jwilson" name="jwilson" background="Bestiary/swamp.png" />
+<!-- Scripts\Mobiles\Animals\Town Critters -->
+	<mobile type="Server.Mobiles.Bird" name="bird" background="Bestiary/city.png" />
+	<mobile type="Server.Mobiles.Cat" name="cat" background="Bestiary/city.png" />
+	<mobile type="Server.Mobiles.Dog" name="dog" background="Bestiary/city.png" />
+	<mobile type="Server.Mobiles.Rat" name="rat" background="Bestiary/city.png" />
+<!-- Scripts\Mobiles\Familiars - none are constructable -->
+<!-- Scripts\Mobiles\Guards - not appropriate for bestiary -->
+<!-- Scripts\Mobiles\Healers - not appropriate for bestiary -->
+<!-- Scripts\Mobiles\Monsters\Ants -->
+	<mobile type="Server.Mobiles.AntLion" name="ant lion" background="Bestiary/desert.png" />
+	<mobile type="Server.Mobiles.BlackSolenInfiltratorQueen" name="black solen infiltrator queen" />
+	<mobile type="Server.Mobiles.BlackSolenInfiltratorWarrior" name="black solen infiltrator warrior" />
+	<mobile type="Server.Mobiles.BlackSolenQueen" name="black solen queen" />
+	<mobile type="Server.Mobiles.BlackSolenWarrior" name="black solen warrior" />
+	<mobile type="Server.Mobiles.BlackSolenWorker" name="black solen worker" />
+	<mobile type="Server.Mobiles.RedSolenInfiltratorQueen" name="red solen infiltrator queen" />
+	<mobile type="Server.Mobiles.RedSolenInfiltratorWarrior" name="red solen infiltrator warrior" />
+	<mobile type="Server.Mobiles.RedSolenQueen" name="red solen queen" />
+	<mobile type="Server.Mobiles.RedSolenWarrior" name="red solen warrior" />
+	<mobile type="Server.Mobiles.RedSolenWorker" name="red solen worker" />
+<!-- Scripts\Mobiles\Monsters\AOS -->
+	<mobile type="Server.Mobiles.AbysmalHorror" name="abysmal horror" />
+	<mobile type="Server.Mobiles.BoneDemon" name="bone demon" />
+	<mobile type="Server.Mobiles.CrystalElemental" name="crystal elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.DarknightCreeper" name="darknight creeper" />
+	<mobile type="Server.Mobiles.DemonKnight" name="demon knight" />
+	<mobile type="Server.Mobiles.Devourer" name="devourer" />
+<!--	<mobile type="Server.Mobiles.FleshGolem" name="flesh golem" />  doesn't look right -->
+	<mobile type="Server.Mobiles.FleshRenderer" name="flesh renderer" />
+	<mobile type="Server.Mobiles.Gibberling" name="gibberling" />
+	<mobile type="Server.Mobiles.GoreFiend" name="gore fiend" />
+	<mobile type="Server.Mobiles.Impaler" name="impaler" /> 
+	<mobile type="Server.Mobiles.MoundOfMaggots" name="mound of maggots" />
+	<mobile type="Server.Mobiles.PatchworkSkeleton" name="patchwork skeleton" />
+	<mobile type="Server.Mobiles.Ravager" name="ravager" />
+<!--	<mobile type="Server.Mobiles.Revenant" name="revenant" />  not constructable  -->
+	<mobile type="Server.Mobiles.ShadowKnight" name="shadow knight" />
+	<mobile type="Server.Mobiles.SkitteringHopper" name="skittering hopper" />
+	<mobile type="Server.Mobiles.Treefellow" name="treefellow" />
+	<mobile type="Server.Mobiles.VampireBat" name="vampire bat" />
+	<mobile type="Server.Mobiles.WailingBanshee" name="wailing banshee" />
+	<mobile type="Server.Mobiles.WandererOfTheVoid" name="wanderer of the void" background="Bestiary/stars.png" />
+<!-- Scripts\Mobiles\Monsters\Arachnid\Magic -->	
+	<mobile type="Server.Mobiles.DreadSpider" name="dread spider" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.TerathanAvenger" name="terathan avenger" />
+	<mobile type="Server.Mobiles.TerathanMatriarch" name="terathan matriarch" />
+<!-- Scripts\Mobiles\Monsters\Arachnid\Melee -->
+	<mobile type="Server.Mobiles.FrostSpider" name="frost spider" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.GiantBlackWidow" name="giant black widow" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.GiantSpider" name="giant spider" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.TerathanDrone" name="terathan drone" />
+	<mobile type="Server.Mobiles.TerathanWarrior" name="terathan warrior" />
+<!-- Scripts\Mobiles\Monsters\Elemental\Magic -->	
+	<mobile type="Server.Mobiles.AirElemental" name="air elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.BloodElemental" name="blood elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.Efreet" name="efreet" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.FireElemental" name="fire elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.IceElemental" name="ice elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.PoisonElemental" name="poison elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.ToxicElemental" name="toxic elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.WaterElemental" name="water elemental" background="Bestiary/stars.png" />
+<!-- Scripts\Mobiles\Monsters\Elemental\Melee
+	<mobile type="Server.Mobiles." name="" />
+-->
+	<mobile type="Server.Mobiles.EarthElemental" name="earth elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.SnowElemental" name="snow elemental" background="Bestiary/stars.png" />
+<!-- Scripts\Mobiles\Monsters\Humanoid\Magic
+	<mobile type="Server.Mobiles." name="" />
+-->
+	<mobile type="Server.Mobiles.AncientLich" name="ancient lich" />
+	<mobile type="Server.Mobiles.ArcaneDaemon" name="arcane daemon" />
+	<mobile type="Server.Mobiles.Balron" name="balron" />
+	<mobile type="Server.Mobiles.Betrayer" name="betrayer" />
+	<mobile type="Server.Mobiles.Bogle" name="bogle" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.BoneMagi" name="bone magi" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.Daemon" name="daemon" />
+	<mobile type="Server.Mobiles.ElderGazer" name="elder gazer" />
+	<mobile type="Server.Mobiles.EvilMage" name="evil mage" />
+	<mobile type="Server.Mobiles.EvilMageLord" name="evil mage lord" />
+	<mobile type="Server.Mobiles.Gargoyle" name="gargoyle" />	
+	<mobile type="Server.Mobiles.GargoyleDestroyer" name="gargoyle destroyer" />	
+	<mobile type="Server.Mobiles.GargoyleEnforcer" name="gargoyle enforcer" />  <!-- 1 -->
+	<mobile type="Server.Mobiles.Gazer" name="gazer" />
+<!--	<mobile type="Server.Mobiles.GolemController" name="golem controller" />  doesn't look right -->
+	<mobile type="Server.Mobiles.IceFiend" name="ice fiend" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.Imp" name="imp" />
+	<mobile type="Server.Mobiles.Lich" name="lich" />
+	<mobile type="Server.Mobiles.LichLord" name="lich lord" />
+	<mobile type="Server.Mobiles.OrcishMage" name="orcish mage" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.RatmanMage" name="ratman mage" background="Bestiary/forest.png" />
+<!--	<mobile type="Server.Mobiles.SavageShaman" name="savage shaman" />   doesn't look right -->
+	<mobile type="Server.Mobiles.Shade" name="shade" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.SkeletalMage" name="skeletal mage" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.Spectre" name="spectre" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.Succubus" name="succubus" />
+	<mobile type="Server.Mobiles.Titan" name="titan" />
+	<mobile type="Server.Mobiles.Wraith" name="wraith" background="Bestiary/graveyard.png" />
+<!-- Scripts\Mobiles\Monsters\Humanoid\Melee 
+	<mobile type="Server.Mobiles." name="" />
+-->
+	<mobile type="Server.Mobiles.ArcticOgreLord" name="arctic ogre lord" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.BoneKnight" name="bone knight" />
+<!--	<mobile type="Server.Mobiles.Brigand" name="brigand" />  doesn't look right -->
+	<mobile type="Server.Mobiles.ChaosDaemon" name="chaos daemon" />
+<!--	<mobile type="Server.Mobiles.Cursed" name="cursed" />    doesn't look right -->
+	<mobile type="Server.Mobiles.Cyclops" name="cyclops" />
+	<mobile type="Server.Mobiles.Doppleganger" name="doppleganger" />
+	<mobile type="Server.Mobiles.EnslavedGargoyle" name="enslaved gargoyle" />
+	<mobile type="Server.Mobiles.Ettin" name="ettin" background="Bestiary/forest.png" />
+<!--	<mobile type="Server.Mobiles.Executioner" name="executioner" />   doesn't look right -->
+	<mobile type="Server.Mobiles.FrostTroll" name="frost troll" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.GazerLarva" name="gazer larva" />
+	<mobile type="Server.Mobiles.Ghoul" name="ghoul" background="Bestiary/graveyard.png" />
+<!--	<mobile type="Server.Mobiles.Guardian" name="guardian" /> doesn't look right -->
+	<mobile type="Server.Mobiles.HeadlessOne" name="headless" />
+	<mobile type="Server.Mobiles.HordeMinion" name="horde minion" />
+	<mobile type="Server.Mobiles.Juggernaut" name="juggernaut" />
+<!--	<mobile type="Server.Mobiles.KhaldunRevenant" name="khaldun revenant" />   doesn't look right -->
+<!--	<mobile type="Server.Mobiles.KhaldunSummoner" name="khaldun summoner" />   doesn't look right -->
+<!--	<mobile type="Server.Mobiles.KhaldunZealot" name="khaldun zealot" />   doesn't look right -->
+	<mobile type="Server.Mobiles.Moloch" name="moloch" />
+	<mobile type="Server.Mobiles.Mongbat" name="mongbat" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Mummy" name="mummy" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.Ogre" name="ogre" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.OgreLord" name="ogre lord" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Orc" name="orc" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.OrcBomber" name="orc bomber" />
+	<mobile type="Server.Mobiles.OrcBrute" name="orc brute" />
+	<mobile type="Server.Mobiles.OrcCaptain" name="orc captain" />
+	<mobile type="Server.Mobiles.OrcishLord" name="orcish lord" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Ratman" name="ratman" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.RatmanArcher" name="ratman archer" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.RestlessSoul" name="restless soul" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.RottingCorpse" name="rotting corpse" background="Bestiary/graveyard.png" />
+<!--	<mobile type="Server.Mobiles.Savage" name="savage" />   doesn't look right -->
+<!--	<mobile type="Server.Mobiles.SavageRider" name="savage rider" />   doesn't look right -->
+	<mobile type="Server.Mobiles.ShadowFiend" name="shadow fiend" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.SkeletalKnight" name="skeletal knight" background="Bestiary/graveyard.png" />
+	<mobile type="Server.Mobiles.Skeleton" name="skeleton" background="Bestiary/graveyard.png" />
+<!--	<mobile type="Server.Mobiles.SpectralArmour" name="spectral warrior" />  doesn't look right -->
+	<mobile type="Server.Mobiles.StoneGargoyle" name="stone gargoyle" />
+	<mobile type="Server.Mobiles.StrongMongbat" name="mongbat, strong" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Troll" name="troll" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Zombie" name="zombie" background="Bestiary/graveyard.png" />
+<!--  Scripts\Mobiles\Monsters\LBR\Exodus  -->	
+	<mobile type="Server.Mobiles.ExodusMinion" name="exodus minion" />
+	<mobile type="Server.Mobiles.ExodusOverseer" name="exodus overseer" /> <!-- 1 -->
+<!-- Scripts\Mobiles\Monsters\LBR\Jukas-->
+	<mobile type="Server.Mobiles.JukaLord" name="juka lord" />
+	<mobile type="Server.Mobiles.JukaMage" name="juka mage" />
+	<mobile type="Server.Mobiles.JukaWarrior" name="juka warrior" /> <!-- 1 -->
+<!-- Scripts\Mobiles\Monsters\LBR\Meers -->
+	<mobile type="Server.Mobiles.MeerCaptain" name="meer captain" />
+	<mobile type="Server.Mobiles.MeerEternal" name="meer eternal" />
+	<mobile type="Server.Mobiles.MeerMage" name="meer mage" />
+	<mobile type="Server.Mobiles.MeerWarrior" name="meer warrior" /> <!-- 1  -->
+<!-- Scripts\Mobiles\Monsters\Mammal\Melee -->
+	<mobile type="Server.Mobiles.HellHound" name="hell hound" background="Bestiary/fire.png" />
+<!--	<mobile type="Server.Mobiles.VorpalBunny" name="vorpal bunny" />  timer may cause problems -->
+<!-- Scripts\Mobiles\Monsters\Misc\Magic -->
+	<mobile type="Server.Mobiles.DarkWisp" name="dark wisp" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.EtherealWarrior" name="ethereal warrior" />
+	<mobile type="Server.Mobiles.Pixie" name="pixie" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.ShadowWisp" name="shadow wisp" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.Wisp" name="wisp" background="Bestiary/forest.png" />
+<!-- Scripts\Mobiles\Monsters\Misc\Melee -->
+	<mobile type="Server.Mobiles.BladeSpirits" name="blade spirits" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.Centaur" name="centaur" background="Bestiary/forest.png" />
+	<mobile type="Server.Mobiles.EnergyVortex" name="energy vortex" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.FrostOoze" name="frost ooze" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.Golem" name="golem" />
+	<mobile type="Server.Mobiles.PlagueBeast" name="plague beast" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.PlagueSpawn" name="plague spawn" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.SandVortex" name="sand vortex" background="Bestiary/desert.png" />
+	<mobile type="Server.Mobiles.Slime" name="slime" background="Bestiary/swamp.png" />
+<!-- Scripts\Mobiles\Monsters\Ore Elementals -->
+	<mobile type="Server.Mobiles.AgapiteElemental" name="agapite elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.BronzeElemental" name="bronze elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.CopperElemental" name="copper elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.DullCopperElemental" name="dull copper elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.GoldenElemental" name="golden elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.ShadowIronElemental" name="shadow iron elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.ValoriteElemental" name="valorite elemental" background="Bestiary/stars.png" />
+	<mobile type="Server.Mobiles.VeriteElemental" name="verite elemental" background="Bestiary/stars.png" />
+<!-- Scripts\Mobiles\Monsters\Plant\Magic -->
+	<mobile type="Server.Mobiles.Reaper" name="reaper" background="Bestiary/forest.png" />
+<!-- Scripts\Mobiles\Monsters\Plant\Melee -->
+	<mobile type="Server.Mobiles.Bogling" name="bogling" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.BogThing" name="bog thing" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.Corpser" name="corpser" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.Quagmire" name="quagmire" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.SwampTentacle" name="swamp tentacle" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.WhippingVine" name="whipping vine" background="Bestiary/swamp.png" />
+<!-- Scripts\Mobiles\Monsters\Reptile\Magic -->
+	<mobile type="Server.Mobiles.AncientWyrm" name="ancient wyrm" />
+	<mobile type="Server.Mobiles.DeepSeaSerpent" name="deep sea serpent" background="Bestiary/water.png" />
+	<mobile type="Server.Mobiles.Dragon" name="dragon" />
+	<mobile type="Server.Mobiles.Leviathan" name="leviathan" />
+	<mobile type="Server.Mobiles.OphidianArchmage" name="ophidian archmage" />
+	<mobile type="Server.Mobiles.OphidianMage" name="ophidian mage" />
+	<mobile type="Server.Mobiles.OphidianMatriarch" name="ophidian matriarch" />
+	<mobile type="Server.Mobiles.SeaSerpent" name="sea serpent" background="Bestiary/water.png" />
+	<mobile type="Server.Mobiles.SerpentineDragon" name="serpentine dragon" />
+	<mobile type="Server.Mobiles.ShadowWyrm" name="shadow wyrm" />
+	<mobile type="Server.Mobiles.SkeletalDragon" name="skeletal dragon" />
+	<mobile type="Server.Mobiles.WhiteWyrm" name="white wyrm" background="Bestiary/snow.png" />
+<!-- Scripts\Mobiles\Monsters\Reptile\Melee -->
+	<mobile type="Server.Mobiles.Drake" name="drake" />
+	<mobile type="Server.Mobiles.Harpy" name="harpy" />
+	<mobile type="Server.Mobiles.Kraken" name="kraken" background="Bestiary/water.png" />
+	<mobile type="Server.Mobiles.Lizardman" name="lizardman" background="Bestiary/swamp.png" />
+	<mobile type="Server.Mobiles.OphidianKnight" name="ophidian knight" />
+	<mobile type="Server.Mobiles.OphidianWarrior" name="ophidian warrior" />
+	<mobile type="Server.Mobiles.Scorpion" name="scorpion" background="Bestiary/desert.png" />
+	<mobile type="Server.Mobiles.StoneHarpy" name="stone harpy" />
+	<mobile type="Server.Mobiles.Wyvern" name="wyvern" />
+<!-- Scripts\Mobiles\Monsters\SE  
+	<mobile type="Server.Mobiles." name="" />
+-->
+	<mobile type="Server.Mobiles.BakeKitsune" name="bake kitsune" />
+	<mobile type="Server.Mobiles.DeathwatchBeetle" name="death watch beetle" /> 
+	<mobile type="Server.Mobiles.DeathwatchBeetleHatchling" name="death watch beetle hatchling" /> 
+<!--	<mobile type="Server.Mobiles.EliteNinja" name="elite ninja" /> doesn't look right -->
+	<mobile type="Server.Mobiles.FanDancer" name="fan dancer" />
+	<mobile type="Server.Mobiles.FireBeetle" name="fire beetle" background="Bestiary/fire.png" />
+	<mobile type="Server.Mobiles.Kappa" name="kappa" />
+	<mobile type="Server.Mobiles.KazeKemono" name="kaze kemono" />
+	<mobile type="Server.Mobiles.LadyOfTheSnow" name="lady of the snow" background="Bestiary/snow.png" />
+	<mobile type="Server.Mobiles.Oni" name="oni" />
+	<mobile type="Server.Mobiles.RaiJu" name="rai ju" />
+	<mobile type="Server.Mobiles.RevenantLion" name="revenant lion" />
+<!--	<mobile type="Server.Mobiles.Ronin" name="ronin" />  doesn't seem to work -->
+	<mobile type="Server.Mobiles.RuneBeetle" name="rune beetle" />
+	<mobile type="Server.Mobiles.TsukiWolf" name="tsuki wolf" />
+	<mobile type="Server.Mobiles.Yamandon" name="yamandon" />
+	<mobile type="Server.Mobiles.YomotsuElder" name="yomotsu elder" />
+	<mobile type="Server.Mobiles.YomotsuPriest" name="yomotsu priest" />
+	<mobile type="Server.Mobiles.YomotsuWarrior" name="yomotsu warrior" /> 
+<!-- Scripts\Mobiles\Monsters\Summons - nothing constructable -->
+	
+	
+	<!--	<mobile type="Server.Mobiles." name="" />  -->
+<!-- custom mobiles -->	
+<!--
+<mobile type="Server.Mobiles.SkeletalArcher" name="skeletal archer" background="Bestiary/graveyard.png" />
+<mobile type="Server.Mobiles.SkeletalJester" name="skeletal jester" background="Bestiary/graveyard.png" />
+<mobile type="Server.Mobiles.ZombieGardener" name="zombie gardener" background="Bestiary/graveyard.png" />
+-->
+<!--	<mobile type="Server.Mobiles." name="" />  -->
+
+</mobiles>

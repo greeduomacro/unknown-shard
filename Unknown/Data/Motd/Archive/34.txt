@@ -1,0 +1,11 @@
+Updates 11/10/2007
+
+Added various systems and commands which all can be located in the help menu.  Which can be accessed by [help.  All skills currently max out at 200% per skill.  All stats currently max out at 3000 per stat.
+
+Systems added for testing.
+Custom attacks, factions, pvppoints, socketable items, siege weapons, levelable items, chat system, jail system, ingame forums, afk command, advanced cartography, spellcrafting to weapons and items, advanced necro summoning, change character while in game command, talking quest givers 1 hour quests, vet that resses pets, Story publisher, afk macro checker, new help menu, suggestion box located at north britain bank, starting help book, special autosave menu, special player commands [dump [moveitems and so on, popup informer for events.
+
+More to come as always.  I am making a slow dent in my task list right now.
+
+Owner/Scripter/Admin
+Jesus

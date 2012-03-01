@@ -1,0 +1,31 @@
+This is the output for Default Profile on 5/12/2011 8:39:19 PM
+
+
+General: 
+	-Manual: False
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 300
+	-Strength: 300
+	-Dexterity: 300
+	-Intelligence: 3000
+	-Skill Force: True
+	-Name: Default Profile
+	-Num Allowed Skills: 700
+	-Skill Sum: 700
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+
+
+
+
+l Sum: True
+
+
+Enabled Skills & Skill Values: 
+
+
+

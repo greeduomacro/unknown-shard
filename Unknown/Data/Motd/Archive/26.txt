@@ -1,0 +1,9 @@
+3/5/2009
+12:18PM
+
+1. Added a instance dungeon for new players to try out somewhere near haven. It is a multipart quest testing out a lot of new quest ideas.
+2. Character files had to be wiped due to massive changes to the server.
+3. I would recommend using UOpatch.exe to get your client version to at least 5.0.6b It allows you to see the new mounts.
+
+
+GM Darky

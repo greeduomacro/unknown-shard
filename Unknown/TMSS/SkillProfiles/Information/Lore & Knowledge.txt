@@ -1,0 +1,32 @@
+This is the output for Lore & Knowledge on 5/12/2011 8:39:19 PM
+
+
+General: 
+	-Manual: False
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 300
+	-Strength: 300
+	-Dexterity: 300
+	-Intelligence: 3000
+	-Skill Force: True
+	-Name: Lore & Knowledge
+	-Num Allowed Skills: 700
+	-Skill Sum: 700
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+
+
+
+	Index: 0 Name: Anatomy is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 1 Name: Animal Lore is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 2 Name: Arms Lore is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 3 Name: Evaluating Intelligence is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 4 Name: Forensic Evaluation is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 5 Name: Item Identification is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 6 Name: Taste Identification is True, with Max of: 100, Cap of 10, and Weight of 1
+
+True, with Max of: 100, Cap of 10, and Weight of 1

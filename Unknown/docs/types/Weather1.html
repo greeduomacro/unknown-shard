@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Weather</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Misc.html">Back to Server.Misc</a></h4>
+      <h2>Weather</h2>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddDynamicWeather( <font color="blue">int</font> temperature, <font color="blue">int</font> chanceOfPercipitation, <font color="blue">int</font> chanceOfExtremeTemperature, <font color="blue">int</font> moveSpeed, <font color="blue">int</font> width, <font color="blue">int</font> height, <a href="Rectangle2D.html">Rectangle2D</a> bounds )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddWeather( <font color="blue">int</font> temperature, <font color="blue">int</font> chanceOfPercipitation, <font color="blue">int</font> chanceOfExtremeTemperature, <a href="Rectangle2D.html">Rectangle2D</a>[] area )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckContains( <a href="Rectangle2D.html">Rectangle2D</a> big, <a href="Rectangle2D.html">Rectangle2D</a> small )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckIntersection( <a href="Rectangle2D.html">Rectangle2D</a> r1, <a href="Rectangle2D.html">Rectangle2D</a> r2 )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckWeatherConflict( <a href="Map.html">Map</a> facet, <a href="Weather1.html">Weather</a> exclude, <a href="Rectangle2D.html">Rectangle2D</a> area )<br>
+      (<font color="blue">static</font>) List`1 GetWeatherList( <a href="Map.html">Map</a> facet )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) Weather( <a href="Map.html">Map</a> facet, <a href="Rectangle2D.html">Rectangle2D</a>[] area, <font color="blue">int</font> temperature, <font color="blue">int</font> chanceOfPercipitation, <font color="blue">int</font> chanceOfExtremeTemperature, TimeSpan interval )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a>[] Area( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a> Bounds( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ChanceOfExtremeTemperature( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ChanceOfPercipitation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Map.html">Map</a> Facet( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MoveAngleX( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MoveAngleY( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MoveSpeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Temperature( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IntersectsWith( <a href="Rectangle2D.html">Rectangle2D</a> area )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> MoveForward()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTick()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RecalculateMovementAngle()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Reposition()<br>
+   </body>
+</html>

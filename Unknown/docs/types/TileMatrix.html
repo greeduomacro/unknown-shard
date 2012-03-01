@@ -1,0 +1,34 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - TileMatrix</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.html">Back to Server</a></h4>
+      <h2>TileMatrix</h2>
+      (<font color="blue">static</font>) <font color="blue">int</font> _lread( IntPtr hFile, <font color="blue">void</font> *lpBuffer, <font color="blue">int</font> wBytes )<br>
+      (<font color="blue">ctor</font>) TileMatrix( <a href="Map.html">Map</a> owner, <font color="blue">int</font> fileIndex, <font color="blue">int</font> mapID, <font color="blue">int</font> width, <font color="blue">int</font> height )<br>
+      <font color="blue">int</font> BlockHeight( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BlockWidth( <font color="blue">get</font>; )<br>
+      FileStream DataStream( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Tile.html">Tile</a>[][][] EmptyStaticBlock( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Exists( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Height( <font color="blue">get</font>; )<br>
+      BinaryReader IndexReader( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      FileStream IndexStream( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      FileStream MapStream( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Map.html">Map</a> Owner( <font color="blue">get</font>; )<br>
+      <a href="TileMatrixPatch.html">TileMatrixPatch</a> Patch( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Width( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> Dispose()<br>
+      <font color="blue">void</font> Force()<br>
+      <a href="Tile.html">Tile</a>[] GetLandBlock( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <a href="Tile.html">Tile</a> GetLandTile( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <a href="Tile.html">Tile</a>[][][] GetStaticBlock( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <a href="Tile.html">Tile</a>[] GetStaticTiles( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <a href="Tile.html">Tile</a>[] GetStaticTiles( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">bool</font> multis )<br>
+      <a href="Tile.html">Tile</a>[] ReadLandBlock( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <a href="Tile.html">Tile</a>[][][] ReadStaticBlock( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">void</font> SetLandBlock( <font color="blue">int</font> x, <font color="blue">int</font> y, <a href="Tile.html">Tile</a>[] value )<br>
+      <font color="blue">void</font> SetStaticBlock( <font color="blue">int</font> x, <font color="blue">int</font> y, <a href="Tile.html">Tile</a>[][][] value )<br>
+   </body>
+</html>

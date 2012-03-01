@@ -1,0 +1,65 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlSiege</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlSiege : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+<h4>Derived Types: <a href="XmlChestSiege.html">XmlChestSiege</a></h4>
+<h4>Nested Types: <a href="AutoRepairTimer.html">AutoRepairTimer</a>, <a href="EffectsTimer.html">EffectsTimer</a>, <a href="MovingProjectileEffect.html">MovingProjectileEffect</a>, <a href="TileEntry.html">TileEntry</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> Attack( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target, <font color="blue">int</font> firedamage, <font color="blue">int</font> physicaldamage )<br>
+      (<font color="blue">static</font>) <font color="blue">double</font> GetDistance( <a href="Point3D.html">Point3D</a> p1, <a href="Point3D.html">Point3D</a> p2 )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetHits( <font color="blue">object</font> target )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetHitsMax( <font color="blue">object</font> target )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendMovingProjectileEffect( <a href="IEntity.html">IEntity</a> from, <a href="IEntity.html">IEntity</a> to, <font color="blue">int</font> itemID, <a href="Point3D.html">Point3D</a> fromPoint, <a href="Point3D.html">Point3D</a> toPoint, <font color="blue">int</font> speed, <font color="blue">int</font> duration, <font color="blue">bool</font> fixedDirection, <font color="blue">bool</font> explode, <font color="blue">int</font> hue )<br>
+      (<font color="blue">ctor</font>) XmlSiege()<br>
+      (<font color="blue">ctor</font>) XmlSiege( <a href="ASerial.html">ASerial</a> serial )<br>
+      (<font color="blue">ctor</font>) XmlSiege( <font color="blue">int</font> hitsmax )<br>
+      (<font color="blue">ctor</font>) XmlSiege( <font color="blue">int</font> hitsmax, <font color="blue">int</font> destroyeditemid )<br>
+      (<font color="blue">ctor</font>) XmlSiege( <font color="blue">int</font> hitsmax, <font color="blue">int</font> resistfire, <font color="blue">int</font> resistphysical )<br>
+      (<font color="blue">ctor</font>) XmlSiege( <font color="blue">int</font> hitsmax, <font color="blue">int</font> resistfire, <font color="blue">int</font> resistphysical, <font color="blue">int</font> destroyeditemid )<br>
+      (<font color="blue">ctor</font>) XmlSiege( <font color="blue">int</font> hitsmax, <font color="blue">int</font> resistfire, <font color="blue">int</font> resistphysical, <font color="blue">int</font> wood, <font color="blue">int</font> iron, <font color="blue">int</font> stone )<br>
+      (<font color="blue">ctor</font>) XmlSiege( <font color="blue">int</font> hitsmax, <font color="blue">int</font> resistfire, <font color="blue">int</font> resistphysical, <font color="blue">int</font> wood, <font color="blue">int</font> iron, <font color="blue">int</font> stone, <font color="blue">int</font> destroyeditemid )<br>
+      <font color="blue">double</font> AutoRepairFactor( <font color="blue">get</font>; )<br>
+      TimeSpan AutoRepairTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DamagedItemEffectDuration( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DestroyedItemID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Enabled( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HandlesOnMovement( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> HeavyDamageEffectID( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Hits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HitsMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Iron( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> LightDamageEffectID( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MediumDamageEffectID( <font color="blue">get</font>; )<br>
+      TimeSpan NextAutoRepair( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ResistFire( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ResistPhysical( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Stone( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseColorDamageIndicator( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> UseEffectsDamageIndicator( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> WhenToAutoRepair( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Wood( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AdjustDamageColor()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AdjustDamageEffects()<br>
+      <font color="blue">void</font> AdjustItemID()<br>
+      <font color="blue">void</font> AdjustMobileLocations()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ApplyScaledDamage( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> firedamage, <font color="blue">int</font> physicaldamage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AssignItemEffect( <a href="Item.html">Item</a> targetitem, <font color="blue">int</font> effectid, <font color="blue">int</font> hue, <font color="blue">int</font> fraction )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AssignItemHue( <a href="Item.html">Item</a> targetitem, <font color="blue">int</font> hue )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoAutoRepairTimer( TimeSpan delay )<br>
+      <font color="blue">void</font> DoEffectsTimer( TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAttach()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDestroyed()<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> OnIdentify( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="MovementEventArgs.html">MovementEventArgs</a> e )<br>
+      <font color="blue">void</font> RestoreOriginalHue( <a href="Item.html">Item</a> targetitem )<br>
+      <font color="blue">void</font> RestoreOriginalItemID( <a href="Item.html">Item</a> targetitem )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> StoreOriginalHue( <a href="Item.html">Item</a> targetitem )<br>
+      <font color="blue">void</font> StoreOriginalItemID( <a href="Item.html">Item</a> targetitem )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateDamageIndicators()<br>
+   </body>
+</html>

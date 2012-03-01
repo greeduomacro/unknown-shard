@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - TownCrier</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>TownCrier : <a href="Mobile.html">Mobile</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ITownCrierEntryList.html">ITownCrierEntryList</a></h2>
+      (<font color="blue">static</font>) ArrayList Instances( <font color="blue">get</font>; )<br>
+      (<font color="blue">ctor</font>) TownCrier()<br>
+      (<font color="blue">ctor</font>) TownCrier( <a href="Serial.html">Serial</a> serial )<br>
+      ArrayList Entries( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <a href="TownCrierEntry.html">TownCrierEntry</a> AddEntry( <font color="blue">string</font>[] lines, TimeSpan duration )<br>
+      <font color="blue">void</font> AutoShout_Callback()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeDamaged()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> ForceBeginAutoShout()<br>
+      <font color="blue">virtual</font> <a href="TownCrierEntry.html">TownCrierEntry</a> GetRandomEntry()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RemoveEntry( <a href="TownCrierEntry.html">TownCrierEntry</a> tce )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> ShoutNews_Callback( <font color="blue">object</font> state )<br>
+   </body>
+</html>

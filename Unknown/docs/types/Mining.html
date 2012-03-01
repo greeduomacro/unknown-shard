@@ -1,0 +1,21 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Mining</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.Harvest.html">Back to Server.Engines.Harvest</a></h4>
+      <h2>Mining : <a href="HarvestSystem.html">HarvestSystem</a></h2>
+      (<font color="blue">static</font>) <a href="Mining.html">Mining</a> System( <font color="blue">get</font>; )<br>
+      (<font color="blue">ctor</font>) Mining()<br>
+      <a href="HarvestDefinition.html">HarvestDefinition</a> OreAndStone( <font color="blue">get</font>; )<br>
+      <a href="HarvestDefinition.html">HarvestDefinition</a> Sand( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> BeginHarvesting( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHarvest( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHarvest( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool, <a href="HarvestDefinition.html">HarvestDefinition</a> def, <font color="blue">object</font> toHarvest )<br>
+      <font color="blue">virtual</font> Type GetResourceType( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool, <a href="HarvestDefinition.html">HarvestDefinition</a> def, <a href="Map.html">Map</a> map, <a href="Point3D.html">Point3D</a> loc, <a href="HarvestResource.html">HarvestResource</a> resource )<br>
+      <font color="blue">virtual</font> <a href="HarvestVein.html">HarvestVein</a> MutateVein( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool, <a href="HarvestDefinition.html">HarvestDefinition</a> def, <a href="HarvestBank.html">HarvestBank</a> bank, <font color="blue">object</font> toHarvest, <a href="HarvestVein.html">HarvestVein</a> vein )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnBadHarvestTarget( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool, <font color="blue">object</font> toHarvest )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnHarvestFinished( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> tool, <a href="HarvestDefinition.html">HarvestDefinition</a> def, <a href="HarvestVein.html">HarvestVein</a> vein, <a href="HarvestBank.html">HarvestBank</a> bank, <a href="HarvestResource.html">HarvestResource</a> resource, <font color="blue">object</font> harvested )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SendSuccessTo( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <a href="HarvestResource.html">HarvestResource</a> resource )<br>
+   </body>
+</html>

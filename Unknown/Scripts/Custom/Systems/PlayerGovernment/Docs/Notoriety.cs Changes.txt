@@ -1,0 +1,122 @@
+Notoriety.cs
+
+#
+#-----[ OPEN ]--------------------
+#
+
+Notoriety.cs
+
+#
+#-----[ FIND ]--------------------
+#
+
+			if ( fromGuild != null && targetGuild != null && (targetGuild == fromGuild || fromGuild.IsAlly( targetGuild )) )
+				return true; // Guild members can be beneficial
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+			if ( PlayerGovernmentSystem.CheckIfBanned( from, target ) )
+				return false;
+
+			if ( PlayerGovernmentSystem.CheckAtWarWith( from, target ) )
+				return false;
+
+			if ( PlayerGovernmentSystem.CheckCityAlly( from, target ) )
+				return true;
+
+#
+#-----[ FIND ]--------------------
+#
+
+			if ( !(target is BaseCreature && ((BaseCreature)target).InitialInnocent) )
+			{
+				if ( Notoriety.Compute( from, target ) == Notoriety.Innocent )
+					return false; // Cannot harm innocent mobiles
+			}
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+			if ( PlayerGovernmentSystem.CheckIfBanned( from, target ) )
+				return true;
+
+			if ( PlayerGovernmentSystem.CheckAtWarWith( from, target ) )
+				return true;
+
+			if ( PlayerGovernmentSystem.CheckCityAlly( from, target ) )
+				return true;
+
+#
+#-----[ FIND ]--------------------
+#
+
+				for ( int i = 0; i < list.Count; ++i )
+				{
+					if ( list[i] == source || (sourceParty != null && Party.Get( (Mobile)list[i] ) == sourceParty) )
+						return actual;
+				}
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+				if ( PlayerGovernmentSystem.CheckBanLootable( source, target.Owner ) )
+					return Notoriety.Enemy;
+
+				if ( PlayerGovernmentSystem.CheckAtWarWith( source, target.Owner ) )
+					return Notoriety.Enemy;
+
+				if ( PlayerGovernmentSystem.CheckCityAlly( source, target.Owner ) )
+					return Notoriety.Ally;
+
+#
+#-----[ FIND ]--------------------
+#
+
+				for ( int i = 0; i < list.Count; ++i )
+				{
+					if ( list[i] == source )
+						return Notoriety.CanBeAttacked;
+				}
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+				if ( PlayerGovernmentSystem.CheckBanLootable( source, target.Owner ) )
+					return Notoriety.Enemy;
+
+				if ( PlayerGovernmentSystem.CheckAtWarWith( source, target.Owner ) )
+					return Notoriety.Enemy;
+
+				if ( PlayerGovernmentSystem.CheckCityAlly( source, target.Owner ) )
+					return Notoriety.Ally;
+
+#
+#-----[ FIND ]--------------------
+#
+
+			if ( source is BaseCreature )
+			{
+				BaseCreature bc = (BaseCreature)source;
+
+				Mobile master = bc.GetMaster();
+				if( master != null && CheckAggressor( master.Aggressors, target ))
+					return Notoriety.CanBeAttacked;
+			}
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+			if ( PlayerGovernmentSystem.CheckIfBanned( source, target ) )
+				return Notoriety.Enemy;
+
+			if ( PlayerGovernmentSystem.CheckAtWarWith( source, target ) )
+				return Notoriety.Enemy;
+
+			if ( PlayerGovernmentSystem.CheckCityAlly( source, target ) )
+				return Notoriety.Ally;

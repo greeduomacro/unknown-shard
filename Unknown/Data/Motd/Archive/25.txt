@@ -1,0 +1,24 @@
+3/8/2009
+03:09AM
+
+1. Added hireable npcs for players to have do their work for them in some aspects.
+2. Added sherifs in each town that give out bounties for players to take on.
+3. Added bonus abilities to animal lore.  Use it on your pets to learn many things.
+4. Working on a newspaper system for all bankers to offer to players Hopefully to add to story of the server/game.
+5. Added a login and logout prompting system that you can turn on or off by using [SeeLogInOut or [HideFromLogInOut.
+6. Added player owned vendors, such as banker alchemist and so on so you can have them all in your house and nearly never have to go to town again.
+7. Added what is called Courageous Random Encounter system.  Which allows players to be surpised every so often with mobs facing them out of nowhere.
+8. Updated the xmlspawner to 3.24 which is the main system that I use to spawn the world and quest workings.
+9. Working on some custom currencies that will have more value then gold but only be used for special features.
+10. Fixed Animal Breeder not selling anything.
+11. Added the Socket Hammer to the vendor inventory. So players can purchase to socket weapons/items.
+12. Added shrink postions to animal vendors.  To allow shrinking of pets to put into a container.
+13. Special book covers for BOD's and various other book types.
+14. Added deathknight and undeadknight npcs for advanced players.
+15. Added boogie woogie monster with weapon/armor set and mount.
+16. Added ingame voting stone to allow players to vote for the server while still ingame.
+17. Added new multipart random quest givers to each town.
+18. Added [viewstabled command for players to see what they have in the stable.
+19. Added a treasurequest hunter that you can buy treasure maps off of to search for treasure.
+
+GM Darky

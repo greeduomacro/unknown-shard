@@ -1,0 +1,95 @@
+##############################
+Log started on 4/17/2009 7:46:32 PM
+
+4/17/2009 7:47:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add trashcan'
+4/17/2009 7:47:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add trash'
+4/17/2009 7:47:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (720, 1148, 0) in Trammel: "Trash4GoldTrashBarrel"
+4/17/2009 7:47:42 PM: 127.0.0.1: Serials: 0x40000668; 
+4/17/2009 7:47:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add dagger'
+4/17/2009 7:47:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (719, 1150, 0) in Trammel: "dagger"
+4/17/2009 7:47:52 PM: 127.0.0.1: Serials: 0x40000669; 
+4/17/2009 7:48:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/17/2009 7:48:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000066A (Gold)
+4/17/2009 7:49:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/17/2009 7:49:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000668 (Trash4GoldTrashBarrel)
+4/17/2009 7:57:39 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 7:58:13 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'bs '
+4/17/2009 7:58:53 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 7:58:57 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 7:59:13 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 7:59:20 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 7:59:42 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 7:59:51 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:00:07 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:01:06 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:01:46 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c penis'
+4/17/2009 8:02:21 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:03:24 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:04:01 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:04:16 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:04:53 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:05:10 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:06:15 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:07:45 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:08:34 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:08:39 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:08:51 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:09:16 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'bs '
+4/17/2009 8:09:16 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:09:29 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'bs '
+4/17/2009 8:09:46 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:10:00 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:10:29 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:10:45 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:10:54 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'bs '
+4/17/2009 8:12:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:13:14 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:13:31 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:14:20 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:14:21 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'itemexp '
+4/17/2009 8:16:15 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:16:22 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'bs '
+4/17/2009 8:16:27 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:16:45 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'questlog '
+4/17/2009 8:16:56 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'questranking '
+4/17/2009 8:17:26 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:18:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:20:11 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:22:34 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'c god where did you hide the quest giver'
+4/17/2009 8:23:00 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'c i love that there are animals in alot of houses...'
+4/17/2009 8:24:28 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'questlog '
+4/17/2009 8:30:33 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:32:03 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:33:42 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+4/17/2009 8:53:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bagofallreagents'
+4/17/2009 8:53:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (719, 1148, 0) in Trammel: "bagofallreagents"
+4/17/2009 8:53:29 PM: 127.0.0.1: Serials: 0x4001144D; 
+4/17/2009 8:53:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/17/2009 8:53:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001144D (BagOfAllReagents)
+4/17/2009 8:57:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bag'
+4/17/2009 8:57:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (720, 1148, 0) in Trammel: "bag"
+4/17/2009 8:57:33 PM: 127.0.0.1: Serials: 0x4001145B; 
+4/17/2009 8:57:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/17/2009 8:57:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/17/2009 8:57:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001145B (Bag)
+4/17/2009 9:00:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add recallscroll'
+4/17/2009 9:00:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (719, 1148, 0) in Trammel: "recallscroll"
+4/17/2009 9:00:55 PM: 127.0.0.1: Serials: 0x4001145C; 
+4/17/2009 9:00:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/17/2009 9:00:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001145C (RecallScroll)
+4/17/2009 9:02:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add recallscroll'
+4/17/2009 9:02:03 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (719, 1149, 0) in Trammel: "recallscroll"
+4/17/2009 9:02:03 PM: 127.0.0.1: Serials: 0x40011463; 
+4/17/2009 9:02:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/17/2009 9:06:21 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'questlog '
+4/17/2009 9:08:14 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+4/17/2009 9:08:57 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'c hi'
+4/17/2009 9:09:03 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c I eat poop'
+4/17/2009 9:09:20 PM: 192.168.1.1: Player 0x1EF7 "Wolfane" ('wolfv') used command 'c did it taste good?'
+4/17/2009 9:09:29 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c always'
+##############################
+Log started on 4/17/2009 9:22:27 PM
+
+##############################
+Log started on 4/17/2009 10:04:57 PM
+

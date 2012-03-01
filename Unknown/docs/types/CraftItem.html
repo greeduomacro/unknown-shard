@@ -1,0 +1,53 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - CraftItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.Craft.html">Back to Server.Engines.Craft</a></h4>
+      <h2>CraftItem</h2>
+<h4>Nested Types: <a href="InternalTimer49.html">InternalTimer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">int</font> ItemIDOf( Type type )<br>
+      (<font color="blue">ctor</font>) CraftItem( Type type, <a href="TextDefinition.html">TextDefinition</a> groupName, <a href="TextDefinition.html">TextDefinition</a> name )<br>
+      <font color="blue">bool</font> ForceNonExceptional( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> GroupNameNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> GroupNameString( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Hits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      Type ItemType( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Mana( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NameNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> NameString( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> NeedHeat( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> NeedMill( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> NeedOven( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Recipe1.html">Recipe</a> Recipe( <font color="blue">get</font>; )<br>
+      <a href="Expansion.html">Expansion</a> RequiredExpansion( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="CraftResCol.html">CraftResCol</a> Ressources( <font color="blue">get</font>; )<br>
+      <a href="CraftSkillCol.html">CraftSkillCol</a> Skills( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Stam( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseAllRes( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseSubRes2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AddRecipe( <font color="blue">int</font> id, <a href="CraftSystem.html">CraftSystem</a> system )<br>
+      <font color="blue">void</font> AddRes( Type type, <a href="TextDefinition.html">TextDefinition</a> name, <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> AddRes( Type type, <a href="TextDefinition.html">TextDefinition</a> name, <font color="blue">int</font> amount, <a href="TextDefinition.html">TextDefinition</a> message )<br>
+      <font color="blue">void</font> AddSkill( <a href="SkillName.html">SkillName</a> skillToMake, <font color="blue">double</font> minSkill, <font color="blue">double</font> maxSkill )<br>
+      <font color="blue">int</font> CheckHueGrouping( <a href="Item.html">Item</a> a, <a href="Item.html">Item</a> b )<br>
+      <font color="blue">bool</font> CheckSkills( <a href="Mobile.html">Mobile</a> from, Type typeRes, <a href="CraftSystem.html">CraftSystem</a> craftSystem, <font color="blue">ref</font> <font color="blue">int</font> quality, <font color="blue">ref</font> <font color="blue">bool</font> allRequiredSkills )<br>
+      <font color="blue">bool</font> CheckSkills( <a href="Mobile.html">Mobile</a> from, Type typeRes, <a href="CraftSystem.html">CraftSystem</a> craftSystem, <font color="blue">ref</font> <font color="blue">int</font> quality, <font color="blue">ref</font> <font color="blue">bool</font> allRequiredSkills, <font color="blue">bool</font> gainSkills )<br>
+      <font color="blue">void</font> CompleteCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CustomCraft.html">CustomCraft</a> customCraft )<br>
+      <font color="blue">bool</font> ConsumeAttributes( <a href="Mobile.html">Mobile</a> from, <font color="blue">ref</font> <font color="blue">object</font> message, <font color="blue">bool</font> consume )<br>
+      <font color="blue">int</font> ConsumeQuantity( <a href="Container.html">Container</a> cont, Type[][] types, <font color="blue">int</font>[] amounts )<br>
+      <font color="blue">bool</font> ConsumeRes( <a href="Mobile.html">Mobile</a> from, Type typeRes, <a href="CraftSystem.html">CraftSystem</a> craftSystem, <font color="blue">ref</font> <font color="blue">int</font> resHue, <font color="blue">ref</font> <font color="blue">int</font> maxAmount, <a href="ConsumeType.html">ConsumeType</a> consumeType, <font color="blue">ref</font> <font color="blue">object</font> message )<br>
+      <font color="blue">bool</font> ConsumeRes( <a href="Mobile.html">Mobile</a> from, Type typeRes, <a href="CraftSystem.html">CraftSystem</a> craftSystem, <font color="blue">ref</font> <font color="blue">int</font> resHue, <font color="blue">ref</font> <font color="blue">int</font> maxAmount, <a href="ConsumeType.html">ConsumeType</a> consumeType, <font color="blue">ref</font> <font color="blue">object</font> message, <font color="blue">bool</font> isFailure )<br>
+      <font color="blue">void</font> Craft( <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool )<br>
+      <font color="blue">bool</font> Find( <font color="blue">int</font> itemID, <font color="blue">int</font>[] itemIDs )<br>
+      <font color="blue">bool</font> Find( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font>[] itemIDs )<br>
+      <font color="blue">double</font> GetExceptionalChance( <a href="CraftSystem.html">CraftSystem</a> system, <font color="blue">double</font> chance, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">int</font> GetQuantity( <a href="Container.html">Container</a> cont, Type[] types )<br>
+      <font color="blue">double</font> GetSuccessChance( <a href="Mobile.html">Mobile</a> from, Type typeRes, <a href="CraftSystem.html">CraftSystem</a> craftSystem, <font color="blue">bool</font> gainSkills, <font color="blue">ref</font> <font color="blue">bool</font> allRequiredSkills )<br>
+      <font color="blue">bool</font> IsMarkable( Type type )<br>
+      <font color="blue">bool</font> IsQuantityType( Type[][] types )<br>
+      <font color="blue">void</font> OnResourceConsumed( <a href="Item.html">Item</a> item, <font color="blue">int</font> amount )<br>
+      <font color="blue">object</font> RequiredExpansionMessage( <a href="Expansion.html">Expansion</a> expansion )<br>
+      <font color="blue">bool</font> RetainsColorFrom( <a href="CraftSystem.html">CraftSystem</a> system, Type type )<br>
+   </body>
+</html>

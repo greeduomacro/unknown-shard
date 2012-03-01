@@ -1,0 +1,92 @@
+PlayerVendorGump.cs
+
+#
+#-----[ OPEN ]--------------------
+#
+
+PlayerVendorGump.cs
+
+#
+#-----[ FIND ]-------------------- ~ LINE 89
+#
+
+
+	m_Vendor.HoldGold += m_VI.Price;
+
+#
+#-----[REPLACE WITH]---------------
+#
+
+	if ( m_Vendor is CityPlayerVendor ) 
+		{
+			CityPlayerVendor vend = (CityPlayerVendor)m_Vendor;
+			double rate = Convert.ToDouble( vend.TaxRate ) / 100.0;
+			double tax = Convert.ToDouble( m_VI.Price ) * rate;
+			int taxx = Convert.ToInt32( tax );
+			vend.IncomeTax += taxx;
+			vend.HoldGold += ( m_VI.Price - taxx );
+		}
+					
+	else					
+		m_Vendor.HoldGold += m_VI.Price; 
+
+#
+#-----[ FIND ]-------------------- ~ LINE 183
+#
+
+
+		AddImage( 537, 0, 0x28DC );
+
+
+#
+#-----[ADD AFTER]---------------
+#
+
+
+	if ( vendor is CityPlayerVendor )
+			{
+				CityPlayerVendor vend = (CityPlayerVendor)vendor;
+				AddHtmlLocalized( 40, 108, 260, 20, 1062509, 0x7FFF, false, false ); // Shop Name:
+				AddLabel( 140, 106, 0x66D, vendor.ShopName );
+				AddLabel( 40, 58, 0x480, "Income Tax Rate:" ); 
+				AddLabel( 300, 58, 0x480, vend.TaxRate.ToString() );
+				AddLabel( 320, 58, 0x480, "%" );
+										
+			}
+	else
+	{
+		
+
+#
+#-----[ FIND ]-------------------- ~ LINE 201
+#
+
+	AddLabel( 300, 58, 0x480, perRealWorldDay.ToString() );
+
+
+#
+#-----[ADD AFTER]---------------
+#
+
+	}
+
+
+#
+#-----[ FIND ]-------------------- ~ LINE 291
+#
+
+	case 7: // Dismiss Vendor
+	{
+
+#
+#-----[ADD AFTER]---------------
+#
+
+	if ( m_Vendor is CityPlayerVendor )
+	{
+		CityPlayerVendor vend = (CityPlayerVendor)m_Vendor;
+		vend.Dismiss( from );
+					
+	}
+	else
+

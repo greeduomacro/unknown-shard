@@ -1,0 +1,170 @@
+##############################
+Log started on 4/26/2009 12:08:57 AM
+
+4/26/2009 10:43:59 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'afk '
+4/26/2009 11:20:18 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'chat '
+4/26/2009 11:43:30 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort '
+4/26/2009 11:43:45 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort weapons'
+4/26/2009 11:44:23 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort weapon'
+4/26/2009 11:44:40 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort weapons'
+4/26/2009 12:04:09 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c dude why are you not online'
+4/26/2009 12:16:22 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort weapons'
+4/26/2009 12:16:51 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort weapons'
+4/26/2009 12:19:22 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort '
+4/26/2009 12:19:32 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort battle axe'
+4/26/2009 12:19:38 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'sort weapons'
+4/26/2009 12:20:37 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'moveitems '
+4/26/2009 12:20:51 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'moveitems '
+4/26/2009 12:25:42 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'moveitems '
+4/26/2009 12:31:10 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'afk '
+4/26/2009 12:37:05 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'afk '
+4/26/2009 1:27:01 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'afk '
+4/26/2009 3:06:43 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c anyone home?'
+4/26/2009 3:06:46 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c '
+4/26/2009 4:24:46 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c '
+4/26/2009 4:36:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add goldore'
+4/26/2009 4:36:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3617, 2597, 0) in Trammel: "goldore"
+4/26/2009 4:36:47 PM: 127.0.0.1: Serials: 0x4001B028; 
+4/26/2009 4:36:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:36:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B028 (GoldOre)
+4/26/2009 4:36:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add goldore'
+4/26/2009 4:36:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3617, 2598, 0) in Trammel: "goldore"
+4/26/2009 4:36:58 PM: 127.0.0.1: Serials: 0x4001B029; 
+4/26/2009 4:37:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/26/2009 4:37:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:37:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B029 (GoldOre)
+4/26/2009 4:37:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add goldore'
+4/26/2009 4:37:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3618, 2598, 0) in Trammel: "goldore"
+4/26/2009 4:37:35 PM: 127.0.0.1: Serials: 0x4001B030; 
+4/26/2009 4:37:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2999'
+4/26/2009 4:37:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B030 (GoldOre) to '2999'
+4/26/2009 4:37:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2998'
+4/26/2009 4:37:56 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B030 (GoldOre) to '2998'
+4/26/2009 4:37:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2997'
+4/26/2009 4:38:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B030 (GoldOre) to '2997'
+4/26/2009 4:38:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2996'
+4/26/2009 4:38:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B030 (GoldOre) to '2996'
+4/26/2009 4:38:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:38:14 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B030 (GoldOre)
+4/26/2009 4:38:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add goldore'
+4/26/2009 4:38:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3618, 2598, 0) in Trammel: "goldore"
+4/26/2009 4:38:21 PM: 127.0.0.1: Serials: 0x4001B043; 
+4/26/2009 4:38:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2996'
+4/26/2009 4:38:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B043 (GoldOre) to '2996'
+4/26/2009 4:38:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/26/2009 4:39:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:39:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B043 (GoldOre)
+4/26/2009 4:39:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add platinumore'
+4/26/2009 4:39:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3619, 2598, 0) in Trammel: "platinumore"
+4/26/2009 4:39:32 PM: 127.0.0.1: Serials: 0x4001B04F; 
+4/26/2009 4:40:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2964'
+4/26/2009 4:40:34 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B04F (PlatinumOre) to '2964'
+4/26/2009 4:40:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:40:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B04F (PlatinumOre)
+4/26/2009 4:42:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add mythiril'
+4/26/2009 4:42:39 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add mythirilore'
+4/26/2009 4:42:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add mythirilore'
+4/26/2009 4:43:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add mythrilore'
+4/26/2009 4:43:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3619, 2597, 0) in Trammel: "mythrilore"
+4/26/2009 4:43:01 PM: 127.0.0.1: Serials: 0x4001B089; 
+4/26/2009 4:45:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1935'
+4/26/2009 4:45:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B089 (MythrilOre) to '1935'
+4/26/2009 4:45:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1936'
+4/26/2009 4:45:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B089 (MythrilOre) to '1936'
+4/26/2009 4:46:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1930'
+4/26/2009 4:46:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B089 (MythrilOre) to '1930'
+4/26/2009 4:46:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1922'
+4/26/2009 4:46:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B089 (MythrilOre) to '1922'
+4/26/2009 4:46:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:46:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B089 (MythrilOre)
+4/26/2009 4:46:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1947'
+4/26/2009 4:46:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add mythrilore'
+4/26/2009 4:46:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3619, 2598, 0) in Trammel: "mythrilore"
+4/26/2009 4:46:53 PM: 127.0.0.1: Serials: 0x4001B0EB; 
+4/26/2009 4:46:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1947'
+4/26/2009 4:46:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001B0EB (MythrilOre) to '1947'
+4/26/2009 4:47:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/26/2009 4:47:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001B0EB (MythrilOre)
+4/26/2009 4:54:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1947[motd'
+4/26/2009 4:55:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/26/2009 4:56:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+4/26/2009 4:56:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/26/2009 4:56:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'restart '
+##############################
+Log started on 4/26/2009 4:58:42 PM
+
+4/26/2009 8:35:59 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c I haven't gotten a chance to look into it yet. had to go get a hair cut and then wife got home'
+4/26/2009 8:41:20 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'chat '
+4/26/2009 8:43:33 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c whatcha doin on Vox's account?'
+4/26/2009 8:43:43 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c huh?'
+4/26/2009 8:43:56 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c don't think I didn't notice :P'
+4/26/2009 8:44:09 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c hmm vox was online just a little while ago.'
+4/26/2009 8:44:29 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c and I noticed you conveniently logged on a little while ago too :D'
+4/26/2009 8:44:36 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c ok?'
+4/26/2009 8:44:44 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c nah I'm just joshin' ya'
+4/26/2009 8:44:49 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c how are things going?'
+4/26/2009 8:45:04 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c same as always working the life out of death.'
+4/26/2009 8:45:18 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c neat'
+4/26/2009 8:45:28 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c yeah slowly getting things fine tunred.'
+4/26/2009 8:48:47 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c You know wacking off as much as I can, what happended to your friend?'
+4/26/2009 8:49:31 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c lol I don't think he ever got it to work'
+4/26/2009 8:51:59 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c so hows wow for fags?'
+4/26/2009 8:52:42 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c Um, its pretty awesome, been playing with my girlfriend'
+4/26/2009 8:53:25 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c lost interested with this or something?'
+4/26/2009 8:54:00 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c mmm, no I still like to play this'
+4/26/2009 8:55:25 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '
+4/26/2009 8:56:11 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I want to know what bola balls are used for'
+4/26/2009 8:56:35 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c gotta find out.'
+4/26/2009 8:56:45 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c thats like asking a gm what does what in wow.'
+4/26/2009 8:57:14 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I know I do want to know'
+4/26/2009 8:57:36 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c its a funny name, so it intrigues me'
+4/26/2009 8:57:48 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c makes your horny for bola balls'
+4/26/2009 8:58:01 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c yeah'
+4/26/2009 8:58:05 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c it sure does'
+4/26/2009 8:58:09 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c XD'
+4/26/2009 8:58:26 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c you experiencing any lag?'
+4/26/2009 8:58:33 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c none on my end.'
+4/26/2009 8:59:00 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c its weird that I am, sometimes I get bouts of lag with UO'
+4/26/2009 8:59:17 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c maybe weather?'
+4/26/2009 8:59:29 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c lol maybe, its pretty crappy out today'
+4/26/2009 8:59:31 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c because my setup can host 1000 players online at once.'
+4/26/2009 9:01:01 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'c well I"m going to finish up some homework, ttyl sir'
+4/26/2009 9:01:02 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c vox got to 100.1% mining'
+4/26/2009 9:01:08 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c Laterz man good luck.'
+4/27/2009 12:13:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add mythrilore'
+4/27/2009 12:13:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3620, 2597, 0) in Trammel: "mythrilore"
+4/27/2009 12:13:32 AM: 127.0.0.1: Serials: 0x400137B4; 
+4/27/2009 12:13:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add platinumore'
+4/27/2009 12:13:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3619, 2596, 0) in Trammel: "platinumore"
+4/27/2009 12:13:39 AM: 127.0.0.1: Serials: 0x400137E0; 
+4/27/2009 12:13:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add goldore'
+4/27/2009 12:13:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3619, 2598, 0) in Trammel: "goldore"
+4/27/2009 12:13:48 AM: 127.0.0.1: Serials: 0x40013808; 
+4/27/2009 12:14:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add silverore'
+4/27/2009 12:14:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3618, 2597, 0) in Trammel: "silverore"
+4/27/2009 12:14:09 AM: 127.0.0.1: Serials: 0x4001380A; 
+4/27/2009 12:14:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+4/27/2009 12:17:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/27/2009 12:17:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400137E0 (PlatinumOre)
+4/27/2009 12:17:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/27/2009 12:17:40 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400137B4 (MythrilOre)
+4/27/2009 12:18:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 52'
+4/27/2009 12:18:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40013808 (GoldOre) to '52'
+4/27/2009 12:18:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 53'
+4/27/2009 12:18:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40013808 (GoldOre) to '53'
+4/27/2009 12:19:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1909'
+4/27/2009 12:19:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40013808 (GoldOre) to '1909'
+4/27/2009 12:19:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1910'
+4/27/2009 12:19:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40013808 (GoldOre) to '1910'
+4/27/2009 12:19:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1911'
+4/27/2009 12:19:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40013808 (GoldOre) to '1911'
+4/27/2009 12:20:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2010'
+4/27/2009 12:20:15 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40013808 (GoldOre) to '2010'
+4/27/2009 12:20:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/27/2009 12:20:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40013808 (GoldOre)
+4/27/2009 12:20:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2100'
+4/27/2009 12:20:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001380A (SilverOre) to '2100'
+4/27/2009 12:20:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 2101'
+4/27/2009 12:20:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x4001380A (SilverOre) to '2101'
+4/27/2009 12:21:27 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/27/2009 12:21:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001380A (SilverOre)

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSkillProfile Name="Lore &amp; Knowledge">
+	<Stats Ena="True" Frc="True" Sum="300" Str="300" Dex="300" Int="300" />
+	<Gumps Man="False" Use="True" Icn="23014" />
+	<Skills Ena="True" Pts="700" Frc="True" Key="True" CEn="False" CSm="20" WEn="True" Cnt="7" />
+	<SkillInfo skn="Anatomy" skv="100" ske="True" skw="1" skc="10" ski="1" />
+	<SkillInfo skn="Animal Lore" skv="100" ske="True" skw="1" skc="10" ski="2" />
+	<SkillInfo skn="Arms Lore" skv="100" ske="True" skw="1" skc="10" ski="4" />
+	<SkillInfo skn="Evaluating Intelligence" skv="100" ske="True" skw="1" skc="10" ski="16" />
+	<SkillInfo skn="Forensic Evaluation" skv="100" ske="True" skw="1" skc="10" ski="19" />
+	<SkillInfo skn="Item Identification" skv="100" ske="True" skw="1" skc="10" ski="3" />
+	<SkillInfo skn="Taste Identification" skv="100" ske="True" skw="1" skc="10" ski="36" />
+</TMSkillProfile>

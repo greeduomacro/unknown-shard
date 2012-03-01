@@ -1,0 +1,144 @@
+SE Traveling Wand Quest.
+Created by Skarth.
+
+This takes a little bit of time to set up, because you have to go to all the places and set up
+	spawners for the runes.  But it shouldn't take too long once you get the hang of it.
+
+All runes are named GR#, where # is the number of the spawn.  I made it short so that when you
+	set up the spawners, you won't have to type out things like "britbanktrammelrune". You
+	simply have to type GR# (the # that corresponds to the respective point).
+
+To begin, I would recommend that you give yourself an SE traveling wand. It will make this set
+	up a LOT easier.  Just type:  [add SETravelingWand
+	Then place it on the ground and pick it up.
+
+The basic way of doing this (and the easiest) is to use your traveling wand to go to the
+	various spots to add the spawners. Below you will see the spot, as well as the GR# to
+	add on a spawner. The numbers are in the same order as your traveling wand for easier
+	use.
+
+NOTE: Papua spawners needs to be set up to have a spawn range of ZERO! If you set the spawn range
+	to be anything except 0, then it's very likely that the rune will spawn under the bank.
+	So make sure you set those 2 spawners (1 in Trammel, 1 in Felucca) to have a zero spawn
+	range.
+
+Here's the list. Simply use your wand to go to the spot, and add a spawner somewhere around that
+	area. Might be best to print this off for you to use when setting this up.
+
+TRAMMEL CITIES
+
+GR1  - Britain
+GR2  - Buccaneer's Den
+GR3  - Cove
+GR4  - Haven
+GR5  - Jhelom
+GR6  - Magincia
+GR7  - Minoc
+GR8  - Moonglow
+GR9  - Nujel'm
+GR10 - Serpent's Hold
+GR11 - Skara Brae
+GR12 - Trinsic
+GR13 - Vesper
+GR14 - Wind
+GR15 - Yew
+GR16 - Delucia
+GR17 - Papua (SET SPAWN RANGE AT ZERO)
+
+FELUCCA CITIES
+
+GR18 - Britain
+GR19 - Buccaneer's Den
+GR20 - Cove
+GR21 - Jhelom
+GR22 - Magincia
+GR23 - Minoc
+GR24 - Moonglow
+GR25 - Nujel'm
+GR26 - Ocllo
+GR27 - Serpent's Hold
+GR28 - Skara Brae
+GR29 - Trinsic
+GR30 - Vesper
+GR31 - Wind
+GR32 - Yew
+GR33 - Delucia
+GR34 - Papua (SET SPAWN RANGE AT ZERO)
+
+MALAS LOCATIONS
+
+GR35 - Luna
+GR36 - Umbra
+GR37 - Doom
+GR38 - Orc Fort
+GR39 - Crystal Fens
+GR40 - Corrupted Forest
+GR41 - Crumbling Mountains
+GR42 - Broken Mountains
+GR43 - Dry Highlands
+GR44 - Forgotten Pyramid
+GR45 - Grimswind Ruins
+GR46 - Northern Crags
+
+ILSHENAR LOCATIONS
+
+GR47 - Gargoyle City
+GR48 - LakeShire
+GR49 - Mistas
+GR50 - Montor
+GR51 - Req Volon
+GR52 - Ancient Citadel
+GR53 - Savage Camp
+GR54 - Terort Skitas
+GR55 - Cyclops Dungeon
+GR56 - Ratman Mine
+GR57 - Spider Dungeon
+GR58 - Wisp Dungeon
+
+TRAMMEL DUNGEONS
+
+GR59 - Covetous
+GR60 - Deceit
+GR61 - Despise
+GR62 - Destard
+GR63 - Hythloth
+GR64 - Shame
+GR65 - Wrong
+GR66 - Orc Cave
+GR67 - Fire
+GR68 - Ice
+GR69 - Terathan Keep
+
+FELUCCA DUNGEONS
+
+GR70 - Covetous
+GR71 - Deceit
+GR72 - Despise
+GR73 - Destard
+GR74 - Hythloth
+GR75 - Shame
+GR76 - Wrong
+GR77 - Orc Cave
+GR78 - Fire
+GR79 - Ice
+GR80 - Terathan Keep
+GR81 - Khaldun
+
+TOKUNO LOCATIONS
+
+GR82 - Zento
+GR83 - The Waste
+GR84 - Isamu-Jima
+GR85 - Lotus Lakes
+GR86 - Mount Sho
+GR87 - Winter Spur
+GR88 - Crane Marsh
+GR89 - Homare-Jima
+GR90 - Bushido Dojo
+GR91 - Kitsune Woods
+GR92 - Field of Echoes
+GR93 - Yomotsu Mines
+GR94 - Dragon Valley
+GR95 - Fan Dancer Dojo
+
+That's all of them.  I hope you find this set up guide useful, as well as this quest.

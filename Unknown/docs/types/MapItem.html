@@ -1,0 +1,44 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - MapItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>MapItem : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ICraftable.html">ICraftable</a></h2>
+<h4>Derived Types: <a href="BlankMap.html">BlankMap</a>, <a href="CityMap.html">CityMap</a>, <a href="IndecipherableMap.html">IndecipherableMap</a>, <a href="LocalMap.html">LocalMap</a>, <a href="PresetMap.html">PresetMap</a>, <a href="SeaChart.html">SeaChart</a>, <a href="SimpleMap.html">SimpleMap</a>, <a href="TreasureMap.html">TreasureMap</a>, <a href="TreasureMessage.html">TreasureMessage</a>, <a href="WeatherMap.html">WeatherMap</a>, <a href="WorldMap.html">WorldMap</a></h4>
+<h4>Nested Types: <a href="MapAddPin.html">MapAddPin</a>, <a href="MapCommand.html">MapCommand</a>, <a href="MapDetails.html">MapDetails</a>, <a href="MapDisplay.html">MapDisplay</a>, <a href="MapSetEditable.html">MapSetEditable</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> OnMapCommand( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">ctor</font>) MapItem()<br>
+      (<font color="blue">ctor</font>) MapItem( <a href="Serial.html">Serial</a> serial )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a> Bounds( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Height( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Pins( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Protected( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Width( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddPin( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddWorldPin( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ChangePin( <font color="blue">int</font> index, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ClearPins()<br>
+      <font color="blue">void</font> ConvertToMap( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">out</font> <font color="blue">int</font> mapX, <font color="blue">out</font> <font color="blue">int</font> mapY )<br>
+      <font color="blue">void</font> ConvertToWorld( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">out</font> <font color="blue">int</font> worldX, <font color="blue">out</font> <font color="blue">int</font> worldY )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> CraftInit( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DisplayTo( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InsertPin( <font color="blue">int</font> index, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAddPin( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnChangePin( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> number, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnClearPins( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CraftItem.html">CraftItem</a> craftItem, <font color="blue">int</font> resHue )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnInsertPin( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> number, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRemovePin( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> number )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnToggleEditable( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RemovePin( <font color="blue">int</font> index )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> SetDisplay( <font color="blue">int</font> x1, <font color="blue">int</font> y1, <font color="blue">int</font> x2, <font color="blue">int</font> y2, <font color="blue">int</font> w, <font color="blue">int</font> h )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Validate( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Validate( <font color="blue">ref</font> <font color="blue">int</font> x, <font color="blue">ref</font> <font color="blue">int</font> y )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> ValidateEdit( <a href="Mobile.html">Mobile</a> from )<br>
+   </body>
+</html>

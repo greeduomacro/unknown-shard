@@ -1,0 +1,9 @@
+body { background-color: #FFFFFF; font-family: verdana, arial; font-size: 11px; }
+a { color: #28435E; }
+a:hover { color: #4878A9; }
+td.header { background-color: #9696AA; font-weight: bold; font-size: 12px; }
+td.lentry { background-color: #D7D7EB; width: 10%; }
+td.rentry { background-color: #FFFFFF; width: 90%; }
+td.entry { background-color: #FFFFFF; }
+td { font-size: 11px; }
+.tbl-border { background-color: #46465A; }

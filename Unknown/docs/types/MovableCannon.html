@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - MovableCannon</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>MovableCannon : <a href="BaseAddon.html">BaseAddon</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IChopable.html">IChopable</a>, <a href="IAddon.html">IAddon</a>, <a href="ICannonDamage.html">ICannonDamage</a></h2>
+      (<font color="blue">ctor</font>) MovableCannon( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) MovableCannon( <a href="Mobile.html">Mobile</a> owner, <a href="Mobile.html">Mobile</a> hitch )<br>
+      <font color="blue">bool</font> HandlesOnMovement( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSpeech( <font color="blue">get</font>; )<br>
+      <a href="HitchItem.html">HitchItem</a> HControl( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Hitch( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Hits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HitsMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Owner( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Damage( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> GetDir( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDamaged()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> UnHitch()<br>
+   </body>
+</html>

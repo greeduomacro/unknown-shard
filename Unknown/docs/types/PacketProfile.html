@@ -1,0 +1,24 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PacketProfile</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Network.html">Back to Server.Network</a></h4>
+      <h2>PacketProfile</h2>
+      (<font color="blue">static</font>) <a href="PacketProfile.html">PacketProfile</a>[] IncomingProfiles( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <a href="PacketProfile.html">PacketProfile</a>[] OutgoingProfiles( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <a href="PacketProfile.html">PacketProfile</a> GetIncomingProfile( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">static</font>) <a href="PacketProfile.html">PacketProfile</a> GetOutgoingProfile( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">ctor</font>) PacketProfile( <font color="blue">bool</font> outgoing )<br>
+      <font color="blue">double</font> AverageByteLength( <font color="blue">get</font>; )<br>
+      TimeSpan AverageProcTime( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Constructed( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Count( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Outgoing( <font color="blue">get</font>; )<br>
+      TimeSpan PeakProcTime( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> TotalByteLength( <font color="blue">get</font>; )<br>
+      TimeSpan TotalProcTime( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> Record( <font color="blue">int</font> byteLength, TimeSpan processTime )<br>
+      <font color="blue">void</font> RegConstruct()<br>
+   </body>
+</html>

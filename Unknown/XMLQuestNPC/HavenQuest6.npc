@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>HavenQuest6</Name>
+    <Running>True</Running>
+    <ProximityRange>4</ProximityRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>5</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>HavenQuest6</ConfigFile>
+    <SpeechEntries>6</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Hello!</Text>
+    <Condition>~GETONCARRIED,HavenQuest6,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Would you like to do something for me?</Text>
+    <Keywords>hi, Hi, Hello, Hail, Good day</Keywords>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Keywords>yes</Keywords>
+    <DependsOn>20</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+    <Gump>GUMP,HavenQuest6,4/Will you being me 100 Iron Ore for a reward?;yes;ok</Gump>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Keywords>ok</Keywords>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+    <Gump>GUMP,HavenQuest6,3/You must bring me 100 Iron Ore to get the reward.</Gump>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Keywords>accept</Keywords>
+    <Action>GIVE/&lt;questholder/name/HavenQuest6/notestring/I have a new design I want to test out and I need ore to do so./objective1/COLLECT,IronOre,100/autoreward/true/rewardstring/@bag/ADD/bankcheck,1000/ADD/&lt;levelplategloves/name/HavenCast&gt;</Action>
+    <DependsOn>40</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+<SpeechEntry>
+   <EntryNumber>0</EntryNumber>
+   <ID>0</ID>
+   <Text>You are currently doing a quest.</Text>
+   <Condition>GETONCARRIED,HavenQuest6,Visible=true</Condition>
+   <DependsOn>-2</DependsOn>
+   <Pause>1</Pause>
+   <PrePause>-1</PrePause>
+   <LockConversation>True</LockConversation>
+   <IgnoreCarried>False</IgnoreCarried>
+   <AllowNPCTrigger>False</AllowNPCTrigger>
+   <SpeechStyle>Regular</SpeechStyle>
+   <SpeechHue>-1</SpeechHue>
+ </SpeechEntry>
+</XmlQuestNPC>

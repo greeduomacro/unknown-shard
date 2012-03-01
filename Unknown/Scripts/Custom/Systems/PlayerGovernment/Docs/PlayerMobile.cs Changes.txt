@@ -1,0 +1,149 @@
+PlayerMobiel.cs
+
+!!!I would suggest using winMerge with the PlayerMobile.cs that came with this package to merge with yours if not here is how
+to edit yours!!!
+
+#
+#-----[ OPEN ]--------------------
+#
+
+PlayerMobile.cs
+
+#
+#-----[ FIND ]--------------------
+#
+
+		private int m_Profession;
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+		// Start FSGov Edits
+
+		private CityManagementStone m_City;
+		private string m_CityTitle;
+		private bool m_ShowCityTitle;
+		private bool m_OwesBackTaxes;
+		private int m_BackTaxesAmount;
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public CityManagementStone City
+		{
+			get{ return m_City; }
+			set{ m_City = value; InvalidateProperties(); }
+		}
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public string CityTitle
+		{
+			get{ return m_CityTitle; }
+			set{ m_CityTitle = value; InvalidateProperties(); }
+		}
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public bool ShowCityTitle
+		{
+			get{ return m_ShowCityTitle; }
+			set{ m_ShowCityTitle = value; InvalidateProperties(); }
+		}
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public bool OwesBackTaxes
+		{
+			get{ return m_OwesBackTaxes; }
+			set{ m_OwesBackTaxes = value; }
+		}
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public int BackTaxesAmount
+		{
+			get{ return m_BackTaxesAmount; }
+			set{ m_BackTaxesAmount = value; }
+		}
+
+		//End FSGov Edits
+
+#
+#-----[ FIND ]--------------------
+#
+
+		public override void GetProperties( ObjectPropertyList list )
+		{
+
+#
+#-----[ ADD, BEFORE ]--------------
+#
+
+		public override void AddNameProperties( ObjectPropertyList list )
+		{
+			base.AddNameProperties( list );
+
+			if ( m_ShowCityTitle == true && m_City != null )
+			{
+				list.Add( 1060659, "{0}\t{1}", m_City.CityName, m_CityTitle );
+			}
+		}
+
+#
+#-----[ FIND ]--------------------
+#
+
+			switch ( version )
+			{
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+/* ## = the next case number, Look below switch (version) the first "case ##: you see is the last case number now add one to
+* that number to make the ## discribed below. The "goto case ##; should be the case number you just found so it can fall thur
+* to the next case... I hope you understood this. If not you will get errors asking to delete your playermobile.*/
+
+				case ##:
+				{
+					m_City = (CityManagementStone)reader.ReadItem();
+					m_CityTitle = reader.ReadString();
+					m_ShowCityTitle = reader.ReadBool();
+					m_OwesBackTaxes = reader.ReadBool();
+					m_BackTaxesAmount = reader.ReadInt();
+					goto case ##;
+				}
+
+#
+#-----[ FIND ]--------------------
+#
+
+/* The ## should be the case number you found above. Change it to the new case number as shown below */
+
+			writer.Write( (int) ## ); // version
+
+#
+#-----[ CHANGE, TO ]--------------
+#
+
+/* Remeber above when i said fine the case number and add 1 to it? ok that number you used is the number you should change this
+to */
+
+			writer.Write( (int) ## ); // version
+
+#
+#-----[ FIND ]--------------------
+#
+
+			writer.Write( (int) ## ); // version
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+			writer.Write( m_City );
+
+			writer.Write( m_CityTitle );
+
+			writer.Write( m_ShowCityTitle );
+
+			writer.Write( m_OwesBackTaxes );
+
+			writer.Write( m_BackTaxesAmount );
+

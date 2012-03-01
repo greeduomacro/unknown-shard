@@ -1,0 +1,39 @@
+##############################
+Log started on 5/5/2009 12:23:10 AM
+
+5/5/2009 2:17:54 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+5/5/2009 2:18:57 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+5/5/2009 2:21:13 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'bank '
+5/5/2009 2:21:14 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') opening bank box of 0x1006 "Rico" ('sunfiregt')
+5/5/2009 2:21:46 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+5/5/2009 2:21:48 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0x1006 "Rico" ('sunfiregt')
+5/5/2009 2:21:52 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+5/5/2009 2:22:35 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+5/5/2009 2:22:36 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0x2B44 "Test" ('sunfiregt')
+5/5/2009 2:22:39 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+5/5/2009 2:22:56 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+5/5/2009 2:23:30 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+5/5/2009 2:23:32 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0x2BCE "Bob" ('sunfiregt')
+5/5/2009 2:23:34 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+5/5/2009 2:24:17 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+5/5/2009 2:24:18 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0x3DD9 "dude" ('sunfiregt')
+5/5/2009 2:24:20 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+5/5/2009 2:24:54 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+5/5/2009 2:24:56 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0x3E95 "asdfv" ('sunfiregt')
+##############################
+Log started on 5/5/2009 2:28:47 PM
+
+5/5/2009 2:31:28 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+5/5/2009 2:33:06 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+##############################
+Log started on 5/5/2009 7:10:26 PM
+
+##############################
+Log started on 5/5/2009 7:11:06 PM
+
+5/5/2009 8:04:58 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '
+5/5/2009 8:05:18 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '
+5/5/2009 8:08:27 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '
+5/5/2009 8:14:01 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '
+5/5/2009 8:14:09 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '
+5/5/2009 9:49:30 PM: 75.168.238.152: Player 0x1B12 "Xtowers" ('xtowers') used command 'level '

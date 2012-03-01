@@ -1,0 +1,12 @@
+3/26/2009
+9:56PM
+
+1. Tweaked the settings on the skill and stat gains.  Will be testing it out more as players progress.  Hopefully get to where I want it soon.
+2. Still working on the chicken pickaxe quest and the water elemental quest.
+3. Isiac is completed and placed.  First questgiver of the chickenaxe chain quest.
+4. Added special animal trainers, breeders, crafters to all towns in trammel.
+5. Added publisher to all trammel towns.
+6. Added treasure hunters to every town for some time relief.
+7. Tweaked the ingame forums to be more player friendly.
+
+GM Darky

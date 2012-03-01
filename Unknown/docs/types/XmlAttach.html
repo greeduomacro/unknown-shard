@@ -1,0 +1,70 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlAttach</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlAttach</h2>
+<h4>Nested Types: <a href="AddAttCommand.html">AddAttCommand</a>, <a href="AttachTarget.html">AttachTarget</a>, <a href="DelAttCommand.html">DelAttCommand</a>, <a href="DeserErrorDetails.html">DeserErrorDetails</a>, <a href="DisplayAttachmentGump.html">DisplayAttachmentGump</a>, <a href="ErrorReporter.html">ErrorReporter</a>, <a href="ListAttachmentsGump.html">ListAttachmentsGump</a>, <a href="TypeNameComparer.html">TypeNameComparer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">object</font>[] Values( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ActivateAttachments_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddAttachment_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddAttachmentProperties( <font color="blue">object</font> parent, <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AlreadyReported( <font color="blue">string</font> typestr )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AttachTo( <font color="blue">object</font> o, <a href="XmlAttachment.html">XmlAttachment</a> attachment )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AttachTo( <font color="blue">object</font> o, <a href="XmlAttachment.html">XmlAttachment</a> attachment, <font color="blue">bool</font> first )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AttachTo( <font color="blue">object</font> from, <font color="blue">object</font> o, <a href="XmlAttachment.html">XmlAttachment</a> attachment )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AttachTo( <font color="blue">object</font> from, <font color="blue">object</font> o, <a href="XmlAttachment.html">XmlAttachment</a> attachment, <font color="blue">bool</font> first )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckCanEquip( <a href="Item.html">Item</a> item, <a href="Mobile.html">Mobile</a> from )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CheckOnBeforeKill( <a href="Mobile.html">Mobile</a> m_killed, <a href="Mobile.html">Mobile</a> m_killer )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CheckOnEquip( <a href="Item.html">Item</a> item, <a href="Mobile.html">Mobile</a> from )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CheckOnKill( <a href="Mobile.html">Mobile</a> m_killed, <a href="Mobile.html">Mobile</a> m_killer )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CheckOnRemoved( <a href="Item.html">Item</a> item, <font color="blue">object</font> parent )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CleanUp()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Configure()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Defrag( <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Defrag( Hashtable attachments, <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DeleteAttachments_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Movement( <a href="MovementEventArgs.html">MovementEventArgs</a> args )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Speech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> args )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachment( <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachment( <font color="blue">object</font> o, Type type )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachment( Hashtable attachments, <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachment( Hashtable attachments, <font color="blue">object</font> o, Type type )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachment( <font color="blue">object</font> o, Type type, <font color="blue">string</font> name )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachment( Hashtable attachments, <font color="blue">object</font> o, Type type, <font color="blue">string</font> name )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachmentBySerial( <font color="blue">int</font> serialno )<br>
+      (<font color="blue">static</font>) <a href="XmlAttachment.html">XmlAttachment</a> FindAttachmentOnMobile( <a href="Mobile.html">Mobile</a> from, Type type, <font color="blue">string</font> name )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( Hashtable attachments, <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( <font color="blue">object</font> o, Type type )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( Hashtable attachments, <font color="blue">object</font> o, Type type )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( Hashtable attachments, <font color="blue">object</font> o, <font color="blue">bool</font> original )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( <font color="blue">object</font> o, Type type, <font color="blue">string</font> name )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( Hashtable attachments, <font color="blue">object</font> o, Type type, <font color="blue">string</font> name )<br>
+      (<font color="blue">static</font>) ArrayList FindAttachments( Hashtable attachments, <font color="blue">object</font> o, Type type, <font color="blue">string</font> name, <font color="blue">bool</font> original )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> FullDefrag()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> FullDefrag( Hashtable attachments )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> FullSerialDefrag( Hashtable attachments )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GetAttachments_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> HasAttachments( <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HashSerial( <a href="ASerial.html">ASerial</a> key, <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsAttachable( ConstructorInfo ctor )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ListAvailableAttachments_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ListItemAttachments_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ListMobileAttachments_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Load()<br>
+      (<font color="blue">static</font>) ArrayList Match( Type matchtype )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Match( Type matchtype, Type[] types, ArrayList results )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> OnArmorHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="Item.html">Item</a> armor, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damage )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> OnDragLift( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> OnWeaponHit( <a href="BaseWeapon.html">BaseWeapon</a> weapon, <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">int</font> damage )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ReportDeserError( <font color="blue">string</font> typestr, <font color="blue">string</font> detailstr )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RevealAttachments( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Save( <a href="WorldSaveEventArgs.html">WorldSaveEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SerialDefrag( <a href="XmlAttachment.html">XmlAttachment</a> a )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UseReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">ctor</font>) XmlAttach()<br>
+   </body>
+</html>

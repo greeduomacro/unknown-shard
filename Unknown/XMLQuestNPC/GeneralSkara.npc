@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Skara</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralSkara</ConfigFile>
+    <SpeechEntries>11</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Alas a savour of our small town.  Could you help us?</Text>
+    <Condition>GETONTRIGMOB,str&gt;39 &amp; GETONTRIGMOB,str&lt;100 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest1,name]="SkaraQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Seems we have some mutating snakes around here that are causing a little bit of a problem. Please head a distance NorthEast to find them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,SkaraQuest1; GIVE/&lt;questholder/name/SkaraQuest1/notestring/30 Diamondback/objective1/KILLNAMED,Diamondback,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Help we need help we are under attack from bastards of bodom!!</Text>
+    <Condition>GETONTRIGMOB,str&gt;99 &amp; GETONTRIGMOB,str&lt;200 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest2,name]="SkaraQuest2" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest1,name]="SkaraQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>We have more issues. Hopefully with everything that your reporting back to us we can figure out what is going on with this infestation.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,SkaraQuest2; GIVE/&lt;questholder/name/SkaraQuest2/notestring/30 Silverback/objective1/KILLNAMED,Silverback,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;199 &amp; GETONTRIGMOB,str&lt;300 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest3,name]="SkaraQuest3" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest2,name]="SkaraQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Interesting.  I am quite thankful of your help.  Though it seems we need it again.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,SkaraQuest3; GIVE/&lt;questholder/name/SkaraQuest3/notestring/30 Blackback/objective1/KILLNAMED,Blackback,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,4000</Action>
+    <DependsOn>50</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Text>You are currently doing a quest.</Text>
+    <Condition>GETONCARRIED,SkaraQuest1,Visible=true | GETONCARRIED,SkaraQuest2,Visible=true | GETONCARRIED,SkaraQuest3,Visible=true | GETONCARRIED,SkaraQuest4,Visible=true | GETONCARRIED,SkaraQuest5,Visible=true | GETONCARRIED,SkaraQuest6,Visible=true | GETONCARRIED,SkaraQuest7,Visible=true | GETONCARRIED,SkaraQuest8,Visible=true | GETONCARRIED,SkaraQuest9,Visible=true | GETONCARRIED,SkaraQuest10,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>I am sorry but you are too much of a weakling to be able to help me. Come back when your stronger.</Text>
+    <Condition>GETONTRIGMOB,str&lt;39</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>You have done the first quest. We thank you.  The next quest requires 100str or more. Come back when you have more strength.</Text>
+    <Condition>~GETONCARRIED,SkaraQuest1,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest1,name]="SkaraQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>You have done the first and second quest.  Nice work. The next quest requires 200str or more.</Text>
+    <Condition>~GETONCARRIED,SkaraQuest2,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest2,name]="SkaraQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Wow 3 quests completed, don't you feel special. The next quest requires 300str or more. Come back when your less like a weakling.</Text>
+    <Condition>~GETONCARRIED,SkaraQuest3,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,SkaraQuest3,name]="SkaraQuest3"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

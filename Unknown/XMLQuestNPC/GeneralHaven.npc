@@ -1,0 +1,192 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Haven</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralHaven</ConfigFile>
+    <SpeechEntries>11</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>I can offer you some quests 11-20 of Haven to be exact.  Just say Haven with the number at the end of what quest you want.</Text>
+    <Condition>~GETONCARRIED,HavenQuest11,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest12,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest13,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest14,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest15,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest16,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest17,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest18,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest19,questholder,Visible=true &amp; ~GETONCARRIED,HavenQuest20,questholder,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Thank you here is Quest 11.</Text>
+    <Keywords>HavenQuest11</Keywords>
+    <Action>GIVE/&lt;questholder/name/HavenQuest11/notestring/Please kill 20 Cats for a nice reward/objective1/KILL,cat,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,2000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Thank you here is Quest 12.</Text>
+    <Keywords>HavenQuest12</Keywords>
+    <Action>GIVE/&lt;questholder/name/HavenQuest12/notestring/Kill 20 Dogs for a nice reward/objective1/KILL,dog,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,2500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>Thank you here is Quest 13.</Text>
+    <Keywords>HavenQuest13</Keywords>
+    <Action>GIVE/&lt;questholder/name/HavenQuest13/notestring/Kill 20 GrizzlyBears for a nice reward/objective1/KILL,grizzlybear,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Thank you here is Quest 14.</Text>
+    <Keywords>HavenQuest14</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/HavenQuest14/notestring/Kill 20 GreyWolf for a nice reward, You have 30 minutes./objective1/KILL,greywolf,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,3500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Thank you here is Quest 15.</Text>
+    <Keywords>HavenQuest15</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/HavenQuest15/notestring/Kill 20 WhiteWolf for a nice reward, You have 30 minutes./objective1/KILL,whitewolf,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,4000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>Thank you here is Quest 16.</Text>
+    <Keywords>HavenQuest16</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/HavenQuest16/notestring/Kill 20 Cougar for a nice reward, You have 30 minutes./objective1/KILL,cougar,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,4500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>Thank you here is Quest 17.</Text>
+    <Keywords>HavenQuest17</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/1.0/name/HavenQuest17/notestring/Kill 20 Brigand for a nice reward, You have 1 hour./objective1/KILL,brigand,20/autoreward/true/repeatbale/true/rewardstring/@bag/ADD/bankcheck,5000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>Thank you here is Quest 18.</Text>
+    <Keywords>HavenQuest18</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/1.0/name/HavenQuest18/notestring/Kill 20 Harpy for a nice reward, You have 1 hour./objective1/KILL,harpy,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,5500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Thank you here is Quest 19.</Text>
+    <Keywords>HavenQuest19</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/1.0/name/HavenQuest19/notestring/Kill 20 Troll for a nice reward, You have 1 hour./objective1/KILL,troll,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,6000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>110</EntryNumber>
+    <ID>110</ID>
+    <Text>Thank you here is Quest 20.</Text>
+    <Keywords>HavenQuest20</Keywords>
+    <Action>GIVE/&lt;questholder/name/HavenQuest20/notestring/Kill 20 Lizardman for a nice reward/objective1/KILL,lizardman,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,3500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>120</EntryNumber>
+    <ID>120</ID>
+    <Text>You are currently doing a quest, come back when your finished.</Text>
+    <Condition>GETONCARRIED,HavenQuest11,questholder,Visible=true | GETONCARRIED,HavenQuest12,questholder,Visible=true | GETONCARRIED,HavenQuest13,questholder,Visible=true | GETONCARRIED,HavenQuest14,questholder,Visible=true | GETONCARRIED,HavenQuest15,questholder,Visible=true | GETONCARRIED,HavenQuest16,questholder,Visible=true | GETONCARRIED,HavenQuest17,questholder,Visible=true | GETONCARRIED,HavenQuest18,questholder,Visible=true | GETONCARRIED,BritianQuest19,questholder,Visible=true | GETONCARRIED,HavenQuest20,questholder,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

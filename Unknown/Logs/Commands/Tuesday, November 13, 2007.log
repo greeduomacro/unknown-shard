@@ -1,0 +1,722 @@
+##############################
+Log started on 11/13/2007 1:47:53 AM
+
+11/13/2007 1:48:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 1:48:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afk '
+11/13/2007 1:49:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/13/2007 1:53:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 1:54:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:54:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:54:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:54:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:54:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 1:54:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/13/2007 1:54:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3611, 2449, 16) in Trammel: "xmlspawner"
+11/13/2007 1:54:31 AM: 127.0.0.1: Serials: 0x40000176; 
+11/13/2007 1:54:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000176 (XmlSpawner) to '200'
+11/13/2007 1:55:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000176 (XmlSpawner) to '200'
+11/13/2007 1:55:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add escourt'
+11/13/2007 1:55:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000176 'escourtables1' [3611, 2449] (Trammel) : noble
+11/13/2007 1:56:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000176 'escourtables1' [3611, 2449] (Trammel) : seekerofadventure
+11/13/2007 1:56:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000176 'escourtables1' [3611, 2449] (Trammel) : talkingseekerofadventure
+11/13/2007 1:56:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/13/2007 1:56:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000176 (XmlSpawner) (inBag=False; amount=1)
+11/13/2007 1:56:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000176 (XmlSpawner) creating 0x40000688 (XmlSpawner)
+11/13/2007 1:56:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/13/2007 1:58:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/13/2007 1:58:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 2:10:35 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'bandself '
+11/13/2007 2:30:43 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'verbosemobfactions true'
+11/13/2007 2:31:03 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'checkmobfactions '
+11/13/2007 2:32:32 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'checkpoints '
+11/13/2007 2:47:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 2:48:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c when you see the message of the day has been updated, type "motd" to view it.'
+11/13/2007 2:48:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 2:48:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 2:49:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c heather you doing anything?'
+11/13/2007 2:49:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/13/2007 2:51:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c use [c so I can see what your reponse is.'
+11/13/2007 2:51:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/13/2007 2:51:20 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'c ok'
+11/13/2007 2:51:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c OMG you found it'
+11/13/2007 2:51:33 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'c what u wont'
+11/13/2007 2:51:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c going to do some pvp testing. you ok to be summoned? get geared up'
+11/13/2007 2:52:35 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c what you say nigga?'
+11/13/2007 2:52:39 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'c k ready'
+11/13/2007 2:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c thats abusive'
+11/13/2007 2:52:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 2:52:55 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c what is?'
+11/13/2007 2:53:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'challenge '
+11/13/2007 2:53:01 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c nigga?'
+11/13/2007 2:53:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'deathmatch '
+11/13/2007 2:54:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/13/2007 2:54:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'Hits' of 0xCD8 "lynix" ('pyachthead') to '82'
+11/13/2007 2:57:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 3:01:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009C2 (Head)
+11/13/2007 3:01:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009EC (Corpse)
+11/13/2007 3:01:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000092A (Corpse)
+11/13/2007 3:01:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000092E (Torso)
+11/13/2007 3:01:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000932 (RightLeg)
+11/13/2007 3:01:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000092F (LeftLeg)
+11/13/2007 3:01:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000933 (RightArm)
+11/13/2007 3:01:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000930 (LeftArm)
+11/13/2007 3:01:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000934 (Head)
+11/13/2007 3:01:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009BD (LeftLeg)
+11/13/2007 3:01:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009C0 (RightLeg)
+11/13/2007 3:01:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009B8 (Corpse)
+11/13/2007 3:01:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009BC (Torso)
+11/13/2007 3:01:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009C1 (RightArm)
+11/13/2007 3:01:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400009BF (LeftArm)
+11/13/2007 3:01:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000969 (Torso)
+11/13/2007 3:01:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000994 (LeftLeg)
+11/13/2007 3:01:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000965 (Corpse)
+11/13/2007 3:01:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000096C (RightLeg)
+11/13/2007 3:01:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000096E (Head)
+11/13/2007 3:01:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000096D (RightArm)
+11/13/2007 3:01:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000096A (LeftLeg)
+11/13/2007 3:01:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000096B (LeftArm)
+11/13/2007 3:01:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000995 (LeftArm)
+11/13/2007 3:01:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000098F (Corpse)
+11/13/2007 3:01:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000998 (Head)
+11/13/2007 3:01:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000993 (Torso)
+11/13/2007 3:01:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000996 (RightLeg)
+11/13/2007 3:01:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:01:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000997 (RightArm)
+11/13/2007 3:03:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:03:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A29 (Head)
+11/13/2007 3:03:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:03:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A21 (Corpse)
+11/13/2007 3:03:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:03:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A24 (Torso)
+11/13/2007 3:03:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:03:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A25 (LeftLeg)
+11/13/2007 3:03:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:03:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A28 (RightArm)
+11/13/2007 3:03:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:03:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A26 (LeftArm)
+11/13/2007 3:04:47 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'c know what'
+11/13/2007 3:05:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'ctfchallenge '
+11/13/2007 3:06:24 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'checkpoints '
+11/13/2007 3:08:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:09:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c both our out of bounds LOL'
+11/13/2007 3:09:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:11:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'lmschallenge '
+11/13/2007 3:13:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:13:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A36 (LastManStandingGauntlet)
+11/13/2007 3:13:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'deathball '
+11/13/2007 3:15:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A6F (Corpse)
+11/13/2007 3:15:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A78 (Head)
+11/13/2007 3:15:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A73 (Torso)
+11/13/2007 3:15:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A76 (RightLeg)
+11/13/2007 3:15:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A74 (LeftLeg)
+11/13/2007 3:15:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A77 (RightArm)
+11/13/2007 3:15:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A75 (LeftArm)
+11/13/2007 3:15:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A53 (Corpse)
+11/13/2007 3:15:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A57 (Torso)
+11/13/2007 3:15:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A5D (Head)
+11/13/2007 3:15:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A5C (RightArm)
+11/13/2007 3:15:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A58 (LeftLeg)
+11/13/2007 3:15:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A5B (RightLeg)
+11/13/2007 3:15:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A59 (LeftArm)
+11/13/2007 3:15:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:15:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A55 (DeathRobe)
+11/13/2007 3:16:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:16:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0x5 "K-Hound" ('k-hound')
+11/13/2007 3:16:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/13/2007 3:16:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000A5F (DeathBall) to (5498, 1144, 0)
+11/13/2007 3:16:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A8A (Corpse)
+11/13/2007 3:16:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A8E (Torso)
+11/13/2007 3:16:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A93 (Head)
+11/13/2007 3:16:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A92 (RightArm)
+11/13/2007 3:16:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A8F (LeftLeg)
+11/13/2007 3:16:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A91 (RightLeg)
+11/13/2007 3:16:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:16:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A90 (LeftArm)
+11/13/2007 3:16:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/13/2007 3:16:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000A5F (DeathBall) to (5495, 1145, 0)
+11/13/2007 3:17:00 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'c whats the point?'
+11/13/2007 3:17:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:17:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A8C (DeathRobe)
+11/13/2007 3:17:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:17:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A71 (DeathRobe)
+11/13/2007 3:18:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:18:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000967 (DeathRobe)
+11/13/2007 3:18:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:18:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A5E (DeathBallGauntlet)
+11/13/2007 3:18:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'kingofthehill '
+11/13/2007 3:19:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:19:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:20:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:20:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000AC5 (Corpse)
+11/13/2007 3:20:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:20:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:20:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000A94 (KingOfTheHillGauntlet)
+11/13/2007 3:20:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'checkpoints '
+11/13/2007 3:21:11 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'checkpoints '
+11/13/2007 3:21:25 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'checkpoints '
+11/13/2007 3:22:02 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'checkpoints '
+11/13/2007 3:23:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:23:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000AC8 (DeathmatchGauntlet)
+11/13/2007 3:23:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:23:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000AC9 (DeathmatchGauntlet)
+11/13/2007 3:24:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add level'
+11/13/2007 3:24:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (5497, 1143, 0) in Trammel: "LevelBoneGloves"
+11/13/2007 3:24:34 AM: 127.0.0.1: Serials: 0x40000ACA; 
+11/13/2007 3:24:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (5500, 1141, 0) in Trammel: "LevelBoneGloves"
+11/13/2007 3:24:48 AM: 127.0.0.1: Serials: 0x40000ACD; 
+11/13/2007 3:25:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/13/2007 3:25:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 3:25:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3645 2581 0'
+11/13/2007 3:25:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:29:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'addallpoints '
+11/13/2007 3:32:22 AM: 12.205.92.215: Player 0x5 "K-Hound" ('k-hound') used command 'c why is not my bandiging skill not going up'
+11/13/2007 3:40:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/13/2007 3:40:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:41:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:41:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:41:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'kill '
+11/13/2007 3:41:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') killing 0xCD8 "lynix" ('pyachthead')
+11/13/2007 3:41:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:41:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') banning 0xCD8 "lynix" ('pyachthead')
+11/13/2007 3:41:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'resurrect '
+11/13/2007 3:41:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0xCD8 "lynix" ('pyachthead')
+11/13/2007 3:42:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hits 84'
+11/13/2007 3:42:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hits' of 0xCD8 "lynix" ('pyachthead') to '84'
+11/13/2007 3:43:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:43:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') unbanning account pyachthead
+11/13/2007 3:43:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:43:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40001463 (Corpse)
+11/13/2007 3:47:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:47:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:47:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:47:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:47:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:47:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:47:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:48:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:48:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:48:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:48:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:48:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 3:50:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/13/2007 3:50:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3646, 2615, 0) in Trammel: "xmlspawner"
+11/13/2007 3:50:14 AM: 127.0.0.1: Serials: 0x4000157D; 
+11/13/2007 3:50:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000157D 'Spawner' [3646, 2615] (Trammel) : gravedigger
+11/13/2007 3:50:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c placed gravedigger vender'
+11/13/2007 3:50:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 3:52:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'mail '
+11/13/2007 3:52:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/13/2007 3:54:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/13/2007 3:59:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 3:59:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400137F5 (Corpse)
+11/13/2007 4:00:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 4:04:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add nightshadeplant'
+11/13/2007 4:04:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3628, 2590, 0) in Trammel: "nightshadeplant"
+11/13/2007 4:04:32 AM: 127.0.0.1: Serials: 0x40013808; 
+11/13/2007 4:04:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspanwer'
+11/13/2007 4:04:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/13/2007 4:04:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3631, 2588, 0) in Trammel: "xmlspawner"
+11/13/2007 4:04:48 AM: 127.0.0.1: Serials: 0x4001380A; 
+11/13/2007 4:04:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4001380A 'Spawner' [3631, 2588] (Trammel) : nightshadeplant
+11/13/2007 4:05:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4001380A (XmlSpawner) to '200'
+11/13/2007 4:05:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x4001380A (XmlSpawner) to '200'
+11/13/2007 4:05:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4001380A 'Spawner' [3631, 2588] (Trammel) : bloodmossplant
+11/13/2007 4:06:03 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c lol'
+11/13/2007 4:06:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4001380A 'Spawner' [3631, 2588] (Trammel) : garlicplant
+11/13/2007 4:06:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4001380A 'Spawner' [3631, 2588] (Trammel) : ginsengplant
+11/13/2007 4:06:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4001380A 'Spawner' [3631, 2588] (Trammel) : mandrakeplant
+11/13/2007 4:07:21 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c damn you'
+11/13/2007 4:07:32 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c you followin me!'
+11/13/2007 4:07:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/13/2007 4:07:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x4001380A (XmlSpawner) (inBag=False; amount=1)
+11/13/2007 4:07:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x4001380A (XmlSpawner) creating 0x40013900 (XmlSpawner)
+11/13/2007 4:09:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'afk '
+11/13/2007 4:14:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 4:14:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set tailoring 30.0'
+11/13/2007 4:14:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set skill tailoring 30.0'
+11/13/2007 4:14:54 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c how do yo uknow which grave you can dig in?'
+11/13/2007 4:14:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 4:14:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40014089 (MandrakePlant)
+11/13/2007 4:15:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c should be able to do any with the gravedigger shovel'
+11/13/2007 4:15:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 4:15:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add gravediggershovel'
+11/13/2007 4:16:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3397, 2641, 48) in Trammel: "GraveDiggersShovel"
+11/13/2007 4:16:00 AM: 127.0.0.1: Serials: 0x400140A1; 
+11/13/2007 4:19:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'skills '
+11/13/2007 4:19:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property '[Mining: 300].Base' of 0x3 "Jesus" ('Dreadfull') to '300'
+11/13/2007 4:20:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 4:20:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400140A1 (GraveDiggersShovel)
+11/13/2007 4:20:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c have you tried digging on the mines?'
+11/13/2007 4:21:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c i mean graves'
+11/13/2007 4:21:14 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c na'
+11/13/2007 4:26:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/13/2007 4:26:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 4:26:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3687 2492 0'
+11/13/2007 4:27:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'skills '
+11/13/2007 4:28:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property '[Tailoring: 70].Base' of 0x3 "Jesus" ('Dreadfull') to '70'
+11/13/2007 4:31:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 4:31:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c what are you up to?'
+11/13/2007 4:31:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 4:31:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400146E3 (GinsengPlant)
+11/13/2007 4:31:34 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c kill off nobles'
+11/13/2007 4:31:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 4:31:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40014235 (MandrakePlant)
+11/13/2007 4:31:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c how much money you got?'
+11/13/2007 4:31:50 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c like 1k'
+11/13/2007 4:32:41 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c had more but bought showel'
+11/13/2007 4:33:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c testing out the grave digging yet?'
+11/13/2007 4:33:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/13/2007 4:33:19 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c no y you fix it?'
+11/13/2007 4:33:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c haven't checked.  being a gm it might not work for me.'
+11/13/2007 4:33:51 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c oh ok'
+11/13/2007 4:33:59 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c im on my way there now'
+11/13/2007 4:37:26 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c it still wont let me'
+11/13/2007 4:38:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c what does it say'
+11/13/2007 4:39:08 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c nothing'
+11/13/2007 4:39:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c double click on shovel and then double click on gravestone?'
+11/13/2007 4:40:07 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c it makes the cross hairs go away'
+11/13/2007 4:40:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c what is your mining skill at?'
+11/13/2007 4:40:54 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c zip'
+11/13/2007 4:41:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c requires 15% to use'
+11/13/2007 4:42:05 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c oh ok'
+11/13/2007 4:47:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c I am hoping if you train your mining to at least 15% then you should be able to use it.'
+11/13/2007 4:51:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 4:53:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'hide '
+11/13/2007 4:53:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') hiding 0x3 "Jesus" ('Dreadfull')
+11/13/2007 4:53:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 4:54:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'bank '
+11/13/2007 4:54:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') opening bank box of 0xCD8 "lynix" ('pyachthead')
+11/13/2007 4:56:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c did you find shrink potions?'
+11/13/2007 4:56:27 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c what are they?'
+11/13/2007 4:56:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c shrink potions so you can tame a pet and then shrink it so you can store it'
+11/13/2007 4:56:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c when you logg off so that you don't loose it.'
+11/13/2007 4:57:17 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c does it help yo utame a pet?'
+11/13/2007 4:57:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c no, just so you can store tame pets and not loose them.'
+11/13/2007 4:58:03 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c do yo ulose pets every time you logg out?'
+11/13/2007 4:58:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c you will, kindof like how you killed briana's pets earlier.'
+11/13/2007 5:00:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 5:01:26 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c where do yo ubuy them?'
+11/13/2007 5:03:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c alchemists normally make potions'
+11/13/2007 5:03:13 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c hey where to yo ubuy those potions?'
+11/13/2007 5:03:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:03:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x17A "BongBat" (no account)
+11/13/2007 5:04:00 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'chat '
+11/13/2007 5:13:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 5:21:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 5:21:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 5:22:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c going to be funny when you loose young status.'
+11/13/2007 5:22:22 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c ha ha'
+11/13/2007 5:22:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c then the gazer will also attack you'
+11/13/2007 5:22:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:22:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40014D52 (BloodMossPlant)
+11/13/2007 5:22:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:22:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001492E (GinsengPlant)
+11/13/2007 5:22:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:22:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40014DD8 (GarlicPlant)
+11/13/2007 5:22:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:22:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40014DA0 (GarlicPlant)
+11/13/2007 5:22:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:22:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40014962 (GarlicPlant)
+11/13/2007 5:22:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:22:49 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c i just wont leave the town and its gonna be another 34 hours til then'
+11/13/2007 5:22:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40019505 (NightshadePlant)
+11/13/2007 5:23:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 5:23:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4001A09C (Corpse)
+11/13/2007 5:25:48 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c how may loggs do yo uneed to build a house?>'
+11/13/2007 5:26:13 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c also what skills do you need?'
+11/13/2007 5:29:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c a lot and high ass skill'
+11/13/2007 5:29:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c carpentry i would say'
+11/13/2007 5:29:51 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c say again'
+11/13/2007 5:30:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c carpentry...is the skill, needs to be really high. also a lot of logs/wood'
+11/13/2007 5:36:09 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c got 80 logs so far'
+11/13/2007 5:36:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c not sure how many but you need a shit load.'
+11/13/2007 5:36:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c and really high carpentry'
+11/13/2007 5:37:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c cross your fingers, restarting server.'
+##############################
+Log started on 11/13/2007 6:29:49 AM
+
+11/13/2007 6:31:40 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c lol'
+11/13/2007 6:32:20 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c when i finsh what i was doin in paint its gonna be my background'
+11/13/2007 6:32:49 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c do i need a [ ?'
+11/13/2007 6:33:38 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'i wish to confess my sins'
+11/13/2007 6:33:51 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c whats irc?'
+11/13/2007 6:33:59 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c IRC'
+11/13/2007 6:34:42 AM: 12.205.92.215: Player 0xCD8 "lynix" ('pyachthead') used command 'c yea'
+11/13/2007 6:39:27 AM: : Player 0xCD8 "lynix" ('pyachthead') used command 'changecharacter linger'
+11/13/2007 6:39:53 AM: : Player 0xCCE "linger" ('pyachthead') used command 'changecharacter lynix'
+11/13/2007 6:40:04 AM: 12.205.92.215: Player 0xCD4 "lynix" ('pyachthead') used command 'changecharacter lynix'
+##############################
+Log started on 11/13/2007 6:57:54 AM
+
+11/13/2007 6:59:51 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 7:00:37 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'viewforums '
+##############################
+Log started on 11/13/2007 7:00:48 AM
+
+11/13/2007 7:02:20 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 7:06:33 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'e '
+11/13/2007 7:08:15 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 7:08:44 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'save '
+11/13/2007 7:10:27 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 7:10:28 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') deleting 0xCEC "GiNgeR" (no account)
+11/13/2007 7:10:36 AM: 127.0.0.1: Owner 0x1 "Jesus" ('Dreadfull') used command 'restart '
+##############################
+Log started on 11/13/2007 7:12:39 AM
+
+##############################
+Log started on 11/13/2007 7:12:51 AM
+
+##############################
+Log started on 11/13/2007 7:13:10 AM
+
+##############################
+Log started on 11/13/2007 7:13:50 AM
+
+11/13/2007 7:27:39 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'admin '
+11/13/2007 7:28:31 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') set property 'map' of 0x3 "Darky" ('Dreadfull') to 'Trammel'
+11/13/2007 7:28:31 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'Self Set map 1'
+11/13/2007 7:28:31 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'Go 3656 2626 0'
+11/13/2007 7:36:12 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'Set location 3656 2626 0'
+11/13/2007 7:45:38 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'immortal '
+11/13/2007 7:45:41 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') set property 'blessed' of 0x3 "Darky" ('Dreadfull') to 'True'
+11/13/2007 7:47:30 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add xmlquestnpc'
+11/13/2007 7:47:32 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3648, 2450, 20) in Trammel: "xmlquestnpc"
+11/13/2007 7:47:32 AM: 127.0.0.1: Serials: 0x48; 
+11/13/2007 7:47:39 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'freeze '
+11/13/2007 7:47:50 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') invoking freeze from (3646, 2448) to (3647, 2450) in Trammel
+11/13/2007 7:47:59 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'wipe '
+11/13/2007 7:48:01 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') wiping from (3642, 2447, 20) to (3650, 2452, 27) in Trammel (Items, Mobiles)
+11/13/2007 7:48:12 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add xmlquestnpc movable false'
+11/13/2007 7:48:14 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3648, 2450, 20) in Trammel: "xmlquestnpc" "movable" "false"
+11/13/2007 7:50:04 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add xmlquestnpc'
+11/13/2007 7:50:06 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3645, 2450, 21) in Trammel: "xmlquestnpc"
+11/13/2007 7:50:06 AM: 127.0.0.1: Serials: 0x4D; 
+11/13/2007 7:50:09 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'set movable false'
+11/13/2007 7:50:22 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'props '
+11/13/2007 7:51:42 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') set property 'CantWalk' of 0x4D "Sylvia" (no account) to 'True'
+11/13/2007 7:52:13 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 7:54:28 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add staffcloak'
+11/13/2007 7:54:29 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3649, 2449, 21) in Trammel: "staffcloak"
+11/13/2007 7:54:29 AM: 127.0.0.1: Serials: 0x4000017F; 
+11/13/2007 7:54:47 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'admin '
+11/13/2007 7:54:55 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add staffcloak'
+11/13/2007 7:54:56 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3650, 2447, 27) in Trammel: "staffcloak"
+11/13/2007 7:54:56 AM: 127.0.0.1: Serials: 0x40000181; 
+11/13/2007 7:55:31 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'props '
+11/13/2007 7:57:05 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') set property 'TriggerAccessLevel' of 0x4D "Sylvia" (no account) to 'Owner'
+11/13/2007 7:57:24 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 7:59:30 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:02:14 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:07:23 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:07:24 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x4D "Sylvia" (no account)
+11/13/2007 8:07:35 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add xmlspawner'
+11/13/2007 8:07:36 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3669, 2473, 0) in Trammel: "xmlspawner"
+11/13/2007 8:07:36 AM: 127.0.0.1: Serials: 0x40000189; 
+11/13/2007 8:09:24 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') added to XmlSpawner 0x40000189 'HindQuest1' [3669, 2473] (Trammel) : xmlquestnpc,1/name/Dorkia/talktext/yes/configfile/HindQuest/loadconfig/true
+11/13/2007 8:10:57 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') set property 'SpawnRange' of 0x40000189 (XmlSpawner) to '1'
+11/13/2007 8:11:02 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') set property 'HomeRange' of 0x40000189 (XmlSpawner) to '1'
+11/13/2007 8:21:46 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:22:45 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:22:45 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x400002DB (QuestHolder)
+11/13/2007 8:23:29 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:24:59 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:26:08 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:28:51 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'admin '
+11/13/2007 8:29:02 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:29:04 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x40000386 (QuestHolder)
+11/13/2007 8:29:10 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:30:03 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add hind'
+11/13/2007 8:30:05 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3669, 2468, 0) in Trammel: "hind"
+11/13/2007 8:30:05 AM: 127.0.0.1: Serials: 0xB7; 
+11/13/2007 8:30:40 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:30:40 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x40000419 (Corpse)
+11/13/2007 8:30:44 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:30:45 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x400003CA (QuestHolder)
+11/13/2007 8:31:14 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add hind'
+11/13/2007 8:31:16 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3669, 2474, 0) in Trammel: "hind"
+11/13/2007 8:31:16 AM: 127.0.0.1: Serials: 0xBC; 
+11/13/2007 8:31:20 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:31:21 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0xBC "a hind" (no account)
+11/13/2007 8:31:27 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:32:23 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add hind'
+11/13/2007 8:32:24 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3670, 2470, 0) in Trammel: "hind"
+11/13/2007 8:32:24 AM: 127.0.0.1: Serials: 0xFD; 
+11/13/2007 8:33:03 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:33:04 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x4000054F (Corpse)
+11/13/2007 8:33:06 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:33:07 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x4000042E (QuestHolder)
+11/13/2007 8:33:16 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:33:38 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:34:08 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add hind'
+11/13/2007 8:34:09 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3672, 2471, 0) in Trammel: "hind"
+11/13/2007 8:34:09 AM: 127.0.0.1: Serials: 0x17A; 
+11/13/2007 8:40:50 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'xmledit '
+11/13/2007 8:54:10 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:54:11 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x40000591 (QuestHolder)
+11/13/2007 8:54:11 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:54:13 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x4000069A (QuestHolder)
+11/13/2007 8:55:09 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add hind'
+11/13/2007 8:55:10 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3671, 2469, 0) in Trammel: "hind"
+11/13/2007 8:55:10 AM: 127.0.0.1: Serials: 0x186; 
+11/13/2007 8:56:13 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:56:13 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x400006B6 (Corpse)
+11/13/2007 8:56:15 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:56:19 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:56:20 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x4000069B (QuestHolder)
+11/13/2007 8:57:30 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'add hind'
+11/13/2007 8:57:31 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') building at (3671, 2469, 0) in Trammel: "hind"
+11/13/2007 8:57:31 AM: 127.0.0.1: Serials: 0x18B; 
+11/13/2007 8:58:07 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:58:08 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:58:09 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:58:10 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x400006CD (Corpse)
+11/13/2007 8:58:12 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:58:14 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x400006BE (QuestHolder)
+11/13/2007 8:58:15 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') used command 'remove '
+11/13/2007 8:58:15 AM: 127.0.0.1: Owner 0x3 "Darky" ('Dreadfull') deleting 0x40000189 (XmlSpawner)
+11/13/2007 5:17:31 PM: 12.205.92.215: Player 0xD27 "K-Hound" ('k-hound') used command 'bandself '
+11/13/2007 5:20:40 PM: 12.205.92.215: Player 0xD27 "K-Hound" ('k-hound') used command 'c anyone on'
+11/13/2007 5:44:17 PM: 12.205.92.215: Player 0xD27 "K-Hound" ('k-hound') used command 'bandself '
+11/13/2007 5:45:00 PM: 12.205.92.215: Player 0xD27 "K-Hound" ('k-hound') used command 'bandself '
+##############################
+Log started on 11/13/2007 10:58:53 PM
+
+11/13/2007 11:00:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/13/2007 11:00:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/13/2007 11:01:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:01:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:01:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:01:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:01:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'restart '
+##############################
+Log started on 11/13/2007 11:03:01 PM
+
+11/13/2007 11:05:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:05:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:05:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:05:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:05:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:05:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/13/2007 11:05:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'restart '
+##############################
+Log started on 11/13/2007 11:05:44 PM
+
+11/13/2007 11:06:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 11:06:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400000F4 (GnarledStaff)
+11/13/2007 11:06:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 11:06:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000013C (FancyShirt)
+11/13/2007 11:06:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 11:06:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000013D (LongPants)
+11/13/2007 11:06:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/13/2007 11:06:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x4000013E (Shoes)
+11/13/2007 11:06:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/13/2007 11:09:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/13/2007 11:09:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:09:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/13/2007 11:12:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:13:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:21:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:21:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c '
+11/13/2007 11:21:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c getting ready for work right now, I love you...'
+11/13/2007 11:24:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:26:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:26:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/13/2007 11:28:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c I am going to log off and get ready and will be calling you when I leave.'
+11/13/2007 11:28:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c '
+11/14/2007 6:22:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/14/2007 6:22:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/14/2007 6:22:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3665 2475 0'
+11/14/2007 6:22:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/14/2007 6:22:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3668, 2471, 0) in Trammel: "xmlspawner"
+11/14/2007 6:22:54 AM: 127.0.0.1: Serials: 0x400006AF; 
+11/14/2007 6:23:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400006AF (XmlSpawner) to '1'
+11/14/2007 6:23:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400006AF (XmlSpawner) to '1'
+11/14/2007 6:30:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400006AF 'HindQuest' [3668, 2471] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/HindQuest/loadconfig/true
+11/14/2007 6:42:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'xmledit '
+11/14/2007 6:51:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/14/2007 6:51:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400006BF (QuestHolder)
+11/14/2007 6:52:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add hind'
+11/14/2007 6:52:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3670, 2472, 0) in Trammel: "hind"
+11/14/2007 6:52:44 AM: 127.0.0.1: Serials: 0x19F; 
+11/14/2007 6:53:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/14/2007 6:53:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400006E5 (Corpse)
+11/14/2007 6:53:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'xmledit '
+11/14/2007 6:56:04 AM: 127.0.0.1: Player 0x4 "Dread" ('Despized') used command 'bandself '
+11/14/2007 6:56:17 AM: 127.0.0.1: Player 0x4 "Dread" ('Despized') used command 'bandself '
+11/14/2007 6:56:29 AM: 127.0.0.1: Player 0x4 "Dread" ('Despized') used command 'bandself '
+11/14/2007 7:23:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/14/2007 7:23:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/14/2007 7:23:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/14/2007 7:23:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/14/2007 7:23:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/14/2007 7:23:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/14/2007 7:23:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3606, 2487, 0) in Trammel: "xmlspawner"
+11/14/2007 7:23:23 AM: 127.0.0.1: Serials: 0x40000767; 
+11/14/2007 7:23:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000767 (XmlSpawner) to '1'
+11/14/2007 7:23:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000767 (XmlSpawner) to '1'
+11/14/2007 7:29:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/14/2007 7:30:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000767 'BoarQuest' [3606, 2487] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/BoarQuest/loadconfig/true
+11/14/2007 7:30:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'xmledit '
+11/14/2007 7:41:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/14/2007 7:43:25 AM: 68.187.149.252: Player 0x6 "Briana" ('briana') used command 'e '
+11/14/2007 7:47:15 AM: 68.187.149.252: Player 0x6 "Briana" ('briana') used command 'e '
+11/14/2007 8:07:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'go haven'
+11/14/2007 10:02:47 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/14/2007 10:18:47 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/15/2007 6:18:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 6:18:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 6:18:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 6:19:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c to talk into chat type [c "text"'
+11/15/2007 6:20:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add gm robe'
+11/15/2007 6:20:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add gmrobe'
+11/15/2007 6:20:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2098, 1337, -90) in Malas: "gmrobe"
+11/15/2007 6:20:21 AM: 127.0.0.1: Serials: 0x40001505; 
+11/15/2007 6:25:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'go haven'
+11/15/2007 6:25:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set name GM Jesus'
+11/15/2007 6:25:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'name' of 0x3 "Jesus" ('Dreadfull') to 'GM'
+11/15/2007 6:25:58 AM: 127.0.0.1: Owner 0x3 "GM" ('Dreadfull') used command 'props '
+11/15/2007 6:26:39 AM: 127.0.0.1: Owner 0x3 "GM" ('Dreadfull') set property 'Name' of 0x3 "GM" ('Dreadfull') to 'GM Jesus'
+11/15/2007 6:29:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:29:19 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:29:20 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:29:20 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:29:21 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:31:16 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:31:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:31:18 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:31:19 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:33:26 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 6:48:49 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/15/2007 6:48:53 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 6:50:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/15/2007 6:51:44 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 6:51:50 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'Blessed' of 0x3 "GM Jesus" ('Dreadfull') to 'True'
+11/15/2007 7:09:26 AM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'where '
+11/15/2007 7:10:54 AM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'where '
+11/15/2007 7:28:36 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'hc '
+11/15/2007 7:29:46 AM: 12.218.19.189: Player 0x1091 "blublu" ('blujmh') used command 'c HI'
+11/15/2007 7:29:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'c hehe'
+11/15/2007 7:31:30 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'chat '
+11/15/2007 7:34:19 AM: 12.218.19.189: Player 0x1091 "blublu" ('blujmh') used command 'chat '
+11/15/2007 7:38:25 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/15/2007 7:47:19 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hits 20'
+11/15/2007 7:47:21 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hits' of 0x1091 "blublu" ('blujmh') to '20'
+11/15/2007 7:53:25 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmledit '
+11/15/2007 7:54:06 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+11/15/2007 7:54:07 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x400142A0 (QuestHolder)
+11/15/2007 7:57:06 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/15/2007 7:57:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 7:57:37 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/15/2007 7:58:02 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "GM Jesus" ('Dreadfull') to '15'
+11/15/2007 7:59:50 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+11/15/2007 1:53:16 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/15/2007 4:27:02 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'where '
+11/15/2007 4:35:19 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 4:35:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'where '
+11/15/2007 4:37:01 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 4:37:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set go haven'
+11/15/2007 4:37:34 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go haven'
+11/15/2007 4:37:37 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 4:56:58 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+11/15/2007 5:00:02 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/15/2007 5:04:01 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'e '
+11/15/2007 5:06:42 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'afk '
+11/15/2007 5:13:03 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'afk '
+11/15/2007 5:16:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'c robes would be at the tailors'
+11/15/2007 5:17:35 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'chat '
+11/15/2007 5:21:12 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/15/2007 5:24:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/15/2007 5:28:01 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/15/2007 5:28:14 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'BodyValue' of 0x3 "GM Jesus" ('Dreadfull') to '744'
+11/15/2007 5:28:29 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2991'
+11/15/2007 5:28:32 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2991'
+11/15/2007 5:28:40 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2992'
+11/15/2007 5:28:41 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2992'
+11/15/2007 5:28:46 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2993'
+11/15/2007 5:28:48 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2993'
+11/15/2007 5:28:53 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2994'
+11/15/2007 5:28:54 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2994'
+11/15/2007 5:29:02 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2995'
+11/15/2007 5:29:04 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2995'
+11/15/2007 5:29:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2996'
+11/15/2007 5:29:13 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2996'
+11/15/2007 5:29:17 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2997'
+11/15/2007 5:29:19 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2997'
+11/15/2007 5:29:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2998'
+11/15/2007 5:29:25 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2998'
+11/15/2007 5:29:29 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2999'
+11/15/2007 5:29:30 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40001505 (GMRobe) to '2999'
+11/15/2007 5:31:16 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'e '
+11/15/2007 8:47:59 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/15/2007 10:18:15 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/15/2007 10:18:33 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '
+11/15/2007 10:19:24 PM: 68.187.149.252: Player 0xCD8 "Kitty" ('briana') used command 'chat '

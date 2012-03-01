@@ -1,0 +1,66 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseAI</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>BaseAI</h2>
+<h4>Derived Types: <a href="AnimalAI.html">AnimalAI</a>, <a href="ArcherAI.html">ArcherAI</a>, <a href="BerserkAI.html">BerserkAI</a>, <a href="CloneAI.html">CloneAI</a>, <a href="FactionGuardAI.html">FactionGuardAI</a>, <a href="HealerAI.html">HealerAI</a>, <a href="MageAI.html">MageAI</a>, <a href="MeleeAI.html">MeleeAI</a>, <a href="NecroAI.html">NecroAI</a>, <a href="NecromageAI.html">NecromageAI</a>, <a href="OrcScoutAI.html">OrcScoutAI</a>, <a href="PredatorAI.html">PredatorAI</a>, <a href="ThiefAI.html">ThiefAI</a>, <a href="VendorAI.html">VendorAI</a></h4>
+<h4>Nested Types: <a href="AITimer.html">AITimer</a>, <a href="InternalEntry.html">InternalEntry</a>, <a href="TransferItem.html">TransferItem</a></h4>
+      (<font color="blue">ctor</font>) BaseAI( <a href="BaseCreature.html">BaseCreature</a> m )<br>
+      <a href="ActionType.html">ActionType</a> Action( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanDetectHidden( <font color="blue">get</font>; )<br>
+      DateTime NextMove( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AcquireFocusMob( <font color="blue">int</font> iRange, <a href="FightMode.html">FightMode</a> acqType, <font color="blue">bool</font> bPlayerOnly, <font color="blue">bool</font> bFacFriend, <font color="blue">bool</font> bFacFoe )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Activate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BeginPickTarget( <a href="Mobile.html">Mobile</a> from, <a href="OrderType.html">OrderType</a> order )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckFlee()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHerding()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckMove()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deactivate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DetectHidden()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoActionBackoff()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoActionCombat()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoActionFlee()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoActionGuard()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoActionInteract()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoActionWander()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoBardPacified()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoBardProvoked()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoMove( <a href="Direction.html">Direction</a> d )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoMove( <a href="Direction.html">Direction</a> d, <font color="blue">bool</font> badStateOk )<br>
+      <font color="blue">virtual</font> <a href="MoveResult.html">MoveResult</a> DoMoveImpl( <a href="Direction.html">Direction</a> d )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderAttack()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderCome()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderDrop()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderFollow()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderFriend()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderGuard()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderNone()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderPatrol()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderRelease()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderStay()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderStop()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderTransfer()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DoOrderUnfriend()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> EndPickTarget( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target, <a href="OrderType.html">OrderType</a> order )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> MoveTo( <a href="Mobile.html">Mobile</a> m, <font color="blue">bool</font> run, <font color="blue">int</font> range )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Obey()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionChanged()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAggressiveAction( <a href="Mobile.html">Mobile</a> aggressor )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnAtWayPoint()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnCurrentOrderChanged()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnCurrentSpeedChanged()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTeleported()<br>
+      <font color="blue">void</font> ReturnToHome()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Think()<br>
+      <font color="blue">double</font> TransformMoveDelay( <font color="blue">double</font> delay )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> WalkMobileRange( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> iSteps, <font color="blue">bool</font> bRun, <font color="blue">int</font> iWantDistMin, <font color="blue">int</font> iWantDistMax )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> WalkRandom( <font color="blue">int</font> iChanceToNotMove, <font color="blue">int</font> iChanceToDir, <font color="blue">int</font> iSteps )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> WalkRandomInHome( <font color="blue">int</font> iChanceToNotMove, <font color="blue">int</font> iChanceToDir, <font color="blue">int</font> iSteps )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> WasNamed( <font color="blue">string</font> speech )<br>
+   </body>
+</html>

@@ -1,0 +1,7 @@
+04/26/2009
+4:55PM
+
+1. Fixed color of Silver, Gold, Mythril, Platinum Ores.
+2. Fixed the weight value of Ore, Logs, Hides.
+
+GM Darky.

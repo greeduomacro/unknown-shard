@@ -1,0 +1,54 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Channel</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Knives.Chat3.html">Back to Knives.Chat3</a></h4>
+      <h2>Channel</h2>
+<h4>Derived Types: <a href="Alliance.html">Alliance</a>, <a href="Faction.html">Faction</a>, <a href="Guild1.html">Guild</a>, <a href="Irc.html">Irc</a>, <a href="Multi.html">Multi</a>, <a href="Public.html">Public</a>, <a href="Staff.html">Staff</a></h4>
+<h4>Nested Types: <a href="ChatHistory.html">ChatHistory</a></h4>
+      (<font color="blue">static</font>) ArrayList Channels( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddCommand( <font color="blue">string</font> str )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ChannelCommand( <a href="CommandInfo.html">CommandInfo</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> Exists( Type type )<br>
+      (<font color="blue">static</font>) <a href="Channel.html">Channel</a> GetByName( <font color="blue">string</font> str )<br>
+      (<font color="blue">static</font>) <a href="Channel.html">Channel</a> GetByType( Type type )<br>
+      (<font color="blue">static</font>) ArrayList GetHistoryFrom( <a href="Mobile.html">Mobile</a> m, <font color="blue">string</font> name )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Load()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PredefinedChannels()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Register( <a href="Channel.html">Channel</a> c )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveCommand( <font color="blue">string</font> str )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Save()<br>
+      (<font color="blue">ctor</font>) Channel()<br>
+      (<font color="blue">ctor</font>) Channel( <font color="blue">string</font> name )<br>
+      Hashtable Colors( <font color="blue">get</font>; )<br>
+      ArrayList Commands( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultC( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Delay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Enabled( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Filter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList History( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Name( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> NewChars( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ShowStaff( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="ChatStyle.html">ChatStyle</a> Style( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ToIrc( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddHistory( <a href="Mobile.html">Mobile</a> m, <font color="blue">string</font> msg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Broadcast( <a href="Mobile.html">Mobile</a> m, <font color="blue">string</font> msg )<br>
+      <font color="blue">void</font> BroadcastSystem( <font color="blue">string</font> msg )<br>
+      <font color="blue">virtual</font> ArrayList BuildList( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanChat( <a href="Mobile.html">Mobile</a> m, <font color="blue">bool</font> say )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> ColorFor( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> ArrayList GetHistory( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsIn( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> Join( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> Leave( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> Load( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> NameFor( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> OnChat( <font color="blue">object</font> o )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnChat( <a href="Mobile.html">Mobile</a> m, <font color="blue">string</font> msg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnChat( <a href="Mobile.html">Mobile</a> m, <font color="blue">string</font> msg, <font color="blue">bool</font> spam )<br>
+      <font color="blue">void</font> Save( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateHistory( <a href="Mobile.html">Mobile</a> m )<br>
+   </body>
+</html>

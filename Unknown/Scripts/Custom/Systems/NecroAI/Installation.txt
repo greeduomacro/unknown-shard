@@ -1,0 +1,123 @@
+
+****DISTRO EDITS****
+====================
+In your BaseAI.cs
+====================
+
+=======Find=========
+
+public enum AIType
+{
+AI_Use_Default,
+AI_Melee,
+AI_Animal,
+AI_Archer,
+AI_Healer,
+AI_Vendor,
+AI_Mage,
+AI_Berserk,
+AI_Predator,
+AI_Thief
+
+ 
+===Change too this=====
+
+public enum AIType
+{
+AI_Use_Default,
+AI_Melee,
+AI_Animal,
+AI_Archer,
+AI_Healer,
+AI_Vendor,
+AI_Mage,
+AI_Berserk,
+AI_Predator,
+AI_Thief,
+AI_Necro,
+AI_Necromage
+
+=======================
+In your basecreature.cs
+======================= 
+
+===Find===
+
+case AIType.AI_Thief:
+m_AI = new ThiefAI(this);
+break;
+
+==Directly below that add==
+
+case AIType.AI_Necro:
+m_AI = new NecroAI(this);
+break;
+case AIType.AI_Necromage:
+m_AI = new NecromageAI(this);
+break;
+
+==Edits Finished==
+
+About Necros
+
+Necromancer Npcs, will need the following skills for best usage of AI:
+
+Necromancy, Spirit Speak, Poisoning & Meditation skills.
+
+Features: for NecroAI
+
+- Npcs will cast Necromancer spells when attacking.
+- Npcs use Spirit Speak as a healing method.
+- Npcs usage of high end spells such as Wither & Vengeful Spirit
+- Npcs usage of spell combos
+- Npcs will teleport to target as Mage Npcs would
+- Improved healing performance but based solely on Spirit Speak.
+
+
+More info on use:
+
+To use on npcs, declare the AI normally like for any other AI:
+
+public NpcName() : base( AIType.AI_Necro, FightMode.Closest, 10, 1, 0.2, 0.4 )
+
+public NpcName() : base( AIType.AI_Necromage, Fightmode.Closest, 10, 1, 0.2, 0.4 )
+
+Update to downloads( 05/20/2004 ):
+
+
+
+Sample Npc, demonstrating useage of AI, how to include necro reagents, and how to include in loot a full necromancer spellbook (Sample Necromancer, by SkyMonkey ).
+
+Revised versions of the base lich npc, that now use the Necromancer AI ( Revised Lich Npcs, by GoldDraco13 ).
+
+Bonus Custom NPC - Boss type toughness - Grim Reaper.
+
+
+Distro directories:
+
+
+Scripts/Engines/AI/AI - for BaseAI.cs
+
+and
+
+Scripts/Engines/AI/Creatures - for BaseCreature.cs
+
+
+The NPC files should be extracted to:
+
+Scripts/Custom - for SampleNecromancer.cs
+
+Scripts/Custom- for GrimReaper.cs
+
+Scripts/Custom - for Blacklich.cs lich staff
+
+
+For "GoldDraco13's" updated lich pack:
+===Find Backup & or Replace====AncientLich.cs, Lich.cs and LichLord.cs
+
+Distros for Necro Liches found here
+Scripts/Mobiles/Monsters/Humanoid/Magic - for the AncientLich.cs, Lich.cs and LichLord.cs
+
+
+
+

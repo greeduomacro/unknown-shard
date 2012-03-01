@@ -1,0 +1,343 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Den</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralDen</ConfigFile>
+    <SpeechEntries>17</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Alas a savour of our small town.  Could you help us?</Text>
+    <Condition>GETONTRIGMOB,str&gt;39 &amp; GETONTRIGMOB,str&lt;100 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest1,name]="DenQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Far South of here there are Grey Wolves attacking please kill 30 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest1; GIVE/&lt;questholder/name/DenQuest1/notestring/30 GreyWolf/objective1/KILL,GreyWolf,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,1000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Help we need help we are under attack from bastards of bodom!!</Text>
+    <Condition>GETONTRIGMOB,str&gt;99 &amp; GETONTRIGMOB,str&lt;200 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest2,name]="DenQuest2" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest1,name]="DenQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>Far south of here there are Dog running around trying to rape people. Kill 20 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest2; GIVE/&lt;questholder/name/DenQuest2/notestring/20 Dog/objective1/KILL,Dog,20/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,1000</Action>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;199 &amp; GETONTRIGMOB,str&lt;300 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest3,name]="DenQuest3" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest2,name]="DenQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Far south of here there are GiantToads, They are being real annoying to the people Kill 40 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest3; GIVE/&lt;questholder/name/DenQuest3/notestring/40 GiantToad/objective1/KILL,GiantToad,40/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,1000</Action>
+    <DependsOn>50</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Text>You are currently doing a quest.</Text>
+    <Condition>GETONCARRIED,DenQuest1,Visible=true | GETONCARRIED,DenQuest2,Visible=true | GETONCARRIED,DenQuest3,Visible=true | GETONCARRIED,DenQuest4,Visible=true | GETONCARRIED,DenQuest5,Visible=true | GETONCARRIED,DenQuest6,Visible=true | GETONCARRIED,DenQuest7,Visible=true | GETONCARRIED,DenQuest8,Visible=true | GETONCARRIED,DenQuest9,Visible=true | GETONCARRIED,DenQuest10,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>I am sorry but you are too much of a weakling to be able to help me. Come back when your stronger.</Text>
+    <Condition>GETONTRIGMOB,str&lt;39</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>You have done the first quest. We thank you.  The next quest requires 100str or more. Come back when you have more strength.</Text>
+    <Condition>~GETONCARRIED,DenQuest1,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest1,name]="DenQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>You have done the first and second quest.  Nice work. The next quest requires 200str or more.</Text>
+    <Condition>~GETONCARRIED,DenQuest2,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest2,name]="DenQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Wow 3 quests completed, don't you feel special. The next quest requires 300str or more. Come back when your less like a weakling.</Text>
+    <Condition>~GETONCARRIED,DenQuest3,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest3,name]="DenQuest3"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>110</EntryNumber>
+    <ID>110</ID>
+    <Text>The 4th quest that I offer has been completed.  Very Nice Indeed Come back when you have 400str or more.  Thank you again.</Text>
+    <Condition>~GETONCARRIED,DenQuest4,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest4,name]="DenQuest4"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>120</EntryNumber>
+    <ID>120</ID>
+    <Text>Nice, the 5th quest has been complete. Please come back when you have 500str or more.</Text>
+    <Condition>~GETONCARRIED,DenQuest5,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest5,name]="DenQuest5"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>130</EntryNumber>
+    <ID>130</ID>
+    <Text>The 6th quest has been completed. Please come back when you have 600str or more.</Text>
+    <Condition>~GETONCARRIED,DenQuest6,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest6,name]="DenQuest6"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>140</EntryNumber>
+    <ID>140</ID>
+    <Text>The 7th quest has been completed. Please come back when you have 700str or more.</Text>
+    <Condition>~GETONCARRIED,DenQuest7,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest7,name]="DenQuest7"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>150</EntryNumber>
+    <ID>150</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;299 &amp; GETONTRIGMOB,str&lt;400 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest4,name]="DenQuest4" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest3,name]="DenQuest3"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>160</EntryNumber>
+    <ID>160</ID>
+    <Text>Far south of here there are reports of some Chickens attempting to enter the city limits. Please kill 20 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest4; GIVE/&lt;questholder/name/DenQuest4/notestring/20 Chicken/objective1/KILL,Chicken,20/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2000/ADD/%lt;levelcloak/name/ChickenBoots/hue/30&gt;</Action>
+    <DependsOn>150</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+    <SpeechEntry>
+    <EntryNumber>170</EntryNumber>
+    <ID>170</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;399 &amp; GETONTRIGMOB,str&lt;500 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest5,name]="DenQuest5" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest4,name]="DenQuest4"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>180</EntryNumber>
+    <ID>180</ID>
+    <Text>Far south of here there are reports of some Black Bears attempting to enter the city limits. Please kill 20 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest5; GIVE/&lt;questholder/name/DenQuest5/notestring/20 Blackbear/objective1/KILL,Blackbear,20/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2000/ADD/%lt;levelcleaver/name/BearClaw/hue/175&gt;</Action>
+    <DependsOn>170</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+      <SpeechEntry>
+    <EntryNumber>170</EntryNumber>
+    <ID>170</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;499 &amp; GETONTRIGMOB,str&lt;600 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest6,name]="DenQuest6" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest5,name]="DenQuest5"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>180</EntryNumber>
+    <ID>180</ID>
+    <Text>Far south of here there are reports of some Grizzly Bears attempting to enter the city limits. Please kill 20 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest6; GIVE/&lt;questholder/name/DenQuest6/notestring/20 Grizzlybear/objective1/KILL,Grizzlybear,20/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2500</Action>
+    <DependsOn>170</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+      <SpeechEntry>
+    <EntryNumber>170</EntryNumber>
+    <ID>170</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;599 &amp; GETONTRIGMOB,str&lt;700 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest7,name]="DenQuest7" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,DenQuest6,name]="DenQuest6"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>180</EntryNumber>
+    <ID>180</ID>
+    <Text>Far south of here there are reports of some Goats attempting to enter the city limits. Please kill 20 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,DenQuest7; GIVE/&lt;questholder/name/DenQuest7/notestring/20 Goat/objective1/KILL,Goat,20/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2500</Action>
+    <DependsOn>170</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

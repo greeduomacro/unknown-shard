@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PlantItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.Plants.html">Back to Server.Engines.Plants</a></h4>
+      <h2>PlantItem : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ISecurable.html">ISecurable</a></h2>
+      (<font color="blue">static</font>) ArrayList Plants( <font color="blue">get</font>; )<br>
+      (<font color="blue">ctor</font>) PlantItem()<br>
+      (<font color="blue">ctor</font>) PlantItem( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) PlantItem( <font color="blue">bool</font> fertileDirt )<br>
+      <font color="blue">bool</font> ForceShowProperties( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsCrossable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsGrowable( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> LabelNumber( <font color="blue">get</font>; )<br>
+      <a href="SecureLevel.html">SecureLevel</a> Level( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlantHue.html">PlantHue</a> PlantHue( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlantStatus.html">PlantStatus</a> PlantStatus( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlantSystem.html">PlantSystem</a> PlantSystem( <font color="blue">get</font>; )<br>
+      <a href="PlantType.html">PlantType</a> PlantType( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ShowType( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ValidGrowthLocation( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddNameProperty( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">bool</font> ApplyPotion( <a href="PotionEffect.html">PotionEffect</a> effect, <font color="blue">bool</font> testOnly, <font color="blue">out</font> <font color="blue">int</font> message )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Die()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">int</font> GetLocalizedPlantStatus()<br>
+      <font color="blue">bool</font> IsUsableBy( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> PlantSeed( <a href="Mobile.html">Mobile</a> from, <a href="Seed.html">Seed</a> seed )<br>
+      <font color="blue">void</font> Pour( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> Update()<br>
+   </body>
+</html>

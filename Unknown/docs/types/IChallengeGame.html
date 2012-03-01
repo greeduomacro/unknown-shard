@@ -1,0 +1,38 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - IChallengeGame</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>IChallengeGame</h2>
+<h4>Derived Types: <a href="BaseChallengeGame.html">BaseChallengeGame</a>, <a href="CTFGauntlet.html">CTFGauntlet</a>, <a href="DeathBallGauntlet.html">DeathBallGauntlet</a>, <a href="DeathmatchGauntlet.html">DeathmatchGauntlet</a>, <a href="KingOfTheHillGauntlet.html">KingOfTheHillGauntlet</a>, <a href="LastManStandingGauntlet.html">LastManStandingGauntlet</a>, <a href="TeamDeathballGauntlet.html">TeamDeathballGauntlet</a>, <a href="TeamDeathmatchGauntlet.html">TeamDeathmatchGauntlet</a>, <a href="TeamKotHGauntlet.html">TeamKotHGauntlet</a>, <a href="TeamLMSGauntlet.html">TeamLMSGauntlet</a></h4>
+      <font color="blue">bool</font> AllowPoints( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ChallengeBeingCancelled( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> ChallengeName( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Deleted( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> GameCompleted( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> GameInProgress( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> GameLocked( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Organizers( <font color="blue">get</font>; )<br>
+      ArrayList Participants( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseKillDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AreChallengers( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AreInGame( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AreTeamMembers( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Delete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> EndGame()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">int</font> msgindex )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">string</font> msg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">int</font> msgindex, <font color="blue">object</font> msgarg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">int</font> msgindex, <font color="blue">object</font> msgarg, <font color="blue">object</font> msgarg2 )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> InsuranceIsFree( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> awardto )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsOrganizer( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKillPlayer( <a href="Mobile.html">Mobile</a> killer, <a href="Mobile.html">Mobile</a> killed )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnPlayerKilled( <a href="Mobile.html">Mobile</a> killer, <a href="Mobile.html">Mobile</a> killed )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTick()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StartGame()<br>
+   </body>
+</html>

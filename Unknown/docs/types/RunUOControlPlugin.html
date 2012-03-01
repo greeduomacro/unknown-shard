@@ -1,0 +1,62 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - RunUOControlPlugin</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.WatchUO.Plugins.html">Back to Server.Engines.WatchUO.Plugins</a></h4>
+      <h2>RunUOControlPlugin : <a href="BasePlugin.html">BasePlugin</a>, IComponent, IDisposable, IOleControl, IOleObject, IOleInPlaceObject, IOleInPlaceActiveObject, IOleWindow, IViewObject, IViewObject2, IPersist, IPersistStreamInit, IPersistPropertyBag, IPersistStorage, IQuickActivate, ISupportOleDropSource, IDropTarget, ISynchronizeInvoke, IWin32Window, IArrangedElement, IBindableComponent</h2>
+<h4>Nested Types: <a href="CountSorter1.html">CountSorter</a>, <a href="SignEntry1.html">SignEntry</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> CreateMalasPassage( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">int</font> xTarget, <font color="blue">int</font> yTarget, <font color="blue">int</font> zTarget, <font color="blue">bool</font> bone, <font color="blue">bool</font> locked )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> FindMarkContainer( <a href="Point3D.html">Point3D</a> p, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) IntPtr GetConsoleWindow()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsWindowVisible( IntPtr hWnd )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> ShowWindow( IntPtr hWnd, <font color="blue">int</font> state )<br>
+      (<font color="blue">ctor</font>) RunUOControlPlugin()<br>
+      <font color="blue">void</font> ApplyLockdownLevel_Callback()<br>
+      <font color="blue">void</font> Button_ApplyLockdownLevel_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_CountObjects_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_CrashServer_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_EnableAutosave_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_EnableCoreProfiling_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateDocs_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateDoors_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateMoongates_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateSecretLocations_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateSigns_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateTeleporters_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_GenerateVendors_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_HideConsole_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_PacketProfiles_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_ProfileWorld_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_RebuildCategorisation_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_RestartServer_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_SendMessage_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_Shutdown_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_TimerProfiles_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_TraceInternal_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> Button_WorldSave_Click( <font color="blue">object</font> sender, EventArgs e )<br>
+      <font color="blue">void</font> CountObjects_Callback()<br>
+      <font color="blue">void</font> CrashServer_Callback()<br>
+      <font color="blue">void</font> GenerateDocs_CmdCallback( IAsyncResult ares )<br>
+      <font color="blue">void</font> GenerateDocs_TimerCallback()<br>
+      <font color="blue">void</font> GenerateDoors_Callback()<br>
+      <font color="blue">void</font> GenerateMoongates_Callback()<br>
+      <font color="blue">void</font> GenerateSecretLocations_Callback()<br>
+      <font color="blue">void</font> GenerateSigns_Callback()<br>
+      <font color="blue">void</font> GenerateTeleporters_Callback()<br>
+      <font color="blue">void</font> GenerateVendors_CmdCallback( IAsyncResult ares )<br>
+      <font color="blue">void</font> GenerateVendors_TimerCallback()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLoad()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnPaint( PaintEventArgs e )<br>
+      <font color="blue">void</font> PacketProfiles_Callback()<br>
+      <font color="blue">void</font> ProfileWorld_Callback()<br>
+      <font color="blue">void</font> RebuildCategorisation_Callback()<br>
+      <font color="blue">void</font> RestartServer_Callback()<br>
+      <font color="blue">void</font> ShutdownServer_Callback()<br>
+      <font color="blue">void</font> TimerProfiles_Callback()<br>
+      <font color="blue">void</font> TraceInternal_Callback()<br>
+      <font color="blue">void</font> UpdateAutosaveButton()<br>
+      <font color="blue">void</font> UpdateCoreProfilingButton()<br>
+      <font color="blue">void</font> UpdateHideConsoleButton()<br>
+   </body>
+</html>

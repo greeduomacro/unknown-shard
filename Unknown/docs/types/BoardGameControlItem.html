@@ -1,0 +1,70 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BoardGameControlItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BoardGameControlItem : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="BombermanControlItem.html">BombermanControlItem</a></h4>
+<h4>Nested Types: <a href="EndGameTimer.html">EndGameTimer</a>, <a href="WinnerTimer.html">WinnerTimer</a></h4>
+      (<font color="blue">ctor</font>) BoardGameControlItem()<br>
+      (<font color="blue">ctor</font>) BoardGameControlItem( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> AllowPlayerConfiguration( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 BackgroundItems( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BoardHeight( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> BoardLocation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Map.html">Map</a> BoardMap( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> BoardOffset( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BoardWidth( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanCastSpells( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanUsePets( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanUseSkills( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> CostToPlay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ForceGameOver( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> GameDescription( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> GameName( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> GameRules( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MaxPlayers( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MinPlayers( <font color="blue">get</font>; )<br>
+      List`1 PendingPlayers( <font color="blue">get</font>; )<br>
+      List`1 Players( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> SettingsReady( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BoardGameState.html">BoardGameState</a> State( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseFromBackpack( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> UseRange( <font color="blue">get</font>; )<br>
+      TimeSpan WinDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddPlayer( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AnnounceWinner()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BuildBoard()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanUse( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> CheckCost( <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> withdraw )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckRequirements( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Delete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DisabledGame( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> EndGame()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameActive( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameOver( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GamePending( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitializeControl()<br>
+      <font color="blue">void</font> InitializeGame()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OfferNewGame( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OfferRecruiting( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnEndGameTimer()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> oldLoc )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMapChange()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnUse( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> PrimePlayers()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RemovePlayer( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ResetBoard()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> StartEndGameTimer( TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StartGame()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdatePosition()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> WipeBoard()<br>
+   </body>
+</html>
