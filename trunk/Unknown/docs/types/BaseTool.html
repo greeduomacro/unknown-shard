@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseTool</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseTool : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IUsesRemaining.html">IUsesRemaining</a>, <a href="ICraftable.html">ICraftable</a></h2>
+<h4>Derived Types: <a href="AncientSmithyHammer.html">AncientSmithyHammer</a>, <a href="AnimalItemCraftingTools.html">AnimalItemCraftingTools</a>, <a href="ArchitectTool.html">ArchitectTool</a>, <a href="BaseRunicTool.html">BaseRunicTool</a>, <a href="BioTool.html">BioTool</a>, <a href="Blowpipe.html">Blowpipe</a>, <a href="Brush.html">Brush</a>, <a href="DovetailSaw.html">DovetailSaw</a>, <a href="DrawKnife.html">DrawKnife</a>, <a href="FletcherTools.html">FletcherTools</a>, <a href="FlourSifter.html">FlourSifter</a>, <a href="Froe.html">Froe</a>, <a href="Hammer.html">Hammer</a>, <a href="HammerOfTheGodlySmith.html">HammerOfTheGodlySmith</a>, <a href="Inshave.html">Inshave</a>, <a href="JointingPlane.html">JointingPlane</a>, <a href="MalletAndChisel.html">MalletAndChisel</a>, <a href="MapmakersPen.html">MapmakersPen</a>, <a href="MedicalTools.html">MedicalTools</a>, <a href="MortarPestle.html">MortarPestle</a>, <a href="MouldingPlane.html">MouldingPlane</a>, <a href="Nails.html">Nails</a>, <a href="NecroSummonTome.html">NecroSummonTome</a>, <a href="RollingPin.html">RollingPin</a>, <a href="Saw.html">Saw</a>, <a href="Scorp.html">Scorp</a>, <a href="ScribesPen.html">ScribesPen</a>, <a href="SewingKit.html">SewingKit</a>, <a href="SewingKitOfTheGodlyTailor.html">SewingKitOfTheGodlyTailor</a>, <a href="Skillet.html">Skillet</a>, <a href="SledgeHammer.html">SledgeHammer</a>, <a href="SmithHammer.html">SmithHammer</a>, <a href="SmoothingPlane.html">SmoothingPlane</a>, <a href="TinkerTools.html">TinkerTools</a>, <a href="Tongs.html">Tongs</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckAccessible( <a href="Item.html">Item</a> tool, <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckTool( <a href="Item.html">Item</a> tool, <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">ctor</font>) BaseTool( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseTool( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) BaseTool( <font color="blue">int</font> uses, <font color="blue">int</font> itemID )<br>
+      <a href="Mobile.html">Mobile</a> Crafter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="CraftSystem.html">CraftSystem</a> CraftSystem( <font color="blue">get</font>; )<br>
+      <a href="ToolQuality.html">ToolQuality</a> Quality( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ShowUsesRemaining( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> UsesRemaining( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DisplayDurabilityTo( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">int</font> GetUsesScalar()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CraftItem.html">CraftItem</a> craftItem, <font color="blue">int</font> resHue )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> ScaleUses()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> UnscaleUses()<br>
+   </body>
+</html>

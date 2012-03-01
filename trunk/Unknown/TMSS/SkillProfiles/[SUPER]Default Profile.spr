@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSuperProfile>
+	<ProfileName>Default Profile</ProfileName>
+	<Count>4</Count>
+	<SubProfile>Miscellaneous</SubProfile>
+	<SubProfile>Combat Ratings</SubProfile>
+	<SubProfile>Actions</SubProfile>
+	<SubProfile>Lore &amp; Knowledge</SubProfile>
+</TMSuperProfile>

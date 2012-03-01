@@ -1,0 +1,203 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Britain</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralBritain</ConfigFile>
+    <SpeechEntries>13</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>I can offer you some quests 11-20 of Britain to be exact.  Just say Britain with the number at the end of what quest you want.</Text>
+    <Condition>~GETONCARRIED,BritainQuest11,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest12,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest13,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest14,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest15,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest16,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest17,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest18,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest19,questholder,Visible=true &amp; ~GETONCARRIED,BritainQuest20,questholder,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Thank you here is Quest 11.</Text>
+    <Keywords>BritainQuest11</Keywords>
+    <Action>GIVE/&lt;questholder/name/BritainQuest11/notestring/Please kill 20 Hinds for a nice reward/objective1/KILL,hind,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,2000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Thank you here is Quest 12.</Text>
+    <Keywords>BritainQuest12</Keywords>
+    <Action>GIVE/&lt;questholder/name/BritainQuest12/notestring/Kill 20 Boars for a nice reward/objective1/KILL,boar,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,2500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>Thank you here is Quest 13.</Text>
+    <Keywords>BritainQuest13</Keywords>
+    <Action>GIVE/&lt;questholder/name/BritainQuest13/notestring/Kill 20 Birds for a nice reward/objective1/KILL,bird,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,3000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Thank you here is Quest 14.</Text>
+    <Keywords>BritainQuest14</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/BritainQuest14/notestring/Kill 20 BlackBear for a nice reward, You have 30 minutes./objective1/KILL,blackbear,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,3500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Thank you here is Quest 15.</Text>
+    <Keywords>BritainQuest15</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/BritainQuest15/notestring/Kill 20 GrizzlyBear for a nice reward, You have 30 minutes./objective1/KILL,grizzlybear,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,4000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>Thank you here is Quest 16.</Text>
+    <Keywords>BritainQuest16</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/BritainQuest16/notestring/Kill 20 Dog for a nice reward, You have 30 minutes./objective1/KILL,dog,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,4500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>Thank you here is Quest 17.</Text>
+    <Keywords>BritainQuest17</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/1.0/name/BritainQuest17/notestring/Kill 20 Cat for a nice reward, You have 1 hour./objective1/KILL,cat,20/autoreward/true/repeatbale/true/rewardstring/@bag/ADD/bankcheck,5000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>Thank you here is Quest 18.</Text>
+    <Keywords>BritainQuest18</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/1.0/name/BritainQuest18/notestring/Kill 20 Skeleton for a nice reward, You have 1 hour./objective1/KILL,skeleton,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,5500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Thank you here is Quest 19.</Text>
+    <Keywords>BritainQuest19</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/1.0/name/BritainQuest19/notestring/Kill 20 Mummy for a nice reward, You have 1 hour./objective1/KILL,mummy,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,6000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>110</EntryNumber>
+    <ID>110</ID>
+    <Text>Thank you here is Quest 20.</Text>
+    <Keywords>BritainQuest20</Keywords>
+    <Action>GIVE/&lt;questholder/name/BritainQuest20/notestring/Kill 20 DireWolf for a nice reward/objective1/KILL,direwolf,20/autoreward/true/repeatable/true/rewardstring/@bag/ADD/bankcheck,3500</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>120</EntryNumber>
+    <ID>120</ID>
+    <Text>You are currently doing a quest, come back when your finished.</Text>
+    <Condition>GETONCARRIED,BritainQuest11,questholder,Visible=true | GETONCARRIED,BritainQuest12,questholder,Visible=true | GETONCARRIED,BritainQuest13,questholder,Visible=true | GETONCARRIED,BritainQuest14,questholder,Visible=true | GETONCARRIED,BritainQuest15,questholder,Visible=true | GETONCARRIED,BritainQuest16,questholder,Visible=true | GETONCARRIED,BritainQuest17,questholder,Visible=true | GETONCARRIED,BritainQuest18,questholder,Visible=true | GETONCARRIED,BritianQuest19,questholder,Visible=true | GETONCARRIED,BritainQuest20,questholder,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

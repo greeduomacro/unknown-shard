@@ -1,0 +1,10 @@
+11/13/2007
+Tuesday
+11:07pm central USA time.
+
+Well had to remove the ingame forums and some additions from a possible script that I was thinking of trying to use for some party ingame radar player showing.  But that did not work as well as I hoped.  Therefore the chracters got wiped.  The world files are fine and not effected.  So nothing to worry about on that front.
+
+Hopefully this should fix a few hiccups on the server end at least.
+
+Owner/Admin/GM/Coder
+Jesus

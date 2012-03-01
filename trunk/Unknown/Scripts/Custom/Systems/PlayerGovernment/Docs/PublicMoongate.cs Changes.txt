@@ -1,0 +1,104 @@
+PublicMoongate.cs
+
+#
+#-----[ OPEN ]--------------------
+#
+
+PublicMoongate.cs
+
+#
+#-----[ FIND ]--------------------
+#
+
+			AddBackground( 0, 0, 380, 280, 5054 );
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+			AddButton( 10, 185, 4005, 4007, 2, GumpButtonType.Reply, 0 );
+			AddHtml( 45, 185, 140, 25, @"Player City Menu", false, false );
+
+#
+#-----[ FIND ]--------------------
+#
+
+			else if ( m_Mobile.Deleted || m_Moongate.Deleted || m_Mobile.Map == null )
+				return;
+
+#
+#-----[ ADD, AFTER ]--------------
+#
+
+			if ( info.ButtonID == 2 )
+			{
+				ArrayList a = new ArrayList();
+
+				foreach ( Item i in World.Items.Values )
+				{
+					if ( i is CityManagementStone )
+					{
+						CityManagementStone s = (CityManagementStone)i;
+						
+						if ( s.HasMoongate == true && s.IsRegistered == true )
+							a.Add( i );
+					}
+				}
+
+				if ( a.Count == 0 )
+				{
+					m_Mobile.SendGump( new NoCitiesGump() );
+				}
+				else
+				{
+					m_Mobile.SendGump( new PCMoongateGump( m_Moongate, 0, null, null ) );
+				}
+			}
+
+#
+#-----[ FIND ]--------------------
+#
+
+				BaseCreature.TeleportPets( m_Mobile, entry.Location, list.Map );
+	
+				m_Mobile.Combatant = null;
+				m_Mobile.Warmode = false;
+				m_Mobile.Hidden = true;
+
+				m_Mobile.MoveToWorld( entry.Location, list.Map );
+
+				Effects.PlaySound( entry.Location, list.Map, 0x1FE );
+
+#
+#-----[ CHANGE, TO ]--------------
+#
+
+				CityManagementStone outgoingCity = null;
+				Region currentRegion = Region.Find( m_Mobile.Location, m_Mobile.Map );
+
+				if ( currentRegion != null )
+				{
+					if ( currentRegion is PlayerCityRegion )
+					{
+						PlayerCityRegion pcr = (PlayerCityRegion)currentRegion;
+
+						outgoingCity = pcr.Stone;
+					}
+				}
+
+				if ( outgoingCity != null && outgoingCity.TravelTax >= 1 )
+				{
+					m_Mobile.SendGump( new PCMoongateToll2Gump( m_Moongate, outgoingCity, entry.Location, list.Map ) );
+				}
+				else
+				{
+					BaseCreature.TeleportPets( m_Mobile, entry.Location, list.Map );
+	
+					m_Mobile.Combatant = null;
+					m_Mobile.Warmode = false;
+					m_Mobile.Hidden = true;
+
+					m_Mobile.MoveToWorld( entry.Location, list.Map );
+
+					Effects.PlaySound( entry.Location, list.Map, 0x1FE );
+				}

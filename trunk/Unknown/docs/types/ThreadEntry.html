@@ -1,0 +1,33 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - ThreadEntry</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Forums.html">Back to Server.Forums</a></h4>
+      <h2>ThreadEntry</h2>
+      (<font color="blue">ctor</font>) ThreadEntry()<br>
+      (<font color="blue">ctor</font>) ThreadEntry( <font color="blue">string</font> subject, <a href="PostEntry.html">PostEntry</a> post, <a href="Mobile.html">Mobile</a> pm, DateTime creationTime, <font color="blue">int</font> id, <a href="ThreadType.html">ThreadType</a> type )<br>
+      DateTime CreationTime( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Deleted( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="ThreadType.html">ThreadType</a> EntryType( <font color="blue">get</font>; )<br>
+      DateTime LastPostTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Locked( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NumberOfReplys( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> NumberOfViews( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> StaffMessage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Subject( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> ThreadCreator( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> AddPost( <a href="PostEntry.html">PostEntry</a> post )<br>
+      <font color="blue">void</font> AddViewer( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> AddViewerSinceUpdate( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">string</font> GetThreadInfo()<br>
+      <font color="blue">bool</font> IsPoster( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsPosterSinceUpdate( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsViewer( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsViewerSinceUpdate( <a href="Mobile.html">Mobile</a> m )<br>
+      ArrayList ReadPostList( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> WritePostList( <a href="GenericWriter.html">GenericWriter</a> writer, ArrayList list )<br>
+   </body>
+</html>

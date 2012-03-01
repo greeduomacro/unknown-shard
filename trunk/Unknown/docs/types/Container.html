@@ -1,0 +1,97 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Container</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>Container : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="BankBox.html">BankBox</a>, <a href="BaseBoard.html">BaseBoard</a>, <a href="BaseContainer.html">BaseContainer</a>, <a href="BaseTransmutationContainer.html">BaseTransmutationContainer</a>, <a href="Corpse.html">Corpse</a>, <a href="DecayedCorpse.html">DecayedCorpse</a>, <a href="DisplayCache.html">DisplayCache</a>, <a href="Hold.html">Hold</a>, <a href="MovingCrate.html">MovingCrate</a>, <a href="SaveItemPack.html">SaveItemPack</a>, <a href="SecureTradeContainer.html">SecureTradeContainer</a>, <a href="SleeperBedBody.html">SleeperBedBody</a>, <a href="TrashBarrel.html">TrashBarrel</a>, <a href="TrashChest.html">TrashChest</a>, <a href="XmlQuestBook.html">XmlQuestBook</a>, <a href="XmlQuestHolder.html">XmlQuestHolder</a>, <a href="XmlQuestTokenPack.html">XmlQuestTokenPack</a></h4>
+<h4>Nested Types: <a href="GroupComparer.html">GroupComparer</a>, <a href="SaveFlag1.html">SaveFlag</a></h4>
+      (<font color="blue">static</font>) <font color="blue">int</font> GlobalMaxItems( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GlobalMaxWeight( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <a href="ContainerSnoopHandler.html">ContainerSnoopHandler</a> SnoopHandler( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> GetSaveFlag( <a href="SaveFlag1.html">SaveFlag</a> flags, <a href="SaveFlag1.html">SaveFlag</a> toGet )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> InTypeList( <a href="Item.html">Item</a> item, Type[] types )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RecurseConsumeUpTo( <a href="Item.html">Item</a> current, Type type, <font color="blue">int</font> amount, <font color="blue">bool</font> recurse, <font color="blue">ref</font> <font color="blue">int</font> consumed, Queue`1 toDelete )<br>
+      (<font color="blue">static</font>) <a href="Item.html">Item</a> RecurseFindItemByType( <a href="Item.html">Item</a> current, Type[] types, <font color="blue">bool</font> recurse )<br>
+      (<font color="blue">static</font>) <a href="Item.html">Item</a> RecurseFindItemByType( <a href="Item.html">Item</a> current, Type type, <font color="blue">bool</font> recurse )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RecurseFindItemsByType( <a href="Item.html">Item</a> current, Type type, <font color="blue">bool</font> recurse, List`1 list )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RecurseFindItemsByType( <a href="Item.html">Item</a> current, Type[] types, <font color="blue">bool</font> recurse, List`1 list )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetSaveFlag( <font color="blue">ref</font> <a href="SaveFlag1.html">SaveFlag</a> flags, <a href="SaveFlag1.html">SaveFlag</a> toSet, <font color="blue">bool</font> setIf )<br>
+      (<font color="blue">ctor</font>) Container( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) Container( <a href="Serial.html">Serial</a> serial )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a> Bounds( <font color="blue">get</font>; )<br>
+      <a href="ContainerData.html">ContainerData</a> ContainerData( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DefaultDropSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultGumpID( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultMaxItems( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultMaxWeight( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> DisplaysContent( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DropSound( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> GumpID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsDecoContainer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsPublicContainer( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ItemID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> LiftOverride( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxItems( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxWeight( <font color="blue">get</font>; )<br>
+      List`1 Openers( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckContentDisplay( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> CheckHold( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <font color="blue">bool</font> message )<br>
+      <font color="blue">bool</font> CheckHold( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <font color="blue">bool</font> message, <font color="blue">bool</font> checkItems )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHold( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <font color="blue">bool</font> message, <font color="blue">bool</font> checkItems, <font color="blue">int</font> plusItems, <font color="blue">int</font> plusWeight )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckLift( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <font color="blue">ref</font> <a href="LRReason.html">LRReason</a> reject )<br>
+      <font color="blue">int</font> ConsumeTotal( Type[] types, <font color="blue">int</font>[] amounts )<br>
+      <font color="blue">bool</font> ConsumeTotal( Type type, <font color="blue">int</font> amount )<br>
+      <font color="blue">int</font> ConsumeTotal( Type[][] types, <font color="blue">int</font>[] amounts )<br>
+      <font color="blue">bool</font> ConsumeTotal( Type type, <font color="blue">int</font> amount, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">int</font> ConsumeTotal( Type[] types, <font color="blue">int</font>[] amounts, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">int</font> ConsumeTotal( Type[][] types, <font color="blue">int</font>[] amounts, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">int</font> ConsumeTotal( Type[] types, <font color="blue">int</font>[] amounts, <font color="blue">bool</font> recurse, <a href="OnItemConsumed.html">OnItemConsumed</a> callback )<br>
+      <font color="blue">int</font> ConsumeTotal( Type[][] types, <font color="blue">int</font>[] amounts, <font color="blue">bool</font> recurse, <a href="OnItemConsumed.html">OnItemConsumed</a> callback )<br>
+      <font color="blue">bool</font> ConsumeTotal( Type type, <font color="blue">int</font> amount, <font color="blue">bool</font> recurse, <a href="OnItemConsumed.html">OnItemConsumed</a> callback )<br>
+      <font color="blue">int</font> ConsumeTotalGrouped( Type[] types, <font color="blue">int</font>[] amounts, <font color="blue">bool</font> recurse, <a href="OnItemConsumed.html">OnItemConsumed</a> callback, <a href="CheckItemGroup.html">CheckItemGroup</a> grouper )<br>
+      <font color="blue">bool</font> ConsumeTotalGrouped( Type type, <font color="blue">int</font> amount, <font color="blue">bool</font> recurse, <a href="OnItemConsumed.html">OnItemConsumed</a> callback, <a href="CheckItemGroup.html">CheckItemGroup</a> grouper )<br>
+      <font color="blue">int</font> ConsumeTotalGrouped( Type[][] types, <font color="blue">int</font>[] amounts, <font color="blue">bool</font> recurse, <a href="OnItemConsumed.html">OnItemConsumed</a> callback, <a href="CheckItemGroup.html">CheckItemGroup</a> grouper )<br>
+      <font color="blue">int</font> ConsumeUpTo( Type type, <font color="blue">int</font> amount )<br>
+      <font color="blue">int</font> ConsumeUpTo( Type type, <font color="blue">int</font> amount, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Destroy()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DisplayTo( <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DropItem( <a href="Item.html">Item</a> dropped )<br>
+      <a href="Item.html">Item</a> FindItemByType( Type[] types )<br>
+      <a href="Item.html">Item</a> FindItemByType( Type type )<br>
+      <a href="Item.html">Item</a> FindItemByType( Type type, <font color="blue">bool</font> recurse )<br>
+      <a href="Item.html">Item</a> FindItemByType( Type[] types, <font color="blue">bool</font> recurse )<br>
+      <a href="Item.html">Item</a>[] FindItemsByType( Type type )<br>
+      <a href="Item.html">Item</a>[] FindItemsByType( Type[] types )<br>
+      <a href="Item.html">Item</a>[] FindItemsByType( Type[] types, <font color="blue">bool</font> recurse )<br>
+      <a href="Item.html">Item</a>[] FindItemsByType( Type type, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">int</font> GetAmount( Type[] types )<br>
+      <font color="blue">int</font> GetAmount( Type type )<br>
+      <font color="blue">int</font> GetAmount( Type[] types, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">int</font> GetAmount( Type type, <font color="blue">bool</font> recurse )<br>
+      <font color="blue">int</font> GetBestGroupAmount( Type type, <font color="blue">bool</font> recurse, <a href="CheckItemGroup.html">CheckItemGroup</a> grouper )<br>
+      <font color="blue">int</font> GetBestGroupAmount( Type[] types, <font color="blue">bool</font> recurse, <a href="CheckItemGroup.html">CheckItemGroup</a> grouper )<br>
+      <font color="blue">int</font> GetBestGroupAmount( Type[][] types, <font color="blue">bool</font> recurse, <a href="CheckItemGroup.html">CheckItemGroup</a> grouper )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetDroppedSound( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetTotal( <a href="TotalType.html">TotalType</a> type )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClickSecureTrade( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDrop( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDropInto( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSnoop( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnStackAttempt( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> stack, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SendCantStoreMessage( <a href="Mobile.html">Mobile</a> to, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SendFullItemsMessage( <a href="Mobile.html">Mobile</a> to, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SendFullWeightMessage( <a href="Mobile.html">Mobile</a> to, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> TryDropItem( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped, <font color="blue">bool</font> sendFullMessage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateContainerData()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateTotal( <a href="Item.html">Item</a> sender, <a href="TotalType.html">TotalType</a> type, <font color="blue">int</font> delta )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateTotals()<br>
+   </body>
+</html>

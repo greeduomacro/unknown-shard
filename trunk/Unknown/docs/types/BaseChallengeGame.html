@@ -1,0 +1,78 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseChallengeGame</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>BaseChallengeGame : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IChallengeGame.html">IChallengeGame</a></h2>
+<h4>Derived Types: <a href="CTFGauntlet.html">CTFGauntlet</a>, <a href="DeathBallGauntlet.html">DeathBallGauntlet</a>, <a href="DeathmatchGauntlet.html">DeathmatchGauntlet</a>, <a href="KingOfTheHillGauntlet.html">KingOfTheHillGauntlet</a>, <a href="LastManStandingGauntlet.html">LastManStandingGauntlet</a>, <a href="TeamDeathballGauntlet.html">TeamDeathballGauntlet</a>, <a href="TeamDeathmatchGauntlet.html">TeamDeathmatchGauntlet</a>, <a href="TeamKotHGauntlet.html">TeamKotHGauntlet</a>, <a href="TeamLMSGauntlet.html">TeamLMSGauntlet</a></h4>
+<h4>Nested Types: <a href="ChallengeTimer.html">ChallengeTimer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> DoSetupChallenge( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> nameindex, Type gametype )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> TeamColor( <font color="blue">int</font> team )<br>
+      (<font color="blue">ctor</font>) BaseChallengeGame()<br>
+      (<font color="blue">ctor</font>) BaseChallengeGame( <font color="blue">int</font> itemid )<br>
+      (<font color="blue">ctor</font>) BaseChallengeGame( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> AllowPoints( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ArenaSize( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ChallengeBeingCancelled( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> ChallengeName( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Challenger( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Decays( <font color="blue">get</font>; )<br>
+      TimeSpan DecayTime( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> EntryFee( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> GameCompleted( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> GameInProgress( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> GameLocked( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="ChallengeTimer.html">ChallengeTimer</a> GameTimer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsInChallengeGameRegion( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Organizers( <font color="blue">get</font>; )<br>
+      ArrayList Participants( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan PostGameDecayTime( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> TotalPurse( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseKillDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ActivePlayers()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AreChallengers( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AreInGame( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AreTeamMembers( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">void</font> AwardTeamWinnings( <font color="blue">int</font> team, <font color="blue">int</font> amount )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AwardWinnings( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> amount )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> CheckForGameEnd()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckQualify( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> ClearArena()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ClearChallenge( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> ClearNameHue()<br>
+      <font color="blue">void</font> ClearNameHue( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CollectEntryFee( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> amount )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> EndGame()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Forfeit( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">int</font> msgindex )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">string</font> msg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">int</font> msgindex, <font color="blue">object</font> arg )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcast( <font color="blue">int</font> msgindex, <font color="blue">object</font> arg, <font color="blue">object</font> arg2 )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GameBroadcastSound( <font color="blue">int</font> sound )<br>
+      <a href="IChallengeEntry.html">IChallengeEntry</a> GetParticipant( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <a href="TeamInfo.html">TeamInfo</a> GetTeam( <font color="blue">int</font> team )<br>
+      ArrayList GetTeams()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HasEntryFee( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> HasValidMembers( <a href="TeamInfo.html">TeamInfo</a> t )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> InsuranceIsFree( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> awardto )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsOrganizer( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <a href="TeamInfo.html">TeamInfo</a> NewTeam( <font color="blue">int</font> team )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKillPlayer( <a href="Mobile.html">Mobile</a> killer, <a href="Mobile.html">Mobile</a> killed )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnPlayerKilled( <a href="Mobile.html">Mobile</a> killer, <a href="Mobile.html">Mobile</a> killed )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTick()<br>
+      <font color="blue">void</font> RefreshAllNoto()<br>
+      <font color="blue">void</font> RefreshNoto( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> RefreshSymmetricNoto( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> ResetAcceptance()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Server.Engines.XmlSpawner2.IChallengeGame.get_Deleted()<br>
+      <font color="blue">void</font> SetNameHue()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SetupChallenge( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> StartChallengeTimer()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StartGame()<br>
+   </body>
+</html>

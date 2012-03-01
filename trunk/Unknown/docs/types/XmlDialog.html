@@ -1,0 +1,81 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlDialog</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlDialog : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+<h4>Nested Types: <a href="ConfirmSaveGump.html">ConfirmSaveGump</a>, <a href="InternalTimer41.html">InternalTimer</a>, <a href="LoadNPCTarget.html">LoadNPCTarget</a>, <a href="SaveNPCTarget.html">SaveNPCTarget</a>, <a href="SpeechEntry1.html">SpeechEntry</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AssignSettings( <font color="blue">string</font> argname, <font color="blue">string</font> value )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DialogGumpCallback( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> invoker, <font color="blue">string</font> response )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LoadNPC_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SaveNPC_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">ctor</font>) XmlDialog()<br>
+      (<font color="blue">ctor</font>) XmlDialog( <font color="blue">string</font> ConfigFile )<br>
+      (<font color="blue">ctor</font>) XmlDialog( <a href="ASerial.html">ASerial</a> serial )<br>
+      <font color="blue">string</font> Action( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> ActivePlayer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowGhostTrig( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowNPCTrigger( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Condition( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ConfigFile( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SpeechEntry1.html">SpeechEntry</a> CurrentEntry( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> DependsOn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DoReset( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> EntryNumber( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan GameTOD( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Gump( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HandlesOnMovement( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSpeech( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IgnoreCarried( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsActive( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Keywords( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime LastInteraction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> LoadConfig( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> LockConversation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="MoonPhase.html">MoonPhase</a> MoonPhase( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> NoTriggerOnCarried( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Pause( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PrePause( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ProximityRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RealDay( <font color="blue">get</font>; )<br>
+      DayOfWeek RealDayOfWeek( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> RealMonth( <font color="blue">get</font>; )<br>
+      TimeSpan RealTOD( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ResetRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan ResetTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ResponseString( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Running( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList SpeechEntries( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SpeechHue( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SpeechPace( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="MessageType.html">MessageType</a> SpeechStyle( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Text( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="AccessLevel.html">AccessLevel</a> TriggerAccessLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TriggerOnCarried( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CheckDependsOn( <a href="SpeechEntry1.html">SpeechEntry</a> s, <font color="blue">int</font> id )<br>
+      <font color="blue">void</font> CheckForReset()<br>
+      <font color="blue">void</font> DelayedSpeech( <font color="blue">object</font> state )<br>
+      <font color="blue">void</font> DeleteTextEntryBook()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoLoadNPC( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> filename )<br>
+      <font color="blue">void</font> DoSaveNPC( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> filename, <font color="blue">bool</font> updateconfig )<br>
+      <font color="blue">void</font> DoTimer( TimeSpan delay, <a href="Mobile.html">Mobile</a> trigmob )<br>
+      <font color="blue">void</font> ExecuteAction( <a href="Mobile.html">Mobile</a> mob, <font color="blue">string</font> action )<br>
+      <font color="blue">void</font> ExecuteGump( <a href="Mobile.html">Mobile</a> mob, <font color="blue">string</font> gumpstring )<br>
+      <a href="SpeechEntry1.html">SpeechEntry</a> FindMatchingKeyword( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> keyword, <font color="blue">int</font> currententryid )<br>
+      <a href="SpeechEntry1.html">SpeechEntry</a> GetEntry( <font color="blue">int</font> entryid )<br>
+      <font color="blue">bool</font> IsInRange( <a href="IEntity.html">IEntity</a> e1, <a href="IEntity.html">IEntity</a> e2, <font color="blue">int</font> range )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="MovementEventArgs.html">MovementEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">bool</font> ProcessSpeech( <a href="Mobile.html">Mobile</a> m, <font color="blue">string</font> speech )<br>
+      <font color="blue">void</font> ReportError( <a href="Mobile.html">Mobile</a> mob, <font color="blue">string</font> status_str )<br>
+      <font color="blue">void</font> Reset()<br>
+      <font color="blue">bool</font> SaveFile( <a href="Mobile.html">Mobile</a> from, DataSet ds, <font color="blue">string</font> dirname, <font color="blue">string</font> configname, <font color="blue">bool</font> updateconfig )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">bool</font> ValidMovementTrig( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> ValidSpeechTrig( <a href="Mobile.html">Mobile</a> m )<br>
+   </body>
+</html>

@@ -1,0 +1,9 @@
+.mobileEntry {
+	color: #fff;
+	font-family: Helvetica;
+	text-align: left;
+}
+
+.mobileEntry.th {
+	background-color: #DFCD0D;
+} 

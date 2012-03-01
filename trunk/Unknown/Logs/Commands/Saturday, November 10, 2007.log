@@ -1,0 +1,140 @@
+##############################
+Log started on 11/10/2007 8:47:15 AM
+
+11/10/2007 8:49:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add forum'
+11/10/2007 8:49:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1430, 1693, 0) in Trammel: "ForumBulletinBoard"
+11/10/2007 8:49:32 AM: 127.0.0.1: Serials: 0x40000140; 
+11/10/2007 8:49:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/10/2007 8:50:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'bondtime '
+11/10/2007 8:51:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'help '
+11/10/2007 8:51:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'help '
+11/10/2007 8:53:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/10/2007 8:54:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/10/2007 8:54:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/10/2007 8:54:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/10/2007 8:54:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd hi'
+11/10/2007 8:55:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/10/2007 9:07:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/10/2007 9:07:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'help '
+11/10/2007 9:08:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/10/2007 9:09:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'help '
+11/10/2007 9:09:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:09:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:09:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:10:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/10/2007 9:11:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'help '
+11/10/2007 9:13:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/10/2007 9:13:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1509, 1626, 10) in Trammel: "xmlspawner"
+11/10/2007 9:13:22 AM: 127.0.0.1: Serials: 0x40000212; 
+11/10/2007 9:13:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000212 'Rezvet' [1509, 1626] (Trammel) : RezzingVet
+11/10/2007 9:13:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000212 (XmlSpawner) to '200'
+11/10/2007 9:13:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000212 (XmlSpawner) to '200'
+11/10/2007 9:14:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/10/2007 9:14:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/10/2007 9:14:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/10/2007 9:14:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1475, 1627, 20) in Trammel: "xmlspawner"
+11/10/2007 9:14:46 AM: 127.0.0.1: Serials: 0x40000274; 
+11/10/2007 9:14:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000274 'Spawner' [1475, 1627] (Trammel) : questgiver
+11/10/2007 9:16:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'restart '
+##############################
+Log started on 11/10/2007 9:17:43 AM
+
+11/10/2007 5:29:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/10/2007 5:30:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'mail '
+11/10/2007 5:30:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/10/2007 5:32:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/10/2007 5:32:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/10/2007 5:33:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'c what are you doing back in malas???'
+11/10/2007 5:33:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/10/2007 9:58:45 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'chat '
+11/10/2007 10:03:35 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:10:12 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:11:28 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:11:50 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:13:21 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:13:37 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:13:53 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:22:34 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:22:42 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:22:58 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:23:03 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:23:17 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:23:27 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:23:32 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:23:45 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:23:59 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/10/2007 10:24:10 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'bandself '
+11/11/2007 6:44:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/11/2007 6:44:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/11/2007 6:44:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1434 1698 0'
+11/11/2007 6:44:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:41 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:44:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/11/2007 6:45:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1413, 1599, 30) in Trammel: "xmlspawner"
+11/11/2007 6:45:00 AM: 127.0.0.1: Serials: 0x4000091F; 
+11/11/2007 6:45:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000091F 'Spawner' [1413, 1599] (Trammel) : publisher
+11/11/2007 6:45:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:45:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/11/2007 6:58:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'motd '
+11/11/2007 6:59:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'viewall '
+11/11/2007 6:59:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/11/2007 7:10:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/11/2007 7:10:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/11/2007 7:10:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1434 1698 0'
+11/11/2007 7:10:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/11/2007 7:11:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add rulesbook'
+11/11/2007 7:11:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add jesusbook'
+11/11/2007 7:11:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1423, 1697, 0) in Trammel: "jesusbook"
+11/11/2007 7:11:23 AM: 127.0.0.1: Serials: 0x40000940; 
+11/11/2007 7:11:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add jesusbook'
+11/11/2007 7:11:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1424, 1696, 0) in Trammel: "jesusbook"
+11/11/2007 7:11:37 AM: 127.0.0.1: Serials: 0x40000941; 
+11/11/2007 7:15:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set map internal'
+11/11/2007 7:15:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x4 "Briana" ('briana') to 'Internal'
+11/11/2007 7:15:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/11/2007 7:16:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add jesusbook'
+11/11/2007 7:16:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1420, 1698, 0) in Trammel: "jesusbook"
+11/11/2007 7:16:46 AM: 127.0.0.1: Serials: 0x40000942; 
+11/11/2007 7:16:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set map internal'
+11/11/2007 7:16:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x104B "lynix" ('k-hound') to 'Internal'
+11/11/2007 7:17:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add jesusbook'
+11/11/2007 7:17:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1422, 1698, 0) in Trammel: "jesusbook"
+11/11/2007 7:17:20 AM: 127.0.0.1: Serials: 0x40000949; 
+11/11/2007 7:22:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set map internal'
+11/11/2007 7:22:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x5 "K-Hound" ('k-hound') to 'Internal'
+11/11/2007 7:22:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/11/2007 7:23:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add jesusbook'
+11/11/2007 7:23:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1423, 1696, 0) in Trammel: "jesusbook"
+11/11/2007 7:23:12 AM: 127.0.0.1: Serials: 0x4000094A; 
+11/11/2007 7:23:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set map internal'
+11/11/2007 7:23:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x30 "Dread" ('Despized') to 'Internal'
+11/11/2007 7:23:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/11/2007 7:23:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'restart '

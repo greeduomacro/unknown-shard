@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Teleporter</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>Teleporter : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="GroupDungeonExit.html">GroupDungeonExit</a>, <a href="GroupDungeonTeleporter.html">GroupDungeonTeleporter</a>, <a href="KeywordTeleporter.html">KeywordTeleporter</a>, <a href="SkillTeleporter.html">SkillTeleporter</a></h4>
+      (<font color="blue">ctor</font>) Teleporter()<br>
+      (<font color="blue">ctor</font>) Teleporter( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) Teleporter( <a href="Point3D.html">Point3D</a> pointDest, <a href="Map.html">Map</a> mapDest )<br>
+      (<font color="blue">ctor</font>) Teleporter( <a href="Point3D.html">Point3D</a> pointDest, <a href="Map.html">Map</a> mapDest, <font color="blue">bool</font> creatures )<br>
+      <font color="blue">bool</font> Active( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Creatures( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan Delay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DestEffect( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> LabelNumber( <font color="blue">get</font>; )<br>
+      <a href="Map.html">Map</a> MapDest( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> PointDest( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SoundID( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> SourceEffect( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoTeleport( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> DoTeleport_Callback( <font color="blue">object</font> state )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnMoveOver( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StartTeleport( <a href="Mobile.html">Mobile</a> m )<br>
+   </body>
+</html>

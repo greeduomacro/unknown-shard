@@ -1,0 +1,305 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlSpawner</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>XmlSpawner : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ISpawner.html">ISpawner</a></h2>
+<h4>Nested Types: <a href="AssignSettingsHandler.html">AssignSettingsHandler</a>, <a href="GetValueTarget.html">GetValueTarget</a>, <a href="GlobalSectorTimer.html">GlobalSectorTimer</a>, <a href="InternalTimer45.html">InternalTimer</a>, <a href="InternalTimer310.html">InternalTimer3</a>, <a href="MovementInfo.html">MovementInfo</a>, <a href="MovementTimer.html">MovementTimer</a>, <a href="SectorTimer.html">SectorTimer</a>, <a href="SpawnerTimer.html">SpawnerTimer</a>, <a href="SpawnObject.html">SpawnObject</a>, <a href="SpawnPositionInfo.html">SpawnPositionInfo</a>, <a href="SpawnPositionType.html">SpawnPositionType</a>, <a href="SubgroupSorter.html">SubgroupSorter</a>, <a href="TagListTarget.html">TagListTarget</a>, <a href="TODModeType.html">TODModeType</a>, <a href="WarnTimer2.html">WarnTimer2</a>, <a href="XmlHomeTarget.html">XmlHomeTarget</a>, <a href="XmlSetCommand.html">XmlSetCommand</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> _TraceEnd( <font color="blue">int</font> index )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> _TraceStart( <font color="blue">int</font> index )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AssignSettings( <font color="blue">string</font> argname, <font color="blue">string</font> value )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> ConvertToInt( <font color="blue">string</font> value )<br>
+      (<font color="blue">static</font>) <font color="blue">object</font> CreateObject( Type type, <font color="blue">string</font> itemtypestring )<br>
+      (<font color="blue">static</font>) <font color="blue">object</font> CreateObject( Type type, <font color="blue">string</font> itemtypestring, <font color="blue">bool</font> requireconstructable )<br>
+      (<font color="blue">static</font>) <font color="blue">object</font> CreateObject( Type type, <font color="blue">string</font> itemtypestring, <font color="blue">bool</font> requireconstructable, <font color="blue">bool</font> requireattachable )<br>
+      (<font color="blue">static</font>) <font color="blue">object</font> CreateObject( Type type, <font color="blue">string</font>[] typewordargs, <font color="blue">bool</font> requireconstructable, <font color="blue">bool</font> requireattachable )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DelayedAssignSettings( <font color="blue">object</font> state )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DoGlobalSectorTimer( TimeSpan delay )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ExecuteAction( <font color="blue">object</font> attachedto, <a href="Mobile.html">Mobile</a> trigmob, <font color="blue">string</font> action )<br>
+      (<font color="blue">static</font>) <font color="blue">double</font> GetDistance( <a href="Point3D.html">Point3D</a> p1, <a href="Point3D.html">Point3D</a> p2 )<br>
+      (<font color="blue">static</font>) <font color="blue">object</font> GetSpawned( <a href="XmlSpawner.html">XmlSpawner</a> spawner, <font color="blue">int</font> sgroup )<br>
+      (<font color="blue">static</font>) ArrayList GetSpawnedList( <a href="XmlSpawner.html">XmlSpawner</a> spawner, <font color="blue">int</font> sgroup )<br>
+      (<font color="blue">static</font>) <a href="SpawnObject.html">SpawnObject</a> GetSpawnObject( <a href="XmlSpawner.html">XmlSpawner</a> spawner, <font color="blue">int</font> sgroup )<br>
+      (<font color="blue">static</font>) <font color="blue">string</font> GetText( XmlElement node, <font color="blue">string</font> defaultValue )<br>
+      (<font color="blue">static</font>) <a href="WayPoint.html">WayPoint</a> GetWaypoint( <font color="blue">string</font> waypointstr )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> HasTileSurface( <a href="Map.html">Map</a> map, <font color="blue">int</font> X, <font color="blue">int</font> Y, <font color="blue">int</font> Z )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HideSpawnPoints_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ImportMegaSpawner( <a href="Mobile.html">Mobile</a> from, XmlElement node )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ImportSpawner( XmlElement node, <a href="Mobile.html">Mobile</a> from )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsConstructable( ConstructorInfo ctor )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsValidMapLocation( <a href="Point2D.html">Point2D</a> location, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsValidMapLocation( <a href="Point3D.html">Point3D</a> location, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsValidMapLocation( <font color="blue">int</font> X, <font color="blue">int</font> Y, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Load_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) ArrayList LoadCreaturesName( XmlElement node )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LoadDefaults( XmlElement node )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LoadHere_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LoadSettings( <a href="AssignSettingsHandler.html">AssignSettingsHandler</a> settingshandler, <font color="blue">string</font> section )<br>
+      (<font color="blue">static</font>) <font color="blue">string</font> LocateFile( <font color="blue">string</font> filename )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> NewLoad_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> NewLoadHere_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> OptimalSmartSpawning_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ParseNewMapFormat( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> filename, <font color="blue">string</font> line, <font color="blue">string</font>[] args, <font color="blue">int</font> linenumber, <font color="blue">ref</font> <font color="blue">int</font> spawnercount, <font color="blue">ref</font> <font color="blue">int</font> badspawnercount, <font color="blue">ref</font> <font color="blue">int</font> overridemap, <font color="blue">ref</font> <font color="blue">double</font> overridemintime, <font color="blue">ref</font> <font color="blue">double</font> overridemaxtime )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ParseOldMapFormat( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> filename, <font color="blue">string</font> line, <font color="blue">string</font>[] args, <font color="blue">int</font> linenumber, <font color="blue">ref</font> <font color="blue">int</font> spawnercount, <font color="blue">ref</font> <font color="blue">int</font> badspawnercount, <font color="blue">ref</font> <font color="blue">int</font> overridemap, <font color="blue">ref</font> <font color="blue">double</font> overridemintime, <font color="blue">ref</font> <font color="blue">double</font> overridemaxtime )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveFromSectorTable( <a href="Sector.html">Sector</a> s, <a href="XmlSpawner.html">XmlSpawner</a> spawner )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Respawn_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RespawnAll_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RespawnSpawners( <a href="CommandEventArgs.html">CommandEventArgs</a> e, <font color="blue">bool</font> RespawnAll )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Save_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SaveAll_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SaveOld_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> SaveSpawnList( ArrayList savelist, Stream stream )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> SaveSpawnList( <a href="Mobile.html">Mobile</a> from, ArrayList savelist, <font color="blue">string</font> dirname, <font color="blue">bool</font> oldformat, <font color="blue">bool</font> verbose )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> SaveSpawnList( <a href="Mobile.html">Mobile</a> from, ArrayList savelist, <font color="blue">string</font> dirname, Stream stream, <font color="blue">bool</font> oldformat, <font color="blue">bool</font> verbose )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SaveSpawns( <a href="CommandEventArgs.html">CommandEventArgs</a> e, <font color="blue">bool</font> SaveAllMaps, <font color="blue">bool</font> oldformat )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ShowSpawnPoints_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ShowTagList_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SmartStat_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SpawnEditorGo_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SpawnerGumpCallback( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> invoker, <font color="blue">string</font> response )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UnLoad_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Wipe_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WipeAll_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WipeSpawners( <a href="CommandEventArgs.html">CommandEventArgs</a> e, <font color="blue">bool</font> WipeAll )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlDefaults_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlGetValue_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlHome_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlImportMap( <font color="blue">string</font> filename, <a href="Mobile.html">Mobile</a> from, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlImportMap_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlImportMSF_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlImportSpawners_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadDefaults( <font color="blue">string</font> filePath, <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadFromFile( <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <font color="blue">bool</font> loadnew, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadFromFile( <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> loadrelative, <font color="blue">int</font> maxrange, <font color="blue">bool</font> loadnew, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadFromFile( <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Point3D.html">Point3D</a> fromloc, <a href="Map.html">Map</a> frommap, <font color="blue">bool</font> loadrelative, <font color="blue">int</font> maxrange, <font color="blue">bool</font> loadnew, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadFromFile( <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> fromloc, <a href="Map.html">Map</a> frommap, <font color="blue">bool</font> loadrelative, <font color="blue">int</font> maxrange, <font color="blue">bool</font> loadnew, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadFromStream( Stream fs, <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> fromloc, <a href="Map.html">Map</a> frommap, <font color="blue">bool</font> loadrelative, <font color="blue">int</font> maxrange, <font color="blue">bool</font> loadnew, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlLoadFromStream( Stream fs, <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> fromloc, <a href="Map.html">Map</a> frommap, <font color="blue">bool</font> loadrelative, <font color="blue">int</font> maxrange, <font color="blue">bool</font> loadnew, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners, <font color="blue">bool</font> verbose )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlSaveDefaults( <font color="blue">string</font> filePath, <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlUnLoadFromFile( <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Mobile.html">Mobile</a> from, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlUnLoadFromStream( Stream fs, <font color="blue">string</font> filename, <font color="blue">string</font> SpawnerPrefix, <a href="Mobile.html">Mobile</a> from, <font color="blue">out</font> <font color="blue">int</font> processedmaps, <font color="blue">out</font> <font color="blue">int</font> processedspawners )<br>
+      (<font color="blue">ctor</font>) XmlSpawner()<br>
+      (<font color="blue">ctor</font>) XmlSpawner( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) XmlSpawner( <font color="blue">string</font> creatureName )<br>
+      (<font color="blue">ctor</font>) XmlSpawner( <font color="blue">int</font> amount, <font color="blue">int</font> minDelay, <font color="blue">int</font> maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">string</font> creatureName )<br>
+      (<font color="blue">ctor</font>) XmlSpawner( <font color="blue">int</font> amount, <font color="blue">int</font> minDelay, <font color="blue">int</font> maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">int</font> spawnRange, <font color="blue">string</font> creatureName )<br>
+      (<font color="blue">ctor</font>) XmlSpawner( Guid uniqueId, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">string</font> name, <font color="blue">int</font> maxCount, TimeSpan minDelay, TimeSpan maxDelay, TimeSpan duration, <font color="blue">int</font> proximityRange, <font color="blue">int</font> proximityTriggerSound, <font color="blue">int</font> amount, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">bool</font> isRelativeHomeRange, <a href="SpawnObject.html">SpawnObject</a>[] spawnObjects, TimeSpan minRefractory, TimeSpan maxRefractory, TimeSpan todstart, TimeSpan todend, <a href="Item.html">Item</a> objectPropertyItem, <font color="blue">string</font> objectPropertyName, <font color="blue">string</font> proximityMessage, <font color="blue">string</font> itemTriggerName, <font color="blue">string</font> noitemTriggerName, <font color="blue">string</font> speechTrigger, <font color="blue">string</font> mobTriggerName, <font color="blue">string</font> mobPropertyName, <font color="blue">string</font> playerPropertyName, <font color="blue">double</font> triggerProbability, <a href="Item.html">Item</a> setPropertyItem, <font color="blue">bool</font> isGroup, <a href="TODModeType.html">TODModeType</a> todMode, <font color="blue">int</font> killReset, <font color="blue">bool</font> externalTriggering, <font color="blue">int</font> sequentialSpawning, <font color="blue">string</font> regionName, <font color="blue">bool</font> allowghost, <font color="blue">bool</font> allownpc, <font color="blue">bool</font> spawnontrigger, <font color="blue">string</font> configfile, TimeSpan despawnTime, <font color="blue">string</font> skillTrigger, <font color="blue">bool</font> smartSpawning, <a href="WayPoint.html">WayPoint</a> wayPoint )<br>
+      <font color="blue">int</font> ActiveSectorCount( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> AddSpawn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowGhostTrig( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowNPCTrig( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowTriggering( <font color="blue">get</font>; )<br>
+      <a href="TimerPriority.html">TimerPriority</a> BasePriority( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> BringHome( <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanFreeSpawn( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanSpawn( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CheckRegionAssignment( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ClearSpawnedThisTick( <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ConfigFile( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> CurrentCount( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Debug( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DebugThis( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Decays( <font color="blue">get</font>; )<br>
+      TimeSpan DespawnTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DoDefrag( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DoReset( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DoRespawn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan Duration( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan DurationOver( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ExternalTriggering( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ExtTrigState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> FastestPlayerSpeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime FirstModified( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> FirstModifiedBy( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> FreeRun( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan GameTOD( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Group( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> GumpReset( <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> GumpState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HandlesOnMovement( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSkillUse( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSpeech( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HasActiveSectors( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HasDamagedOrDistantSpawns( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HasHoldSmartSpawning( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HoldSequence( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> Home( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> HomeRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HomeRangeIsRelative( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsFull( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsInactivated( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsVirtualItem( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> KillCount( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> KillReset( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime LastModified( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> LastModifiedBy( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> LoadConfig( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxCount( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan MaxDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan MinDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> MobTriggerId( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> MobTriggerName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> MobTriggerProp( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="MoonPhase.html">MoonPhase</a> MoonPhase( <font color="blue">get</font>; )<br>
+      <a href="Point3D.html">Point3D</a> MostRecentSpawnPosition( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MovingPlayerCount( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NearbyPlayerCount( <font color="blue">get</font>; )<br>
+      TimeSpan NextSeqReset( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan NextSpawn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> NoTriggerOnCarried( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> OnHold( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> PlayerCreated( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> PlayerTriggerProp( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ProximityActivated( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ProximityMsg( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ProximityRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ProximitySound( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Range( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> RealDay( <font color="blue">get</font>; )<br>
+      DayOfWeek RealDayOfWeek( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> RealMonth( <font color="blue">get</font>; )<br>
+      TimeSpan RealTOD( <font color="blue">get</font>; )<br>
+      TimeSpan RefractMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan RefractMin( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan RefractoryOver( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> RegionName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Running( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SafeCurrentCount( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> SafeTotalSpawnedObjects( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> SecCount( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> SequentialSpawn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Item.html">Item</a> SetItem( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> SetItemName( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ShowBounds( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> SingleSector( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> SkillTrigger( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> SmartSpawning( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> SomeOneHasGumpOpen( <font color="blue">get</font>; )<br>
+      <a href="XmlSpawnerGump.html">XmlSpawnerGump</a> SpawnerGump( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SpawnObject.html">SpawnObject</a>[] SpawnObjects( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> SpawnOnTrigger( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SpawnRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Region.html">Region</a> SpawnRegion( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> SpeechTrigger( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> StackAmount( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Team( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan TOD( <font color="blue">get</font>; )<br>
+      TimeSpan TODEnd( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> TODInRange( <font color="blue">get</font>; )<br>
+      <a href="TODModeType.html">TODModeType</a> TODMode( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan TODStart( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> TotalSpawnedObjects( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> TotalSpawnObjectCount( <font color="blue">get</font>; )<br>
+      <a href="AccessLevel.html">AccessLevel</a> TriggerAccessLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> TriggerMob( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Item.html">Item</a> TriggerObject( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TriggerObjectName( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> TriggerObjectProp( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TriggerOnCarried( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> TriggerProbability( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Skill.html">Skill</a> TriggerSkill( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> UniqueId( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> UnlinkOnTaming( <font color="blue">get</font>; )<br>
+      <a href="WayPoint.html">WayPoint</a> WayPoint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> X1_Y1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> X2_Y2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> ActivateTrigger()<br>
+      <font color="blue">void</font> AddSpawnObject( <font color="blue">string</font> SpawnObjectName )<br>
+      <font color="blue">void</font> AddToMovementList( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> AdvanceSequential()<br>
+      <font color="blue">void</font> BringToHome()<br>
+      <font color="blue">bool</font> CanFit( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">int</font> height, <font color="blue">bool</font> checkBlocksFit, <font color="blue">bool</font> checkMobiles, <font color="blue">bool</font> requireSurface, <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">bool</font> CanSpawnMobile( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">bool</font> CheckForSequentialReset()<br>
+      <font color="blue">bool</font> CheckHoldSmartSpawning( <font color="blue">object</font> o )<br>
+      <font color="blue">void</font> CheckTriggers( <a href="Mobile.html">Mobile</a> m, <a href="Skill.html">Skill</a> s, <font color="blue">bool</font> hasproximity )<br>
+      <font color="blue">void</font> ClearGOTOTags()<br>
+      <font color="blue">void</font> ClearSubgroup( <font color="blue">int</font> subgroup )<br>
+      <font color="blue">void</font> ClearTags( <font color="blue">bool</font> all )<br>
+      <font color="blue">void</font> Defrag( <font color="blue">bool</font> killtest )<br>
+      <font color="blue">void</font> DeleteFromList( ArrayList list )<br>
+      <font color="blue">void</font> DeleteGumpTags()<br>
+      <font color="blue">void</font> DeleteSpawnObject( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> SpawnObjectName )<br>
+      <font color="blue">void</font> DeleteTag( <a href="KeywordTag.html">KeywordTag</a> tag )<br>
+      <font color="blue">void</font> DeleteTextEntryBook()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoMovementTimer( TimeSpan delay )<br>
+      <font color="blue">void</font> DoSectorTimer( TimeSpan delay )<br>
+      <font color="blue">void</font> DoTimer()<br>
+      <font color="blue">void</font> DoTimer( TimeSpan delay )<br>
+      <font color="blue">void</font> DoTimer2( TimeSpan delay )<br>
+      <font color="blue">void</font> DoTimer3( TimeSpan delay )<br>
+      <font color="blue">void</font> FindRegionTileLocations( <font color="blue">ref</font> List`1 locations, <a href="Region.html">Region</a> r, List`1 includetilelist, List`1 excludetilelist, <a href="TileFlag.html">TileFlag</a> tileflag )<br>
+      <font color="blue">void</font> FindTileLocations( <font color="blue">ref</font> List`1 locations, <a href="Map.html">Map</a> map, <font color="blue">int</font> startx, <font color="blue">int</font> starty, <font color="blue">int</font> width, <font color="blue">int</font> height, List`1 includetilelist, List`1 excludetilelist, <a href="TileFlag.html">TileFlag</a> tileflag )<br>
+      <font color="blue">int</font> GetCreatureMax( <font color="blue">int</font> index )<br>
+      <font color="blue">int</font> GetCurrentAvailableSequentialSpawnIndex( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">int</font> GetCurrentSequentialSpawnIndex( <font color="blue">int</font> sgroup )<br>
+      <a href="Point3D.html">Point3D</a> GetPackCoord( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <a href="Point2D.html">Point2D</a> GetRandomRegionPoint( <a href="Region.html">Region</a> r )<br>
+      <font color="blue">string</font> GetSerializedObjectList()<br>
+      <font color="blue">string</font> GetSerializedObjectList2()<br>
+      <a href="Point3D.html">Point3D</a> GetSpawnPosition( <font color="blue">bool</font> requiresurface )<br>
+      <a href="Point3D.html">Point3D</a> GetSpawnPosition( <font color="blue">bool</font> requiresurface, <a href="Mobile.html">Mobile</a> mob )<br>
+      <a href="Point3D.html">Point3D</a> GetSpawnPosition( <font color="blue">bool</font> requiresurface, <font color="blue">int</font> packrange, <a href="Point3D.html">Point3D</a> packcoord, List`1 spawnpositioning )<br>
+      <a href="Point3D.html">Point3D</a> GetSpawnPosition( <font color="blue">bool</font> requiresurface, <font color="blue">int</font> packrange, <a href="Point3D.html">Point3D</a> packcoord, List`1 spawnpositioning, <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">bool</font> HasIndividualSpawnTimes()<br>
+      <font color="blue">bool</font> HasRegionPoints( <a href="Region.html">Region</a> r )<br>
+      <font color="blue">bool</font> HasSubGroups()<br>
+      <font color="blue">bool</font> InActivationRange( <a href="Sector.html">Sector</a> s1, <a href="Sector.html">Sector</a> s2 )<br>
+      <font color="blue">void</font> InitiateSequentialReset( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">void</font> InitSpawn( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">string</font> name, <font color="blue">int</font> maxCount, TimeSpan minDelay, TimeSpan maxDelay, TimeSpan duration, <font color="blue">int</font> proximityRange, <font color="blue">int</font> proximityTriggerSound, <font color="blue">int</font> amount, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">bool</font> isRelativeHomeRange, <a href="SpawnObject.html">SpawnObject</a>[] objectsToSpawn, TimeSpan minRefractory, TimeSpan maxRefractory, TimeSpan todstart, TimeSpan todend, <a href="Item.html">Item</a> objectPropertyItem, <font color="blue">string</font> objectPropertyName, <font color="blue">string</font> proximityMessage, <font color="blue">string</font> itemTriggerName, <font color="blue">string</font> noitemTriggerName, <font color="blue">string</font> speechTrigger, <font color="blue">string</font> mobTriggerName, <font color="blue">string</font> mobPropertyName, <font color="blue">string</font> playerPropertyName, <font color="blue">double</font> triggerProbability, <a href="Item.html">Item</a> setPropertyItem, <font color="blue">bool</font> isGroup, <a href="TODModeType.html">TODModeType</a> todMode, <font color="blue">int</font> killReset, <font color="blue">bool</font> externalTriggering, <font color="blue">int</font> sequentialSpawning, <font color="blue">string</font> regionName, <font color="blue">bool</font> allowghost, <font color="blue">bool</font> allownpc, <font color="blue">bool</font> spawnontrigger, <font color="blue">string</font> configfile, TimeSpan despawnTime, <font color="blue">string</font> skillTrigger, <font color="blue">bool</font> smartSpawning, <a href="WayPoint.html">WayPoint</a> wayPoint )<br>
+      <font color="blue">void</font> LoadXmlConfig( <font color="blue">string</font> filename )<br>
+      <font color="blue">int</font> NextSequentialIndex( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDuped( <a href="Item.html">Item</a> newItem )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMapChange()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> m, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> OnSkillUse( <a href="Mobile.html">Mobile</a> m, <a href="Skill.html">Skill</a> skill, <font color="blue">bool</font> success )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">void</font> OnTick()<br>
+      <font color="blue">int</font> RandomAvailableSpawnIndex()<br>
+      <font color="blue">int</font> RandomAvailableSpawnIndex( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">int</font> RandomSpawnIndex( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">void</font> RefreshNextSpawnTime( <a href="SpawnObject.html">SpawnObject</a> so )<br>
+      <font color="blue">void</font> RefreshNextSpawnTimes()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Remove( <font color="blue">object</font> spawn )<br>
+      <font color="blue">void</font> RemoveSpawnObjects()<br>
+      <font color="blue">void</font> RemoveSpawnObjects( <a href="SpawnObject.html">SpawnObject</a> so )<br>
+      <font color="blue">void</font> ReportStatus()<br>
+      <font color="blue">void</font> Reset()<br>
+      <font color="blue">void</font> ResetAllFlags()<br>
+      <font color="blue">void</font> ResetNextSpawnTimes()<br>
+      <font color="blue">void</font> ResetProximityActivated()<br>
+      <font color="blue">void</font> ResetSectorList()<br>
+      <font color="blue">void</font> ResetSequential()<br>
+      <font color="blue">bool</font> Respawn()<br>
+      <font color="blue">void</font> RestoreISpawner()<br>
+      <font color="blue">void</font> SeqResetTo( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> ShowTagList( <a href="XmlSpawner.html">XmlSpawner</a> spawner )<br>
+      <font color="blue">void</font> SmartRemoveSpawnObjects()<br>
+      <font color="blue">void</font> SmartRespawn()<br>
+      <font color="blue">void</font> SortSpawns()<br>
+      <font color="blue">bool</font> Spawn( <font color="blue">bool</font> smartspawn )<br>
+      <font color="blue">void</font> Spawn( <font color="blue">string</font> SpawnObjectTypeName, <font color="blue">bool</font> smartspawn )<br>
+      <font color="blue">bool</font> Spawn( <font color="blue">int</font> index, <font color="blue">bool</font> smartspawn, <font color="blue">int</font> count )<br>
+      <font color="blue">void</font> Spawn( <font color="blue">string</font> SpawnObjectTypeName, <font color="blue">bool</font> smartspawn, <font color="blue">int</font> packrange, <a href="Point3D.html">Point3D</a> packcoord )<br>
+      <font color="blue">bool</font> Spawn( <font color="blue">int</font> index, <font color="blue">bool</font> smartspawn, <font color="blue">int</font> count, <font color="blue">bool</font> ignoreloopprotection )<br>
+      <font color="blue">bool</font> Spawn( <font color="blue">int</font> index, <font color="blue">bool</font> smartspawn, <font color="blue">int</font> packrange, <a href="Point3D.html">Point3D</a> packcoord )<br>
+      <font color="blue">bool</font> Spawn( <font color="blue">int</font> index, <font color="blue">bool</font> smartspawn, <font color="blue">int</font> packrange, <a href="Point3D.html">Point3D</a> packcoord, <font color="blue">bool</font> ignoreloopprotection )<br>
+      <font color="blue">bool</font> Spawn( <font color="blue">int</font> index, <font color="blue">bool</font> smartspawn, <font color="blue">int</font> count, <font color="blue">int</font> packrange, <a href="Point3D.html">Point3D</a> packcoord, <font color="blue">bool</font> ignoreloopprotection )<br>
+      <font color="blue">bool</font> SpawnSubGroup( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">bool</font> SpawnSubGroup( <font color="blue">int</font> sgroup, <font color="blue">bool</font> smartspawn )<br>
+      <font color="blue">bool</font> SpawnSubGroup( <font color="blue">int</font> sgroup, <font color="blue">bool</font> smartspawn, <font color="blue">bool</font> ignoreloopprotection )<br>
+      <font color="blue">void</font> Start()<br>
+      <font color="blue">void</font> Stop()<br>
+      <font color="blue">int</font> SubGroupCount( <font color="blue">int</font> sgroup )<br>
+      <font color="blue">bool</font> ValidPlayerTrig( <a href="Mobile.html">Mobile</a> m )<br>
+   </body>
+</html>

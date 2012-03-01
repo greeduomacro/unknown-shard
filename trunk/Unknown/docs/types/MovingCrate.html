@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - MovingCrate</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Multis.html">Back to Server.Multis</a></h4>
+      <h2>MovingCrate : <a href="Container.html">Container</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="InternalizeTimer.html">InternalizeTimer</a></h4>
+      (<font color="blue">ctor</font>) MovingCrate( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) MovingCrate( <a href="BaseHouse.html">BaseHouse</a> house )<br>
+      <font color="blue">int</font> DefaultMaxItems( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultMaxWeight( <font color="blue">get</font>; )<br>
+      <a href="BaseHouse.html">BaseHouse</a> House( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsDecoContainer( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> LabelNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHold( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <font color="blue">bool</font> message, <font color="blue">bool</font> checkItems, <font color="blue">int</font> plusItems, <font color="blue">int</font> plusWeight )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckItemUse( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckLift( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <font color="blue">ref</font> <a href="LRReason.html">LRReason</a> reject )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DropItem( <a href="Item.html">Item</a> dropped )<br>
+      <a href="Point3D.html">Point3D</a> GetFreeLocation()<br>
+      <font color="blue">void</font> Hide()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnItemRemoved( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> RestartTimer()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

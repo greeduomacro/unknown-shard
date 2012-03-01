@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PuzzleChest</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>PuzzleChest : <a href="BaseTreasureChest.html">BaseTreasureChest</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="ITelekinesisable.html">ITelekinesisable</a>, <a href="ILockable.html">ILockable</a>, <a href="ILockpickable.html">ILockpickable</a>, <a href="ICraftable.html">ICraftable</a></h2>
+<h4>Derived Types: <a href="MetalGoldenPuzzleChest.html">MetalGoldenPuzzleChest</a>, <a href="StrongBoxPuzzle.html">StrongBoxPuzzle</a></h4>
+<h4>Nested Types: <a href="PuzzleGump.html">PuzzleGump</a>, <a href="StatusGump3.html">StatusGump</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> GetRandomAOSStats( <font color="blue">out</font> <font color="blue">int</font> attributeCount, <font color="blue">out</font> <font color="blue">int</font> min, <font color="blue">out</font> <font color="blue">int</font> max )<br>
+      (<font color="blue">ctor</font>) PuzzleChest( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) PuzzleChest( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">string</font> DefaultName( <font color="blue">get</font>; )<br>
+      <a href="PuzzleChestCylinder.html">PuzzleChestCylinder</a> FirstHint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PuzzleChestCylinder.html">PuzzleChestCylinder</a>[] Hints( <font color="blue">get</font>; )<br>
+      <a href="PuzzleChestCylinder.html">PuzzleChestCylinder</a> SecondHint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PuzzleChestSolution.html">PuzzleChestSolution</a> Solution( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PuzzleChestCylinder.html">PuzzleChestCylinder</a> ThirdHint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckLocked( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> CleanupGuesses()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoDamage( <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GenerateTreasure()<br>
+      <a href="PuzzleChestSolutionAndTime.html">PuzzleChestSolutionAndTime</a> GetLastGuess( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> InitHints()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> LockPick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SetLockLevel()<br>
+      <font color="blue">void</font> SubmitSolution( <a href="Mobile.html">Mobile</a> m, <a href="PuzzleChestSolution.html">PuzzleChestSolution</a> solution )<br>
+   </body>
+</html>

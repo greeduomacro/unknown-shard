@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Lady Jhelom</Name>
+    <Running>True</Running>
+    <ProximityRange>5</ProximityRange>
+    <ResetRange>16</ResetRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>1</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>GeneralJhelom</ConfigFile>
+    <SpeechEntries>11</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Alas a savour of our small town.  Could you help us?</Text>
+    <Condition>GETONTRIGMOB,str&gt;39 &amp; GETONTRIGMOB,str&lt;100 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest1,name]="JhelomQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Far North near the treeline Rats attacking please kill 30 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,JhelomQuest1; GIVE/&lt;questholder/name/JhelomQuest1/notestring/30 Rat/objective1/KILL,Rat,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,2000</Action>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Text>Help we need help we are under attack from bastards of bodom!!</Text>
+    <Condition>GETONTRIGMOB,str&gt;99 &amp; GETONTRIGMOB,str&lt;200 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest2,name]="JhelomQuest2" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest1,name]="JhelomQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Text>Far North of here there are GiantRats running around trying to rape people. Kill 30 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,JhelomQuest2; GIVE/&lt;questholder/name/JhelomQuest2/notestring/30 GiantRat/objective1/KILL,GiantRat,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,1000</Action>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Text>Come to me young one, we need your strength, lend me your abilities.</Text>
+    <Condition>GETONTRIGMOB,str&gt;199 &amp; GETONTRIGMOB,str&lt;300 &amp; ~GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest3,name]="JhelomQuest3" &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest2,name]="JhelomQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>60</EntryNumber>
+    <ID>60</ID>
+    <Text>Far south of here there are Great Harts, They are being real annoying to the people Kill 30 of them.</Text>
+    <Keywords>yes,ok,sure,accept</Keywords>
+    <Action>SETONTRIGMOB/ATTACH/XmlData,JhelomQuest3; GIVE/&lt;questholder/name/JhelomQuest3/notestring/30 GreatHart/objective1/KILL,GreatHart,30/autoreward/true/repeatable/false/rewardstring/@bag/ADD/bankcheck,1000</Action>
+    <DependsOn>50</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Text>You are currently doing a quest.</Text>
+    <Condition>GETONCARRIED,JhelomQuest1,Visible=true | GETONCARRIED,JhelomQuest2,Visible=true | GETONCARRIED,JhelomQuest3,Visible=true | GETONCARRIED,JhelomQuest4,Visible=true | GETONCARRIED,JhelomQuest5,Visible=true | GETONCARRIED,JhelomQuest6,Visible=true | GETONCARRIED,JhelomQuest7,Visible=true | GETONCARRIED,JhelomQuest8,Visible=true | GETONCARRIED,JhelomQuest9,Visible=true | GETONCARRIED,JhelomQuest10,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>70</EntryNumber>
+    <ID>70</ID>
+    <Text>I am sorry but you are too much of a weakling to be able to help me. Come back when your stronger.</Text>
+    <Condition>GETONTRIGMOB,str&lt;39</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>80</EntryNumber>
+    <ID>80</ID>
+    <Text>You have done the first quest. We thank you.  The next quest requires 100str or more. Come back when you have more strength.</Text>
+    <Condition>~GETONCARRIED,JhelomQuest1,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest1,name]="JhelomQuest1"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>90</EntryNumber>
+    <ID>90</ID>
+    <Text>You have done the first and second quest.  Nice work. The next quest requires 200str or more.</Text>
+    <Condition>~GETONCARRIED,JhelomQuest2,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest2,name]="JhelomQuest2"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>100</EntryNumber>
+    <ID>100</ID>
+    <Text>Wow 3 quests completed, don't you feel special. The next quest requires 300str or more. Come back when your less like a weakling.</Text>
+    <Condition>~GETONCARRIED,JhelomQuest3,questholder,Visible=true &amp; GETONTRIGMOB,[ATTACHMENT,XmlData,JhelomQuest3,name]="JhelomQuest3"</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

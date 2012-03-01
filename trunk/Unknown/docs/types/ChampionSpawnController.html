@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - ChampionSpawnController</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.CannedEvil.html">Back to Server.Engines.CannedEvil</a></h4>
+      <h2>ChampionSpawnController : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="SpawnRecord.html">SpawnRecord</a></h4>
+      (<font color="blue">ctor</font>) ChampionSpawnController()<br>
+      (<font color="blue">ctor</font>) ChampionSpawnController( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> Active( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ActiveAltars( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan ExpireDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan RandomizeDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan RestartDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Check()<br>
+      <a href="ChampionSpawn.html">ChampionSpawn</a> CreateAltar( <a href="SpawnRecord.html">SpawnRecord</a> r, <a href="Map.html">Map</a> m, <font color="blue">bool</font> restartdisable )<br>
+      <font color="blue">void</font> DeleteAll()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Generate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> Randomize( ArrayList list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> Slice()<br>
+      <font color="blue">void</font> Start()<br>
+      <font color="blue">void</font> Stop()<br>
+   </body>
+</html>

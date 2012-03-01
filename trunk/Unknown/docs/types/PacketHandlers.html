@@ -1,0 +1,116 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PacketHandlers</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Network.html">Back to Server.Network</a></h4>
+      <h2>PacketHandlers</h2>
+<h4>Nested Types: <a href="KickTimer.html">KickTimer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> ClientVerification( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <a href="PacketHandler.html">PacketHandler</a>[] Handlers( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> SingleClickProps( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font>[] ValidAnimations( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AccountID( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AccountLogin( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AccountLogin_ReplyAck( <a href="NetState.html">NetState</a> state )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AccountLogin_ReplyRej( <a href="NetState.html">NetState</a> state, <a href="ALRReason.html">ALRReason</a> reason )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Animate( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AsciiPromptResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AsciiSpeech( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AssistVersion( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AttackReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BatchQueryProperties( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CastSpell( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ChangeSkillLock( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ChangeZ( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ChatRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ClientVersion( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CloseStatus( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ConfigurationFile( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ContextMenuRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ContextMenuResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CreateCharacter( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DeathStatusResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DeleteCharacter( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DeleteStatic( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DisarmRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Disconnect( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DisplayGumpResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DoLogin( <a href="NetState.html">NetState</a> state, <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DropReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Edit( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Empty( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EncodedCommand( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EquipReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ExtendedCommand( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GameCentralMoniter( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GameLogin( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GenerateAuthID()<br>
+      (<font color="blue">static</font>) <a href="EncodedPacketHandler.html">EncodedPacketHandler</a> GetEncodedHandler( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">static</font>) <a href="PacketHandler.html">PacketHandler</a> GetExtendedHandler( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">static</font>) <a href="PacketHandler.html">PacketHandler</a> GetHandler( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GMSingle( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GodModeRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GodviewQuery( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GuildGumpRequest( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> reader )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HelpRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HuePickerResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsValidAuthID( <font color="blue">int</font> authID )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Language( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LiftReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LogoutReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LookReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> MenuResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> MobileNameRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> MobileQuery( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> MovementReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> NewAnimData( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> NewRegion( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> NewTerrain( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ObjectHelpRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_Accept( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_AddMember( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_Decline( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_PrivateMessage( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_PublicMessage( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_RemoveMember( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PartyMessage_SetCanLoot( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PingReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PlayCharacter( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> PlayServer( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ProfileReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> QueryProperties( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> QuestArrow( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> QuestGumpRequest( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> reader )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Register( <font color="blue">int</font> packetID, <font color="blue">int</font> length, <font color="blue">bool</font> ingame, <a href="OnPacketReceive.html">OnPacketReceive</a> onReceive )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RegisterEncoded( <font color="blue">int</font> packetID, <font color="blue">bool</font> ingame, <a href="OnEncodedPacketReceive.html">OnEncodedPacketReceive</a> onReceive )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RegisterExtended( <font color="blue">int</font> packetID, <font color="blue">bool</font> ingame, <a href="OnPacketReceive.html">OnPacketReceive</a> onReceive )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveEncodedHandler( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveExtendedHandler( <font color="blue">int</font> packetID )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RenameRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RequestScrollWindow( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ResourceQuery( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Resynchronize( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ScreenSize( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SecureTrade( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetAbility( <a href="NetState.html">NetState</a> state, <a href="IEntity.html">IEntity</a> e, <a href="EncodedReader.html">EncodedReader</a> reader )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetUpdateRange( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetWarMode( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> StatLockChange( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> StunRequest( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SystemInfo( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TargetResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TextCommand( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TripTime( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UnhandledBF( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UnicodePromptResponse( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UnicodeSpeech( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UseReq( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UTripTime( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> VendorBuyReply( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> VendorSellReply( <a href="NetState.html">NetState</a> state, <a href="PacketReader.html">PacketReader</a> pvSrc )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> VerifyGC( <a href="NetState.html">NetState</a> state )<br>
+      (<font color="blue">ctor</font>) PacketHandlers()<br>
+   </body>
+</html>

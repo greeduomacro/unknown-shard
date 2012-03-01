@@ -1,0 +1,170 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseHouse</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Multis.html">Back to Server.Multis</a></h4>
+      <h2>BaseHouse : <a href="BaseMulti.html">BaseMulti</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="Castle.html">Castle</a>, <a href="GuildHouse.html">GuildHouse</a>, <a href="HouseFoundation.html">HouseFoundation</a>, <a href="Keep.html">Keep</a>, <a href="LargeMarbleHouse.html">LargeMarbleHouse</a>, <a href="LargePatioHouse.html">LargePatioHouse</a>, <a href="LogCabin.html">LogCabin</a>, <a href="SandStonePatio.html">SandStonePatio</a>, <a href="SmallOldHouse.html">SmallOldHouse</a>, <a href="SmallShop.html">SmallShop</a>, <a href="SmallTower.html">SmallTower</a>, <a href="Tower.html">Tower</a>, <a href="TwoStoryHouse.html">TwoStoryHouse</a>, <a href="TwoStoryVilla.html">TwoStoryVilla</a>, <a href="VersionHouse.html">VersionHouse</a></h4>
+<h4>Nested Types: <a href="FixColumnTimer.html">FixColumnTimer</a>, <a href="TransferItem1.html">TransferItem</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> NewVendorSystem( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckAccessible( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckHold( <a href="Mobile.html">Mobile</a> m, <a href="Container.html">Container</a> cont, <a href="Item.html">Item</a> item, <font color="blue">bool</font> message, <font color="blue">bool</font> checkItems, <font color="blue">int</font> plusItems, <font color="blue">int</font> plusWeight )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckLockedDown( <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckLockedDownOrSecured( <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckSecured( <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Configure()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Decay_OnTick()<br>
+      (<font color="blue">static</font>) <a href="BaseHouse.html">BaseHouse</a> FindHouseAt( <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <a href="BaseHouse.html">BaseHouse</a> FindHouseAt( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <a href="BaseHouse.html">BaseHouse</a> FindHouseAt( <a href="Point3D.html">Point3D</a> loc, <a href="Map.html">Map</a> map, <font color="blue">int</font> height )<br>
+      (<font color="blue">static</font>) ArrayList GetHouses( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HandleDeletion( <a href="Mobile.html">Mobile</a> mob )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> HasAccountHouse( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> HasHouse( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> IsThereVendor( <a href="Point3D.html">Point3D</a> location, <a href="Map.html">Map</a> map, <font color="blue">out</font> <font color="blue">bool</font> vendor, <font color="blue">out</font> <font color="blue">bool</font> rentalContract )<br>
+      (<font color="blue">ctor</font>) BaseHouse( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseHouse( <font color="blue">int</font> multiID, <a href="Mobile.html">Mobile</a> owner, <font color="blue">int</font> MaxLockDown, <font color="blue">int</font> MaxSecure )<br>
+      ArrayList Access( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Addons( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Rectangle2D.html">Rectangle2D</a>[] Area( <font color="blue">get</font>; )<br>
+      <a href="Point3D.html">Point3D</a> BanLocation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Bans( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> BaseBanLocation( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BonusStorageScalar( <font color="blue">get</font>; )<br>
+      DateTime BuiltOn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanDecay( <font color="blue">get</font>; )<br>
+      <a href="HousePlacementEntry.html">HousePlacementEntry</a> ConvertEntry( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ConvertOffsetX( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ConvertOffsetY( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ConvertOffsetZ( <font color="blue">get</font>; )<br>
+      ArrayList CoOwners( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="DecayLevel.html">DecayLevel</a> DecayLevel( <font color="blue">get</font>; )<br>
+      TimeSpan DecayPeriod( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Decays( <font color="blue">get</font>; )<br>
+      <a href="DecayType.html">DecayType</a> DecayType( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefaultPrice( <font color="blue">get</font>; )<br>
+      ArrayList Doors( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList Friends( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasPersonalVendors( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HasRentedVendors( <font color="blue">get</font>; )<br>
+      ArrayList InternalizedVendors( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsActive( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsAosRules( <font color="blue">get</font>; )<br>
+      DateTime LastRefreshed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime LastTraded( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> LockDownCount( <font color="blue">get</font>; )<br>
+      ArrayList LockDowns( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MaxLockDowns( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxSecures( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="MovingCrate.html">MovingCrate</a> MovingCrate( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Owner( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList PlayerBarkeepers( <font color="blue">get</font>; )<br>
+      ArrayList PlayerVendors( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Price( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Public( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Region.html">Region</a> Region( <font color="blue">get</font>; )<br>
+      <a href="Point3D.html">Point3D</a> RelativeBanLocation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList RelocatedEntities( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> RestrictDecay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SecureCount( <font color="blue">get</font>; )<br>
+      ArrayList Secures( <font color="blue">get</font>; )<br>
+      <a href="HouseSign.html">HouseSign</a> Sign( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      ArrayList VendorInventories( <font color="blue">get</font>; )<br>
+      ArrayList VendorRentalContracts( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Visits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AddCoOwner( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> AddDoor( <a href="BaseDoor.html">BaseDoor</a> door, <font color="blue">int</font> xoff, <font color="blue">int</font> yoff, <font color="blue">int</font> zoff )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddEastDoor( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddEastDoor( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">uint</font> k )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddEastDoor( <font color="blue">bool</font> wood, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddEastDoor( <font color="blue">bool</font> wood, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">uint</font> k )<br>
+      <font color="blue">void</font> AddFriend( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> AddSecure( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddSouthDoor( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddSouthDoor( <font color="blue">bool</font> wood, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddSouthDoor( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">uint</font> k )<br>
+      <a href="BaseDoor.html">BaseDoor</a> AddSouthDoor( <font color="blue">bool</font> wood, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">uint</font> k )<br>
+      <a href="BaseDoor.html">BaseDoor</a>[] AddSouthDoors( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z )<br>
+      <a href="BaseDoor.html">BaseDoor</a>[] AddSouthDoors( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">uint</font> k )<br>
+      <a href="BaseDoor.html">BaseDoor</a>[] AddSouthDoors( <font color="blue">bool</font> wood, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">bool</font> inv )<br>
+      <a href="BaseDoor.html">BaseDoor</a>[] AddSouthDoors( <font color="blue">bool</font> wood, <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> z, <font color="blue">uint</font> k )<br>
+      <font color="blue">void</font> AddStrongBox( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> AddTrashBarrel( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> AreThereAvailableVendorsFor( <a href="Mobile.html">Mobile</a> m )<br>
+      ArrayList AvailableVendorsFor( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> Ban( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> BeginConfirmTransfer( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanPlaceNewBarkeep()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanPlaceNewVendor()<br>
+      <font color="blue">void</font> ChangeLocks( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ChangeSignType( <font color="blue">int</font> itemID )<br>
+      <font color="blue">bool</font> CheckAccessibility( <a href="Item.html">Item</a> item, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> CheckAccount( <a href="Mobile.html">Mobile</a> mobCheck, <a href="Mobile.html">Mobile</a> accCheck )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckAosLockdowns( <font color="blue">int</font> need )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckAosStorage( <font color="blue">int</font> need )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckDecay()<br>
+      <a href="SecureAccessResult.html">SecureAccessResult</a> CheckSecureAccess( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">bool</font> CheckTransferPosition( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">void</font> ConfirmTransfer_Callback( <a href="Mobile.html">Mobile</a> to, <font color="blue">bool</font> ok, <font color="blue">object</font> state )<br>
+      <font color="blue">uint</font> CreateKeys( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Decay_Sandbox()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DropToMovingCrate( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> EndConfirmTransfer( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">virtual</font> <a href="Guildstone.html">Guildstone</a> FindGuildstone()<br>
+      <font color="blue">void</font> FixLockdowns_Sandbox()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetAosCurLockdowns()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetAosCurSecures( <font color="blue">out</font> <font color="blue">int</font> fromSecures, <font color="blue">out</font> <font color="blue">int</font> fromVendors, <font color="blue">out</font> <font color="blue">int</font> fromLockdowns, <font color="blue">out</font> <font color="blue">int</font> fromMovingCrate )<br>
+      <font color="blue">virtual</font> <a href="HousePlacementEntry.html">HousePlacementEntry</a> GetAosEntry()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetAosMaxLockdowns()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetAosMaxSecures()<br>
+      <font color="blue">virtual</font> <a href="HouseDeed.html">HouseDeed</a> GetDeed()<br>
+      ArrayList GetHouseEntities()<br>
+      ArrayList GetItems()<br>
+      ArrayList GetMobiles()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetNewVendorSystemMaxVendors()<br>
+      <font color="blue">void</font> GrantAccess( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">bool</font> HasAccess( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> HasSecureAccess( <a href="Mobile.html">Mobile</a> m, <a href="SecureLevel.html">SecureLevel</a> level )<br>
+      <font color="blue">bool</font> InRange( <a href="IPoint2D.html">IPoint2D</a> from, <font color="blue">int</font> range )<br>
+      <font color="blue">bool</font> IsBanned( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsCombatRestricted( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsCoOwner( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsFriend( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsGuildMember( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsInside( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsInside( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsInside( <a href="Point3D.html">Point3D</a> p, <font color="blue">int</font> height )<br>
+      <font color="blue">bool</font> IsLockedDown( <a href="Item.html">Item</a> check )<br>
+      <font color="blue">bool</font> IsNewer( <a href="BaseHouse.html">BaseHouse</a> check, <a href="BaseHouse.html">BaseHouse</a> house )<br>
+      <font color="blue">bool</font> IsOwner( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsSecure( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> Kick( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> KillVendors()<br>
+      <font color="blue">bool</font> LockDown( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">bool</font> LockDown( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <font color="blue">bool</font> checkIsInside )<br>
+      <a href="BaseDoor.html">BaseDoor</a> MakeDoor( <font color="blue">bool</font> wood, <a href="DoorFacing.html">DoorFacing</a> facing )<br>
+      <font color="blue">void</font> MoveAllToCrate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMapChange()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> RefreshDecay()<br>
+      <font color="blue">void</font> Release( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> ReleaseSecure( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> RelocateEntities()<br>
+      <font color="blue">void</font> RemoveAccess( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> RemoveBan( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> RemoveCoOwner( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> RemoveFriend( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> targ )<br>
+      <font color="blue">void</font> RemoveKeys( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> RemoveLocks()<br>
+      <font color="blue">void</font> RestoreRelocatedEntities()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> SetLockdown( <a href="Item.html">Item</a> i, <font color="blue">bool</font> locked )<br>
+      <font color="blue">void</font> SetLockdown( <a href="Item.html">Item</a> i, <font color="blue">bool</font> locked, <font color="blue">bool</font> checkContains )<br>
+      <font color="blue">void</font> SetSign( <font color="blue">int</font> xoff, <font color="blue">int</font> yoff, <font color="blue">int</font> zoff )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateRegion()<br>
+   </body>
+</html>

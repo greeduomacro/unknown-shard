@@ -1,0 +1,20 @@
+04/15/2009
+11:50PM
+
+1. 8 custom ores, 2 custom leathers, 4 custom woods.  Blacksmith Box, Tailoring Box, Wood Box, and Masonry Box. Each box will hold the resource and tools for each one.
+2. Added new masonry system and various other crafting tables.  This is the half point of my big update.
+3. Tweaked a lot of the crafting system.
+4. Increased the stat gains.
+5. Removed the necro karma loss.
+6. Increased amount vendors can sell at a time.
+7. Added 400 npcs around haven.
+8. Added 800 npcs around britain.
+9. Spawned more quest required creatures around britain and haven.
+10. Added 10 more quests to Haven. Using a quicker and simpler quest method.
+11. Added 10 more quests to Britain. Using a quicker and simpler quest method.
+12. Added Quests 1-3 for The City of Zento.
+13. Added Quests 1-3 for the City of Umbra.
+14. Added Quests 1-3 for the City of Luna.
+
+
+GM Darky

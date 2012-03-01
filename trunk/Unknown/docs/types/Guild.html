@@ -1,0 +1,80 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Guild</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Guilds.html">Back to Server.Guilds</a></h4>
+      <h2>Guild : <a href="BaseGuild.html">BaseGuild</a>, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="GuildPropsTarget.html">GuildPropsTarget</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> NewGuildSystem( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Configure()<br>
+      (<font color="blue">static</font>) <a href="BaseGuild.html">BaseGuild</a> EventSink_CreateGuild( <a href="CreateGuildEventArgs.html">CreateGuildEventArgs</a> args )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_GuildGumpRequest( <a href="GuildGumpRequestArgs.html">GuildGumpRequestArgs</a> args )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GuildProps_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HandleDeath( <a href="Mobile.html">Mobile</a> victim )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> HandleDeath( <a href="Mobile.html">Mobile</a> victim, <a href="Mobile.html">Mobile</a> killer )<br>
+      (<font color="blue">ctor</font>) Guild( <font color="blue">int</font> id )<br>
+      (<font color="blue">ctor</font>) Guild( <a href="Mobile.html">Mobile</a> leader, <font color="blue">string</font> name, <font color="blue">string</font> abbreviation )<br>
+      <font color="blue">string</font> Abbreviation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 Accepted( <font color="blue">get</font>; )<br>
+      List`1 AcceptedWars( <font color="blue">get</font>; )<br>
+      <a href="AllianceInfo.html">AllianceInfo</a> Alliance( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 Allies( <font color="blue">get</font>; )<br>
+      List`1 AllyDeclarations( <font color="blue">get</font>; )<br>
+      List`1 AllyInvitations( <font color="blue">get</font>; )<br>
+      List`1 Candidates( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Charter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Disbanded( <font color="blue">get</font>; )<br>
+      List`1 Enemies( <font color="blue">get</font>; )<br>
+      <a href="Item.html">Item</a> Guildstone( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime LastFealty( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Leader( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 Members( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Name( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 PendingWars( <font color="blue">get</font>; )<br>
+      <a href="Item.html">Item</a> Teleporter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="GuildType.html">GuildType</a> Type( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime TypeLastChange( <font color="blue">get</font>; )<br>
+      List`1 WarDeclarations( <font color="blue">get</font>; )<br>
+      List`1 WarInvitations( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Website( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AddAlly( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">void</font> AddEnemy( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">void</font> AddMember( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> CalculateGuildmaster()<br>
+      <font color="blue">bool</font> CanBeVotedFor( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> CanVote( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> CheckExpiredWars()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Disband()<br>
+      <a href="WarDeclaration.html">WarDeclaration</a> FindActiveWar( <a href="Guild.html">Guild</a> g )<br>
+      <a href="WarDeclaration.html">WarDeclaration</a> FindPendingWar( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">void</font> GuildChat( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> GuildChat( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> hue, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> number )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> number, <font color="blue">string</font> args )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> number, <font color="blue">bool</font> append, <font color="blue">string</font> affix )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> number, <font color="blue">string</font> args, <font color="blue">int</font> hue )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> num, <font color="blue">bool</font> append, <font color="blue">string</font> format, <font color="blue">object</font>[] args )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> number, <font color="blue">bool</font> append, <font color="blue">string</font> affix, <font color="blue">string</font> args )<br>
+      <font color="blue">void</font> GuildMessage( <font color="blue">int</font> number, <font color="blue">bool</font> append, <font color="blue">string</font> affix, <font color="blue">string</font> args, <font color="blue">int</font> hue )<br>
+      <font color="blue">void</font> GuildTextMessage( <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> GuildTextMessage( <font color="blue">int</font> hue, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> GuildTextMessage( <font color="blue">string</font> format, <font color="blue">object</font>[] args )<br>
+      <font color="blue">void</font> GuildTextMessage( <font color="blue">int</font> hue, <font color="blue">string</font> format, <font color="blue">object</font>[] args )<br>
+      <font color="blue">void</font> InvalidateMemberNotoriety()<br>
+      <font color="blue">void</font> InvalidateMemberProperties()<br>
+      <font color="blue">void</font> InvalidateMemberProperties( <font color="blue">bool</font> onlyOPL )<br>
+      <font color="blue">bool</font> IsAlly( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">bool</font> IsEnemy( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">bool</font> IsMember( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> IsWar( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">void</font> RemoveAlly( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">void</font> RemoveEnemy( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">void</font> RemoveMember( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> RemoveMember( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> message )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> VerifyGuild_Callback()<br>
+   </body>
+</html>

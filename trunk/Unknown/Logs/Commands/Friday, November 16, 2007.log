@@ -1,0 +1,65 @@
+##############################
+Log started on 11/16/2007 12:19:47 AM
+
+11/16/2007 3:27:33 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:34 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:35 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:35 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:36 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:37 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:38 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:39 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:39 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:27:40 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:09 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') changed XmlSpawner 0x400006AF 'HindQuest' [3668, 2471] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/HindQuest/loadconfig/true to xmlquestnpc,1/talktext/yes/configfile/HavenQuest1/loadconfig/true
+11/16/2007 3:28:15 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:16 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:17 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:18 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:18 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:20 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 3:28:36 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') changed XmlSpawner 0x40000767 'BoarQuest' [3606, 2487] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/BoarQuest/loadconfig/true to xmlquestnpc,1/talktext/yes/configfile/HavenQuest2/loadconfig/true
+11/16/2007 3:28:46 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+11/16/2007 4:07:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'questlog '
+11/16/2007 4:11:42 AM: 127.0.0.1: 1361 spawners exported to Saves/Spawners/world.
+11/16/2007 4:11:42 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'global exportspawner world'
+11/16/2007 4:11:59 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlimportspawners world'
+11/16/2007 4:12:14 AM: 127.0.0.1: Awaiting confirmation...
+11/16/2007 4:12:14 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'global delete where spawner'
+11/16/2007 4:12:17 AM: 127.0.0.1: Delete command confirmed.
+11/16/2007 4:12:17 AM: 127.0.0.1: The item has been deleted. (1361)
+11/16/2007 4:12:21 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+11/16/2007 4:13:24 AM: 127.0.0.1: Property has been set. (1402)
+11/16/2007 4:13:24 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'global set dorespawn true where xmlspawner'
+11/16/2007 4:13:43 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+11/16/2007 4:13:47 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'chat '
+##############################
+Log started on 11/16/2007 4:40:55 AM
+
+11/16/2007 4:42:10 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'initauction '
+11/16/2007 4:42:40 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+11/16/2007 4:43:55 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:43:55 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:43:56 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:43:57 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:43:57 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:43:58 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:43:59 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:44:00 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:44:00 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:44:01 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:44:02 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:44:03 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+11/16/2007 4:44:18 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/16/2007 4:44:19 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3636, 2617, 0) in Trammel: "xmlspawner"
+11/16/2007 4:44:19 AM: 127.0.0.1: Serials: 0x40000157; 
+11/16/2007 4:44:28 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x40000157 'Spawner' [3636, 2617] (Trammel) : auctioner
+11/16/2007 4:45:54 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'auctionadmin '
+11/16/2007 5:10:27 AM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'chat '
+##############################
+Log started on 11/16/2007 5:45:05 AM
+
+##############################
+Log started on 11/16/2007 2:05:47 PM
+

@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - RentedVendor</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>RentedVendor : <a href="PlayerVendor.html">PlayerVendor</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Nested Types: <a href="CollectRentEntry.html">CollectRentEntry</a>, <a href="ContractOptionsEntry1.html">ContractOptionsEntry</a>, <a href="RefundOfferPrompt.html">RefundOfferPrompt</a>, <a href="RentalExpireTimer1.html">RentalExpireTimer</a>, <a href="TerminateContractEntry.html">TerminateContractEntry</a></h4>
+      (<font color="blue">ctor</font>) RentedVendor( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) RentedVendor( <a href="Mobile.html">Mobile</a> owner, <a href="BaseHouse.html">BaseHouse</a> house, <a href="VendorRentalDuration.html">VendorRentalDuration</a> duration, <font color="blue">int</font> rentalPrice, <font color="blue">bool</font> landlordRenew, <font color="blue">int</font> rentalGold )<br>
+      <a href="Mobile.html">Mobile</a> Landlord( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> LandlordRenew( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Renew( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> RenewalPrice( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="VendorRentalDuration.html">VendorRentalDuration</a> RentalDuration( <font color="blue">get</font>; )<br>
+      DateTime RentalExpireTime( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> RentalGold( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RentalPrice( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> RenterRenew( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> ComputeRentalExpireDelay( <font color="blue">out</font> <font color="blue">int</font> days, <font color="blue">out</font> <font color="blue">int</font> hours )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Destroy( <font color="blue">bool</font> toBackpack )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">bool</font> IsLandlord( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsOwner( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">void</font> SendRentalExpireMessage( <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

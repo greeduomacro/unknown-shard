@@ -1,0 +1,13 @@
+11/12/2007
+
+Added a few new commands like [e and [emote, explainations are in the ingame forums.  Many more things to come.  Tested out the afkchecker for people that may feel the need to macro the game while they are not actually playing the game.  So that will be able to deal with them in a timely manner.  You will get caught if you decide to do it.  That is a promise.
+
+Added the advanced animal taming system and the advanced cartography system.  Both need to go through a lot of testing.  You can view the animal taming information when you use animal lore on your pets.  Further information on the subject will come in due time.  Be sure to check your Rules Books in your inventory.  Keep up to date with them as much as possible please.  Also stay up to date with the ingame forums and the MOTD.
+
+Contest.
+Starting on 11/13/2007
+Players with the most time played on their account/character will recieve a special reward.  Deadline is 12/25/2007.
+
+Please Enjoy,
+Admin/Owner/Coder
+Jesus

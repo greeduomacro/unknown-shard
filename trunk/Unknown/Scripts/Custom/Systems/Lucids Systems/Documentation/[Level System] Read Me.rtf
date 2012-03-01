@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\f0\fs20  **********************\cf1\fs28 Lucid Naguals Easy Level System\cf0\fs20 *****************************\par
+************************\cf1\fs28 Originally Created by Andyboi\cf0\fs20 *********************************\par
+\par
+\cf2\ul\fs28 What It Is :\cf0\ulnone\fs20\par
+\fs24 This is your normal level system with a few twists, it uses A_Li_Ns central memory system to\par
+allow you not to have to make any PlayerMobile edits, and also to not have to add a storage\par
+unit into each players pack. It has several custom rewards for levels and skill points, along with \par
+ranks and a unique age system. Another nice feature about this system is it is very easily installed\par
+and removed from any server no matter how developed.\fs20\par
+\par
+\cf2\ul\fs28 Installation :\cf0\ulnone\fs20\par
+\fs24 Simple... extract the files anywhere into your Customs folder, and open your BaseCreature.cs file,\par
+located in : \b Scripts/Engines/AI/Creature/BaseCreature.cs\par
+\b0\par
+\b If your BaseCreature.cs is not modded\b0 , scroll down to lines, \b 4172 \b0 and \b 4173\b0  which should read\par
+\cf1 Titles.AwardFame( ds.m_Mobile, totalFame, true );\par
+Titles.AwardKarma( ds.m_Mobile, totalKarma, true );\cf0\par
+\par
+Below these lines add this line..\par
+\cf1 EXPValidate.EXPTest(ds.m_Mobile,this);//Mod for Level System\par
+\par
+\cf3\b If your BaseCreature.cs is modded\b0 , look for the following lines..\par
+\cf1 Titles.AwardFame( ds.m_Mobile, totalFame, true );\par
+Titles.AwardKarma( ds.m_Mobile, totalKarma, true );\par
+\par
+\cf3 and below these add this..\par
+\cf1 EXPValidate.EXPTest(ds.m_Mobile,this);//Mod for Level System\par
+\cf0\par
+The comment at the end makes it easy to remove it if you ever see the need to ( commenting\par
+is good practice for any developer and I strongly reccommend it for distro file mods )\par
+\par
+Once you have completed the above simply restart your server, wait for it to load, type\par
+[level and enjoy!!\fs20\par
+\par
+\cf2\ul\fs28 Questions or comments??\cf0\ulnone\fs20\par
+\fs24 Feel free to post any questions or comments and/or PM me!!\fs20\par
+}
+
+

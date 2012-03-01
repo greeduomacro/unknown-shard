@@ -1,0 +1,59 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PlayerModule</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.ACC.CM.html">Back to Server.ACC.CM</a></h4>
+      <h2>PlayerModule : <a href="Module.html">Module</a></h2>
+<h4>Nested Types: <a href="InternalTarget32.html">InternalTarget</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> BODInfo_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GetInfo_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> MyInfo_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">ctor</font>) PlayerModule( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">int</font> Age( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowCelestialMarriages( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowGayMarriages( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Bioenginer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BOBFilter.html">BOBFilter</a> BOBFilter( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> EasyKills( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Experience( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ExtremeKills( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> FirstName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> GodKills( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HardKills( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Hunting( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="HuntMode.html">HuntMode</a> HuntingMode( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="HuntRank.html">HuntRank</a> HuntingRank( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="HuntReward.html">HuntReward</a> HuntingReward( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> LastName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Level( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> MaidenName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="MaritalStatus.html">MaritalStatus</a> MaritalStatus( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime MarriageTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NextLevelUp( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan NextSmithBulkOrder( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan NextTailorBulkOrder( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerClasses.html">PlayerClasses</a> PlayerClasses( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerRaces.html">PlayerRaces</a> PlayerRaces( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerRanks.html">PlayerRanks</a> PlayerRanks( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="PlayerTribes.html">PlayerTribes</a> PlayerTribes( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RankPoints( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RewardsClaimed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SkillPts( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="TypeOfMarriage.html">TypeOfMarriage</a> TypeOfMarriage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Updated( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseMyOwnFilter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> AddHusbands( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> spouse )<br>
+      <font color="blue">void</font> AddSpouse( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> spouse )<br>
+      <font color="blue">void</font> AddWives( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> spouse )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Append( <a href="Module.html">Module</a> mod, <font color="blue">bool</font> negatively )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">bool</font> GetMyFlag( <a href="MyPlayerFlag.html">MyPlayerFlag</a> flag )<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> Name()<br>
+      <font color="blue">bool</font> RemoveSpouse( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> SetMyFlag( <a href="MyPlayerFlag.html">MyPlayerFlag</a> flag, <font color="blue">bool</font> value )<br>
+      <font color="blue">void</font> StartWedding( <a href="Mobile.html">Mobile</a> from )<br>
+   </body>
+</html>

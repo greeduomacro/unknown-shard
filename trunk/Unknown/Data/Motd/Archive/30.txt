@@ -1,0 +1,9 @@
+02/26/2008
+8:08PM
+
+Unamed Server Version 0.01
+
+Well I had to wipe the server due to some errors that I could not fix.  After that I was able to reload from one of my previous backups.  So the server should be like when you first logged into it. Though I will do my best to get it back up and running up to where I had it before and I removed the Auction system that was not in use.  I am thinking that will be one thing that I would only add per player request.  I will be placing suggestion boxes in every town for players to provide feedback/input on what they would like added to the server.  There is a lot of work ahead but I hope to get it all done as quickly as possible.
+
+GM Jesus
+owner/coder/host

@@ -1,0 +1,18 @@
+3/29/2008
+05:08AM
+
+1. Tweaked skill and stat gains again.
+2. decreased the weight of gold while carried.
+3. Added more reagents for vendors.
+4. fixed some display issues with some of the spellbooks.
+5. tweak quest 6 of haven to fix an exploit.
+6. Fixed all other quests with a minor exploit.
+7. Updated level system. Level16=1rank. So therefore per rank you get +1 stat max and +10 skill max.
+8. Updated some of the things able to be posted in the ingame forums..
+9. Spawned over 3000 harvestable reagents around the world.
+10. Placed gravedigger, spellcrafter and druid vendors in every possible town in every realm.
+11. Fixed [travel bug thanks to wolfv for finding it.
+12. Added stat potions for rewards. They go by levels 1-10 as in how strong they are.
+13. Added Britain beginner quests 8 and 9.
+
+GM Darky

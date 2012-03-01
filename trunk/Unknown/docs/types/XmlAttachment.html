@@ -1,0 +1,66 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlAttachment</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlAttachment : <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+<h4>Derived Types: <a href="HandSiegeAttack.html">HandSiegeAttack</a>, <a href="TemporaryQuestObject.html">TemporaryQuestObject</a>, <a href="XmlAddFaction.html">XmlAddFaction</a>, <a href="XmlAddFactionCredits.html">XmlAddFactionCredits</a>, <a href="XmlAddFame.html">XmlAddFame</a>, <a href="XmlAddKarma.html">XmlAddKarma</a>, <a href="XmlAddTithing.html">XmlAddTithing</a>, <a href="XmlAddVirtue.html">XmlAddVirtue</a>, <a href="XmlColorCycling.html">XmlColorCycling</a>, <a href="XmlCustomAttacks.html">XmlCustomAttacks</a>, <a href="XmlCustomDefenses.html">XmlCustomDefenses</a>, <a href="XmlData.html">XmlData</a>, <a href="XmlDate.html">XmlDate</a>, <a href="XmlDeathAction.html">XmlDeathAction</a>, <a href="XmlDex.html">XmlDex</a>, <a href="XmlDialog.html">XmlDialog</a>, <a href="XmlDrag.html">XmlDrag</a>, <a href="XmlDynamicFaction.html">XmlDynamicFaction</a>, <a href="XmlEnemyMastery.html">XmlEnemyMastery</a>, <a href="XmlFactionEquip.html">XmlFactionEquip</a>, <a href="XmlFactionMastery.html">XmlFactionMastery</a>, <a href="XmlFire.html">XmlFire</a>, <a href="XmlFollow.html">XmlFollow</a>, <a href="XmlFreeze.html">XmlFreeze</a>, <a href="XmlHue.html">XmlHue</a>, <a href="XmlInt.html">XmlInt</a>, <a href="XmlLifeDrain.html">XmlLifeDrain</a>, <a href="XmlLightning.html">XmlLightning</a>, <a href="XmlLocalVariable.html">XmlLocalVariable</a>, <a href="XmlMagicWord.html">XmlMagicWord</a>, <a href="XmlManaDrain.html">XmlManaDrain</a>, <a href="XmlMessage.html">XmlMessage</a>, <a href="XmlMinionStrike.html">XmlMinionStrike</a>, <a href="XmlMobFactions.html">XmlMobFactions</a>, <a href="XmlMorph.html">XmlMorph</a>, <a href="XmlPoints.html">XmlPoints</a>, <a href="XmlQuestAttachment.html">XmlQuestAttachment</a>, <a href="XmlQuestPoints.html">XmlQuestPoints</a>, <a href="XmlSaveItem.html">XmlSaveItem</a>, <a href="XmlSiege.html">XmlSiege</a>, <a href="XmlSkill.html">XmlSkill</a>, <a href="XmlSocketable.html">XmlSocketable</a>, <a href="XmlSockets.html">XmlSockets</a>, <a href="XmlSound.html">XmlSound</a>, <a href="XmlStamDrain.html">XmlStamDrain</a>, <a href="XmlStr.html">XmlStr</a>, <a href="XmlUse.html">XmlUse</a>, <a href="XmlValue.html">XmlValue</a>, <a href="XmlWeaponAbility.html">XmlWeaponAbility</a></h4>
+<h4>Nested Types: <a href="AttachmentTimer.html">AttachmentTimer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) XmlAttachment()<br>
+      (<font color="blue">ctor</font>) XmlAttachment( <a href="ASerial.html">ASerial</a> serial )<br>
+      <font color="blue">object</font> Attached( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> AttachedBy( <font color="blue">get</font>; )<br>
+      <font color="blue">object</font> AttachedTo( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanActivateEquipped( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanActivateInBackpack( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanActivateInWorld( <font color="blue">get</font>; )<br>
+      DateTime CreationTime( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Deleted( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> DoDelete( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan Expiration( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime ExpirationEnd( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnKill( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnKilled( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnMovement( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSpeech( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Name( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">object</font> OwnedBy( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">object</font> Owner( <font color="blue">get</font>; )<br>
+      <a href="ASerial.html">ASerial</a> Serial( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SerialValue( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> BlockDefaultOnUse( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanEquip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Delete()<br>
+      <font color="blue">void</font> DeleteItemCallback( <font color="blue">object</font> state )<br>
+      <font color="blue">void</font> DeleteMobileCallback( <font color="blue">object</font> state )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> DisplayedProperties( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> DoTimer( TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InvalidateParentProperties()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnArmorHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="Item.html">Item</a> armor, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAttach()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnBeforeKill( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnBeforeKilled( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragLift( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnEquip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> OnIdentify( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKill( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKilled( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="MovementEventArgs.html">MovementEventArgs</a> args )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnReattach()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRemoved( <font color="blue">object</font> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> args )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTrigger( <font color="blue">object</font> activator, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnUse( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnUser( <font color="blue">object</font> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnWeaponHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven )<br>
+      <font color="blue">void</font> SafeItemDelete( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> SafeMobileDelete( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SetAttachedBy( <font color="blue">string</font> name )<br>
+   </body>
+</html>

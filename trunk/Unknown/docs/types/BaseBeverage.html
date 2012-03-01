@@ -1,0 +1,45 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseBeverage</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseBeverage : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHasQuantity.html">IHasQuantity</a></h2>
+<h4>Derived Types: <a href="BeverageBottle.html">BeverageBottle</a>, <a href="CeramicMug.html">CeramicMug</a>, <a href="GlassMug.html">GlassMug</a>, <a href="Goblet.html">Goblet</a>, <a href="Jug.html">Jug</a>, <a href="PewterMug.html">PewterMug</a>, <a href="Pitcher.html">Pitcher</a>, <a href="SprinklerContainer.html">SprinklerContainer</a></h4>
+<h4>Nested Types: <a href="HeaveTimer.html">HeaveTimer</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> CheckHeaveTimer( <a href="Mobile.html">Mobile</a> from )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> ConsumeTotal( <a href="Container.html">Container</a> pack, <a href="BeverageType.html">BeverageType</a> content, <font color="blue">int</font> quantity )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> ConsumeTotal( <a href="Container.html">Container</a> pack, Type itemType, <a href="BeverageType.html">BeverageType</a> content, <font color="blue">int</font> quantity )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Login( <a href="LoginEventArgs.html">LoginEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) BaseBeverage()<br>
+      (<font color="blue">ctor</font>) BaseBeverage( <a href="BeverageType.html">BeverageType</a> type )<br>
+      (<font color="blue">ctor</font>) BaseBeverage( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">int</font> BaseLabelNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ContainsAlchohol( <font color="blue">get</font>; )<br>
+      <a href="BeverageType.html">BeverageType</a> Content( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> EmptyLabelNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Fillable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsEmpty( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsFull( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> LabelNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MaxQuantity( <font color="blue">get</font>; )<br>
+      <a href="Poison.html">Poison</a> Poison( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Poisoner( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Pourable( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Quantity( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ShowQuantity( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CheckType( <font color="blue">string</font> name )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> ComputeItemID()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader, <font color="blue">bool</font> read )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Fill_OnTarget( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> targ )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetQuantityDescription()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Pour_OnTarget( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> targ )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> ValidateUse( <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> message )<br>
+   </body>
+</html>

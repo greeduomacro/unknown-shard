@@ -1,0 +1,32 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseQuester</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.Quests.html">Back to Server.Engines.Quests</a></h4>
+      <h2>BaseQuester : <a href="BaseVendor.html">BaseVendor</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a>, <a href="IVendor.html">IVendor</a></h2>
+<h4>Derived Types: <a href="AlbertaGiacco.html">AlbertaGiacco</a>, <a href="AnsellaGryen.html">AnsellaGryen</a>, <a href="BaseAmbitiousSolenQueen.html">BaseAmbitiousSolenQueen</a>, <a href="BaseSolenMatriarch.html">BaseSolenMatriarch</a>, <a href="Blackheart.html">Blackheart</a>, <a href="Chyloth.html">Chyloth</a>, <a href="Dryad.html">Dryad</a>, <a href="ElwoodMcCarrin.html">ElwoodMcCarrin</a>, <a href="Emino.html">Emino</a>, <a href="EnshroudedFigure.html">EnshroudedFigure</a>, <a href="GabrielPiete.html">GabrielPiete</a>, <a href="Grizelda.html">Grizelda</a>, <a href="Haochi.html">Haochi</a>, <a href="HaochisGuardsman.html">HaochisGuardsman</a>, <a href="HiddenFigure.html">HiddenFigure</a>, <a href="Horus.html">Horus</a>, <a href="Impresario.html">Impresario</a>, <a href="JedahEntille.html">JedahEntille</a>, <a href="Maabus.html">Maabus</a>, <a href="MansionGuard.html">MansionGuard</a>, <a href="Mardoth.html">Mardoth</a>, <a href="MilitiaCanoneer.html">MilitiaCanoneer</a>, <a href="Naturalist.html">Naturalist</a>, <a href="Relnia.html">Relnia</a>, <a href="Schmendrick.html">Schmendrick</a>, <a href="TomasONeerlan.html">TomasONeerlan</a>, <a href="Uzeraan.html">Uzeraan</a>, <a href="Victoria.html">Victoria</a>, <a href="Zeefzorpul.html">Zeefzorpul</a>, <a href="Zoel.html">Zoel</a></h4>
+      (<font color="blue">static</font>) <a href="Container.html">Container</a> GetNewContainer()<br>
+      (<font color="blue">ctor</font>) BaseQuester()<br>
+      (<font color="blue">ctor</font>) BaseQuester( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseQuester( <font color="blue">string</font> title )<br>
+      <font color="blue">bool</font> CanTeach( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ClickTitle( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> DisallowAllMoves( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsActiveVendor( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsInvulnerable( <font color="blue">get</font>; )<br>
+      ArrayList SBInfos( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> TalkNumber( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddCustomContextEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeDamaged()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanTalkTo( <a href="PlayerMobile.html">PlayerMobile</a> to )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> FocusTo( <a href="Mobile.html">Mobile</a> to )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetAutoTalkRange( <a href="PlayerMobile.html">PlayerMobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitSBInfo()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> m, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTalk( <a href="PlayerMobile.html">PlayerMobile</a> player, <font color="blue">bool</font> contextMenu )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <a href="Item.html">Item</a> SetHue( <a href="Item.html">Item</a> item, <font color="blue">int</font> hue )<br>
+   </body>
+</html>

@@ -1,0 +1,52 @@
+This is the output for Miscellaneous on 5/12/2011 8:39:19 PM
+
+
+General: 
+	-Manual: False
+	-Stat Force: True
+	-Stats Enabled: True
+	-Stat Sum: 300
+	-Strength: 300
+	-Dexterity: 300
+	-Intelligence: 3000
+	-Skill Force: True
+	-Name: Miscellaneous
+	-Num Allowed Skills: 700
+	-Skill Sum: 700
+	-Skill Sum: True
+	-Skill Sum: True
+
+
+Enabled Skills & Skill Values: 
+
+
+
+	Index: 0 Name: Alchemy is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 1 Name: Blacksmithy is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 2 Name: Bowcraft/Fletching is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 3 Name: Carpentry is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 4 Name: Cooking is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 5 Name: Healing is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 6 Name: Fishing is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 7 Name: Herding is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 8 Name: Lockpicking is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 9 Name: Magery is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 10 Name: Resisting Spells is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 11 Name: Snooping is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 12 Name: Musicianship is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 13 Name: Stealing is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 14 Name: Tailoring is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 15 Name: Tinkering is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 16 Name: Veterinary is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 17 Name: Mining is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 18 Name: Meditation is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 19 Name: Stealth is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 20 Name: Remove Trap is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 21 Name: Necromancy is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 22 Name: Focus is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 23 Name: Chivalry is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 24 Name: Bushido is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 25 Name: Ninjitsu is True, with Max of: 100, Cap of 10, and Weight of 1
+	Index: 26 Name: Spellweaving is True, with Max of: 100, Cap of 10, and Weight of 1
+
+True, with Max of: 100, Cap of 10, and Weight of 1

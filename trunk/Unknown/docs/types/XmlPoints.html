@@ -1,0 +1,105 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlPoints</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlPoints : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+<h4>Nested Types: <a href="CancelTimer.html">CancelTimer</a>, <a href="ChallengeTarget.html">ChallengeTarget</a>, <a href="ConfirmChallengeGump.html">ConfirmChallengeGump</a>, <a href="DuelLocationEntry.html">DuelLocationEntry</a>, <a href="IssueChallengeGump.html">IssueChallengeGump</a>, <a href="KillEntry.html">KillEntry</a>, <a href="LanguageType.html">LanguageType</a>, <a href="LeaderboardTimer.html">LeaderboardTimer</a>, <a href="PointsGump.html">PointsGump</a>, <a href="RankEntry.html">RankEntry</a>, <a href="TopPlayersGump.html">TopPlayersGump</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddAllPoints_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddText( <a href="LanguageType.html">LanguageType</a> t, <font color="blue">int</font> index, <font color="blue">string</font> text )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AllowChallengeGump( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AreChallengers( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AreInAnyGame( <a href="Mobile.html">Mobile</a> target )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AreInSameGame( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> AreTeamMembers( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AutoRes_Callback( <font color="blue">object</font> state )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BroadcastKills_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BroadcastMessage( <a href="AccessLevel.html">AccessLevel</a> ac, <font color="blue">int</font> hue, <font color="blue">string</font> message )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Challenge_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckCombat( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CheckPoints_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> CTFChallenge_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> DeathBall_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Deathmatch_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> DuelLocationAvailable( <a href="DuelLocationEntry.html">DuelLocationEntry</a> duelloc )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Speech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> args )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetCredits( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetPoints( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> GetRanking( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">string</font> GetText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> msgindex )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> HasCredits( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> credits )<br>
+      (<font color="blue">static</font>) <font color="blue">string</font> HtmlSpecialEncoding( <font color="blue">string</font> text )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> InsuranceIsFree( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> awardto )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> KingOfTheHill_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Language_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LBSDeserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LBSSerialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LeaderboardSave_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> LMSChallenge_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RefreshRankList()<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveAllPoints_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Return_Callback( <font color="blue">object</font> state )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> SameGuild( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SeeKills_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendColorText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> color, <font color="blue">int</font> msgindex )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendColorText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> color, <font color="blue">int</font> msgindex, <font color="blue">object</font> arg )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendColorText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> color, <font color="blue">int</font> msgindex, <font color="blue">object</font> arg, <font color="blue">object</font> arg2 )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> msgindex )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> msgindex, <font color="blue">object</font> arg )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SendText( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> msgindex, <font color="blue">object</font> arg, <font color="blue">object</font> arg2 )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ShowPointsOverhead( <a href="Mobile.html">Mobile</a> from )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SystemBroadcastKills_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">string</font> SystemText( <font color="blue">int</font> index )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> TakeCredits( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> credits )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TeamDeathBall_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TeamDeathmatch_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TeamKotH_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TeamLMSChallenge_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TopPlayers_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UpdateRanking( <a href="Mobile.html">Mobile</a> m, <a href="XmlPoints.html">XmlPoints</a> attachment )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WriteLeaderboard( <font color="blue">string</font> filename, <font color="blue">int</font> nranks )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WriteLeaderboardHtml( <font color="blue">string</font> filename, <font color="blue">int</font> nranks )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> WriteLeaderboardXml( <font color="blue">string</font> filename, <font color="blue">int</font> nranks )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> YoungProtection( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target )<br>
+      (<font color="blue">ctor</font>) XmlPoints()<br>
+      (<font color="blue">ctor</font>) XmlPoints( <a href="ASerial.html">ASerial</a> serial )<br>
+      <font color="blue">bool</font> Broadcast( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseChallengeGame.html">BaseChallengeGame</a> ChallengeGame( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Challenger( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseChallengeGame.html">BaseChallengeGame</a> ChallengeSetup( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Credits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="LanguageType.html">LanguageType</a> CurrentLanguage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Deaths( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DeltaRank( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HandlesOnKill( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnKilled( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HasChallenge( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Kills( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime LastDeath( <font color="blue">get</font>; )<br>
+      DateTime LastKill( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Points( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Rank( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> ReceiveBroadcasts( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime WhenRanked( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanAffectPoints( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> killer, <a href="Mobile.html">Mobile</a> killed, <font color="blue">bool</font> assumechallenge )<br>
+      <font color="blue">void</font> ClearAggression( <a href="Mobile.html">Mobile</a> source, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoTimer( TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAttach()<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> OnIdentify( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKill( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKilled( <a href="Mobile.html">Mobile</a> killed, <a href="Mobile.html">Mobile</a> killer )<br>
+      <font color="blue">void</font> RefreshKillList()<br>
+      <font color="blue">void</font> ReportPointLoss_Callback( <font color="blue">object</font> state )<br>
+      <font color="blue">void</font> SendColorText( <font color="blue">int</font> color, <font color="blue">int</font> msgindex )<br>
+      <font color="blue">void</font> SendColorText( <font color="blue">int</font> color, <font color="blue">int</font> msgindex, <font color="blue">object</font> arg )<br>
+      <font color="blue">void</font> SendColorText( <font color="blue">int</font> color, <font color="blue">int</font> msgindex, <font color="blue">object</font> arg, <font color="blue">object</font> arg2 )<br>
+      <font color="blue">void</font> SendText( <font color="blue">int</font> msgindex )<br>
+      <font color="blue">void</font> SendText( <font color="blue">int</font> msgindex, <font color="blue">object</font> arg )<br>
+      <font color="blue">void</font> SendText( <font color="blue">int</font> msgindex, <font color="blue">object</font> arg, <font color="blue">object</font> arg2 )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">string</font> Text( <font color="blue">int</font> index )<br>
+   </body>
+</html>

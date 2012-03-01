@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>Rat The Fart</Name>
+    <Running>True</Running>
+    <ProximityRange>4</ProximityRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>5</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>BritainQuest1</ConfigFile>
+    <SpeechEntries>5</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Hello!</Text>
+    <DependsOn>-1</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Would you like to do something for me?</Text>
+    <Keywords>hi, Hi, Hello, Hail, Good day</Keywords>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Keywords>yes</Keywords>
+    <DependsOn>20</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+    <Gump>GUMP,RatQuest,4/Around these parts there lies a giant ratman looking creature he is pesky and likes to pick on our children.  If you kill him he is supposed to carry a key to a dungeon. The dungeon itself is supposed to be on this island. In this dungeon lies the rat mage named Dorsnik.  He is said to have a key to the Rat Lord himself. The dungeon entrance for his lair is located near a campsite around this island. Take care of him and bring me his head and I would be forever thankful.  Would you do this for me?;yes;ok</Gump>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Keywords>ok</Keywords>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+    <Gump>GUMP,RatQuest,3/Around these parts there lies a giant ratman looking creature he is pesky and likes to pick on our children.  If you kill him he is supposed to carry a key to a dungeon. The dungeon itself is supposed to be on this island. In this dungeon lies the rat mage named Dorsnik.  He is said to have a key to the Rat Lord himself. The dungeon entrance for his lair is located near a campsite around this island. Take care of him and bring me his head and I would be forever thankful.</Gump>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Keywords>accept</Keywords>
+    <Action>GIVE/&lt;questholder/name/RatQuest/notestring/Around these parts there lies a giant ratman looking creature he is pesky and likes to pick on our children.  If you kill him he is supposed to carry a key to a dungeon. The dungeon itself is supposed to be on this island. In this dungeon lies the rat mage named Dorsnik.  He is said to have a key to the Rat Lord himself. The dungeon entrance for his lair is located near a campsite around this island. Take care of him and bring me his head and I would be forever thankful./objective1/KILLNAMED,Ra The Fat,1/objective2/KILLNAMED,Guard Donky,1/objective3/KILLNAMED,Drosnick,1/objective4/KILL,RatLord,1/objective5,COLLECT,RatLordHead,1/autoreward/true/rewardstring/@bag/hue/1955/ADD/bankcheck,8500/ADD/&lt;leveltribalmask/name/RatLordHelm/hue/1980&gt;</Action>
+    <DependsOn>40</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+</XmlQuestNPC>

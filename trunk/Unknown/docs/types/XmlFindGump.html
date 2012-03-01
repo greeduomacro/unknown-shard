@@ -1,0 +1,33 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlFindGump</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>XmlFindGump : <a href="Gump.html">Gump</a></h2>
+<h4>Nested Types: <a href="ListEntrySorter.html">ListEntrySorter</a>, <a href="ListMapSorter.html">ListMapSorter</a>, <a href="ListNameSorter1.html">ListNameSorter</a>, <a href="ListRangeSorter.html">ListRangeSorter</a>, <a href="ListSelectSorter.html">ListSelectSorter</a>, <a href="ListTypeSorter1.html">ListTypeSorter</a>, <a href="SearchCriteria.html">SearchCriteria</a>, <a href="SearchEntry.html">SearchEntry</a>, <a href="XmlConfirmBringGump.html">XmlConfirmBringGump</a>, <a href="XmlConfirmDeleteGump3.html">XmlConfirmDeleteGump</a>, <a href="XmlFindThread.html">XmlFindThread</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> IgnoreManagedInternal( <font color="blue">object</font> i, <font color="blue">ref</font> ArrayList ignoreList )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) ArrayList Search( <a href="SearchCriteria.html">SearchCriteria</a> criteria, <font color="blue">out</font> <font color="blue">string</font> status_str )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> TestAge( <font color="blue">object</font> o, <font color="blue">double</font> age, <font color="blue">bool</font> direction )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> TestAttach( <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> TestRange( <font color="blue">object</font> o, <font color="blue">int</font> range, <a href="Map.html">Map</a> currentmap, <a href="Point3D.html">Point3D</a> currentloc )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> TestRegion( <font color="blue">object</font> o, <font color="blue">string</font> regionname )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> TestValidInternal( <font color="blue">object</font> o )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> XmlFind_OnCommand( <a href="CommandEventArgs.html">CommandEventArgs</a> e )<br>
+      (<font color="blue">ctor</font>) XmlFindGump( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> startloc, <a href="Map.html">Map</a> startmap, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      (<font color="blue">ctor</font>) XmlFindGump( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> startloc, <a href="Map.html">Map</a> startmap, <font color="blue">string</font> type, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      (<font color="blue">ctor</font>) XmlFindGump( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> startloc, <a href="Map.html">Map</a> startmap, <font color="blue">string</font> type, <font color="blue">int</font> range, <font color="blue">bool</font> dorange, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      (<font color="blue">ctor</font>) XmlFindGump( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> startloc, <a href="Map.html">Map</a> startmap, <font color="blue">bool</font> firststart, <font color="blue">bool</font> extension, <font color="blue">bool</font> descend, <a href="SearchCriteria.html">SearchCriteria</a> criteria, ArrayList searchlist, <font color="blue">int</font> selected, <font color="blue">int</font> displayfrom, <font color="blue">string</font> savefilename, <font color="blue">string</font> commandstring, <font color="blue">bool</font> sorttype, <font color="blue">bool</font> sortname, <font color="blue">bool</font> sortrange, <font color="blue">bool</font> sortmap, <font color="blue">bool</font> sortselect, <font color="blue">bool</font> selectall, <font color="blue">int</font> X, <font color="blue">int</font> Y )<br>
+      <font color="blue">void</font> DoGoTo( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> DoShowGump( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> DoShowProps( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> ExecuteCommand( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> command )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnResponse( <a href="NetState.html">NetState</a> state, <a href="RelayInfo.html">RelayInfo</a> info )<br>
+      <font color="blue">void</font> Refresh( <a href="NetState.html">NetState</a> state )<br>
+      <font color="blue">void</font> ResetList()<br>
+      <font color="blue">void</font> RespawnList()<br>
+      <font color="blue">void</font> SaveList( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> filename )<br>
+      <font color="blue">void</font> SortFindList()<br>
+   </body>
+</html>

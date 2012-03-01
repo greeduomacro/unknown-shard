@@ -1,0 +1,61 @@
+Player Commands:
+
+Various player commands primarily intended to facilitate managing inventory, item storage and sorting and so on. Players seemed
+to really appreciate these on my shard. Saved them a lot of time. These have been tested pretty thoroughly by a shard population for over a year and no problems were encountered but your mileage may vary depending on other custom scripts  you may have installed.
+
+All of these have been updated and tested on RunUO 2.0 build 64. They will -not- work on version 1.0 without modification.
+
+If you have XmlSpawner2, find the if(xx is Questholder) blocks that are commented out and uncomment them or players will use these commands to store items in the questholder (if you use questholders) and thus have a blessed container. By default, I have commented out those checks since not everyone has XmlSpawner2 for some odd reason. :)
+
+
+================================================================
+Dump.cs
+================================================================
+[dump allows a player to dump everything from one container to another.
+
+Allowed containers to dump FROM are main backpack or a subcontainer thereof.
+
+Note: If you have XmlSpawner2 installed, find and uncomment the blocks of code starting with "if (xx is QuestHolder)"
+Players will dump into a questbook and use it as a blessed container if you don't. :)
+
+================================================================
+Sort.cs
+================================================================
+[sort allows a player to sort items from one container to another
+
+Container to sort FROM must be main backpack or a subcontainer in the main backpack.
+
+Type [sort followed by a keyword, target FROM container and then target TO container
+Keywords are: gems, wands, regs, scrolls, armor, weapons, clothing, potions, hides, jewelry, help (to get list of keywords)
+
+Note: If you have XmlSpawner2 installed, find and uncomment the blocks of code starting with "if (xx is QuestHolder)"
+Players will sort into a questbook and use it as a blessed container if you don't. :)
+
+================================================================
+MoveItems.cs
+================================================================
+[moveitems will allow you to move items of a specific type from one container to another. 
+
+This is similar to the Sort command but rather than using a keyword, the player can target an item.
+
+Container to moveitems from must be their main backpack, a subcontainer of the main backpack or a container in a house they own.
+
+Example: You want to move all spools of thread from your main pack to a chest locked down in your house. 
+Type [moveitems, target a spool of thread, then target the chest you want the spools of thread to be moved to. 
+
+If you type ' exact' after the command [moveitems it will only move very specific types. 
+For example;
+ [moveitems         and targeting a yumi bow will move ALL baseranged items. 
+ [moveitems exact   and targetting a yumi bow will only move yumi bows and not other bows.
+
+Note: If you have XmlSpawner2 installed, find and uncomment the blocks of code starting with "if (xx is QuestHolder)"
+Players will moveitems into a questbook and use it as a blessed container if you don't. :)
+
+
+================================================================
+WhatStatus.cs
+================================================================
+Allows players to view current session online time, when they joined, fame, karma. Players just say "what is my status" in-game.
+
+I believe I modified someone elses code to do this a long time ago. I can't find the post in the forums though. I'll be happy to add credits if you, dear reader, know who did the script I modified. What I thought was cute was that the player falls over when they use the command. Updated to RunUO 2.0 build 64.
+

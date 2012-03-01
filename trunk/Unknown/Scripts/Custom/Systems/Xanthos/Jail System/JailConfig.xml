@@ -1,0 +1,62 @@
+<?xml version='1.0' ?>
+<!--
+	This file enables configuration of the Xanthos Auction System module without code changes
+	You may only change the values between the '>' and '<' characters to set the configuratoin
+	parameters.  The type attribute is ignored and is only provided as a documentary guide to
+	the user. Array element names are also meaningless.  Values may be left empty, with the
+	exception of individual array elements, so that the value in the code is used.
+	
+	For example: to change the foo configuration from 50 to 100 one would change
+		<foo type="int">50</foo>
+			to
+		<foo type="int">100</foo>
+-->
+<Xanthos>
+	<JailSystem version='2.0'>
+		<JailImmuneLevel type="AccessLevel">Administrator</JailImmuneLevel>
+		<JailWordsEnabled type="bool">true</JailWordsEnabled>
+		<UsesRemaining type="int">100</UsesRemaining>			<!-- Number of jail rocks to be mined. -->
+		<FineAmount type="int">10000</FineAmount>				<!-- Gold to fine for being jailed. -->
+		<RobeTitle type="string">Property Of Jesus Jail</RobeTitle>
+		<RobeHue type="int">2083</RobeHue>
+		<RockHue type="int">2597</RockHue>
+		
+		<!--
+			Change this to the name of the tiles in your jail to enable mining there.
+			In game use the admin command '[get name' and target the floor of your jail
+			to get the name to replace here.
+		-->
+		<WhatToMine type="string">dirt</WhatToMine>
+		
+		<HammerDifficulty type="int">60</HammerDifficulty>	<!-- Precent chance of getting no jail rock on a mining attempt -->
+		
+		<!--
+			Points and locations for jail and free teleport spots. For Map use
+			one of: Map.Trammel, Map.Felucca, Map.Tokuno, Map.Malas, or Map.Ilshenar
+		-->
+		<JailLocation type="Point3D">
+			<x type="int">1715</x>
+			<y type="int">1064</y>
+			<z type="int">0</z>
+		</JailLocation>
+		<JailMap type="Map">Trammel</JailMap>
+		
+		<FreeLocation type="Point3D">
+			<x type="int">3650</x>
+			<y type="int">2519</y>
+			<z type="int">0</z>
+		</FreeLocation>
+		<FreeMap type="Map">Trammel</FreeMap>
+		
+		<FreeMurdererLocation type="Point3D">
+			<x type="int">3770</x>
+			<y type="int">1308</y>
+			<z type="int">0</z>
+		</FreeMurdererLocation>	
+		<FreeMurdererMap type="Map">Felucca</FreeMurdererMap>
+
+		<JailRockName type="int">Jail Rock</JailRockName>
+		<JailWordFile type="int">Data/jailwords.txt</JailWordFile>
+	</JailSystem>	
+</Xanthos>
+

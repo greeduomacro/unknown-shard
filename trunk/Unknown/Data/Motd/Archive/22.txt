@@ -1,0 +1,22 @@
+3/26/2009
+3:57AM
+
+1. Redfined healing system because it seemed pretty slow for what I wanted.
+2. Added a lot of buyable items to the mage vendor.
+3. Added Doctor to haven, will be adding to all other towns eventually.
+4. Added treasure hunter to haven, will be adding to the rest of the towns.
+5. Added Publisher to haven, will be adding to the rest of the towns.
+6. Tweaked meditation to be more effective and to not require you to be nude to use it.
+7. Use of spellchanneling is required to be able to cast with weaponry.
+8. Added and will be testing out a region invasion system.
+9. Updated guild system.
+10. Added paintball fun game for tourny events.
+11. Added Druid system with spells and skills and abilities.
+12. Installed but have not tested out Rabbid Ferret Quest.
+13. Added walls and doors and such that players can attack/breakthrough instead of going around or unlocking.
+14. Added and testing out ingame forums.
+15. Working on Chicken Pickaxe quest.
+16. Working on the Water Elemetnal Quest.
+17. Fixing all questgivers to not ask if you want to do a quest if your already doing it.
+
+GM Darky

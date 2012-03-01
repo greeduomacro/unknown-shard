@@ -1,0 +1,1260 @@
+##############################
+Log started on 3/25/2009 3:36:35 AM
+
+3/25/2009 3:38:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 539 869 0'
+3/25/2009 3:38:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:38:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4001FC46 (PremiumSpawner)
+3/25/2009 3:38:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:38:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40015E45 (Spawner)
+3/25/2009 3:38:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:38:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40015E54 (Spawner)
+3/25/2009 3:38:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/25/2009 3:39:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5212 1761 0'
+3/25/2009 3:39:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:39:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add skeletalwarrior'
+3/25/2009 3:39:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5211, 1744, 0) in Trammel: "skeletalwarrior"
+3/25/2009 3:39:58 AM: 127.0.0.1: Serials: 0xFBB; 
+3/25/2009 3:40:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:40:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0xFBB "SkeletalWarrior" (no account)
+3/25/2009 3:40:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+3/25/2009 3:43:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 15718 set movable False hue 0 light Circle225'
+3/25/2009 3:43:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5210, 1755, 0) in Trammel: "static" "15718" "set" "movable" "False" "hue" "0" "light" "Circle225"
+3/25/2009 3:43:39 AM: 127.0.0.1: Serials: 0x40000B85; 
+3/25/2009 3:46:01 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add Torso'
+3/25/2009 3:46:03 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5207, 1747, 0) in Trammel: "Torso"
+3/25/2009 3:46:03 AM: 127.0.0.1: Serials: 0x40000B92; 
+3/25/2009 3:46:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:46:44 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000B92 (Torso)
+3/25/2009 3:48:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 3:48:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5211, 1745, 0) in Trammel: "GroupDungeonStone"
+3/25/2009 3:48:22 AM: 127.0.0.1: Serials: 0x40000B9C; 
+3/25/2009 3:48:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:48:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DungeonName' of 0x40000B9C (GroupDungeonStone) to 'Skeletal Dungeon 1'
+3/25/2009 3:48:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Size' of 0x40000B9C (GroupDungeonStone) to '30'
+3/25/2009 3:49:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxPlayers' of 0x40000B9C (GroupDungeonStone) to '10'
+3/25/2009 3:50:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1379 1508 10'
+3/25/2009 3:50:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5212 1761 0'
+3/25/2009 3:50:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:50:44 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:51:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'EntrancePoint' of 0x40000B9C (GroupDungeonStone) to '(1379, 1508, 10)'
+3/25/2009 3:53:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1347 1499 20'
+3/25/2009 3:53:19 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 3:53:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1346, 1499, 20) in Trammel: "GroupDungeonTeleporter"
+3/25/2009 3:53:23 AM: 127.0.0.1: Serials: 0x40000DA3; 
+3/25/2009 3:53:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:54:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000DA3 (GroupDungeonTeleporter) to '(5212, 1761, 0)'
+3/25/2009 3:55:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bluesparkle'
+3/25/2009 3:55:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add sparkle'
+3/25/2009 3:55:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add blue'
+3/25/2009 3:55:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 0 light Circle225'
+3/25/2009 3:55:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1346, 1499, 21) in Trammel: "static" "14138" "set" "movable" "False" "hue" "0" "light" "Circle225"
+3/25/2009 3:55:31 AM: 127.0.0.1: Serials: 0x40000DA4; 
+3/25/2009 3:55:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:56:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5211 1745 0'
+3/25/2009 3:56:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:56:50 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1347 1499 20'
+3/25/2009 3:56:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:57:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Stone' of 0x40000DA3 (GroupDungeonTeleporter) to '0x40000B9C "GroupDungeonStone"'
+3/25/2009 3:57:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:58:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 3:58:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x4001468F (IronGate) to 'True'
+3/25/2009 3:58:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 3:58:27 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x4001468D (IronGate) to 'True'
+3/25/2009 3:58:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:58:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add '
+3/25/2009 3:58:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 3:58:42 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5218, 1761, 0) in Trammel: "GroupDungeonExit"
+3/25/2009 3:58:42 AM: 127.0.0.1: Serials: 0x40000F78; 
+3/25/2009 3:58:50 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:59:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000F78 (GroupDungeonExit) to '(1379, 1508, 10)'
+3/25/2009 3:59:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 0 light Circle225'
+3/25/2009 3:59:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5218, 1761, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "0" "light" "Circle225"
+3/25/2009 3:59:23 AM: 127.0.0.1: Serials: 0x40000F79; 
+3/25/2009 3:59:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:59:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000F79 (Static)
+3/25/2009 3:59:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 3:59:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000F78 (GroupDungeonExit)
+3/25/2009 3:59:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 3:59:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5216, 1760, 0) in Trammel: "GroupDungeonExit"
+3/25/2009 3:59:45 AM: 127.0.0.1: Serials: 0x40000F7A; 
+3/25/2009 3:59:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:00:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000F7A (GroupDungeonExit) to '(1379, 1508, 10)'
+3/25/2009 4:00:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 0 light Circle225'
+3/25/2009 4:00:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5216, 1760, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "0" "light" "Circle225"
+3/25/2009 4:00:13 AM: 127.0.0.1: Serials: 0x40000F7B; 
+3/25/2009 4:00:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5211 1745 0'
+3/25/2009 4:00:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 4:00:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5218, 1726, 0) in Trammel: "GroupDungeonTeleporter"
+3/25/2009 4:00:55 AM: 127.0.0.1: Serials: 0x40000F94; 
+3/25/2009 4:01:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 0 light Circle225'
+3/25/2009 4:01:03 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5218, 1726, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "0" "light" "Circle225"
+3/25/2009 4:01:03 AM: 127.0.0.1: Serials: 0x40000F95; 
+3/25/2009 4:01:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:01:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:01:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:01:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:01:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:01:27 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add key'
+3/25/2009 4:01:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1352, 1499, 20) in Trammel: "key"
+3/25/2009 4:01:28 AM: 127.0.0.1: Serials: 0x40000FAC; 
+3/25/2009 4:01:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:02:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:03:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5302 1853 0'
+3/25/2009 4:03:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:04:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1379 1508 10'
+3/25/2009 4:04:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:04:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:04:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:04:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'KeyValue' of 0x4001468D (IronGate) to '3'
+3/25/2009 4:04:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:04:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:05:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:05:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'KeyValue' of 0x4001468F (IronGate) to '3'
+3/25/2009 4:05:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:05:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:05:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:06:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'xmladd '
+3/25/2009 4:07:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400010DF 'Skeletal1' [1351, 1500] (Trammel) : SkeletalWarrior to SkeletalWarrior/name/SkeletalGuard
+3/25/2009 4:07:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400010DF 'Skeletal1' [1351, 1500] (Trammel) : SkeletalWarrior/name/SkeletalGuard to SkeletalWarrior/name/SkeletalGuard</Add/key/name/SkeletalDungeon1/Keyvalue/3>
+3/25/2009 4:07:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:08:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400010DF 'Skeletal1' [1351, 1500] (Trammel) : SkeletalWarrior/name/SkeletalGuard</Add/key/name/SkeletalDungeon1/Keyvalue/3> to SkeletalWarrior/name/SkeletalGuard/<Add/key/name/SkeletalDungeon1/Keyvalue/3>
+3/25/2009 4:08:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:08:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400010DF 'Skeletal1' [1351, 1500] (Trammel) : SkeletalWarrior/name/SkeletalGuard/<Add/key/name/SkeletalDungeon1/Keyvalue/3> to SkeletalWarrior/name/SkeletalGuard/<Add/key/name/SkeletalDungeon1/KeyValue/3>
+3/25/2009 4:09:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:09:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:09:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1347 1499 20'
+3/25/2009 4:09:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400010DF 'Skeletal1' [1351, 1500] (Trammel) : SkeletalWarrior/name/SkeletalGuard/<Add/key/name/SkeletalDungeon1/KeyValue/3> to SkeletalWarrior/name/SkeletalGuard/Add</key/name/SkeletalDungeon1/KeyValue/0003>
+3/25/2009 4:10:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:11:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1347 1499 20'
+3/25/2009 4:12:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x400010DF 'Skeletal1' [1351, 1500] (Trammel) : SkeletalWarrior/name/SkeletalGuard/Add</key/name/SkeletalDungeon1/KeyValue/0003> to SkeletalWarrior/name/SkeletalGuard/ADD/<key/name/SkeletalDungeon1/keyvalue/0003>
+3/25/2009 4:12:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:12:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 4:12:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1379, 1501, 10) in Trammel: "xmlspawner"
+3/25/2009 4:12:49 AM: 127.0.0.1: Serials: 0x40001177; 
+3/25/2009 4:12:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x40001177 (XmlSpawner) to '0'
+3/25/2009 4:13:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x40001177 (XmlSpawner) to '0'
+3/25/2009 4:13:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40001177 'SkeletalQuest' [1379, 1501] (Trammel) : xmlquestnpc,1/
+3/25/2009 4:13:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:14:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 1379 1508 10'
+3/25/2009 4:15:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x40001177 'SkeletalQuest' [1379, 1501] (Trammel) : xmlquestnpc,1/ to xmlquestnpc,1/talktext/yes/configfile/SkeletalQuest/loadconfig/true
+3/25/2009 4:16:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+3/25/2009 4:16:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+3/25/2009 4:16:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 5147 1819 0'
+3/25/2009 4:16:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+3/25/2009 4:16:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+3/25/2009 4:16:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 5136 1873 0'
+3/25/2009 4:16:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 4:17:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 4:17:15 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5139, 1914, 0) in Trammel: "GroupDungeonExit"
+3/25/2009 4:17:15 AM: 127.0.0.1: Serials: 0x40001209; 
+3/25/2009 4:17:20 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:17:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40001209 (GroupDungeonExit) to '(1379, 1508, 10)'
+3/25/2009 4:17:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 0 light Circle225'
+3/25/2009 4:17:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5139, 1914, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "0" "light" "Circle225"
+3/25/2009 4:17:52 AM: 127.0.0.1: Serials: 0x4000120A; 
+3/25/2009 4:18:16 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 577 set movable False hue 1950 light {light}'
+3/25/2009 4:18:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5134, 1911, 1) to (5140, 1911, 1) in Trammel: "static" "577" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:18:18 AM: 127.0.0.1: Serials: 0x4000120B; 0x4000120C; 0x4000120D; 0x4000120E; 0x4000120F; 0x40001210; 0x40001211; 
+3/25/2009 4:18:20 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:18:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000120E (Static)
+3/25/2009 4:18:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:18:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000120D (Static)
+3/25/2009 4:18:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate WestCCW'
+3/25/2009 4:18:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5136, 1911, 0) in Trammel: "IronGate" "WestCCW"
+3/25/2009 4:18:30 AM: 127.0.0.1: Serials: 0x40001212; 
+3/25/2009 4:18:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate EastCW'
+3/25/2009 4:18:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5137, 1911, 0) in Trammel: "IronGate" "EastCW"
+3/25/2009 4:18:34 AM: 127.0.0.1: Serials: 0x40001213; 
+3/25/2009 4:18:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1950'
+3/25/2009 4:18:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40001212 (IronGate) to '1950'
+3/25/2009 4:18:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1950'
+3/25/2009 4:18:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x40001213 (IronGate) to '1950'
+3/25/2009 4:19:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 4:19:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x40001212 (IronGate) to 'True'
+3/25/2009 4:19:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 4:19:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x40001213 (IronGate) to 'True'
+3/25/2009 4:19:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set keyvalue 4'
+3/25/2009 4:19:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'keyvalue' of 0x40001213 (IronGate) to '4'
+3/25/2009 4:19:15 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set keyvalue 4'
+3/25/2009 4:19:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'keyvalue' of 0x40001212 (IronGate) to '4'
+3/25/2009 4:19:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:19:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 577 set movable False hue 1950 light {light}'
+3/25/2009 4:19:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5132, 1886, 1) to (5138, 1886, 1) in Trammel: "static" "577" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:19:47 AM: 127.0.0.1: Serials: 0x40001214; 0x40001215; 0x40001216; 0x40001217; 0x40001218; 0x40001219; 0x4000121A; 
+3/25/2009 4:19:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 578 set movable False hue 1950 light {light}'
+3/25/2009 4:19:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5138, 1887, 1) to (5138, 1893, 1) in Trammel: "static" "578" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:19:58 AM: 127.0.0.1: Serials: 0x4000121B; 0x4000121C; 0x4000121D; 0x4000121E; 0x4000121F; 0x40001220; 0x40001221; 
+3/25/2009 4:20:01 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:20:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000121D (Static)
+3/25/2009 4:20:03 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:20:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001218 (Static)
+3/25/2009 4:20:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 4:20:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5133, 1897, 0) in Trammel: "xmlspawner"
+3/25/2009 4:20:14 AM: 127.0.0.1: Serials: 0x40001222; 
+3/25/2009 4:20:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x40001222 (XmlSpawner) to '1'
+3/25/2009 4:20:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x40001222 (XmlSpawner) to '1'
+3/25/2009 4:20:44 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40001222 'Skeletal1' [5133, 1897] (Trammel) : SkeletalWarrior
+3/25/2009 4:21:03 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 4:21:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5138, 1872, 0) in Trammel: "xmlspawner"
+3/25/2009 4:21:04 AM: 127.0.0.1: Serials: 0x4000122B; 
+3/25/2009 4:21:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 4:21:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5149, 1883, 0) in Trammel: "xmlspawner"
+3/25/2009 4:21:07 AM: 127.0.0.1: Serials: 0x4000122C; 
+3/25/2009 4:21:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x4000122B (XmlSpawner) to '1'
+3/25/2009 4:21:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x4000122B (XmlSpawner) to '1'
+3/25/2009 4:21:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x4000122B 'Spawner' [5138, 1872] (Trammel) : SkeletalWarrior
+3/25/2009 4:21:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x4000122C (XmlSpawner) to '1'
+3/25/2009 4:21:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x4000122C (XmlSpawner) to '1'
+3/25/2009 4:22:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x4000122C 'Spawner' [5149, 1883] (Trammel) : SkeletalWarrior
+3/25/2009 4:22:24 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 578 set movable False hue 1950 light {light}'
+3/25/2009 4:22:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5142, 1866, 1) to (5142, 1875, 1) in Trammel: "static" "578" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:22:28 AM: 127.0.0.1: Serials: 0x4000123F; 0x40001240; 0x40001241; 0x40001242; 0x40001243; 0x40001244; 0x40001245; 0x40001246; 0x40001247; 0x40001248; 
+3/25/2009 4:22:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 578 set movable False hue 1950 light {light}'
+3/25/2009 4:22:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5143, 1881, 1) to (5144, 1890, 1) in Trammel: "static" "578" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:22:49 AM: 127.0.0.1: Serials: 0x40001249; 0x4000124A; 0x4000124B; 0x4000124C; 0x4000124D; 0x4000124E; 0x4000124F; 0x40001250; 0x40001251; 0x40001252; 0x40001253; 0x40001254; 0x40001255; 0x40001256; 0x40001257; 0x40001258; 0x4000125D; 0x4000125E; 0x4000125F; 0x40001260; 
+3/25/2009 4:22:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001260 (Static)
+3/25/2009 4:22:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000125F (Static)
+3/25/2009 4:22:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000125E (Static)
+3/25/2009 4:22:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000125D (Static)
+3/25/2009 4:22:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001258 (Static)
+3/25/2009 4:22:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001257 (Static)
+3/25/2009 4:22:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001256 (Static)
+3/25/2009 4:22:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001255 (Static)
+3/25/2009 4:22:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001254 (Static)
+3/25/2009 4:22:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:22:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001253 (Static)
+3/25/2009 4:23:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 577 set movable False hue 1950 light {light}'
+3/25/2009 4:23:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5143, 1879, 1) to (5158, 1880, 1) in Trammel: "static" "577" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:23:04 AM: 127.0.0.1: Serials: 0x40001261; 0x40001262; 0x40001263; 0x40001264; 0x40001265; 0x40001266; 0x40001267; 0x40001268; 0x40001269; 0x4000126A; 0x4000126B; 0x4000126C; 0x4000126D; 0x4000126E; 0x4000126F; 0x40001270; 0x40001271; 0x40001272; 0x40001273; 0x40001274; 0x40001275; 0x40001276; 0x40001277; 0x40001278; 0x40001279; 0x4000127A; 0x4000127B; 0x4000127C; 0x4000127D; 0x4000127E; 0x4000127F; 0x40001280; 
+3/25/2009 4:23:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001262 (Static)
+3/25/2009 4:23:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001261 (Static)
+3/25/2009 4:23:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001263 (Static)
+3/25/2009 4:23:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001265 (Static)
+3/25/2009 4:23:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001267 (Static)
+3/25/2009 4:23:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001269 (Static)
+3/25/2009 4:23:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000126D (Static)
+3/25/2009 4:23:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000126B (Static)
+3/25/2009 4:23:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001271 (Static)
+3/25/2009 4:23:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001273 (Static)
+3/25/2009 4:23:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001277 (Static)
+3/25/2009 4:23:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001279 (Static)
+3/25/2009 4:23:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000127B (Static)
+3/25/2009 4:23:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000127D (Static)
+3/25/2009 4:23:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000127F (Static)
+3/25/2009 4:23:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:15 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001275 (Static)
+3/25/2009 4:23:15 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:16 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000126F (Static)
+3/25/2009 4:23:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:20 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001251 (Static)
+3/25/2009 4:23:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:23:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 577 set movable False hue 1950 light {light}'
+3/25/2009 4:23:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5132, 1875, 1) to (5142, 1876, 1) in Trammel: "static" "577" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:23:31 AM: 127.0.0.1: Serials: 0x40001281; 0x40001282; 0x40001283; 0x40001284; 0x40001285; 0x40001286; 0x40001287; 0x40001288; 0x40001289; 0x4000128A; 0x4000128B; 0x4000128C; 0x4000128D; 0x4000128E; 0x4000128F; 0x40001290; 0x40001291; 0x40001292; 0x40001293; 0x40001294; 0x40001295; 0x40001296; 
+3/25/2009 4:23:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001296 (Static)
+3/25/2009 4:23:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001294 (Static)
+3/25/2009 4:23:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001292 (Static)
+3/25/2009 4:23:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001290 (Static)
+3/25/2009 4:23:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000128E (Static)
+3/25/2009 4:23:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000128C (Static)
+3/25/2009 4:23:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000128A (Static)
+3/25/2009 4:23:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001288 (Static)
+3/25/2009 4:23:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001286 (Static)
+3/25/2009 4:23:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001284 (Static)
+3/25/2009 4:23:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001282 (Static)
+3/25/2009 4:23:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:23:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001287 (Static)
+3/25/2009 4:23:44 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:24:19 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 578 set movable False hue 1950 light {light}'
+3/25/2009 4:24:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5142, 1875, 1) to (5143, 1883, 1) in Trammel: "static" "578" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:24:21 AM: 127.0.0.1: Serials: 0x40001297; 0x40001298; 0x40001299; 0x4000129A; 0x4000129C; 0x4000129E; 0x4000129F; 0x400012A0; 0x400012A1; 0x400012A2; 0x400012A3; 0x400012A4; 0x400012A5; 0x400012A6; 0x400012A7; 0x400012A8; 0x400012A9; 0x400012AA; 
+3/25/2009 4:24:25 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012A1 (Static)
+3/25/2009 4:24:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012A0 (Static)
+3/25/2009 4:24:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000129F (Static)
+3/25/2009 4:24:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000129E (Static)
+3/25/2009 4:24:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000129A (Static)
+3/25/2009 4:24:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000129C (Static)
+3/25/2009 4:24:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001299 (Static)
+3/25/2009 4:24:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001298 (Static)
+3/25/2009 4:24:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001297 (Static)
+3/25/2009 4:24:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001248 (Static)
+3/25/2009 4:24:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001247 (Static)
+3/25/2009 4:24:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001246 (Static)
+3/25/2009 4:24:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001245 (Static)
+3/25/2009 4:24:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001244 (Static)
+3/25/2009 4:24:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001243 (Static)
+3/25/2009 4:24:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001242 (Static)
+3/25/2009 4:24:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001240 (Static)
+3/25/2009 4:24:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000123F (Static)
+3/25/2009 4:24:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001241 (Static)
+3/25/2009 4:24:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 578 set movable False hue 1950 light {light}'
+3/25/2009 4:24:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5143, 1866, 1) to (5144, 1874, 1) in Trammel: "static" "578" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:24:45 AM: 127.0.0.1: Serials: 0x400012AB; 0x400012AC; 0x400012AD; 0x400012AE; 0x400012AF; 0x400012B0; 0x400012B1; 0x400012B2; 0x400012B3; 0x400012B4; 0x400012B5; 0x400012B6; 0x400012B7; 0x400012B8; 0x400012B9; 0x400012BA; 0x400012BB; 0x400012BC; 
+3/25/2009 4:24:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012BC (Static)
+3/25/2009 4:24:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012BB (Static)
+3/25/2009 4:24:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012BA (Static)
+3/25/2009 4:24:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012B8 (Static)
+3/25/2009 4:24:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012B7 (Static)
+3/25/2009 4:24:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012B6 (Static)
+3/25/2009 4:24:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012B5 (Static)
+3/25/2009 4:24:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012B4 (Static)
+3/25/2009 4:24:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:50 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012B9 (Static)
+3/25/2009 4:24:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'TileZ 1 static 577 set movable False hue 1950 light {light}'
+3/25/2009 4:24:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building from (5143, 1874, 1) to (5144, 1876, 1) in Trammel: "static" "577" "set" "movable" "False" "hue" "1950" "light" "{light}"
+3/25/2009 4:24:55 AM: 127.0.0.1: Serials: 0x400012BD; 0x400012BE; 0x400012BF; 0x400012C0; 0x400012C1; 0x400012C2; 
+3/25/2009 4:24:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012C2 (Static)
+3/25/2009 4:24:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012BF (Static)
+3/25/2009 4:24:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012BD (Static)
+3/25/2009 4:24:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:24:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012C0 (Static)
+3/25/2009 4:24:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:25:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012C1 (Static)
+3/25/2009 4:25:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:25:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000127A (Static)
+3/25/2009 4:25:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:25:10 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012AD (Static)
+3/25/2009 4:25:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate SouthCW'
+3/25/2009 4:25:24 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5143, 1868, 0) in Trammel: "IronGate" "SouthCW"
+3/25/2009 4:25:24 AM: 127.0.0.1: Serials: 0x400012C3; 
+3/25/2009 4:25:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:25:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012AE (Static)
+3/25/2009 4:25:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:25:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012C3 (IronGate)
+3/25/2009 4:25:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:25:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40001278 (Static)
+3/25/2009 4:25:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate NorthCW'
+3/25/2009 4:25:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5143, 1868, 0) in Trammel: "IronGate" "NorthCW"
+3/25/2009 4:25:39 AM: 127.0.0.1: Serials: 0x400012C4; 
+3/25/2009 4:25:42 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate SouthCCW'
+3/25/2009 4:25:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5143, 1869, 0) in Trammel: "IronGate" "SouthCCW"
+3/25/2009 4:25:43 AM: 127.0.0.1: Serials: 0x400012CB; 
+3/25/2009 4:25:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1950'
+3/25/2009 4:25:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x400012CB (IronGate) to '1950'
+3/25/2009 4:25:50 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1950'
+3/25/2009 4:25:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x400012C4 (IronGate) to '1950'
+3/25/2009 4:25:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 4:25:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x400012CB (IronGate) to 'True'
+3/25/2009 4:25:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 4:26:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x400012C4 (IronGate) to 'True'
+3/25/2009 4:26:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate EastCW'
+3/25/2009 4:26:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5155, 1880, 0) in Trammel: "IronGate" "EastCW"
+3/25/2009 4:26:09 AM: 127.0.0.1: Serials: 0x400012CC; 
+3/25/2009 4:26:12 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add IronGate WestCCW'
+3/25/2009 4:26:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5154, 1880, 0) in Trammel: "IronGate" "WestCCW"
+3/25/2009 4:26:13 AM: 127.0.0.1: Serials: 0x400012CD; 
+3/25/2009 4:26:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1950'
+3/25/2009 4:26:19 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x400012CC (IronGate) to '1950'
+3/25/2009 4:26:20 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set hue 1950'
+3/25/2009 4:26:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'hue' of 0x400012CD (IronGate) to '1950'
+3/25/2009 4:26:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 4:26:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x400012CD (IronGate) to 'True'
+3/25/2009 4:26:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set locked true'
+3/25/2009 4:26:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'locked' of 0x400012CC (IronGate) to 'True'
+3/25/2009 4:26:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set keyvalue 5'
+3/25/2009 4:26:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'keyvalue' of 0x400012CB (IronGate) to '5'
+3/25/2009 4:26:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set keyvalue 5'
+3/25/2009 4:27:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'keyvalue' of 0x400012C4 (IronGate) to '5'
+3/25/2009 4:27:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set keyvalue 6'
+3/25/2009 4:27:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'keyvalue' of 0x400012CD (IronGate) to '6'
+3/25/2009 4:27:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set keyvalue 6'
+3/25/2009 4:27:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'keyvalue' of 0x400012CC (IronGate) to '6'
+3/25/2009 4:27:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x4000122C 'Spawner' [5149, 1883] (Trammel) : SkeletalWarrior to SkeletalWarrior/ADD/<key/name/SkeletalKey2/keyvalue/0006>
+3/25/2009 4:28:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x4000122B 'Spawner' [5138, 1872] (Trammel) : SkeletalWarrior to SkeletalWarrior/ADD/<key/name/SkeletalKey1/keyvalue/0005>
+3/25/2009 4:33:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+3/25/2009 4:33:25 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/25/2009 4:33:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 4:33:40 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5156, 1869, 0) in Trammel: "xmlspawner"
+3/25/2009 4:33:40 AM: 127.0.0.1: Serials: 0x400012E5; 
+3/25/2009 4:34:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x400012E5 'SkeletalGod' [5156, 1869] (Trammel) : SkeletalGod
+3/25/2009 4:34:19 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x400012E5 (XmlSpawner) to '00:15:00'
+3/25/2009 4:34:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x400012E5 (XmlSpawner) to '00:30:00'
+3/25/2009 4:34:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/25/2009 4:34:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 4:34:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5144, 1877, 0) in Trammel: "GroupDungeonStone"
+3/25/2009 4:34:41 AM: 127.0.0.1: Serials: 0x400012EF; 
+3/25/2009 4:34:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:34:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DungeonName' of 0x400012EF (GroupDungeonStone) to 'Skeletal Dungeon 2'
+3/25/2009 4:35:04 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxPlayers' of 0x400012EF (GroupDungeonStone) to '10'
+3/25/2009 4:35:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Size' of 0x400012EF (GroupDungeonStone) to '30'
+3/25/2009 4:35:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:40 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:35:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:35:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Size' of 0x400012EF (GroupDungeonStone) to '37'
+3/25/2009 4:36:01 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:03 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:03 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:08 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:15 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:16 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:16 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:19 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:36:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000FAC (Key)
+3/25/2009 4:36:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:36:42 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Size' of 0x400012EF (GroupDungeonStone) to '34'
+3/25/2009 4:36:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:54 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:55 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:36:59 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:37:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:37:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 4:38:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') changed XmlSpawner 0x4000087D 'Skeletal1' [5211, 1732] (Trammel) : SkeletalWarrior to SkeletalWarrior/ADD/<key/name/SkeletalDungeon2/keyvalue/0004>
+3/25/2009 4:38:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:38:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000F94 (GroupDungeonTeleporter) to '(5137, 1915, 0)'
+3/25/2009 4:38:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5137 1915 0'
+3/25/2009 4:38:58 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:01 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:39:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:24 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:24 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:25 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:30 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:39:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:40:09 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Stone' of 0x40000F94 (GroupDungeonTeleporter) to '0x400012EF "GroupDungeonStone"'
+3/25/2009 4:40:14 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:40:16 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:40:18 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:40:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:40:26 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:40:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:40:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400012EF (GroupDungeonStone)
+3/25/2009 4:40:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 4:40:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5145, 1882, 0) in Trammel: "GroupDungeonStone"
+3/25/2009 4:40:46 AM: 127.0.0.1: Serials: 0x4000FEE9; 
+3/25/2009 4:40:52 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:41:02 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'DungeonName' of 0x4000FEE9 (GroupDungeonStone) to 'Skeletal Dungeon 2'
+3/25/2009 4:41:16 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'EntrancePoint' of 0x4000FEE9 (GroupDungeonStone) to '(5220, 1726, 0)'
+3/25/2009 4:41:20 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxPlayers' of 0x4000FEE9 (GroupDungeonStone) to '10'
+3/25/2009 4:41:27 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Size' of 0x4000FEE9 (GroupDungeonStone) to '30'
+3/25/2009 4:41:51 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5220 1726 0'
+3/25/2009 4:41:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:42:06 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'Stone' of 0x40000F94 (GroupDungeonTeleporter) to '0x4000FEE9 "GroupDungeonStone"'
+3/25/2009 4:42:21 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:42:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5137 1915 0'
+3/25/2009 4:42:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:42:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:42:32 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:42:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 4:43:23 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 4:43:24 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5136, 1880, 0) in Trammel: "xmlspawner"
+3/25/2009 4:43:24 AM: 127.0.0.1: Serials: 0x40011BB0; 
+3/25/2009 4:43:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40011BB0 'Skeletal1' [5136, 1880] (Trammel) : SkeletalWarrior
+3/25/2009 4:43:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:43:57 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 4:44:19 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:44:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:44:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+3/25/2009 4:45:00 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:45:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+##############################
+Log started on 3/25/2009 4:47:37 AM
+
+3/25/2009 4:48:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5212 1761 0'
+3/25/2009 4:48:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:49:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add boogie'
+3/25/2009 4:49:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5193, 1756, 0) in Trammel: "BoogieWoogieWuApron"
+3/25/2009 4:49:47 AM: 127.0.0.1: Serials: 0x400009FD; 
+3/25/2009 4:49:49 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5210, 1751, 0) in Trammel: "BoogieWoogieWuApron"
+3/25/2009 4:49:49 AM: 127.0.0.1: Serials: 0x400009FE; 
+3/25/2009 4:49:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:49:56 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400009FE (BoogieWoogieWuApron)
+3/25/2009 4:50:17 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:25 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:27 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:28 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:35 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:50:36 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:37 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:39 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:40 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:40 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:41 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:42 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:42 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:43 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:44 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:45 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:47 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:50:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 12:59:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 12:59:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') adding new account: Tolang
+3/25/2009 12:59:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+##############################
+Log started on 3/25/2009 2:44:08 PM
+
+##############################
+Log started on 3/25/2009 2:47:51 PM
+
+3/25/2009 2:57:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 2:59:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:00:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'stats '
+3/25/2009 3:02:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 3:03:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:05:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:06:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:08:39 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 3:08:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 3:08:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3651, 2521, 0) in Trammel: "xmlspawner"
+3/25/2009 3:08:49 PM: 127.0.0.1: Serials: 0x40000C00; 
+3/25/2009 3:08:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40000C00 'Spawner' [3651, 2521] (Trammel) : bird
+3/25/2009 3:09:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x40000C00 (XmlSpawner) to '200'
+3/25/2009 3:09:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x40000C00 (XmlSpawner) to '200'
+3/25/2009 3:09:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c just spawned 50 birds near haven'
+3/25/2009 3:11:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 3:11:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:11:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:12:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:12:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:12:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x4001E42D (PremiumSpawner) to '00:02:00'
+3/25/2009 3:12:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x4001E42D (PremiumSpawner) to '00:05:00'
+3/25/2009 3:12:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c fixed britain graveyard spawn rate'
+3/25/2009 3:16:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:16:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 3:17:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:17:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:17:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:17:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:17:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add sign'
+3/25/2009 3:17:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1396, 1810, 0) in Trammel: "sign"
+3/25/2009 3:17:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add house'
+3/25/2009 3:17:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1392, 1817, 0) in Trammel: "TownHouseSign"
+3/25/2009 3:17:49 PM: 127.0.0.1: Serials: 0x40000EE8; 
+3/25/2009 3:18:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add townhousesign'
+3/25/2009 3:18:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1386, 1808, 0) in Trammel: "townhousesign"
+3/25/2009 3:18:57 PM: 127.0.0.1: Serials: 0x4000100E; 
+3/25/2009 3:20:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add townhousesign'
+3/25/2009 3:20:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1401, 1808, 0) in Trammel: "townhousesign"
+3/25/2009 3:20:06 PM: 127.0.0.1: Serials: 0x40001123; 
+3/25/2009 3:20:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add townhousesign'
+3/25/2009 3:20:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1408, 1822, 0) in Trammel: "townhousesign"
+3/25/2009 3:20:49 PM: 127.0.0.1: Serials: 0x40001258; 
+3/25/2009 3:21:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+3/25/2009 3:21:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:21:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:14 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:14 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:22:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 3:24:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 3:28:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c no worries'
+3/25/2009 3:28:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c just trying to help'
+3/25/2009 3:28:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 3:28:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go britain'
+3/25/2009 3:28:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go trammel'
+3/25/2009 3:29:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+3/25/2009 3:29:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+3/25/2009 3:29:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 1586 2163 5'
+3/25/2009 3:30:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 3:30:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 3:44:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 3:53:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:53:27 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 3:54:32 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'afk '
+3/25/2009 3:56:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 3:56:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c all welcome xtowers!'
+3/25/2009 4:00:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c chat chat penis chat'
+3/25/2009 4:01:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'e '
+3/25/2009 4:02:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'help '
+3/25/2009 4:02:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c the command is challenge'
+3/25/2009 4:02:49 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'challenge '
+3/25/2009 4:03:22 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'challenge '
+3/25/2009 4:03:49 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'challenge '
+3/25/2009 4:08:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'e '
+3/25/2009 4:14:24 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'challenge '
+3/25/2009 4:14:33 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'help '
+3/25/2009 4:14:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'help '
+3/25/2009 4:14:34 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'help '
+3/25/2009 4:17:04 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'faction '
+3/25/2009 4:17:54 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'deathmatch '
+3/25/2009 4:18:29 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'deathmatch '
+3/25/2009 4:19:21 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'afk '
+3/25/2009 4:19:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bomb'
+3/25/2009 4:19:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3632, 2619, 0) in Trammel: "bomb"
+3/25/2009 4:19:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bo'
+3/25/2009 4:19:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:19:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40013C5D (DeathmatchGauntlet)
+3/25/2009 4:24:36 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'help '
+3/25/2009 4:25:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:29:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 4:33:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 4:33:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:39 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:33:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3621 2552 0'
+3/25/2009 4:34:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c fixed that quest so it should work come next time you doit.'
+3/25/2009 4:36:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3623 2624 0'
+3/25/2009 4:37:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3680 2625 0'
+3/25/2009 4:37:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3701 2580 18'
+3/25/2009 4:37:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3665 2560 0'
+3/25/2009 4:38:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3703 2517 0'
+3/25/2009 4:38:14 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3682 2655 0'
+3/25/2009 4:38:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+3/25/2009 4:38:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0xF28 "GM Darky" ('Dreadfull')
+3/25/2009 4:38:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 4:38:39 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'afkcheck '
+3/25/2009 4:38:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') Issuing AFK Check to: 0x1B12 "Xtowers" ('xtowers') 
+3/25/2009 4:39:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+3/25/2009 4:40:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'unhide '
+3/25/2009 4:40:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') unhiding 0xF28 "GM Darky" ('Dreadfull')
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Failed AFK Check. 
+3/25/2009 4:40:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') Jailed. 
+3/25/2009 4:45:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 4:45:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') kicking 0x1B12 "Xtowers" ('xtowers')
+3/25/2009 4:50:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 4:52:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 4:52:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:52:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000960 (BagofLeatherBookCovers)
+3/25/2009 4:52:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 4:52:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000930 (Gold)
+3/25/2009 4:57:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c wow that is gay'
+3/25/2009 4:58:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c you her about me modding my xbock360?'
+3/25/2009 5:00:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 5:05:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'c gotta find it.'
+3/25/2009 5:05:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 5:05:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') adding new account: Despized
+3/25/2009 5:05:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'pages '
+3/25/2009 5:13:17 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c trying to figure out my beginning necro quest'
+3/25/2009 5:33:43 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/25/2009 5:34:02 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c test'
+3/25/2009 5:34:13 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c aww users change the color they want it to be for chatting.'
+3/25/2009 5:39:54 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'help '
+3/25/2009 5:40:09 PM: 173.18.30.228: Player 0x1EF7 "Wolfane" ('wolfv') used command 'challenge '
+3/25/2009 5:42:58 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'help '
+3/25/2009 5:43:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 5:51:08 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 6:02:38 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'help '
+3/25/2009 6:07:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 6:07:59 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 6:08:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'set jail false'
+3/25/2009 6:08:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 6:09:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 6:11:05 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'afk '
+3/25/2009 6:11:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 6:12:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'jail '
+3/25/2009 6:14:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+3/25/2009 6:14:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+3/25/2009 6:14:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 1256 1272 0'
+3/25/2009 6:14:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:42 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:14:48 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+3/25/2009 6:15:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+3/25/2009 6:15:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 1451 1259 0'
+3/25/2009 6:15:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:15:34 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 6:15:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add jail'
+3/25/2009 6:15:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1724, 1064, 0) in Trammel: "jail"
+3/25/2009 6:15:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add ja'
+3/25/2009 6:15:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add jailer'
+3/25/2009 6:16:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add jai'
+3/25/2009 6:16:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 6:16:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1724, 1066, 0) in Trammel: "xmlspawner"
+3/25/2009 6:16:10 PM: 127.0.0.1: Serials: 0x40014FB0; 
+3/25/2009 6:16:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40014FB0 'Spawner' [1724, 1066] (Trammel) : jailslavedriver
+3/25/2009 6:17:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 6:18:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40014FB0 'Spawner' [1724, 1066] (Trammel) : jailrock
+3/25/2009 6:18:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add jai'
+3/25/2009 6:18:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add rock'
+3/25/2009 6:19:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add jailrock'
+3/25/2009 6:19:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (1714, 1067, 0) in Trammel: "jailrock"
+3/25/2009 6:24:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'get name'
+##############################
+Log started on 3/25/2009 6:28:05 PM
+
+3/25/2009 6:31:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'unjail '
+3/25/2009 6:31:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 6:31:34 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 6:31:35 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40014F2B (Robe)
+3/25/2009 6:33:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+3/25/2009 6:33:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:33:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+3/25/2009 6:33:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0xF28 "GM Darky" ('Dreadfull')
+3/25/2009 6:33:59 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c YAR!'
+3/25/2009 6:35:45 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c chat'
+3/25/2009 6:35:49 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c OI!'
+3/25/2009 6:35:51 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c ok I got it now hehe'
+3/25/2009 6:36:01 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c oh boy I'll have to change that font color'
+3/25/2009 6:36:04 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c in [chat you can set the colors and everything and mail people'
+3/25/2009 6:36:11 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/25/2009 6:36:16 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'chat '
+3/25/2009 6:36:31 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'chat '
+3/25/2009 6:37:03 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c that's better?'
+3/25/2009 6:37:07 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c yes'
+3/25/2009 6:37:09 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c poo'
+3/25/2009 6:37:25 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'afk '
+3/25/2009 6:38:02 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c afk'
+3/25/2009 6:38:07 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'afk '
+3/25/2009 6:38:09 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'afk '
+3/25/2009 6:50:18 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:50:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:50:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 6:50:23 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3601, 2615, 0) in Trammel: "xmlspawner"
+3/25/2009 6:50:23 PM: 127.0.0.1: Serials: 0x40000896; 
+3/25/2009 6:50:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x40000896 (XmlSpawner) to '250'
+3/25/2009 6:50:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x40000896 (XmlSpawner) to '250'
+3/25/2009 6:50:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40000896 'Spawner' [3601, 2615] (Trammel) : hind
+3/25/2009 6:51:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x40000896 (XmlSpawner) to '00:02:00'
+3/25/2009 6:51:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x40000896 (XmlSpawner) to '00:05:00'
+3/25/2009 6:51:19 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:51:20 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:51:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:51:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:51:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 6:51:33 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x40000C00 (XmlSpawner) to '00:02:00'
+3/25/2009 6:51:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x40000C00 (XmlSpawner) to '00:05:00'
+3/25/2009 6:51:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/25/2009 6:51:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3590, 2503, 0) in Trammel: "xmlspawner"
+3/25/2009 6:51:55 PM: 127.0.0.1: Serials: 0x40000898; 
+3/25/2009 6:51:58 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 6:52:03 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 6:52:05 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 6:52:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'SpawnRange' of 0x40000898 (XmlSpawner) to '200'
+3/25/2009 6:52:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'HomeRange' of 0x40000898 (XmlSpawner) to '200'
+3/25/2009 6:52:26 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MinDelay' of 0x40000898 (XmlSpawner) to '00:02:00'
+3/25/2009 6:52:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'MaxDelay' of 0x40000898 (XmlSpawner) to '00:05:00'
+3/25/2009 6:52:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40000898 'Spawner' [3590, 2503] (Trammel) : boar
+3/25/2009 6:52:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40000898 'Spawner' [3590, 2503] (Trammel) : goat
+3/25/2009 6:52:40 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') removed from XmlSpawner 0x40000898 'Spawner' [3590, 2503] (Trammel) : boar
+3/25/2009 6:52:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40000898 'Spawner' [3590, 2503] (Trammel) : boar
+3/25/2009 6:53:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/25/2009 6:53:01 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'stats '
+3/25/2009 6:53:10 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+##############################
+Log started on 3/25/2009 7:01:41 PM
+
+3/25/2009 7:05:31 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c oh yeah billy'
+3/25/2009 7:06:22 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/25/2009 7:07:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c you haveing fun yet man?'
+3/25/2009 7:07:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'chat '
+3/25/2009 7:08:05 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I am having fun'
+3/25/2009 7:08:25 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c just trying to get used to the controls again'
+3/25/2009 7:08:35 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/25/2009 7:08:54 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c yeah it may take some time.'
+3/25/2009 7:14:07 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 7:14:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 7:14:16 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 7:16:21 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 7:16:30 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'unhide '
+3/25/2009 7:16:31 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') unhiding 0xF28 "GM Darky" ('Dreadfull')
+3/25/2009 7:20:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+3/25/2009 7:20:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0x1B12 "Xtowers" ('xtowers')
+3/25/2009 7:20:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'hide '
+3/25/2009 7:20:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') hiding 0xF28 "GM Darky" ('Dreadfull')
+3/25/2009 7:21:06 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 7:35:59 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+3/25/2009 7:36:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 7:36:13 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 7:36:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 7:36:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 7:36:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5303, 1858, 0) in Trammel: "GroupDungeonExit"
+3/25/2009 7:36:36 PM: 127.0.0.1: Serials: 0x40000E7B; 
+3/25/2009 7:36:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 7:37:34 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000E7B (GroupDungeonExit) to '(3544, 1831, 0)'
+3/25/2009 7:38:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 1950 light Circle225'
+3/25/2009 7:38:03 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5303, 1858, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "1950" "light" "Circle225"
+3/25/2009 7:38:03 PM: 127.0.0.1: Serials: 0x40000EF8; 
+3/25/2009 7:38:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go haven'
+3/25/2009 7:38:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+3/25/2009 7:38:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 3544 2388 0'
+3/25/2009 7:38:45 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+3/25/2009 7:39:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 7:39:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5164, 1832, 0) in Trammel: "GroupDungeonExit"
+3/25/2009 7:39:04 PM: 127.0.0.1: Serials: 0x40000EFA; 
+3/25/2009 7:39:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 7:39:25 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000EFA (GroupDungeonExit) to '(3650, 2519, 0)'
+3/25/2009 7:39:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 1950 light Circle225'
+3/25/2009 7:39:29 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5164, 1832, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "1950" "light" "Circle225"
+3/25/2009 7:39:29 PM: 127.0.0.1: Serials: 0x40000EFC; 
+3/25/2009 7:39:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 7:39:37 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000EFC (Static)
+3/25/2009 7:39:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/25/2009 7:39:38 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40000EFA (GroupDungeonExit)
+3/25/2009 7:39:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add groupd'
+3/25/2009 7:39:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5167, 1827, 0) in Trammel: "GroupDungeonExit"
+3/25/2009 7:39:50 PM: 127.0.0.1: Serials: 0x40000EFE; 
+3/25/2009 7:39:54 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 7:40:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000EFE (GroupDungeonExit) to '(3650, 2519, 0)'
+3/25/2009 7:40:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add static 14138 set movable False hue 1950 light Circle225'
+3/25/2009 7:40:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5167, 1827, 1) in Trammel: "static" "14138" "set" "movable" "False" "hue" "1950" "light" "Circle225"
+3/25/2009 7:40:11 PM: 127.0.0.1: Serials: 0x40000EFF; 
+3/25/2009 7:40:24 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5308 1859 0'
+3/25/2009 7:40:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5308 1859 0'
+3/25/2009 7:40:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 7:40:56 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go 5308 1859 0'
+3/25/2009 7:41:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'props '
+3/25/2009 7:41:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'PointDest' of 0x40000E7B (GroupDungeonExit) to '(3650, 2519, 0)'
+3/25/2009 7:41:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/25/2009 7:41:28 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'bc fixed the exits'
+3/25/2009 7:48:34 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c touch the monkey with some wet sauce!!'
+3/25/2009 7:48:51 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I don't have wet sauce'
+3/25/2009 7:49:24 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c damn I think I forgot how to cook'
+3/25/2009 7:50:22 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c do I need a pot or something?'
+3/25/2009 7:50:26 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c you need a pan'
+3/25/2009 7:50:52 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I suppose that would make sense'
+3/25/2009 7:53:17 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'emote fart'
+3/25/2009 8:00:01 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c I hate feeling like a newb'
+3/25/2009 8:00:21 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c yeah its kind of rough at the start here'
+3/25/2009 8:06:41 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c darn yinko has the highest quest count.'
+3/25/2009 8:07:14 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c is that total unique quests completed? or just quests completed?'
+3/25/2009 8:07:27 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c it counts total not individual'
+3/25/2009 8:07:37 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c hit your quest button on your paperdoll to find out'
+3/25/2009 8:08:38 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c the window disappears when I pick top players'
+3/25/2009 8:08:50 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c you have to complete one quest to see it.'
+3/25/2009 8:08:55 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c lol'
+3/25/2009 8:09:01 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c better get going'
+3/25/2009 8:10:26 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c there are also quests that you have a time limit on.'
+3/25/2009 8:10:39 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I noticed the one with the bulls'
+3/25/2009 8:12:01 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c I absolutely hate the noise a hind makes.'
+3/25/2009 8:13:02 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'chat '
+3/25/2009 8:13:34 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c love the wondering healers'
+3/25/2009 8:13:57 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c they are a "life-saver", aren't they?'
+3/25/2009 8:22:04 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c yeah'
+3/25/2009 8:25:31 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c how so?'
+3/25/2009 8:25:47 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c seems I made them a little too hard.'
+3/25/2009 8:26:38 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c well that sounds good to me?'
+3/25/2009 8:26:42 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c yes it does'
+3/25/2009 8:29:04 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'emote '
+3/25/2009 8:29:35 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'emote lol'
+3/25/2009 8:29:49 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'challenge '
+3/25/2009 8:31:49 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'emote '
+3/25/2009 8:35:55 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c maybe we will get lucky and strong enough to go into the rat dungeon'
+3/25/2009 8:36:44 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I feel like I've got quite a ways to go before I can get to the rat dungeon'
+3/25/2009 8:42:18 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c do you know where the shrine is to unlock my karma?'
+3/25/2009 8:42:56 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c not by chance haven't found one yet.'
+3/25/2009 8:43:32 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c yeah kinda sucks I just locked my karma by begging XD'
+3/25/2009 8:47:05 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c well I think I better call it a night, I've got another early start tomorrow'
+3/25/2009 8:47:17 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c alright man have a good day, thanks for playing again.'
+3/25/2009 8:47:27 PM: 75.168.235.109: Player 0x1B12 "Xtowers" ('xtowers') used command 'c I'll probably see you tomorrow'
+3/25/2009 8:47:35 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c swweet'
+##############################
+Log started on 3/25/2009 10:07:14 PM
+
+##############################
+Log started on 3/25/2009 10:30:14 PM
+
+##############################
+Log started on 3/25/2009 10:33:21 PM
+
+##############################
+Log started on 3/25/2009 10:55:38 PM
+
+3/25/2009 10:57:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+3/25/2009 10:58:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+3/25/2009 11:00:41 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'help '
+3/25/2009 11:01:36 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'level '
+3/25/2009 11:02:28 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'seeloginout '
+3/25/2009 11:02:41 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'c '
+3/25/2009 11:02:42 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/25/2009 11:02:49 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat woot'
+3/25/2009 11:02:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c PENIS!'
+3/25/2009 11:03:10 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c use [chat to go change the color of the chat text you see.'
+3/25/2009 11:05:02 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ohh im in brit'
+3/25/2009 11:05:11 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c i am in haven'
+3/25/2009 11:05:33 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat jerk'
+3/25/2009 11:06:18 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c my wife hates me'
+3/25/2009 11:07:32 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat why your soo cool'
+3/25/2009 11:08:28 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c calling me a jerk?'
+3/25/2009 11:08:45 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat calls um likes i sees um'
+3/25/2009 11:08:51 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat lol'
+3/25/2009 11:10:18 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c your just jealous of my greatness'
+3/25/2009 11:14:06 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c Ima beat yourz up'
+3/25/2009 11:14:22 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'level '
+3/25/2009 11:14:25 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat im just envuse of your jewness'
+3/25/2009 11:14:57 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'level '
+3/25/2009 11:15:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c aha second place on the total quests done'
+3/25/2009 11:16:58 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat if i had my old quest score it would be better hahah'
+3/25/2009 11:17:13 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat jerk'
+3/25/2009 11:17:18 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hahahaha'
+3/25/2009 11:17:22 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c lol'
+3/25/2009 11:17:30 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'chat '
+3/25/2009 11:18:45 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c i killed a dire wolf earlier today'
+3/25/2009 11:19:05 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c oh yea well i has an army of felines'
+3/25/2009 11:19:51 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat *shakes fist* (must gt a army of llamas)'
+3/25/2009 11:20:03 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c me and wayne both have 1 pvp point :)'
+3/25/2009 11:20:13 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c my cats would fuck your llamas uppp'
+3/25/2009 11:21:32 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat bring it on yo'
+3/25/2009 11:21:37 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c kick yo anus'
+3/25/2009 11:21:50 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat kkk all the way'
+3/25/2009 11:21:59 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hahaha'
+3/25/2009 11:22:02 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c where you at?'
+3/25/2009 11:22:07 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat brit'
+3/25/2009 11:22:13 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c gay'
+3/25/2009 11:22:29 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat when i was in that dongen and i had to help tele out there was no tele to haven'
+3/25/2009 11:22:43 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c there are roads to moongates'
+3/25/2009 11:23:00 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hmm *goes to explore*'
+3/25/2009 11:23:47 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'mystats '
+3/25/2009 11:25:09 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c IAN! come see my awesome army'
+3/25/2009 11:25:27 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat *is searching*'
+3/25/2009 11:25:41 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat your army isnt good enuff if i cant see it from here'
+3/25/2009 11:25:48 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hehehe'
+3/25/2009 11:25:55 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c i am only aloud 10 :('
+3/25/2009 11:26:04 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c my husband hates me'
+3/25/2009 11:26:15 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c eat my ass'
+3/25/2009 11:26:23 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat thats weird he said the same thing to me about you lol'
+3/25/2009 11:26:41 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c he would because he hates me'
+3/25/2009 11:28:57 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ohh i se'
+3/25/2009 11:29:27 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat maybe he would like ou better if he told me where the moon gate was'
+3/25/2009 11:29:35 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hahaha'
+3/25/2009 11:31:04 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c just killed a troll/harpy/lizardman/ratman'
+3/25/2009 11:34:19 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat what ever i didnt see it so it didnt happen'
+3/25/2009 11:34:47 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c AHA I LEVELED!'
+3/25/2009 11:36:07 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'level '
+3/25/2009 11:36:37 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'level '
+3/25/2009 11:38:00 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c start'
+3/25/2009 11:38:20 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat start whats?'
+3/25/2009 11:40:27 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat see toms got me ruing around ofr a mysterius not existent portal well he levels up hahaha'
+3/25/2009 11:40:44 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'c '
+3/25/2009 11:40:46 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c so he can pvp your face!'
+3/25/2009 11:40:46 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c your hilarious man'
+3/25/2009 11:40:58 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hahaha'
+3/25/2009 11:40:59 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c i lost three cats :('
+3/25/2009 11:41:08 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat what'
+3/25/2009 11:41:09 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c will you come to their funeral'
+3/25/2009 11:41:24 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c to celebrate their lives'
+3/25/2009 11:41:24 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat posably it depends on when it is'
+3/25/2009 11:41:44 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c well if i log out there bodies will be gone'
+3/25/2009 11:41:58 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ohh shit'
+3/25/2009 11:42:08 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c i was cheating the system'
+3/25/2009 11:42:21 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c i had all of my cats in this room when i logged out'
+3/25/2009 11:42:31 PM: 192.168.1.1: Player 0xFAA "Beee" ('briana') used command 'c so i never had to shrink them muahaha'
+3/25/2009 11:42:32 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c i got the bird cloak so HAW'
+3/25/2009 11:42:58 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat thqats awsom hahah'
+3/25/2009 11:43:05 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat woo'
+3/25/2009 11:47:04 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c where you at now?'
+3/25/2009 11:47:24 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ruing north west of gravyard in brit'
+3/25/2009 11:47:41 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c i think it is south of the brit bank on the dirt path'
+3/25/2009 11:48:01 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ohh word'
+3/25/2009 11:50:29 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/25/2009 11:50:34 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c briana went to bed'
+3/25/2009 11:51:11 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:51:23 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:51:34 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:51:44 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:52:02 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat hellyeah'
+3/25/2009 11:52:08 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat  just the boys'
+3/25/2009 11:52:11 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat lol'
+3/25/2009 11:52:24 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c lol whenever you come around we might be able to team up on the rat dungeon'
+3/25/2009 11:54:04 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c bah lost my young status'
+3/25/2009 11:54:16 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ahh burn'
+3/25/2009 11:55:36 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:56:02 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:56:14 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:56:23 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat found it'
+3/25/2009 11:56:53 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c need to find a spot to buy necro reagents.'
+3/25/2009 11:56:56 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:57:12 PM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat i need more arrows if we are going to try a dongen'
+3/25/2009 11:57:12 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:57:59 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:58:22 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:58:33 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:58:44 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:58:54 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/25/2009 11:59:11 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/26/2009 12:02:56 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/26/2009 12:03:06 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/26/2009 12:03:14 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c darn ra the fat wooped me.'
+3/26/2009 12:03:17 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'bs '
+3/26/2009 12:04:06 AM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat im only have like up to half of lven 4 majic so i cnat reraise'
+3/26/2009 12:04:59 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c yeah I was going to have full spellbooks buyable.'
+3/26/2009 12:05:07 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c I have to add them in,.'
+3/26/2009 12:06:16 AM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat ohh hellz yeah'
+3/26/2009 12:13:42 AM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat well aree you going to be on tomarow?'
+3/26/2009 12:13:52 AM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'chat i think img oing to eat and hten go to bed'
+3/26/2009 12:14:39 AM: 24.179.199.243: Player 0x1103 "Yinko" ('gillgalad') used command 'c '
+3/26/2009 12:15:54 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/26/2009 12:17:36 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'c laterz man'
+3/26/2009 12:17:38 AM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'chat '
+3/26/2009 12:20:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x400006E6 'Spawner' [3642, 2555] (Trammel) : AnimalCrafter
+3/26/2009 12:20:53 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/26/2009 12:23:38 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'seeloginout '
+3/26/2009 12:24:05 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add xmlspawner'
+3/26/2009 12:24:07 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3658, 2588, 0) in Trammel: "xmlspawner"
+3/26/2009 12:24:07 AM: 127.0.0.1: Serials: 0x40013FC3; 
+3/26/2009 12:24:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40013FC3 'Spawner' [3658, 2588] (Trammel) : Doctor
+3/26/2009 12:26:29 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add pouchofreagentholding'
+3/26/2009 12:26:31 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3652, 2584, 0) in Trammel: "pouchofreagentholding"
+3/26/2009 12:27:11 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add magespouch'
+3/26/2009 12:27:13 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3653, 2584, 0) in Trammel: "magespouch"
+3/26/2009 12:27:13 AM: 127.0.0.1: Serials: 0x40013FCC; 
+3/26/2009 12:27:27 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add boodmoss'
+3/26/2009 12:27:33 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add bloodmoss'
+3/26/2009 12:27:34 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (3653, 2584, 0) in Trammel: "bloodmoss"
+3/26/2009 12:27:34 AM: 127.0.0.1: Serials: 0x40013FCD; 
+3/26/2009 12:27:46 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+3/26/2009 12:27:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40013FCC (MagesPouch)
+3/26/2009 12:29:48 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') added to XmlSpawner 0x40013FC3 'Spawner' [3658, 2588] (Trammel) : TreasureHunter
+3/26/2009 12:30:22 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+3/26/2009 12:42:25 AM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '

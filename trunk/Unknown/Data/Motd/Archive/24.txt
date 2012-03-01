@@ -1,0 +1,9 @@
+3/9/2009
+11:02PM
+
+1. Removed random encounter system since I found an easier way to impliment it without using as many resources.
+2. Added special book covers to dye bulk order deed books different colors.
+3. Working on advanced currency and reward system like the good ole darky can.
+4. Tweaked the skill and stat gains to be more server compatible.
+
+GM Darky

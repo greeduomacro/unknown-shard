@@ -1,0 +1,73 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseClothing</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseClothing : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IDyable.html">IDyable</a>, <a href="IScissorable.html">IScissorable</a>, <a href="IFactionItem.html">IFactionItem</a>, <a href="ICraftable.html">ICraftable</a>, <a href="IWearableDurability.html">IWearableDurability</a>, <a href="IDurability.html">IDurability</a></h2>
+<h4>Derived Types: <a href="BaseCloak.html">BaseCloak</a>, <a href="BaseHat.html">BaseHat</a>, <a href="BaseLevelClothing.html">BaseLevelClothing</a>, <a href="BaseMiddleTorso.html">BaseMiddleTorso</a>, <a href="BaseOuterLegs.html">BaseOuterLegs</a>, <a href="BaseOuterTorso.html">BaseOuterTorso</a>, <a href="BasePants.html">BasePants</a>, <a href="BaseShirt.html">BaseShirt</a>, <a href="BaseShoes.html">BaseShoes</a>, <a href="BaseWaist.html">BaseWaist</a></h4>
+<h4>Nested Types: <a href="SaveFlag2.html">SaveFlag</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> GetSaveFlag( <a href="SaveFlag2.html">SaveFlag</a> flags, <a href="SaveFlag2.html">SaveFlag</a> toGet )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetSaveFlag( <font color="blue">ref</font> <a href="SaveFlag2.html">SaveFlag</a> flags, <a href="SaveFlag2.html">SaveFlag</a> toSet, <font color="blue">bool</font> setIf )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ValidateMobile( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">ctor</font>) BaseClothing( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseClothing( <font color="blue">int</font> itemID, <a href="Layer.html">Layer</a> layer )<br>
+      (<font color="blue">ctor</font>) BaseClothing( <font color="blue">int</font> itemID, <a href="Layer.html">Layer</a> layer, <font color="blue">int</font> hue )<br>
+      <font color="blue">bool</font> AllowFemaleWearer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AllowMaleWearer( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosStrReq( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ArtifactRarity( <font color="blue">get</font>; )<br>
+      <a href="AosAttributes.html">AosAttributes</a> Attributes( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> BaseColdResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseDexBonus( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseEnergyResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseFireResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseIntBonus( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BasePhysicalResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BasePoisonResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseStrBonus( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanBeBlessed( <font color="blue">get</font>; )<br>
+      <a href="AosArmorAttributes.html">AosArmorAttributes</a> ClothingAttributes( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ColdResistance( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Crafter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="CraftResource.html">CraftResource</a> DefaultResource( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> EnergyResistance( <font color="blue">get</font>; )<br>
+      <a href="FactionItem.html">FactionItem</a> FactionItemState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> FireResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> HitPoints( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> InitMaxHits( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> InitMinHits( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MaxHitPoints( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> OldStrReq( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> PhysicalResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> PlayerConstructed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PoisonResistance( <font color="blue">get</font>; )<br>
+      <a href="ClothingQuality.html">ClothingQuality</a> Quality( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Race.html">Race</a> RequiredRace( <font color="blue">get</font>; )<br>
+      <a href="AosElementAttributes.html">AosElementAttributes</a> Resistances( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="CraftResource.html">CraftResource</a> Resource( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="AosSkillBonuses.html">AosSkillBonuses</a> SkillBonuses( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> StrRequirement( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddNameProperty( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddStatBonuses( <a href="Mobile.html">Mobile</a> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowEquipedCast( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowSecureTrade( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> to, <a href="Mobile.html">Mobile</a> newOwner, <font color="blue">bool</font> accepted )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanEquip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckPropertyConfliction( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">int</font> ComputeStatBonus( <a href="StatType.html">StatType</a> type )<br>
+      <font color="blue">int</font> ComputeStatReq( <a href="StatType.html">StatType</a> type )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DistributeBonuses( <font color="blue">int</font> amount )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Dye( <a href="Mobile.html">Mobile</a> from, <a href="DyeTub.html">DyeTub</a> sender )<br>
+      <font color="blue">int</font> GetLowerStatReq()<br>
+      <font color="blue">string</font> GetNameString()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAdded( <font color="blue">object</font> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CraftItem.html">CraftItem</a> craftItem, <font color="blue">int</font> resHue )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnHit( <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageTaken )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRemoved( <font color="blue">object</font> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Scissor( <a href="Mobile.html">Mobile</a> from, <a href="Scissors.html">Scissors</a> scissors )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

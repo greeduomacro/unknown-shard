@@ -1,0 +1,10 @@
+1.0_2
+- Minor changes to make WatchUO run under RunUO 2.0 RC1
+
+1.0
+- Properties are just accessible, if the CommandProperty attribute is set
+- Added an option to toggle if the GUI pops up at server start or not
+- Fixed a major bug with commands and closing the GUI
+
+0.9-beta
+Initial Release

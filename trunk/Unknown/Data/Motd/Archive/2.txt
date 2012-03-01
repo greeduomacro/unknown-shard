@@ -1,0 +1,8 @@
+05/11/2009
+5:55AM
+
+1. Added questrewardstone to haven.  This is used with the quest points system.  In testing.  It will have more pages to come in due time.
+2. Added Player Quest Board for players to add and take quests from for player made quests.
+3. Will be adding questreward stone and questleader boards to every town bank.
+
+GM Darky

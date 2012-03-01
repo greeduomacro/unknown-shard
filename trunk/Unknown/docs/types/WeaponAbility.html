@@ -1,0 +1,40 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - WeaponAbility</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>WeaponAbility</h2>
+<h4>Derived Types: <a href="ArmorIgnore.html">ArmorIgnore</a>, <a href="ArmorPierce.html">ArmorPierce</a>, <a href="BleedAttack.html">BleedAttack</a>, <a href="Block.html">Block</a>, <a href="ConcussionBlow.html">ConcussionBlow</a>, <a href="CrushingBlow.html">CrushingBlow</a>, <a href="DefenseMastery.html">DefenseMastery</a>, <a href="Disarm.html">Disarm</a>, <a href="Dismount.html">Dismount</a>, <a href="DoubleShot.html">DoubleShot</a>, <a href="DoubleStrike.html">DoubleStrike</a>, <a href="DualWield.html">DualWield</a>, <a href="Feint.html">Feint</a>, <a href="FrenziedWhirlwind.html">FrenziedWhirlwind</a>, <a href="InfectiousStrike.html">InfectiousStrike</a>, <a href="MortalStrike.html">MortalStrike</a>, <a href="MovingShot.html">MovingShot</a>, <a href="NerveStrike.html">NerveStrike</a>, <a href="ParalyzingBlow.html">ParalyzingBlow</a>, <a href="RidingSwipe.html">RidingSwipe</a>, <a href="ShadowStrike.html">ShadowStrike</a>, <a href="TalonStrike.html">TalonStrike</a>, <a href="WhirlwindAttack.html">WhirlwindAttack</a></h4>
+<h4>Nested Types: <a href="WeaponAbilityContext.html">WeaponAbilityContext</a>, <a href="WeaponAbilityTimer.html">WeaponAbilityTimer</a></h4>
+      (<font color="blue">static</font>) <a href="WeaponAbility.html">WeaponAbility</a>[] Abilities( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) Hashtable Table( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddContext( <a href="Mobile.html">Mobile</a> m, <a href="WeaponAbilityContext.html">WeaponAbilityContext</a> context )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> ClearCurrentAbility( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_SetAbility( <a href="SetAbilityEventArgs.html">SetAbilityEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <a href="WeaponAbilityContext.html">WeaponAbilityContext</a> GetContext( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <a href="WeaponAbility.html">WeaponAbility</a> GetCurrentAbility( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsWeaponAbility( <a href="Mobile.html">Mobile</a> m, <a href="WeaponAbility.html">WeaponAbility</a> a )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveContext( <a href="Mobile.html">Mobile</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> RemoveContext( <a href="Mobile.html">Mobile</a> m, <a href="WeaponAbilityContext.html">WeaponAbilityContext</a> context )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> SetCurrentAbility( <a href="Mobile.html">Mobile</a> m, <a href="WeaponAbility.html">WeaponAbility</a> a )<br>
+      (<font color="blue">ctor</font>) WeaponAbility()<br>
+      <font color="blue">double</font> AccuracyScalar( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseMana( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> DamageScalar( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> RequiresSE( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ValidatesDuringHit( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> CalculateMana( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckMana( <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> consume )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckSkills( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckWeaponSkill( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetRequiredSkill( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetSkill( <a href="Mobile.html">Mobile</a> from, <a href="SkillName.html">SkillName</a> skillName )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnBeforeDamage( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnBeforeSwing( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMiss( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Validate( <a href="Mobile.html">Mobile</a> from )<br>
+   </body>
+</html>

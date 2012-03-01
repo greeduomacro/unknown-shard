@@ -1,0 +1,47 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlUse</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlUse : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+<h4>Nested Types: <a href="XmlUseTarget.html">XmlUseTarget</a></h4>
+      (<font color="blue">ctor</font>) XmlUse()<br>
+      (<font color="blue">ctor</font>) XmlUse( <a href="ASerial.html">ASerial</a> serial )<br>
+      (<font color="blue">ctor</font>) XmlUse( <font color="blue">int</font> maxuses )<br>
+      (<font color="blue">ctor</font>) XmlUse( <font color="blue">int</font> maxuses, <font color="blue">double</font> refractory )<br>
+      <font color="blue">bool</font> AllowCarried( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> BlockDefaultUse( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CheckMaxUses( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CheckRefractory( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Condition( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> FailureAction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxTargetRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxUses( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> MaxUsesAction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NUses( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan Refractory( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> RefractoryAction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> RequireLOS( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> SuccessAction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TargetCondition( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TargetFailureAction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> TargetingAction( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> TargetingEnabled( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> BlockDefaultOnUse( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target )<br>
+      <font color="blue">bool</font> CheckCondition( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target )<br>
+      <font color="blue">bool</font> CheckRange( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target )<br>
+      <font color="blue">bool</font> CheckTargetCondition( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> ExecuteAction( <a href="Mobile.html">Mobile</a> mob, <font color="blue">object</font> target, <font color="blue">string</font> action )<br>
+      <font color="blue">void</font> ExecuteActions( <a href="Mobile.html">Mobile</a> mob, <font color="blue">object</font> target, <font color="blue">string</font> actions )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnUse( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnUser( <font color="blue">object</font> target )<br>
+      <font color="blue">void</font> OutOfRange( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> ReportError( <a href="Mobile.html">Mobile</a> mob, <font color="blue">string</font> status_str )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> TryToTarget( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target, <a href="XmlUse.html">XmlUse</a> xa )<br>
+      <font color="blue">void</font> TryToUse( <a href="Mobile.html">Mobile</a> from, <font color="blue">object</font> target )<br>
+   </body>
+</html>

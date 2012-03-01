@@ -1,0 +1,23 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlMinionStrike</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlMinionStrike : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+      (<font color="blue">ctor</font>) XmlMinionStrike( <font color="blue">string</font> minion )<br>
+      (<font color="blue">ctor</font>) XmlMinionStrike( <a href="ASerial.html">ASerial</a> serial )<br>
+      (<font color="blue">ctor</font>) XmlMinionStrike( <font color="blue">string</font> minion, <font color="blue">int</font> chance )<br>
+      (<font color="blue">ctor</font>) XmlMinionStrike( <font color="blue">string</font> minion, <font color="blue">int</font> chance, <font color="blue">double</font> refractory )<br>
+      (<font color="blue">ctor</font>) XmlMinionStrike( <font color="blue">string</font> minion, <font color="blue">int</font> chance, <font color="blue">double</font> refractory, <font color="blue">double</font> expiresin )<br>
+      <font color="blue">int</font> Chance( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> Minion( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan Refractory( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAttach()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> OnIdentify( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnWeaponHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

@@ -1,0 +1,15 @@
+###############################
+# 11/7/2007 - 7:12 AM
+
+###############################
+# 11/7/2007 - 8:16 AM
+
+###############################
+# 11/7/2007 - 6:22 PM
+
+# CheckSpeech: match on fuck
+# EventSink_Speech: jailing player Briana for speech well fuck
+# CheckSpeech: match on shit
+# EventSink_Speech: jailing player Jesus for speech shit
+# CheckSpeech: match on ass
+# EventSink_Speech: jailing player Briana for speech i said the f bomb twice and got my ass jailed

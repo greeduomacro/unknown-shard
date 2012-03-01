@@ -1,0 +1,8 @@
+05/12/2009
+01:40AM
+
+1. Fixed casting error with skeletals around the graveyard.
+2. Fixed the Skeletalhorses not being red.
+3. Still trying to figure out a fix for the id issues.
+
+GM Darky

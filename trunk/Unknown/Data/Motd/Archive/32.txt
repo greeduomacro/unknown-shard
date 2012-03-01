@@ -1,0 +1,11 @@
+11/13/2007
+Updates
+
+I added a bunch of information on future and current updates being placed into the server/game.  In your rules/help book in your backpack at player start a lot more information is provided.  It is currently at 24 pages if I believe correctly.  Spawning more variants of monsters and mobs for players to enjoy.  Still doing some massive testing.  Mainly need to check into animal taming right now for player testing so please keep an eye on any bugs with that.  Any quests found with missing information or possible missing parts please either mail me with [mail or put it into the bugs section of the ingame forums which can be viewed by [viewforums.
+
+Our player base is slowly growing but I don't really expect it to grow much bigger at least for a while. Around a total of about 7 players including myself. as of 1:52AM central standard US time.  Placed a few intown houses that you can rent to own and also rent out sections of the house.  All commands and information is provided in your help/rules book.  I will be constantly adding more information into that book as the server progresses.  I beleive that once we hit beta phase I will start doing mass website advertisements.
+
+Added a lot more escourtables around haven,  I am going to start populating each town one by one and hopefully remember what to populate into the other towns as they all grow and progress.  Since most players are currently starting in the Trammel Facet town named Haven.  I am going to focus on it.  Then populate more towns and areas in due time.
+
+GM/Owner/Admin/Coder
+Jesus

@@ -1,0 +1,29 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - SiegeCatapult</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>SiegeCatapult : <a href="BaseSiegeWeapon.html">BaseSiegeWeapon</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IChopable.html">IChopable</a>, <a href="IAddon.html">IAddon</a>, <a href="ISiegeWeapon.html">ISiegeWeapon</a></h2>
+<h4>Nested Types: <a href="InternalTimer39.html">InternalTimer</a></h4>
+      (<font color="blue">ctor</font>) SiegeCatapult()<br>
+      (<font color="blue">ctor</font>) SiegeCatapult( <font color="blue">int</font> facing )<br>
+      (<font color="blue">ctor</font>) SiegeCatapult( <a href="Serial.html">Serial</a> serial )<br>
+      Type[] AllowedProjectiles( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CheckLOS( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MinFiringRange( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MinStorageRange( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MinTargetRange( <font color="blue">get</font>; )<br>
+      <a href="Point3D.html">Point3D</a> ProjectileLaunchPoint( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> WeaponDamageFactor( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> WeaponLoadingDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> WeaponRangeFactor( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> WeaponStorageDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DisplayLaunch( <font color="blue">int</font> frame )<br>
+      <font color="blue">void</font> DoTimer( <a href="Mobile.html">Mobile</a> from, <a href="SiegeCatapult.html">SiegeCatapult</a> weapon, <a href="IEntity.html">IEntity</a> target, <a href="Point3D.html">Point3D</a> targetloc, <a href="Item.html">Item</a> projectile, TimeSpan damagedelay, <font color="blue">int</font> step )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> LaunchProjectile( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> projectile, <a href="IEntity.html">IEntity</a> target, <a href="Point3D.html">Point3D</a> targetloc, TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdateDisplay()<br>
+   </body>
+</html>

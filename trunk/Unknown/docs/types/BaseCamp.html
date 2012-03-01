@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseCamp</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Multis.html">Back to Server.Multis</a></h4>
+      <h2>BaseCamp : <a href="BaseMulti.html">BaseMulti</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="BankerCamp.html">BankerCamp</a>, <a href="HealerCamp.html">HealerCamp</a>, <a href="MageCamp.html">MageCamp</a>, <a href="OrcCamp.html">OrcCamp</a>, <a href="RatCamp.html">RatCamp</a></h4>
+      (<font color="blue">ctor</font>) BaseCamp( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseCamp( <font color="blue">int</font> multiID )<br>
+      TimeSpan DecayDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> EventRange( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnMovement( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddComponents()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddItem( <a href="Item.html">Item</a> item, <font color="blue">int</font> xOffset, <font color="blue">int</font> yOffset, <font color="blue">int</font> zOffset )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddMobile( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> wanderRange, <font color="blue">int</font> xOffset, <font color="blue">int</font> yOffset, <font color="blue">int</font> zOffset )<br>
+      <font color="blue">void</font> CheckAddComponents()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnEnter( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnExit( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> m, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RefreshDecay( <font color="blue">bool</font> setDecayTime )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

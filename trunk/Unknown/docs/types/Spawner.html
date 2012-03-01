@@ -1,0 +1,52 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Spawner</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>Spawner : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="TrainingDragonSpawner.html">TrainingDragonSpawner</a></h4>
+<h4>Nested Types: <a href="InternalTimer13.html">InternalTimer</a>, <a href="WarnTimer.html">WarnTimer</a></h4>
+      (<font color="blue">ctor</font>) Spawner()<br>
+      (<font color="blue">ctor</font>) Spawner( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) Spawner( <font color="blue">string</font> creatureName )<br>
+      (<font color="blue">ctor</font>) Spawner( <font color="blue">int</font> amount, TimeSpan minDelay, TimeSpan maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, List`1 creaturesName )<br>
+      (<font color="blue">ctor</font>) Spawner( <font color="blue">int</font> amount, <font color="blue">int</font> minDelay, <font color="blue">int</font> maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, <font color="blue">string</font> creatureName )<br>
+      <font color="blue">int</font> Count( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 CreaturesName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> DefaultName( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Group( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HomeRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsFull( <font color="blue">get</font>; )<br>
+      TimeSpan MaxDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan MinDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan NextSpawn( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Running( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Team( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> WalkingRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WayPoint.html">WayPoint</a> WayPoint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> BringToHome()<br>
+      <font color="blue">int</font> CountCreatures( <font color="blue">string</font> creatureName )<br>
+      <font color="blue">void</font> Defrag()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoTimer()<br>
+      <font color="blue">void</font> DoTimer( TimeSpan delay )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <a href="Point3D.html">Point3D</a> GetSpawnPosition()<br>
+      <font color="blue">void</font> InitSpawn( <font color="blue">int</font> amount, TimeSpan minDelay, TimeSpan maxDelay, <font color="blue">int</font> team, <font color="blue">int</font> homeRange, List`1 creaturesName )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDuped( <a href="Item.html">Item</a> newItem )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> OnTick()<br>
+      <font color="blue">void</font> RemoveCreatures()<br>
+      <font color="blue">void</font> RemoveCreatures( <font color="blue">string</font> creatureName )<br>
+      <font color="blue">void</font> Respawn()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> Spawn()<br>
+      <font color="blue">void</font> Spawn( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> Spawn( <font color="blue">string</font> creatureName )<br>
+      <font color="blue">void</font> Start()<br>
+      <font color="blue">void</font> Stop()<br>
+   </body>
+</html>

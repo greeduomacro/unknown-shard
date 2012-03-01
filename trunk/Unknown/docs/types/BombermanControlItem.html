@@ -1,0 +1,42 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BombermanControlItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BombermanControlItem : <a href="BoardGameControlItem.html">BoardGameControlItem</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+      (<font color="blue">ctor</font>) BombermanControlItem()<br>
+      (<font color="blue">ctor</font>) BombermanControlItem( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">int</font> BoardHeight( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> BoardWidth( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 BombBags( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanCastSpells( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanUsePets( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanUseSkills( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> DefaultBaddaBoom( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DefaultBombStrength( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DefaultDetonatorMode( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DefaultMaxBombs( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> GameDescription( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> GameName( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> GameRules( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MaxPlayers( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> MinPlayers( <font color="blue">get</font>; )<br>
+      <a href="BombermanStyle.html">BombermanStyle</a> Style( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseFromBackpack( <font color="blue">get</font>; )<br>
+      TimeSpan WinDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddPlayer( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AnnounceWinner()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BuildBoard()<br>
+      <font color="blue">void</font> CheckForMobileVictims( <a href="Point3D.html">Point3D</a> location, <a href="Map.html">Map</a> map, <a href="BombBag.html">BombBag</a> sourcebag )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> EndGame()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitializeControl()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnEndGameTimer()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> PrimePlayers()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RemovePlayer( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UpdatePosition()<br>
+   </body>
+</html>

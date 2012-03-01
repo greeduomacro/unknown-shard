@@ -1,0 +1,305 @@
+String making FAQ
+Last-modified: December 12, 1997
+Credits: Rob McNeur <Rob@ccc.govt.nz> 
+
+
+--------------------------------------------------------------------------------
+
+
+Traditional Bowstring making
+The majority of the following is intended for the fabrication of an 'endless string' style of bowstring, however a 'flemish' type bowstring is more appropriate and authentic for traditional bows (longbow and flatbows) and details for this have been appended at the end.
+
+The flemish style does *not* need a string jig at all. 
+
+The bowstring jig
+Some form of device is required to hold the bowstring in place as it is being made. This can be from as simple as a length of wood with 2 nails in it at the required distance, to a more adjustable device designed for making different length strings. 
+
+A simple jig
+This can be made from a single straight piece of wood, slightly longer then the required bowstring, with 2 nails driven in with the distance between them being the required length of the bowstring. The bowstring is then made by looping around the nails. By driving in more nails, bowstrings of different lengths can be made, but it can get messy trying to work around multiple nails.
+
+ -------------------------------------------------------------------------
+ |  N                                                                 N  |
+ -------------------------------------------------------------------------
+     (N = nail, dowel, or heavy pin)
+
+
+a slight variation
+if you don't have a piece of wood long enough, the same can be achieved by going up one side and down the other e.g
+
+ =========================================================================
+ |                                                  -------------------  |
+ |                                                  B  M   M   M  M  N|  |
+ |                                                                    |  |
+ |  A                                                                N|  |
+ |  -------------------------------------------------------------------  |
+ =========================================================================
+   (A,B,M,N are all nails, dowels or heavy pins)
+
+Here, the string starts at A, goes right up one side, around the top, loops around B and then back to A once more, with the complete bowstring length being the distance A->top->B.
+Having multiple pins (M) means that strings of different lengths can be made, just use the pin at the correct distance from A. 
+
+A fully adjustable stringmakers jig
+It is not really necessary to go to this extent unless you expect to need to make a number of strings of different lengths. If you are only making strings for your own bow, one of the simpler styles will be enough
+
+This is made in 3 pieces and allows strings of anywhere between about 2.1m (83") down to about 30"
+
+main section.
+about a 2 meter length of 100x200 (6' of 4"x2") timber or similar length of steel, aluminum etc
+
+ =========================================================================
+ |                       ----------------------------------------------- |
+ | O                     |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX| |
+ |                       ----------------------------------------------- |
+ =========================================================================
+
+Cut, drill or rout out a slot (as marked by XXX) for 1/2 of the length. This goes right through the wood and provides a slot for the adjustable part of the jig to slide up and down. Drill a hole in the other end (the O ) this will be the fixed end.
+
+crosspiece sections (2 of these)
+a 300 mm piece of 100x50 (12" of 2"x1")
+
+   ===================================
+   |                                 |
+   | N             O               N |
+   |                                 |
+   ===================================
+N = Nails, pins or vertical dowels  (these are for the string to loop around)
+O = hole in the middle (end pins are equidistant from the central hole)
+
+These are then put together with a bolt long enough to slide through the main body, and the crosspieces, and with a butterfly nut on the top to allow easy loosening and tightening. 
+
+Assembly
+
+     ---                                         ---
+     |N|                                         |N|
+     | |                                         | |
+   --| |-----------------------------------------| |---------
+   | |O|                    XXXXXXXXXXXXXXXXXXXXX|O|XXXXXXX |
+   --| |-----------------------------------------| |---------
+     | |                                         | |
+     |N|                                         |N|
+     ---                                         ---
+  fixed end                                  adjustable end
+(rotates only)                            (slides and rotates)
+
+
+With this, the crosspieces are turned parallel to the main board to set the required string length (measuring from the outermost pins), then, after the required threads have been wound on, turned at right angles (as in above diagram) for ease of work. The adjustable end slides backwards and forwards in the slot to the required location, then the nuts are tightened to hold it in the correct location (butterfly nuts are easiest and fastest).
+
+
+--------------------------------------------------------------------------------
+
+
+Stringmaking
+
+Materials.
+Many meters/yards of the required thread for the string, lesser quantities of lighter thread for the string servings, wax for waterproofing/lubricating.
+
+The requirement here is to make a string that is strong enough to withstand the massive stresses developed by firing arrows, to make the string as light as possible, and also not too bulky. A bowstring that snaps during use is putting the whole bow at risk of blowing apart, as there is no longer anything to absorb the shocks of the bow straightening.
+
+Any string made heavier than suggested here will be stronger than required, and hence less likely to break in normal use, however the extra mass will slow the release slightly, giving a slight *decrease* in arrow speed. A string made lighter will be proportionally weaker, increasing the risk of accidental breakage, however the reduced mass of the string will actually allow a slight *increase* in arrow speed.
+
+(Many of those trying for flight distance records bring their strings down as low as possible to try to gain all the speed possible, and a much higher risk of the whole thing blowing apart on them).
+
+A string made too bulky may have difficulty in fitting your arrow nocks, requiring these to be replaced/altered.
+
+Thread used can be almost any type as long as it has not got too much stretch. Linen thread, silk, etc, all make strong strings with limited stretch. Some of the modern artificial fibres are more preferred as they are even lighter with almost no stretch.
+
+One warning here - many people prefer to *not* use fastflight etc with traditional style self-bows. As these materials have almost no stretch at all, this means that they have no give when the string reaches the end of its movement after firing an arrow, hence all the jarring of the final release is passed directly to the wood of the bow itself. It is often preferred to use a natural fibre thread with a small amount of give so that the final jar is absorbed by the bowstring, rather than the bow. Mileage here may vary, and this may also be a problem with modern fibreglass laminated recurves etc which may or *may not* be designed for the use of fastflight. Many bowyers will void their guarantee if fastflight is used, so check first with the manufacturer/dealer. 
+
+String Length
+The best way to select this is to use an old bowstring if you have one and adjust slightly depending on the materials used. For example, if the previous string was made of linen thread, it has probably already stretched by about 1-2%, so decrease the required length of the *new* string by a factor of 1-2% unless it has already been adjusted (by winding etc) to the required length. Modern materials such as 'fastflight' etc have almost no stretch in them, so new strings can be made to exactly the same length as the old ones. Some other materials used eg nylon, may have ludicrous amounts of stretch, so throw it away and start from the beginning.
+
+If there is no old string to work from, a general rule of thumb is to measure the distance on the bow from nock to nock and reduce this by about 75 mm (3"). This will give a close string, but is likely to need shortening by twisting when stringing the bow to give a decent brace height. (The brace height is the distance between the inside of the grip and the bowstring when the bow is strung/braced) Once you have the bow braced to the correct height for your style (opinions differ on the best brace height, this can be anywhere between 100-200mm (4-8 inches) but is usually around 150mm (6")), measure the nock-to-nock distance, and this will be the correct string length for future reference. 
+
+Measuring the breaking strain of your thread
+The draw weight of the bow should be known, and the breaking strain of the thread used measured. This can be achieved using either a spring balance or your bathroom scales. Using the spring balance, loop the thread around the end of the spring balance (do not knot it in place as the knot creates a weakness in the thread, just loop it around several times so that the pull on the string tightens the loop and holds it in place), lay out a length of 700mm (30") or so and loop the other end around a smooth handle of wood, pipe etc. Then slowly and steadily pull on the handle end, watching the spring balance all the time until the string snaps, recording the strain on the balance at the time of breaking. The same thing can be done using your bathroom scales. A vertical pole is placed on the bathroom scale and the thread anchored across the top of this (looping it around and then across the top) and the other end down around a smooth handle. Drawing down on the string pushes down on the scales and again the strain is recorded at the point of the thread breaking. 
+
+Making the actual string
+The breaking strain of the new string should be calculated to be 4-5 times the draw weight of the bow (opinions vary here and what ratio you use depends on how cautious you choose to be, using < 4x will risk getting close to snapping point when the string is under strain but may increase arrow speed slightly, using > 5x is probably making the string much stronger, but also much heavier and bulkier, with some losses in arrow speed).
+
+Divide the breaking strain of your thread into this total, and this will tell you the number of strands required. eg
+If the draw weight of the bow is 40lbs, the required string breaking strain will be 4x40 = 160 lbs.
+A linen thread will often have a breaking strain of something around 10 lbs. Hence, the number of strands required for this bowstring using this linen thread will be
+
+(draw weight of the bow) x 4)/(thread breaking strain) 
+(40x4)/10 
+160/10 
+16 strands of thread. (using an endless string, as in this guide, this will be 8 complete loops of threads, where each loop goes from end-to-end and back again around the jig) Where this calculation does not work out to a whole number or an even number, round this up to the next highest even number of threads. A slightly higher breaking strain is safer than a slightly reduced breaking strain. 
+One thing that should be kept in mind is that it is very important to separate the threads into smaller groupings. Specifically, trying to keep the bundles of threads to about 4-7 threads per bundle should maximize their strength, larger groupings of thread bundles will actually weaken the cumulative effect.
+
+The Bowyers Bible vol II states this (and has some really good discussion on it), but several of the other sources I've used don't. I've never hit this particular problem before, but I usually use Linen thread.
+
+Take your string jig, set it for the correct string length (as above), then tie one end of your thread to the nail/pin at one end and loop the thread around the pins the required number of times, maintaining a constant tension on the thread at all times so as to keep it uniformly stressed. When the last loop is completed, untie the initial end from around the starting pin and tie the two ends of thread together, maintaining the uniform tension and keeping the knot near the nail. This gives a single, endless string where the stresses of use will be spread uniformly across all threads.
+
+If you have the adjustable string jig, at this point the arms can be loosened and turned at right angles. allowing the string to be worked on more easily during the serving. 
+
+Serving the bowstring
+Serving the string is the process of rolling the bowstring in other thread to protect it around those areas where it receives most wear, namely around both bow nocks and where the arrow nock rests on the string. As these servings show signs of wear, they may be stripped off and the string re-served, extending its life significantly. The serving thread may be the same or lighter than the main bowstring threads, its function is intended more to resist chafing rather than a need for great strength, I usually use a medium weight cotton here (usually of a contrasting color to add a bit of interest :-)
+
+The following diagram shows the strings where they loop around the end pins where X = pin, =# is the bowstring threads, ^<v are arrowheads indicating the area concerned
+
+----------------------------------
+                        vvvvvvv  |
+==============================#< |
+                             X#< |
+==============================#< |
+                        ^^^^^^^  |
+----------------------------------
+
+Initially, the end of the serving thread is laid along the bowstring for an inch or two in the direction the thread is to be wound, then the main spool is wrapped around the complete bowstring (over the laid down end), continuing to wind the serving around the bowstring and over the laid down end to anchor it in place. The serving thread is continually wrapped around and around the bowstring thread, each new thread immediately beside the previous one, building up a continuous layer of thread until the serving runs for a length of 100-125 mm (4-5 inches) along each end of the bowstring. (as marked by the arrowheads in the previous diagram).
+
+NB. It is usually easier to slide the complete string around the pegs for several inches/cm to allow you to work on the side rather than against the pegs at the end.
+
+Ensure that the knot which joins the two ends of the bowstring thread is within this area of serving, as it helps to protect and reinforce the knot area (nearly always a slightly weaker portion of the bowstring). 
+
+Finishing the serving
+To finish the serving, we must anchor the serving thread in place in such a way as to ensure that any resulting knot is unlikely to break or be caught in anything, or to come undone or loosen the serving at all. The best way to do this is by having the end of the thread running *back* underneath the last few windings of serving thread, such that when the thread is pulled tight, the end is anchored tightly underneath, held in place by the serving itself and not knotted. To accomplish this, wind another 300mm (12") of thread from your winding spool and cut the thread, leaving this length attached to the serving. This thread is then carried along the unserved bowstring for several inches and then looped loosely *backwards* around the bowstring, back towards the serving 10-15 times, and the end laid underneath the serving thread. The idea is that as the serving is continued, the loop of thread and the reversed windings *unwind*, and the end of the thread is trapped underneath the continued serving.
+NB - if the reversed windings are winding up rather than *unwinding* then the reversed windings have been wound in the wrong direction.
+
+              loop of    -> ___________   ______ <- end of serving thread
+            serving thread /           \ /
+                          /             X
+unserved bowstring-> =====|/=/=/=/=/=/=/=############   <- served bowstring
+                            reversed
+                            windings
+
+Once all the reversed windings have been used up, the end of the serving thread is pulled tight, which draws the final loop back underneath the servings and anchors it in place, then the loose end of thread is cut off. This leaves both ends being self anchoring with no knots, slackness etc.
+
+
+                                         ______ <- end of serving thread
+                   final loop  __       /
+                    of thread  \/      /
+unserved bowstring-> ===========#####################  
+<- served bowstring
+
+
+Serving the bow nock loops
+
+
+
+
+Once the main bowstring has been served, the loop needs to be formed.  This is also held by a serving, as in the diagram
+below.  Once again, a serving is laid down and wound around the pairs of threads,
+drawing the two sides of the loop together into a single string. This will go mainly over the top of the existing preliminary
+serving and extend over the bowstring itself for a serving of 50-100mm (2-4 inches), performed in exactly the same manner
+as explained above.  The size of the loop required will be dependant on the size of the nocks on your bow. They are
+intended to fit closely enough that there is no chance of them slipping out of the nocks when in use, but with enough extra
+room available that they can slide on and off easily when bracing the bow. If the nocks are wide, the loops will need to be
+larger, if the nocks are narrow, then the loops may be made smaller.
+
+
+----------------------------------           ------------------------------
+                     vvvvvvv     |                                        |
+========================#######  |                                 ####   |
+                             X#  | becomes        ========#########  X#   |
+========================#######  |                                 ####   |
+                     ^^^^^^^     |                                        |
+----------------------------------           ------------------------------
+
+
+
+Placing the arrow serving
+By now, your nearly completed string should be as in the diagram below
+
+
+    ###                                                ###
+   #X  #####=======================================####  X#
+    ###                   ^^^^^^^^^                    ###
+
+  (X = Pins, ### is the served string, === is the unserved string,
+    ^^^ = area needing to be served)
+
+Another serving, the same as the others, needs to be placed in the middle of the string to protect the region of the string where the arrow is nocked, where the archer's hand draws the string back and extend down far enough to protect the string from contact with the arm guard. Determine the nocking point (string position at right angles from the arrow rest on the bow if there is one, or the string position the arrow will be held at when drawing), go up about 75 mm (3 inches) from here, then mark the string and down about 200 mm (8 inches). This length of bowstring should now be served as before giving the following final result.
+
+
+    ###                                                ###
+   #X  #####==============#########================####  X#
+    ###                                                ###
+
+
+Fitting your string
+You should now string your bow and measure the brace height (the distance between the string and the inside of the handle when strung). This needs to be deep enough so that the bowstring does not hit the bow hand after the release, usually about 150 mm (6"). If the brace height is too low, this implies that the string is too long. It may be shortened by up to about 35 mm (1.5") by removing the bowstring and tighten it by twisting the string several times then refitting it and measuring again.
+
+A flemish string can be twisted far more than an endless loop type, so brace adjustment for this style of string has a much greater range. If the brace height is too high then the string is too short, and a longer one needs to be made. 
+
+
+
+
+Finishing touches.
+
+Nocking point 
+Many archers also serve on a small serving of thread both immediately above and below the point that the arrow touches the string, thus providing a constant location for the arrow. Without this, the location where the arrow is nocked will vary up and down, giving a slight variation on each shot.
+
+
+
+This small serving is usually several windings of thread and just held in place by glue. The approximate location is found by measuring out at right angles from the top of the arrow rest (if the bow has one) and then the correct location will be 1/4 to 1/2 inch above this. Each individual archer must determine his location for proper arrow flight. (This is tested during initial use of the bow, so the nocking point serving should only be placed after experimentation unless you have already worked this location out previously.) 
+
+
+
+
+Waterproofing/Lubricating the bowstring 
+This is fairly necessary with natural fibre bowstrings (silk, cotton, linen, hemp etc) and less necessary with artificial fibres such as 'Fastflight' etc. (The 'Fastflight' etc still needs the lubrication, but not as much waterproofing). The lubrication protects the individual strands of thread from abrading each other during normal usage.
+The easiest means of waterproofing/lubrication is to rub a lump of beeswax back and forwards along the string until the string has built up a small layer of wax, then switch to a patch of leather or heavy cloth and rub backwards and forwards along the string, such that the friction of rubbing warms the wax and threads and rubs the wax deeper into the bowstring until nearly the whole string (and all the individual threads that make it up) are impregnated/coated with a fine layer of wax.
+
+
+
+
+
+The 'Flemish' bowstring
+The flemish style of bowstring was the style which tended to be used most often in European bows. Asian and Arabic bowstrings used a differant style totally but will work quite happily with either the Flemish or Enless strings.
+
+The Flemish string usually had a single nock loop at one end and the other end without a loop in it. This free end was tied to the bow (use a timber hitch or similar) and the bow strung/unstrung by slipping the looped end on and off the nock. 
+
+
+
+
+Method
+Measure the length of the bow, and add 450 mm (18") to this, this will be the length to which the strands will be cut.
+
+Take the maximum draw weight of the bow required and multiply this by a factor of 5. (Everything I have read tends to require the bowstring for a Flemish string to be slightly heavier than a comparable 'endless' string which is usually worked to a factor of 4). Hence, a 50 lb bow will require a Flemish string of 250 lbs. Using the description in the 'endless string' section, measure the breaking strain of the material used (linen thread, silk, dacron etc). Divide the total stringweight by the breaking weight of the strands to work out the number of strands required. Hence, if the thread used has a 10 lb breaking strain, and we are making it for the above 50 lb bow, we will need 250/10 = 25 strands. Cut this number of strands to the length specified earlier (bow length + 18"). Holding this bundle of threads tightly , use a sharp, flat edged knife to scrape the top 75-125 mm (3-5") of the bundle of threads. This is intended to wear away part of the ends, giving them a slight taper so that the threads end at different places, rather than all at one place when braided into the line. Divide the strands into 2 bundles and wax the top (tapered) ends of both bundles thoroughly for about 250 mm (10") using a block of beeswax. 
+
+
+
+
+Optional reinforcing for the nock loop
+Some stringers tend to do this, others don't. Take half again the number of strands (in the above example, another 12 strands = 6 strands for each bundle), cut these to about 450 mm (18"), taper them as above by scraping the ends, and lay them along the waxed portions of the bundles, waxing them into the main bundles thoroughly. This gives a greater number of threads around the nock, reinforcing the loop and reducing the chance of breakage here. 
+
+
+
+
+Braiding the string
+Hold both bundles together in the left hand about 250 mm (10") from the ends with the short ends towards you. With the right hand, twist tightly towards the right the farthest of the two bundles and lay it over the other one towards you (towards the left). Take the 2nd group, twist them tightly to the right and lay them towards the left. Continue twisting to the right and turning over to the left each bundle of threads in turn until about 75-100mm (3-4") has been twisted for the loop. Turning this loop around, lay the one of the short bundles of thread along the main string and wax it thoroughly into one of the long bundles there. Repeat this with the second short bundle, giving a loop formed at the end of the string and both bundles of ends well waxed back into the main string. >From here, continue the process of twisting to the right and lay over to the left using the groups made of the short and long strands together. Gradually the tapered ends of thread will be braided into the main bowstring as the bundles of thread are braided together. Hopefully the tapering and twisting have been done smoothly and consistently. If so, the ends should disappear into the main string without trace. Once the ends are braided away, you should have a pair of bundles of thread with a single loop at one end. Wax all the remaining threads together for the rest of their length, stretch them to an even tension and twist the complete length of them to the left (anti-clockwise) about 30-40 turns.
+
+
+
+
+Once the main length is twisted to within about 300mm (12") of the end, fold a piece of leather over the string and rub it rapidly up and down the full length of the string, allowing the heat from the friction to melt the wax, making it sink deeper into the full string. The bottom section is treated in a similar manner to the upper section, except no loop is (usually) formed. Divide the main string into 2 bundles as was done at the start and follow the above section 'Optional reinforcing for the nock loop' to add additional lengths of thread into each of the bundles of thread, laying the non-tapered ends even with the end of the string so that the tapered ends are further up the string. Now, as before, twist each bundle of threads to the right and lay it over it's companion to the left. Continue this twisting to the end of the string, which should completely hide the tapered ends of the added reinforcing threads. When the base of the string is reached, use thread to tie off the end of the completed bowstring (or place a small serving as detailed in the 'endless' string description). 
+
+
+
+
+Stringing the bow and serving the string
+Slip the loop of the bowstring over the nock and down the limb of the bow and tie the free end of the string to the other nock using a timber hitch, bowline or similar non-stressing knot. Place the tip of the tied limb in the instep of your left foot, hold the grip of the bow in your left hand and draw it towards you while pushing the upper limb of the bow with your right hand until the loop can be slid into the nock. If the bow is braced too high, unstring in the same manner and shift the timber hitch knot, shortening or lengthening the bowstring until the correct braceheight is reached. Mark the location of the grip on the bowstring and unstring the bow. Place a serving along the area of string that matches the location of the grip (see 'Serving your bowstring' above). Make sure that the area of the serving where your fingers/tab will rest is not waxed too much, otherwise this can lead to the wax sticking and leading to a less clean 'loose'. This can be cleaned with a rag dipped in petrol and just wiped over the required area. After the string has been used to fire several arrows, it is likely to have stretched slightly and may require re-bracing to adjust back to the correct brace height. Once this initial stretch has occurred, it will remain that length permanently. This can be pre-stretched if you wish by placing the loop over a solid hook and stretching the string to close to the maximum breaking strain, e.g. a string intended to be 200 lb should be able to have a weight of 180 lb hung from it without problems which should soon remove any remaining stretch from the string. 
+
+
+
+
+Optional touches.
+Variable colored strings can be made by using 2 different colored threads for each of the two bundles being braided. This gives an interesting contrast of color. Likewise, a different color can be used for the serving thread, again giving a nice contrasting effect. If you desire, the 'Flemish' string may have another loop braided into the other end by the same process as the main loop, however this is not recommended as the new string will usually stretch a small amount, and it is difficult to estimate the amount of stretch that will occur, hence requiring further adjustment by twisting of the string as the stretch occurs. Most of the original 'Flemish' strings were of the single loop style. Thanks to the following for their thoughts, comments, fixes and additions :- ap941@yfn.ysu.edu (Mark W. Thurm)
+
+Any queries, changes, additions or abuse for this section of the FAQ to Rob McNeur Rob@ccc.govt.nz 
+
+
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+
+This is a section of the FAQ for alt.archery. It is maintained by me at the following e-mail address: triert@gvsu.edu Comments, flames, etc. on the FAQ are welcome and should be directed to me. Comments on the specifics of the section can be addressed to either me or the person responsible for this section. If addressed to me, I will forward them to the author of the section. If you wish to see this section cross-posted to another group, please e-mail me a request to do so. If I can access that group, then I will so cross-post whenever I post this section. 
+
+Terry Trier triert@gvsu.edu 
+
+
+--------------------------------------------------------------------------------
+
+Last modified on Friday December 19, 1997 

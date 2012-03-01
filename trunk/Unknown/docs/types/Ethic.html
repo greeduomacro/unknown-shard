@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - Ethic</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Ethics.html">Back to Server.Ethics</a></h4>
+      <h2>Ethic</h2>
+<h4>Derived Types: <a href="EvilEthic.html">EvilEthic</a>, <a href="HeroEthic.html">HeroEthic</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckEquip( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckTrade( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> to, <a href="Mobile.html">Mobile</a> newOwner, <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_Speech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <a href="Ethic.html">Ethic</a> Find( <a href="Mobile.html">Mobile</a> mob )<br>
+      (<font color="blue">static</font>) <a href="Ethic.html">Ethic</a> Find( <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <a href="Ethic.html">Ethic</a> Find( <a href="Mobile.html">Mobile</a> mob, <font color="blue">bool</font> inherit )<br>
+      (<font color="blue">static</font>) <a href="Ethic.html">Ethic</a> Find( <a href="Mobile.html">Mobile</a> mob, <font color="blue">bool</font> inherit, <font color="blue">bool</font> allegiance )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsImbued( <a href="Item.html">Item</a> item )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsImbued( <a href="Item.html">Item</a> item, <font color="blue">bool</font> recurse )<br>
+      (<font color="blue">ctor</font>) Ethic()<br>
+      <a href="EthicDefinition.html">EthicDefinition</a> Definition( <font color="blue">get</font>; )<br>
+      <a href="PlayerCollection.html">PlayerCollection</a> Players( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsEligible( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

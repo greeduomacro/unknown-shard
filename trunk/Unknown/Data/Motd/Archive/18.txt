@@ -1,0 +1,10 @@
+3/30/2009
+7:32PM
+
+1. Updated login and logout system that shows when players/staff login.
+2. Updated some of the console commands to allow me better interaction with players while not being actually ingame.
+3. Added a nice little command that allows staff to initiate an event and have players respond to the event time to actually get automatically teleported to the event in progress.
+4. Updated the pet follow speeds to be less likely to loose them when you are running around at full speed.
+5. Added 3 beginning quests for Delucia.  Also redid the scripting for the previous 3 section quests I made to be more user friendly.
+
+GM Darky

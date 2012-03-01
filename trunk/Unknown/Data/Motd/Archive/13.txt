@@ -1,0 +1,11 @@
+04/15/2009
+02:33AM
+
+1. 8 custom ores, 2 custom leathers, 4 custom woods.  Blacksmith Box, Tailoring Box, Wood Box, and Masonry Box. Each box will hold the resource and tools for each one.
+2. Added new masonry system and various other crafting tables.  This is the half point of my big update.
+3. Tweaked a lot of the crafting system.
+4. Increased the stat gains.
+5. Removed the necro karma loss.
+6. Increased amount vendors can sell at a time.
+
+GM Darky

@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - CannonComponent</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>CannonComponent : <a href="AddonComponent.html">AddonComponent</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IChopable.html">IChopable</a>, <a href="ICannonDamage.html">ICannonDamage</a>, <a href="ICannonRepair.html">ICannonRepair</a></h2>
+<h4>Nested Types: <a href="Disassemble.html">Disassemble</a>, <a href="Fix.html">Fix</a>, <a href="InternalTarget2.html">InternalTarget</a>, <a href="InternalTarget11.html">InternalTarget1</a></h4>
+      (<font color="blue">ctor</font>) CannonComponent( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) CannonComponent( <font color="blue">int</font> itemID, <a href="BaseCannon.html">BaseCannon</a> c )<br>
+      <a href="BaseCannon.html">BaseCannon</a> cannon( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ForceShowProperties( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSpeech( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Hits( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HitsMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> MinReqSkill( <font color="blue">get</font>; )<br>
+      <a href="SkillName.html">SkillName</a> RepairSkill( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CheckFiringAngle( <a href="Point3D.html">Point3D</a> p, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Damage( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Explode( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> loc, <a href="Map.html">Map</a> map )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDamaged()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Repair( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

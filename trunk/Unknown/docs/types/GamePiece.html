@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - GamePiece</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Solaris.BoardGames.html">Back to Solaris.BoardGames</a></h4>
+      <h2>GamePiece : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="BaddaBoom.html">BaddaBoom</a>, <a href="Bomb.html">Bomb</a>, <a href="BombCandle.html">BombCandle</a>, <a href="BombermanObstacle.html">BombermanObstacle</a>, <a href="DetonatorReceiver.html">DetonatorReceiver</a></h4>
+      (<font color="blue">ctor</font>) GamePiece( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) GamePiece( <font color="blue">int</font> itemid, <font color="blue">string</font> name )<br>
+      (<font color="blue">ctor</font>) GamePiece( <font color="blue">int</font> itemid, <font color="blue">string</font> name, <font color="blue">bool</font> blocklos )<br>
+      (<font color="blue">ctor</font>) GamePiece( <font color="blue">int</font> itemidmin, <font color="blue">int</font> itemidmax, <font color="blue">string</font> name )<br>
+      (<font color="blue">ctor</font>) GamePiece( <font color="blue">int</font> itemidmin, <font color="blue">int</font> itemidmax, <font color="blue">string</font> name, <font color="blue">bool</font> blocklos )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> old )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMapChange()<br>
+      <font color="blue">void</font> RegisterToBoardGameControlItem( <a href="BoardGameControlItem.html">BoardGameControlItem</a> boardgamecontrolitem, <a href="Point3D.html">Point3D</a> offset )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> UpdatePosition()<br>
+   </body>
+</html>

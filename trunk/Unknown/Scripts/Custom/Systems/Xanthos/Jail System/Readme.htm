@@ -1,0 +1,90 @@
+<html>
+<body>
+	<h3>Jail System 2.0 by Xanthos</h3>
+	<p>This is a basic jailing and speech monitor system. If a player says any of the words in the file jaiwords.cs, they will be automatically jailed on the spot. If you want the system to monitor chat speech as well there is a method, in jailcommand.cs, that must be called from the chat command handler. An example and explanation for how to do this with Knives Chat 2.0 is provided in jailcommand.cs. If you want to prevent players from leaving jail using the stuck option you will also need to set up a custom region encompassing your jail; Regions In a Box works well for that.</p>
+	<p>Also provided with this package is a modified copy of a single distro file to make the luck calculation work to boost the intensities of generated loot in a similar fashion to EA shards. This file also brings the quality of runic crafted items on par with EA shards. Use of this modified BaseRunicTool.cs file is optional - if you choose not to use it, simply remove it. Otherwise, if you choose to use this file, remove the distro file with the same name.</p>
+	<h4>Installation:</h4>
+	<ol>
+		<li>Unzip the package</li>
+		<li>Drop the resulting Xanthos folder into your custom folder</li>
+		<li>Copy or move the jailwords.txt file to your Data folder</li>
+		<li>Modify the JailConfig.xml and copy it to your RunUO/Data directory</li>
+		<li>Restart your server</li><li>Add a JailTeleporter and JailSlaveDriver to your jail.</li></ol>
+	<h4>Commands:</h4>
+	<ul>
+		<li>[Jail </li>
+		<li>[Unjail </li>
+		<li>[AddJailWords</li>
+		<li>[DeleteJailWords</li>
+		<li>[ListJailWords</li></ul>
+	<h4>Requirements</h4>
+	<p>Requires the Xanthos Utilities package.</p>
+	<h4>Caveats</h4>
+	<p>You may use or modify this system in any way you desire, however I ask that you leave the original headers in the source files if you re-write or redistribute the sources in any way.</p>
+	<p>- Xanthos</p>
+	<h3>Changes</h3>
+	<h4>Version 2.0 - 9/4/06</h4>
+	<ul>
+		<li>Made the system compatible with RunUO 2.0</li>
+		<li>Removed the configuration properties from the JailTeleporter - the JailConfig.xml is used to configure the system now</li>
+		<li>Changed the namespace from the SpeechCop to JailSystem</li>
+		<li>Added support for mining on statics</li>
+		<li>Added logging to help find problems that could be introduced in the JailWords.txt file.</li>
+		<li>JailBoots will not be saved when the shard saves to disk and therefore will not be persisted when the shard comes back up after a shutdown.</li>
+	</ul>
+	<h4>
+		Version 1.8</h4>
+	<ul>
+		<li>Added the Murder Free Location to the in game configuration. Use props on the jail teleporter to configure it</li>
+		<li>Cursing in jail now gets the player kicked, in addition to fined and an increased sentence</li>
+		<li>There is now an option to the jail command to squelch the player when jailed</li>
+	</ul>
+	<h4>Version 1.7 - 1/14/06</h4>
+	<ul>
+		<li>Extracts a fine from jailed players</li>
+		<li>Provides two free locations based on noteriety - one for murderers with 5 or more counts and one for the rest</li>
+		<li>Swearing in jail no longer teleports the player to jail since they are already there</li>
+		<li>Players are now jailed in a burst of flame and lighting which leaves behind nothing but their smoldering boots</li>
+		<li>The package now unzips into a Xanthos directory - keeping the package files within the Xanthos directory in your customs directory is recommended</li>
+	</ul>
+	<h4>Version 1.5 - 8/7/05</h4>
+	<ul>
+		<li>Fixed an interaction with the safe rez context whereby an immovable death shroud would be left in a dead jailed player's pack</li>
+		<li>All jail configuration is now done in game - no more need to edit scripts or restart the server</li>
+		<li>New commands: AddJailWords, DeleteJailWords and ListJailWords allow in game changes and review of the jailable words</li>
+		<li>The speech filter can be enabled/diabled by editing the properties on the JailTeleporter allowing an admin to turn on and off autojailing on speech</li>
+	</ul>
+	<h4>Version 1.4 6/10/05</h4>
+	<ul>
+		<li>Jail Rock is now deleted when players are released or jailed</li>
+		<li>Players are now teleported to the free location immediately upon release</li>
+		<li>Free players in the Jail Guard's line of sight who step too close are jailed</li>
+		<li>Access levels of jailed players are now persisted when the server shuts down - therefore players with access level counselor and above, jailed after this release, will have their proper access level restored when set free</li>
+		<li>Some of the messages have changed</li>
+		<li>The jail teleporter is now visible when created</li>
+		<li>Jail rock can no longer be created in-game using [add, unless JailRock.cs is compiled with JAIL_TESTING defined</li>
+	</ul>
+	<h4>Version 1.3 - 6/7/05</h4>
+	<ul>
+		<li>Free and jail teleport locations, hammer difficulty and type of tiles to mine are now settable in game using the [props on the jail teleporter</li>
+		<li>The teleporter will now remove any jail rock from the player's pack as they exit jail</li>
+		<li>Fixed the guard spamming</li>
+		<li>Fixed another crash in the unjail command related to the hashtable</li>
+	</ul>
+	<h4>Version 1.2 - 6/5/05</h4>
+	<ul>
+		<li>Moved the name of the tiles to mine and the name of the rock mined there with the rest of the configuration variables</li>
+		<li>Added a comment that describes how to find the name of the tiles to be mined</li>
+		<li>Fixed the guard logic so he speaks again</li>
+	</ul>
+	<h4>Version 1.1 - 6/2/05</h4>
+	<ul>
+		<li>All pets are now stabled when a player is jailed</li>
+		<li>Player access level is stored and set to Player, then back to its original value on release</li>
+		<li>Fixed a bug where the hammer could be unequipped on certain conditions. This change required that the Hammer inherit from BaseWeapon. Unfortunately this will cause a one time deletion of all existing hammers, and susbsequent release of all prisoners - guard your women and children!</li>
+		<li>Fixed a crashing bug when a player is set free using the [UnJail command</li>
+		<li>Moved all configurable options into the Jail class</li>
+		<li>Changed the hue of the teleporter to be more noticable</li>
+		</ul>
+</body>
+</html>

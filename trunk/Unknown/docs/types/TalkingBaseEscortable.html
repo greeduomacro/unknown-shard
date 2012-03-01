@@ -1,0 +1,40 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - TalkingBaseEscortable</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>TalkingBaseEscortable : <a href="TalkingBaseCreature.html">TalkingBaseCreature</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a></h2>
+<h4>Derived Types: <a href="TalkingSeekerOfAdventure.html">TalkingSeekerOfAdventure</a></h4>
+<h4>Nested Types: <a href="DeleteTimer.html">DeleteTimer</a></h4>
+      (<font color="blue">static</font>) Hashtable EscortTable( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) TalkingBaseEscortable()<br>
+      (<font color="blue">ctor</font>) TalkingBaseEscortable( <font color="blue">int</font> gender )<br>
+      (<font color="blue">ctor</font>) TalkingBaseEscortable( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> Commandable( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> Destination( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AcceptEscorter( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddCustomContextEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BeginDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeRenamedBy( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckAtDestination()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <a href="EscortDestinationInfo.html">EscortDestinationInfo</a> GetDestination()<br>
+      <font color="blue">virtual</font> <a href="Mobile.html">Mobile</a> GetEscorter()<br>
+      <font color="blue">virtual</font> <font color="blue">string</font>[] GetPossibleDestinations()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitBody( <font color="blue">int</font> gender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitOutfit()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnMove( <a href="Direction.html">Direction</a> d )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnThink()<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> PickRandomDestination()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> SayDestinationTo( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StartFollow()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StartFollow( <a href="Mobile.html">Mobile</a> escorter )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StopFollow()<br>
+   </body>
+</html>

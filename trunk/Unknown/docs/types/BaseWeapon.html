@@ -1,0 +1,162 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseWeapon</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseWeapon : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IWeapon.html">IWeapon</a>, <a href="IFactionItem.html">IFactionItem</a>, <a href="ICraftable.html">ICraftable</a>, <a href="ISlayer.html">ISlayer</a>, <a href="IDurability.html">IDurability</a></h2>
+<h4>Derived Types: <a href="BaseMeleeWeapon.html">BaseMeleeWeapon</a>, <a href="JailHammer.html">JailHammer</a></h4>
+<h4>Nested Types: <a href="ResetEquipTimer.html">ResetEquipTimer</a>, <a href="SaveFlag3.html">SaveFlag</a></h4>
+      (<font color="blue">static</font>) <a href="BaseWeapon.html">BaseWeapon</a> Fists( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> InDoubleStrike( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> BlockEquip( <a href="Mobile.html">Mobile</a> m, TimeSpan duration )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckAnimal( <a href="Mobile.html">Mobile</a> m, Type type )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckParry( <a href="Mobile.html">Mobile</a> defender )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> GetSaveFlag( <a href="SaveFlag3.html">SaveFlag</a> flags, <a href="SaveFlag3.html">SaveFlag</a> toGet )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> SetSaveFlag( <font color="blue">ref</font> <a href="SaveFlag3.html">SaveFlag</a> flags, <a href="SaveFlag3.html">SaveFlag</a> toSet, <font color="blue">bool</font> setIf )<br>
+      (<font color="blue">ctor</font>) BaseWeapon( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseWeapon( <font color="blue">int</font> itemID )<br>
+      <a href="WeaponAccuracyLevel.html">WeaponAccuracyLevel</a> AccuracyLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SkillName.html">SkillName</a> AccuracySkill( <font color="blue">get</font>; )<br>
+      <a href="WeaponAnimation.html">WeaponAnimation</a> Animation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponAnimation.html">WeaponAnimation</a> AosAnimation( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosDexterityReq( <font color="blue">get</font>; )<br>
+      <a href="AosElementAttributes.html">AosElementAttributes</a> AosElementDamages( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> AosHitSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosIntelligenceReq( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosMaxDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosMaxRange( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosMinDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosMissSound( <font color="blue">get</font>; )<br>
+      <a href="SkillName.html">SkillName</a> AosSkill( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosSpeed( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> AosStrengthReq( <font color="blue">get</font>; )<br>
+      <a href="WeaponType.html">WeaponType</a> AosType( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ArtifactRarity( <font color="blue">get</font>; )<br>
+      <a href="AosAttributes.html">AosAttributes</a> Attributes( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ColdResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Consecrated( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Crafter( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Cursed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponDamageLevel.html">WeaponDamageLevel</a> DamageLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponAnimation.html">WeaponAnimation</a> DefAnimation( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefHitSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefMaxRange( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DefMissSound( <font color="blue">get</font>; )<br>
+      <a href="SkillName.html">SkillName</a> DefSkill( <font color="blue">get</font>; )<br>
+      <a href="WeaponType.html">WeaponType</a> DefType( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> DexRequirement( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponDurabilityLevel.html">WeaponDurabilityLevel</a> DurabilityLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> EnergyResistance( <font color="blue">get</font>; )<br>
+      <a href="FactionItem.html">FactionItem</a> FactionItemState( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> FireResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> HitPoints( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HitSound( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Hue( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Identified( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> InitMaxHits( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> InitMinHits( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> IntRequirement( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxHitPoints( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxRange( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MinDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MissSound( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponAnimation.html">WeaponAnimation</a> OldAnimation( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldDexterityReq( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldHitSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldIntelligenceReq( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldMaxDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldMaxRange( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldMinDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldMissSound( <font color="blue">get</font>; )<br>
+      <a href="SkillName.html">SkillName</a> OldSkill( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldSpeed( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> OldStrengthReq( <font color="blue">get</font>; )<br>
+      <a href="WeaponType.html">WeaponType</a> OldType( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> PhysicalResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> PlayerConstructed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Poison.html">Poison</a> Poison( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PoisonCharges( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PoisonResistance( <font color="blue">get</font>; )<br>
+      <a href="WeaponAbility.html">WeaponAbility</a> PrimaryAbility( <font color="blue">get</font>; )<br>
+      <a href="WeaponQuality.html">WeaponQuality</a> Quality( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Race.html">Race</a> RequiredRace( <font color="blue">get</font>; )<br>
+      <a href="CraftResource.html">CraftResource</a> Resource( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponAbility.html">WeaponAbility</a> SecondaryAbility( <font color="blue">get</font>; )<br>
+      <a href="SkillName.html">SkillName</a> Skill( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="AosSkillBonuses.html">AosSkillBonuses</a> SkillBonuses( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SlayerName.html">SlayerName</a> Slayer( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="SlayerName.html">SlayerName</a> Slayer2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Speed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> StrRequirement( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WeaponType.html">WeaponType</a> Type( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UseSkillMod( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> VirtualDamageBonus( <font color="blue">get</font>; )<br>
+      <a href="AosWeaponAttributes.html">AosWeaponAttributes</a> WeaponAttributes( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> AbsorbDamage( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> AbsorbDamageAOS( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddBlood( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddNameProperty( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowEquipedCast( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> AllowSecureTrade( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> to, <a href="Mobile.html">Mobile</a> newOwner, <font color="blue">bool</font> accepted )<br>
+      <font color="blue">int</font> ApplyCraftAttributeElementDamage( <font color="blue">int</font> attrDamage, <font color="blue">ref</font> <font color="blue">int</font> element, <font color="blue">int</font> totalRemaining )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanEquip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckConflictingLayer( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <a href="Layer.html">Layer</a> layer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <a href="CheckSlayerResult.html">CheckSlayerResult</a> CheckSlayers( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> ComputeDamage( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> ComputeDamageAOS( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoAreaAttack( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> defender, <font color="blue">int</font> sound, <font color="blue">int</font> hue, <font color="blue">int</font> phys, <font color="blue">int</font> fire, <font color="blue">int</font> cold, <font color="blue">int</font> pois, <font color="blue">int</font> nrgy )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoDispel( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoFireball( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoHarm( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoLightning( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoLowerAttack( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoLowerDefense( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoMagicArrow( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetAosDamage( <a href="Mobile.html">Mobile</a> attacker, <font color="blue">int</font> bonus, <font color="blue">int</font> dice, <font color="blue">int</font> sides )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetAttackSkillValue( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetBaseDamage( <a href="Mobile.html">Mobile</a> attacker )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetBaseDamageRange( <a href="Mobile.html">Mobile</a> attacker, <font color="blue">out</font> <font color="blue">int</font> min, <font color="blue">out</font> <font color="blue">int</font> max )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetBonus( <font color="blue">double</font> value, <font color="blue">double</font> scalar, <font color="blue">double</font> threshold, <font color="blue">double</font> offset )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetDamageBonus()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetDamageTypes( <a href="Mobile.html">Mobile</a> wielder, <font color="blue">out</font> <font color="blue">int</font> phys, <font color="blue">out</font> <font color="blue">int</font> fire, <font color="blue">out</font> <font color="blue">int</font> cold, <font color="blue">out</font> <font color="blue">int</font> pois, <font color="blue">out</font> <font color="blue">int</font> nrgy )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetDefendSkillValue( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> TimeSpan GetDelay( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">int</font> GetDurabilityBonus()<br>
+      <font color="blue">int</font> GetElementalDamageHue()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetHitAttackSound( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetHitChanceBonus()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetHitDefendSound( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">int</font> GetLowerStatReq()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetLuckBonus()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetMissAttackSound( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetMissDefendSound( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">string</font> GetNameString()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetPackInstinctBonus( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetStatusDamage( <a href="Mobile.html">Mobile</a> from, <font color="blue">out</font> <font color="blue">int</font> min, <font color="blue">out</font> <font color="blue">int</font> max )<br>
+      <font color="blue">virtual</font> <a href="SkillName.html">SkillName</a> GetUsedSkill( <a href="Mobile.html">Mobile</a> m, <font color="blue">bool</font> checkSkillAttrs )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAdded( <font color="blue">object</font> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnBeforeSwing( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnCraft( <font color="blue">int</font> quality, <font color="blue">bool</font> makersMark, <a href="Mobile.html">Mobile</a> from, <a href="CraftSystem.html">CraftSystem</a> craftSystem, Type typeRes, <a href="BaseTool.html">BaseTool</a> tool, <a href="CraftItem.html">CraftItem</a> craftItem, <font color="blue">int</font> resHue )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnEquip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">double</font> damageBonus )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMiss( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRemoved( <font color="blue">object</font> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> TimeSpan OnSwing( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> TimeSpan OnSwing( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <font color="blue">double</font> damageBonus )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> PlayHurtAnimation( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> PlaySwingAnimation( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> ScaleDamageAOS( <a href="Mobile.html">Mobile</a> attacker, <font color="blue">double</font> damage, <font color="blue">bool</font> checkSkills )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> ScaleDamageByDurability( <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> ScaleDamageOld( <a href="Mobile.html">Mobile</a> attacker, <font color="blue">double</font> damage, <font color="blue">bool</font> checkSkills )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ScaleDurability()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> UnscaleDurability()<br>
+   </body>
+</html>

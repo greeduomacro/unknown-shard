@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSkillProfile Name="Default Profile">
+	<Stats Ena="True" Frc="True" Sum="300" Str="300" Dex="300" Int="300" />
+	<Gumps Man="False" Use="True" Icn="1234" />
+	<Skills Ena="True" Pts="700" Frc="True" Key="True" CEn="False" CSm="20" WEn="True" Cnt="0" />
+</TMSkillProfile>

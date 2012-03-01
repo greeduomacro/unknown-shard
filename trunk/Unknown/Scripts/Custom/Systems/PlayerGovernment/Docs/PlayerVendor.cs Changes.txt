@@ -1,0 +1,32 @@
+PlayerVendor.cs
+
+#
+#-----------[OPEN]--------------------
+#
+
+PlayerVendor.cs
+
+#
+#-----------[FIND]--------------------
+#
+
+	public int ChargePerDay 
+
+#
+#-----------[CHANGE TO]----------------
+#
+
+	public virtual int ChargePerDay
+
+#
+#-----------[FIND]---------------------
+#
+
+	public int ChargePerRealWorldDay
+
+#
+#-----------[CHANGE TO]----------------
+#
+
+	public virtual int ChargePerRealWorldDay
+

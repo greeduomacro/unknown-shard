@@ -1,0 +1,52 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - GumpPlus</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Knives.Chat3.html">Back to Knives.Chat3</a></h4>
+      <h2>GumpPlus : <a href="Gump.html">Gump</a></h2>
+<h4>Derived Types: <a href="AwayGump2.html">AwayGump</a>, <a href="AwayGump1.html">AwayGump</a>, <a href="AwayGump.html">AwayGump</a>, <a href="BanGump2.html">BanGump</a>, <a href="BanGump1.html">BanGump</a>, <a href="BanGump3.html">BanGump</a>, <a href="BanGump.html">BanGump</a>, <a href="ChannelGump.html">ChannelGump</a>, <a href="ChannelSelectGump2.html">ChannelSelectGump</a>, <a href="ChannelSelectGump.html">ChannelSelectGump</a>, <a href="ChannelSelectGump1.html">ChannelSelectGump</a>, <a href="ColorsGump.html">ColorsGump</a>, <a href="EditNotGump.html">EditNotGump</a>, <a href="ErrorsGump.html">ErrorsGump</a>, <a href="ErrorsNotifyGump.html">ErrorsNotifyGump</a>, <a href="FilterGump.html">FilterGump</a>, <a href="FilterPenaltyGump.html">FilterPenaltyGump</a>, <a href="FullGump.html">FullGump</a>, <a href="GeneralGump.html">GeneralGump</a>, <a href="GlobalGump.html">GlobalGump</a>, <a href="HelpContentsGump.html">HelpContentsGump</a>, <a href="HistoryGump.html">HistoryGump</a>, <a href="InfoGump.html">InfoGump</a>, <a href="InternalGump.html">InternalGump</a>, <a href="IrcGump.html">IrcGump</a>, <a href="IrcStaffColorGump.html">IrcStaffColorGump</a>, <a href="ListGump.html">ListGump</a>, <a href="ListGump10.html">ListGump10</a>, <a href="ListGump20.html">ListGump20</a>, <a href="LoggingGump.html">LoggingGump</a>, <a href="MailGump.html">MailGump</a>, <a href="MessageGump.html">MessageGump</a>, <a href="MultiGump.html">MultiGump</a>, <a href="NotAlertGump.html">NotAlertGump</a>, <a href="NotMessageGump.html">NotMessageGump</a>, <a href="OptionsGump.html">OptionsGump</a>, <a href="OptionsGump1.html">OptionsGump</a>, <a href="PmNotifyGump.html">PmNotifyGump</a>, <a href="PmNotifyGump10.html">PmNotifyGump10</a>, <a href="PmNotifyGump20.html">PmNotifyGump20</a>, <a href="ProfileGump.html">ProfileGump</a>, <a href="SendMessageGump.html">SendMessageGump</a>, <a href="SpamGump.html">SpamGump</a>, <a href="StatusGump1.html">StatusGump</a>, <a href="StatusGump2.html">StatusGump</a>, <a href="StatusGump.html">StatusGump</a>, <a href="TimeGump.html">TimeGump</a>, <a href="ViewsGump1.html">ViewsGump</a>, <a href="ViewsGump.html">ViewsGump</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> RefreshGump( <a href="Mobile.html">Mobile</a> m, Type type )<br>
+      (<font color="blue">ctor</font>) GumpPlus( <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <a href="GumpInfo.html">GumpInfo</a> Info( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Override( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Owner( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> AddBackground( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">int</font> back )<br>
+      <font color="blue">void</font> AddBackground( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">int</font> back, <font color="blue">bool</font> over )<br>
+      <font color="blue">void</font> AddBackgroundZero( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">int</font> back )<br>
+      <font color="blue">void</font> AddBackgroundZero( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">int</font> back, <font color="blue">bool</font> over )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> id, <a href="GumpCallback.html">GumpCallback</a> callback )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> id, <font color="blue">string</font> name, <a href="GumpCallback.html">GumpCallback</a> callback )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> up, <font color="blue">int</font> down, <a href="GumpCallback.html">GumpCallback</a> callback )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> id, <a href="GumpStateCallback.html">GumpStateCallback</a> callback, <font color="blue">object</font> arg )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> id, <font color="blue">string</font> name, <a href="GumpStateCallback.html">GumpStateCallback</a> callback, <font color="blue">object</font> arg )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> up, <font color="blue">int</font> down, <font color="blue">string</font> name, <a href="GumpCallback.html">GumpCallback</a> callback )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> up, <font color="blue">int</font> down, <a href="GumpStateCallback.html">GumpStateCallback</a> callback, <font color="blue">object</font> arg )<br>
+      <font color="blue">void</font> AddButton( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> up, <font color="blue">int</font> down, <font color="blue">string</font> name, <a href="GumpStateCallback.html">GumpStateCallback</a> callback, <font color="blue">object</font> arg )<br>
+      <font color="blue">void</font> AddHtml( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> AddHtml( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">string</font> text, <font color="blue">bool</font> over )<br>
+      <font color="blue">void</font> AddHtml( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">string</font> text, <font color="blue">bool</font> back, <font color="blue">bool</font> scroll )<br>
+      <font color="blue">void</font> AddHtml( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">string</font> text, <font color="blue">bool</font> back, <font color="blue">bool</font> scroll, <font color="blue">bool</font> over )<br>
+      <font color="blue">void</font> AddTextField( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">int</font> width, <font color="blue">int</font> height, <font color="blue">int</font> color, <font color="blue">int</font> back, <font color="blue">string</font> name, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> BackDown()<br>
+      <font color="blue">void</font> BackUp()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BuildGump()<br>
+      <font color="blue">void</font> Clear()<br>
+      <font color="blue">void</font> Default()<br>
+      <font color="blue">void</font> Force()<br>
+      <font color="blue">string</font> GetTextField( <font color="blue">string</font> name )<br>
+      <font color="blue">int</font> GetTextFieldInt( <font color="blue">string</font> name )<br>
+      <font color="blue">void</font> ModifyGump()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> NewGump()<br>
+      <font color="blue">void</font> NewGump( <font color="blue">bool</font> clear )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnClose()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnResponse( <a href="NetState.html">NetState</a> state, <a href="RelayInfo.html">RelayInfo</a> info )<br>
+      <font color="blue">void</font> SameGump()<br>
+      <font color="blue">void</font> SortEntries()<br>
+      <font color="blue">void</font> TextDown()<br>
+      <font color="blue">void</font> TextUp()<br>
+      <font color="blue">void</font> Trans()<br>
+      <font color="blue">int</font> UniqueButton()<br>
+      <font color="blue">int</font> UniqueTextId()<br>
+   </body>
+</html>

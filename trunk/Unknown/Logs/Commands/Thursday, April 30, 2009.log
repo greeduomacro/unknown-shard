@@ -1,0 +1,149 @@
+##############################
+Log started on 4/30/2009 4:30:26 AM
+
+##############################
+Log started on 4/30/2009 3:52:57 PM
+
+##############################
+Log started on 4/30/2009 6:19:51 PM
+
+##############################
+Log started on 4/30/2009 6:21:04 PM
+
+##############################
+Log started on 4/30/2009 6:21:43 PM
+
+##############################
+Log started on 4/30/2009 6:25:05 PM
+
+##############################
+Log started on 4/30/2009 6:37:28 PM
+
+##############################
+Log started on 4/30/2009 6:45:47 PM
+
+##############################
+Log started on 4/30/2009 6:50:53 PM
+
+4/30/2009 6:51:53 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/30/2009 6:52:03 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'afkcheck '
+4/30/2009 6:52:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') Issuing AFK Check to: 0x1CEC "DirtyDuckling" ('Despized') 
+4/30/2009 6:52:23 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') Passed AFK Check. 
+4/30/2009 6:52:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'afk '
+4/30/2009 6:52:52 PM: 127.0.0.1: Player 0x1CEC "DirtyDuckling" ('Despized') used command 'afk '
+4/30/2009 6:52:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/30/2009 6:52:58 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/30/2009 6:53:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/30/2009 6:53:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/30/2009 6:55:22 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/30/2009 6:56:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/30/2009 6:56:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+##############################
+Log started on 4/30/2009 7:02:10 PM
+
+4/30/2009 7:19:32 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go green'
+4/30/2009 7:19:36 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go greenacres1'
+4/30/2009 7:19:41 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'go greenacres'
+4/30/2009 7:19:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'travel '
+4/30/2009 7:20:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+4/30/2009 7:20:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+4/30/2009 7:20:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 5424 1596 -120'
+4/30/2009 7:20:59 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'tele '
+4/30/2009 7:21:12 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add '
+4/30/2009 7:21:43 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add OrcishLord'
+4/30/2009 7:21:44 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5448, 1575, 0) in Trammel: "OrcishLord"
+4/30/2009 7:21:44 PM: 127.0.0.1: Serials: 0x1118; 
+4/30/2009 7:21:46 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:21:47 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1118 "an orcish lord" (no account)
+4/30/2009 7:21:49 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add SpawnedOrcishLord'
+4/30/2009 7:21:50 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5448, 1573, 0) in Trammel: "SpawnedOrcishLord"
+4/30/2009 7:21:50 PM: 127.0.0.1: Serials: 0x1119; 
+4/30/2009 7:21:51 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:21:52 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1119 "an orcish lord" (no account)
+4/30/2009 7:21:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add OrcishMage'
+4/30/2009 7:21:55 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5445, 1574, 0) in Trammel: "OrcishMage"
+4/30/2009 7:21:55 PM: 127.0.0.1: Serials: 0x111A; 
+4/30/2009 7:21:56 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:21:57 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x111A "an orcish mage" (no account)
+4/30/2009 7:22:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add Orc'
+4/30/2009 7:22:00 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5445, 1572, 0) in Trammel: "Orc"
+4/30/2009 7:22:00 PM: 127.0.0.1: Serials: 0x111D; 
+4/30/2009 7:22:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:22:02 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x111D "Wakgut" (no account)
+4/30/2009 7:22:03 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add OrcBomber'
+4/30/2009 7:22:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5445, 1574, 0) in Trammel: "OrcBomber"
+4/30/2009 7:22:04 PM: 127.0.0.1: Serials: 0x1120; 
+4/30/2009 7:22:04 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:22:05 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1120 "an orc bomber" (no account)
+4/30/2009 7:22:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add OrcBrute'
+4/30/2009 7:22:06 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5445, 1573, 0) in Trammel: "OrcBrute"
+4/30/2009 7:22:06 PM: 127.0.0.1: Serials: 0x1122; 
+4/30/2009 7:22:07 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:22:08 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1122 "an orc brute" (no account)
+4/30/2009 7:22:09 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Add OrcCaptain'
+4/30/2009 7:22:10 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5441, 1577, 0) in Trammel: "OrcCaptain"
+4/30/2009 7:22:10 PM: 127.0.0.1: Serials: 0x1124; 
+4/30/2009 7:22:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:22:11 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1124 "Nurbag" (no account)
+4/30/2009 7:24:14 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add orc'
+4/30/2009 7:24:15 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5445, 1578, 0) in Trammel: "orc"
+4/30/2009 7:24:15 PM: 127.0.0.1: Serials: 0x1126; 
+4/30/2009 7:24:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 7:24:17 PM: 127.0.0.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x1126 "Knaraugh" (no account)
+##############################
+Log started on 4/30/2009 8:03:19 PM
+
+4/30/2009 8:07:05 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'admin '
+4/30/2009 8:10:13 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'where '
+4/30/2009 8:12:52 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c '
+4/30/2009 8:12:53 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') set property 'map' of 0xF28 "GM Darky" ('Dreadfull') to 'Trammel'
+4/30/2009 8:12:53 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Self Set map 1'
+4/30/2009 8:12:53 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'Go 5646 1614 0'
+4/30/2009 8:23:56 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add necrostone'
+4/30/2009 8:24:03 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add necro'
+4/30/2009 8:24:34 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add necstone'
+4/30/2009 8:24:36 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5647, 1615, 0) in Trammel: "necstone"
+4/30/2009 8:24:36 PM: 192.168.1.1: Serials: 0x40003520; 
+4/30/2009 8:24:54 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add gold 5000'
+4/30/2009 8:24:55 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5648, 1613, 0) in Trammel: "gold" "5000"
+4/30/2009 8:24:55 PM: 192.168.1.1: Serials: 0x40003521; 
+4/30/2009 8:25:10 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:25:11 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40003522 (BagOfNecroReagents)
+4/30/2009 8:25:11 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:25:12 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40003521 (Gold)
+4/30/2009 8:25:13 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:25:14 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x40003520 (Necstone)
+4/30/2009 8:29:24 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add don'
+4/30/2009 8:29:31 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5644, 1610, 0) in Trammel: "AG_BossLVLAddon"
+4/30/2009 8:29:31 PM: 192.168.1.1: Serials: 0x4000352E; 
+4/30/2009 8:29:34 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5651, 1620, 0) in Trammel: "AG_BossLVLAddon"
+4/30/2009 8:29:34 PM: 192.168.1.1: Serials: 0x40003749; 
+4/30/2009 8:29:38 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:29:38 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400058A3 (AddonComponent)
+4/30/2009 8:29:39 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:29:39 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x400036DB (AddonComponent)
+4/30/2009 8:29:41 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add don'
+4/30/2009 8:29:46 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5646, 1612, 0) in Trammel: "AG_DonsSmurfFortAddon"
+4/30/2009 8:29:46 PM: 192.168.1.1: Serials: 0x40005982; 
+4/30/2009 8:29:49 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:29:49 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x4000BD87 (AddonComponent)
+4/30/2009 8:30:13 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add necro'
+4/30/2009 8:30:30 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5650, 1613, 0) in Trammel: "Necromancer"
+4/30/2009 8:30:30 PM: 192.168.1.1: Serials: 0x112E; 
+4/30/2009 8:30:33 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:30:34 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x112E "Siobhan" (no account)
+4/30/2009 8:31:05 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'add OrcishNecromancer'
+4/30/2009 8:31:06 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') building at (5648, 1615, 0) in Trammel: "OrcishNecromancer"
+4/30/2009 8:31:06 PM: 192.168.1.1: Serials: 0x112F; 
+4/30/2009 8:31:13 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'remove '
+4/30/2009 8:31:13 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') deleting 0x112F "an orcish necromancer" (no account)
+##############################
+Log started on 4/30/2009 10:11:17 PM
+
+4/30/2009 10:15:25 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'motd '
+4/30/2009 10:15:29 PM: 192.168.1.1: Owner 0xF28 "GM Darky" ('Dreadfull') used command 'save '
+##############################
+Log started on 4/30/2009 10:42:39 PM
+
+4/30/2009 11:32:22 PM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'c '
+5/1/2009 12:08:42 AM: 98.176.160.60: Player 0xFB8 "Vox" ('goldy') used command 'chat '

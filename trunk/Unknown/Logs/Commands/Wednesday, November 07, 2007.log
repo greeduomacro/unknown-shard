@@ -1,0 +1,781 @@
+##############################
+Log started on 11/7/2007 7:12:56 AM
+
+11/7/2007 7:29:12 AM: 127.0.0.1: Player 0x30 "Dread" ('Despized') used command 'help '
+11/7/2007 7:37:28 AM: 127.0.0.1: Player 0x30 "Dread" ('Despized') used command 'help '
+11/7/2007 7:38:01 AM: 127.0.0.1: Player 0x30 "Dread" ('Despized') used command 'chat '
+11/7/2007 7:48:17 AM: 127.0.0.1: Player 0x30 "Dread" ('Despized') used command 'chat '
+11/7/2007 7:48:27 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'chat '
+##############################
+Log started on 11/7/2007 8:16:27 AM
+
+##############################
+Log started on 11/7/2007 6:22:19 PM
+
+11/7/2007 11:12:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/7/2007 11:14:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/7/2007 11:14:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3369, 2694, 19) in Trammel: "xmlspawner"
+11/7/2007 11:14:51 PM: 127.0.0.1: Serials: 0x4000028D; 
+11/7/2007 11:15:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : blackbear
+11/7/2007 11:15:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000028D (XmlSpawner) to '100'
+11/7/2007 11:16:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x4000028D (XmlSpawner) to '100'
+11/7/2007 11:16:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x4000028D (XmlSpawner) to '00:03:00'
+11/7/2007 11:16:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x4000028D (XmlSpawner) to '00:05:00'
+11/7/2007 11:17:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : chicken
+11/7/2007 11:17:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : eagle
+11/7/2007 11:17:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : whitewolf
+11/7/2007 11:18:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : cow
+11/7/2007 11:18:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : bull
+11/7/2007 11:18:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : cougar
+11/7/2007 11:18:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : panther
+11/7/2007 11:18:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : boar
+11/7/2007 11:18:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : bullfrog
+11/7/2007 11:19:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : goat
+11/7/2007 11:19:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : gorilla
+11/7/2007 11:19:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : greathart
+11/7/2007 11:19:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : hind
+11/7/2007 11:19:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000028D 'Spawner' [3369, 2694] (Trammel) : llama
+11/7/2007 11:19:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/7/2007 11:20:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x4000028D (XmlSpawner) (inBag=False; amount=1)
+11/7/2007 11:20:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x4000028D (XmlSpawner) creating 0x400002A2 (XmlSpawner)
+11/7/2007 11:20:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:28 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:28 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:20:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:26:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/7/2007 11:28:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/7/2007 11:28:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3530, 2685, 10) in Trammel: "xmlspawner"
+11/7/2007 11:28:07 PM: 127.0.0.1: Serials: 0x400002BD; 
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : blackbear
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : chicken
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : eagle
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : whitewolf
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : cow
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : bull
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : cougar
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : panther
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : boar
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : bullfrog
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : goat
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : gorilla
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : greathart
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : hind
+11/7/2007 11:29:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002BD 'Spawner' [3530, 2685] (Trammel) : llama
+11/7/2007 11:29:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x400002BD (XmlSpawner) to '00:05:00'
+11/7/2007 11:29:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x400002BD (XmlSpawner) to '00:03:00'
+11/7/2007 11:29:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400002BD (XmlSpawner) to '100'
+11/7/2007 11:30:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400002BD (XmlSpawner) to '100'
+11/7/2007 11:31:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/7/2007 11:31:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Felucca'
+11/7/2007 11:31:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 0'
+11/7/2007 11:31:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1304 1423 0'
+11/7/2007 11:32:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/7/2007 11:32:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/7/2007 11:32:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1304 1423 0'
+11/7/2007 11:32:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/7/2007 11:32:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1299, 1420, 0) in Trammel: "xmlspawner"
+11/7/2007 11:32:10 PM: 127.0.0.1: Serials: 0x400002E6; 
+11/7/2007 11:32:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x400002E6 (XmlSpawner) to '00:05:00'
+11/7/2007 11:32:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x400002E6 (XmlSpawner) to '00:03:00'
+11/7/2007 11:32:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400002E6 (XmlSpawner) to '100'
+11/7/2007 11:32:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400002E6 (XmlSpawner) to '100'
+11/7/2007 11:33:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : blackbear
+11/7/2007 11:33:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : chicken
+11/7/2007 11:33:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : eagle
+11/7/2007 11:33:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : whitewolf
+11/7/2007 11:33:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : cow
+11/7/2007 11:33:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : bull
+11/7/2007 11:34:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : cougar
+11/7/2007 11:34:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : panther
+11/7/2007 11:34:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : boar
+11/7/2007 11:34:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : bullfrog
+11/7/2007 11:34:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : goat
+11/7/2007 11:34:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : gorilla
+11/7/2007 11:34:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : greathart
+11/7/2007 11:34:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : hind
+11/7/2007 11:35:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002E6 'Spawner' [1299, 1420] (Trammel) : llama
+11/7/2007 11:35:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/7/2007 11:35:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'online '
+11/7/2007 11:35:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/7/2007 11:35:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/7/2007 11:35:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1322 2187 0'
+11/7/2007 11:35:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/7/2007 11:35:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1320, 2192, 0) in Trammel: "xmlspawner"
+11/7/2007 11:35:47 PM: 127.0.0.1: Serials: 0x400002FB; 
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : blackbear
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : chicken
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : eagle
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : whitewolf
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : cow
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : bull
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : cougar
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : panther
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : boar
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : bullfrog
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : goat
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : gorilla
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : greathart
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : hind
+11/7/2007 11:36:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400002FB 'Spawner' [1320, 2192] (Trammel) : llama
+11/7/2007 11:37:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x400002FB (XmlSpawner) to '00:03:00'
+11/7/2007 11:37:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x400002FB (XmlSpawner) to '00:05:00'
+11/7/2007 11:37:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400002FB (XmlSpawner) to '100'
+11/7/2007 11:37:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400002FB (XmlSpawner) to '100'
+11/7/2007 11:38:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/7/2007 11:38:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/7/2007 11:38:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/7/2007 11:38:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1594 2755 5'
+11/7/2007 11:38:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/7/2007 11:38:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1592, 2760, 5) in Trammel: "xmlspawner"
+11/7/2007 11:38:52 PM: 127.0.0.1: Serials: 0x40000310; 
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : blackbear
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : chicken
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : eagle
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : whitewolf
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : cow
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : bull
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : cougar
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : panther
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : boar
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : bullfrog
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : goat
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : gorilla
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : greathart
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : hind
+11/7/2007 11:39:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000310 'Spawner' [1592, 2760] (Trammel) : llama
+11/7/2007 11:39:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x40000310 (XmlSpawner) to '00:05:00'
+11/7/2007 11:40:00 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x40000310 (XmlSpawner) to '00:03:00'
+11/7/2007 11:40:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000310 (XmlSpawner) to '100'
+11/7/2007 11:40:13 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000310 (XmlSpawner) to '100'
+11/7/2007 11:40:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/7/2007 11:41:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 6:17:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:17:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:17:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3528 2472 13'
+11/8/2007 6:19:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 6:19:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3517, 2457, 35) in Trammel: "xmlspawner"
+11/8/2007 6:19:19 AM: 127.0.0.1: Serials: 0x40000415; 
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : blackbear
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : chicken
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : eagle
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : whitewolf
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : cow
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : bull
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : cougar
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : panther
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : boar
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : bullfrog
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : goat
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : gorilla
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : greathart
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : hind
+11/8/2007 6:21:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000415 'Spawner' [3517, 2457] (Trammel) : llama
+11/8/2007 6:21:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 6:32:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/8/2007 6:35:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000415 (XmlSpawner) to '100'
+11/8/2007 6:35:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x40000415 (XmlSpawner) to '00:02:00'
+11/8/2007 6:35:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x40000415 (XmlSpawner) to '00:05:00'
+11/8/2007 6:35:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000415 (XmlSpawner) to '100'
+11/8/2007 6:36:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 6:37:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:37:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:37:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3444 2736 49'
+11/8/2007 6:37:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:37:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:37:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3640 2840 54'
+11/8/2007 6:37:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 6:38:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (3647, 2848, 62) in Trammel: "xmlspawner"
+11/8/2007 6:38:01 AM: 127.0.0.1: Serials: 0x40000436; 
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : blackbear
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : chicken
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : eagle
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : whitewolf
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : cow
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : bull
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : cougar
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : panther
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : boar
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : bullfrog
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : goat
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : gorilla
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : greathart
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : hind
+11/8/2007 6:39:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000436 'Spawner' [3647, 2848] (Trammel) : llama
+11/8/2007 6:39:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000436 (XmlSpawner) to '100'
+11/8/2007 6:39:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x40000436 (XmlSpawner) to '00:02:00'
+11/8/2007 6:39:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x40000436 (XmlSpawner) to '00:05:00'
+11/8/2007 6:39:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000436 (XmlSpawner) to '100'
+11/8/2007 6:43:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:43:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:43:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 3664 2132 20'
+11/8/2007 6:43:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:43:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:43:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:43:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 4472 1264 0'
+11/8/2007 6:44:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 6:44:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 6:44:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (4494, 1279, 0) in Trammel: "xmlspawner"
+11/8/2007 6:44:24 AM: 127.0.0.1: Serials: 0x40000451; 
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : blackbear
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : chicken
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : eagle
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : whitewolf
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : cow
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : bull
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : cougar
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : panther
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : boar
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : bullfrog
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : goat
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : gorilla
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : greathart
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : hind
+11/8/2007 6:46:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000451 'Spawner' [4494, 1279] (Trammel) : llama
+11/8/2007 6:46:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000451 (XmlSpawner) to '100'
+11/8/2007 6:46:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x40000451 (XmlSpawner) to '00:02:00'
+11/8/2007 6:46:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x40000451 (XmlSpawner) to '00:05:00'
+11/8/2007 6:46:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000451 (XmlSpawner) to '100'
+11/8/2007 6:47:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 6:51:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:51:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:51:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 2856 424 15'
+11/8/2007 6:51:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 6:51:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2855, 421, 15) in Trammel: "xmlspawner"
+11/8/2007 6:51:42 AM: 127.0.0.1: Serials: 0x40000466; 
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : blackbear
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : chicken
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : eagle
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : whitewolf
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : cow
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : bull
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : cougar
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : panther
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : boar
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : bullfrog
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : goat
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : gorilla
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : greathart
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : hind
+11/8/2007 6:52:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000466 'Spawner' [2855, 421] (Trammel) : llama
+11/8/2007 6:52:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000466 (XmlSpawner) to '100'
+11/8/2007 6:52:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x40000466 (XmlSpawner) to '00:02:00'
+11/8/2007 6:53:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x40000466 (XmlSpawner) to '00:05:00'
+11/8/2007 6:53:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000466 (XmlSpawner) to '100'
+11/8/2007 6:54:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 6:54:16 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 6:54:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 6:54:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 6:54:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 2352 716 0'
+11/8/2007 6:54:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 6:54:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2351, 717, 0) in Trammel: "xmlspawner"
+11/8/2007 6:54:48 AM: 127.0.0.1: Serials: 0x40000481; 
+11/8/2007 6:55:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 6:55:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 6:55:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 6:55:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000481 (XmlSpawner)
+11/8/2007 6:55:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 6:55:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400002A2 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 6:55:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400002A2 (XmlSpawner) creating 0x40000482 (XmlSpawner)
+11/8/2007 7:05:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:14:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:15:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/8/2007 7:15:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 7:15:50 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x40000482 (XmlSpawner)
+11/8/2007 7:16:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 7:16:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1398, 1363, -90) in Malas: "xmlspawner"
+11/8/2007 7:16:01 AM: 127.0.0.1: Serials: 0x4000048F; 
+11/8/2007 7:16:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000048F (XmlSpawner) to '100'
+11/8/2007 7:16:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x4000048F (XmlSpawner) to '00:02:00'
+11/8/2007 7:16:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x4000048F (XmlSpawner) to '00:05:00'
+11/8/2007 7:16:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x4000048F (XmlSpawner) to '100'
+11/8/2007 7:16:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : blackbear
+11/8/2007 7:16:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : chicken
+11/8/2007 7:16:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : eagle
+11/8/2007 7:16:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : whitewolf
+11/8/2007 7:16:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : cow
+11/8/2007 7:17:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : bull
+11/8/2007 7:17:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : cougar
+11/8/2007 7:17:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : panther
+11/8/2007 7:17:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : boar
+11/8/2007 7:17:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : bullfrog
+11/8/2007 7:17:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : goat
+11/8/2007 7:17:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : gorilla
+11/8/2007 7:17:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : greathart
+11/8/2007 7:17:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : hind
+11/8/2007 7:17:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x4000048F 'Spawner' [1398, 1363] (Malas) : llama
+11/8/2007 7:18:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 7:18:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:18:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:19:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 7:19:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1254, 1230, -90) in Malas: "xmlspawner"
+11/8/2007 7:19:05 AM: 127.0.0.1: Serials: 0x400004A4; 
+11/8/2007 7:20:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : blackbear
+11/8/2007 7:20:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400004A4 (XmlSpawner) to '100'
+11/8/2007 7:20:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x400004A4 (XmlSpawner) to '00:02:00'
+11/8/2007 7:20:48 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x400004A4 (XmlSpawner) to '00:05:00'
+11/8/2007 7:20:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400004A4 (XmlSpawner) to '100'
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : chicken
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : eagle
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : whitewolf
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : cow
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : bull
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : cougar
+11/8/2007 7:21:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : panther
+11/8/2007 7:21:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : boar
+11/8/2007 7:21:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : bullfrog
+11/8/2007 7:21:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : goat
+11/8/2007 7:22:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : gorilla
+11/8/2007 7:22:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : greathart
+11/8/2007 7:22:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : hind
+11/8/2007 7:22:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004A4 'Spawner' [1254, 1230] (Malas) : llama
+11/8/2007 7:22:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 7:22:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:22:51 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'res '
+11/8/2007 7:22:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x4 "Briana" ('briana')
+11/8/2007 7:24:17 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 7:24:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1906, 1383, -90) in Malas: "xmlspawner"
+11/8/2007 7:24:19 AM: 127.0.0.1: Serials: 0x400004E1; 
+11/8/2007 7:24:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004E1 'Spawner' [1906, 1383] (Malas) : healer
+11/8/2007 7:24:45 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 7:24:46 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1856, 1337, -90) in Malas: "xmlspawner"
+11/8/2007 7:24:46 AM: 127.0.0.1: Serials: 0x400004F8; 
+11/8/2007 7:24:52 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Spawner' [1856, 1337] (Malas) : gypsy
+11/8/2007 7:25:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400004F8 (XmlSpawner) to '200'
+11/8/2007 7:25:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400004F8 (XmlSpawner) to '200'
+11/8/2007 7:25:21 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x400004F8 (XmlSpawner) to '00:05:00'
+11/8/2007 7:25:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x400004F8 (XmlSpawner) to '00:02:00'
+11/8/2007 7:25:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Spawner' [1856, 1337] (Malas) : wanderinghealer
+11/8/2007 7:28:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Spawner' [1856, 1337] (Malas) : harpy
+11/8/2007 7:28:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Spawner' [1856, 1337] (Malas) : lizardman
+11/8/2007 7:28:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : scorpion
+11/8/2007 7:29:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : gazer
+11/8/2007 7:29:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : boneknight
+11/8/2007 7:30:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : brigand
+11/8/2007 7:30:43 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : ettin
+11/8/2007 7:30:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : headlessone
+11/8/2007 7:31:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : mongbat
+11/8/2007 7:32:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : orc
+11/8/2007 7:32:26 AM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'where '
+11/8/2007 7:32:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : orcbomber
+11/8/2007 7:32:47 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : ratman
+11/8/2007 7:33:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400004F8 'Wandering1' [1856, 1337] (Malas) : zombie
+11/8/2007 7:33:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 7:33:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400004F8 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 7:33:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400004F8 (XmlSpawner) creating 0x400006DF (XmlSpawner)
+11/8/2007 7:33:42 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:37:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:40:49 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:40:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:41:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'go briana'
+11/8/2007 7:41:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'go name briana'
+11/8/2007 7:41:53 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:54 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:56 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:57 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:58 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:41:59 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:00 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:01 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:03 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:05 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:07 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:08 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:09 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:10 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:11 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:12 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:13 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:14 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:15 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:19 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 7:42:20 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400004F8 (XmlSpawner)
+11/8/2007 7:42:22 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:23 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:26 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:27 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:28 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:29 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:30 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:42:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/8/2007 7:43:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Malas'
+11/8/2007 7:43:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 3'
+11/8/2007 7:43:18 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1028 540 -70'
+11/8/2007 7:43:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'props '
+11/8/2007 7:44:06 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:44:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Malas'
+11/8/2007 7:44:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 3'
+11/8/2007 7:44:55 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1460 1292 -90'
+11/8/2007 7:45:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Malas'
+11/8/2007 7:45:24 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 3'
+11/8/2007 7:45:25 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1372 1236 -90'
+11/8/2007 7:45:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:31 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:32 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:33 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:34 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:35 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:36 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:37 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:38 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:39 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:40 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 7:45:44 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 7:46:02 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'res '
+11/8/2007 7:46:04 AM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') resurrecting 0x4 "Briana" ('briana')
+11/8/2007 7:01:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 7:01:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 7:04:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'help '
+11/8/2007 7:45:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 9:43:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 9:46:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add '
+11/8/2007 9:47:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Add HellSteed'
+11/8/2007 9:47:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1276, 1322, -90) in Malas: "HellSteed"
+11/8/2007 9:47:18 PM: 127.0.0.1: Serials: 0xD5C; 
+11/8/2007 9:48:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2990]'
+11/8/2007 9:48:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set color 2990'
+11/8/2007 9:48:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2990'
+11/8/2007 9:48:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x40000148 (Shirt) to '2990'
+11/8/2007 9:48:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2990'
+11/8/2007 9:48:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x40000149 (ShortPants) to '2990'
+11/8/2007 9:49:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2990'
+11/8/2007 9:49:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0xD5C "a hellsteed" (no account) to '2990'
+11/8/2007 9:49:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 9:49:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add deathshroud'
+11/8/2007 9:49:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1232, 1214, -90) in Malas: "deathshroud"
+11/8/2007 9:49:20 PM: 127.0.0.1: Serials: 0x40000A87; 
+11/8/2007 9:49:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'set hue 2990'
+11/8/2007 9:49:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'hue' of 0x40000A87 (DeathShroud) to '2990'
+11/8/2007 9:49:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:00:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:03:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:03:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0x400004E0 (DeathRobe)
+11/8/2007 10:04:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:06:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'chat '
+11/8/2007 10:10:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 10:10:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 10:10:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 4528 3688 41'
+11/8/2007 10:11:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:11:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x400002A2 (XmlSpawner) to (4526, 3689, 40)
+11/8/2007 10:11:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400002A2 (XmlSpawner) to '100'
+11/8/2007 10:12:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD74 "a great hart" (no account)
+11/8/2007 10:12:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD7C "a goat" (no account)
+11/8/2007 10:12:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD7E "a boar" (no account)
+11/8/2007 10:12:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD7B "a black bear" (no account)
+11/8/2007 10:12:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD90 "a hind" (no account)
+11/8/2007 10:12:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD78 "a black bear" (no account)
+11/8/2007 10:12:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD94 "a bull" (no account)
+11/8/2007 10:12:13 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:13 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD95 "a great hart" (no account)
+11/8/2007 10:12:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:14 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD82 "a great hart" (no account)
+11/8/2007 10:12:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD80 "a black bear" (no account)
+11/8/2007 10:12:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD99 "a bull" (no account)
+11/8/2007 10:12:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'remove '
+11/8/2007 10:12:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') deleting 0xD6B "a cow" (no account)
+11/8/2007 10:12:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:12:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400002A2 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:12:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400002A2 (XmlSpawner) creating 0x40000B00 (XmlSpawner)
+11/8/2007 10:13:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:07 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'where '
+11/8/2007 10:13:07 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:10 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:13:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:13:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000B00 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:13:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000B00 (XmlSpawner) creating 0x40000B07 (XmlSpawner)
+11/8/2007 10:13:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:13:24 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000B07 (XmlSpawner) to (4605, 3449, 20)
+11/8/2007 10:13:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000B07 (XmlSpawner) to '100'
+11/8/2007 10:14:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'go 1678 1482 -110'
+11/8/2007 10:14:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:14:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspaner'
+11/8/2007 10:14:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 10:14:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1669, 1512, -110) in Malas: "xmlspawner"
+11/8/2007 10:14:45 PM: 127.0.0.1: Serials: 0x40000B1C; 
+11/8/2007 10:15:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000B1C (XmlSpawner) to '50'
+11/8/2007 10:15:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000B1C (XmlSpawner) to '50'
+11/8/2007 10:15:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B1C 'Spawner' [1669, 1512] (Malas) : brigand
+11/8/2007 10:15:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B1C 'Spawner' [1669, 1512] (Malas) : gypsy
+11/8/2007 10:15:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'where '
+11/8/2007 10:16:42 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'where '
+11/8/2007 10:17:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 10:17:03 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (1726, 1456, -110) in Malas: "xmlspawner"
+11/8/2007 10:17:03 PM: 127.0.0.1: Serials: 0x40000B86; 
+11/8/2007 10:17:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000B86 (XmlSpawner) to '100'
+11/8/2007 10:17:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000B86 (XmlSpawner) to '100'
+11/8/2007 10:18:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : antlion
+11/8/2007 10:18:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : redsolenwarrior
+11/8/2007 10:19:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : blacksolenwarrior
+11/8/2007 10:19:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : blacksolenqueen
+11/8/2007 10:19:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : redsolenqueen
+11/8/2007 10:20:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : giantblackwidow
+11/8/2007 10:20:28 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x40000B86 'Desert1' [1726, 1456] (Malas) : terathandrone
+11/8/2007 10:20:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:20:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000B86 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:20:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000B86 (XmlSpawner) creating 0x40000BCD (XmlSpawner)
+11/8/2007 10:20:57 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:20:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000BCD (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:20:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000BCD (XmlSpawner) creating 0x40000BCE (XmlSpawner)
+11/8/2007 10:21:02 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:21:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000BCE (XmlSpawner) to (1765, 1500, -110)
+11/8/2007 10:21:15 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000BCE (XmlSpawner) to '100'
+11/8/2007 10:21:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:21:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000BCD (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:21:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000BCD (XmlSpawner) creating 0x40000C16 (XmlSpawner)
+11/8/2007 10:21:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:21:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000C16 (XmlSpawner) to (1909, 1612, -110)
+11/8/2007 10:21:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000C16 (XmlSpawner) to '100'
+11/8/2007 10:22:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:22:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000BCD (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:22:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000BCD (XmlSpawner) creating 0x40000C61 (XmlSpawner)
+11/8/2007 10:22:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:22:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400006DF (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:22:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400006DF (XmlSpawner) creating 0x40000C63 (XmlSpawner)
+11/8/2007 10:22:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:22:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000C63 (XmlSpawner) to (1924, 1735, -110)
+11/8/2007 10:22:50 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000C63 (XmlSpawner) to '200'
+11/8/2007 10:22:58 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:23:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000C61 (XmlSpawner) to (1915, 1743, -110)
+11/8/2007 10:23:11 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000C61 (XmlSpawner) to '100'
+11/8/2007 10:23:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:22 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:24 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:27 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:28 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:33 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:35 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:37 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:38 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:42 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:43 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:46 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:23:51 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:23:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000BCD (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:23:55 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000BCD (XmlSpawner) creating 0x40000E80 (XmlSpawner)
+11/8/2007 10:23:56 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:23:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400006DF (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:23:59 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400006DF (XmlSpawner) creating 0x40000E81 (XmlSpawner)
+11/8/2007 10:24:01 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:24:04 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000E80 (XmlSpawner) to (1602, 1826, -110)
+11/8/2007 10:24:06 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:24:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x40000E81 (XmlSpawner) to (1595, 1827, -110)
+11/8/2007 10:24:19 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000E81 (XmlSpawner) to '200'
+11/8/2007 10:24:39 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000E80 (XmlSpawner) to '100'
+11/8/2007 10:24:48 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'save '
+11/8/2007 10:24:52 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:25:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:25:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40000B00 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:25:31 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40000B00 (XmlSpawner) creating 0x400010A0 (XmlSpawner)
+11/8/2007 10:25:36 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:25:41 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x400010A0 (XmlSpawner) to (1313, 1784, -110)
+11/8/2007 10:25:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400010A0 (XmlSpawner) to '100'
+11/8/2007 10:26:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:29:25 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:29:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400006DF (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:29:26 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400006DF (XmlSpawner) creating 0x40001119 (XmlSpawner)
+11/8/2007 10:29:28 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:29:30 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x400006DF (XmlSpawner) to (1458, 1406, -90)
+11/8/2007 10:29:40 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400006DF (XmlSpawner) to '200'
+11/8/2007 10:30:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 10:30:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 10:30:20 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 2880 3504 10'
+11/8/2007 10:30:23 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'tele '
+11/8/2007 10:30:45 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'add xmlspawner'
+11/8/2007 10:30:47 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') building at (2787, 3493, 0) in Trammel: "xmlspawner"
+11/8/2007 10:30:47 PM: 127.0.0.1: Serials: 0x400012EC; 
+11/8/2007 10:30:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:31:08 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x400012EC (XmlSpawner) to '100'
+11/8/2007 10:31:12 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MinDelay' of 0x400012EC (XmlSpawner) to '00:02:00'
+11/8/2007 10:31:18 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'MaxDelay' of 0x400012EC (XmlSpawner) to '00:05:00'
+11/8/2007 10:31:24 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'HomeRange' of 0x400012EC (XmlSpawner) to '100'
+11/8/2007 10:31:36 PM: 68.187.149.252: Player 0x4 "Briana" ('briana') used command 'chat what the fuck... stupid panther'
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : gorilla
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : sheep
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : slime
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : lizardman
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : harpy
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : gianttoad
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : giantserpent
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : snake
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : giantrat
+11/8/2007 10:34:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') added to XmlSpawner 0x400012EC 'Jungle1' [2787, 3493] (Trammel) : bird
+11/8/2007 10:34:53 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:34:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x400012EC (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:34:54 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x400012EC (XmlSpawner) creating 0x40001319 (XmlSpawner)
+11/8/2007 10:35:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'map' of 0x3 "Jesus" ('Dreadfull') to 'Trammel'
+11/8/2007 10:35:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Self Set map 1'
+11/8/2007 10:35:05 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'Go 1936 3360 10'
+11/8/2007 10:35:09 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:35:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duping 0x40001319 (XmlSpawner) (inBag=False; amount=1)
+11/8/2007 10:35:16 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') duped 0x40001319 (XmlSpawner) creating 0x4000131E (XmlSpawner)
+11/8/2007 10:35:17 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'move '
+11/8/2007 10:35:21 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') moving 0x4000131E (XmlSpawner) to (1932, 3360, 10)
+11/8/2007 10:35:29 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'dupe '
+11/8/2007 10:35:34 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000131E (XmlSpawner) to '100'
+11/8/2007 10:35:49 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:36:32 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '
+11/8/2007 10:38:44 PM: 127.0.0.1: Owner 0x3 "Jesus" ('Dreadfull') used command 'admin '

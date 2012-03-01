@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - GuildDiplomacyGump</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Guilds.html">Back to Server.Guilds</a></h4>
+      <h2>GuildDiplomacyGump : <a href="BaseGuildListGump`11.html">BaseGuildListGump`1</a></h2>
+<h4>Derived Types: <a href="AllianceRosterGump.html">AllianceRosterGump</a></h4>
+<h4>Nested Types: <a href="AbbrevComparer.html">AbbrevComparer</a>, <a href="NameComparer.html">NameComparer</a>, <a href="StatusComparer.html">StatusComparer</a></h4>
+      (<font color="blue">ctor</font>) GuildDiplomacyGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g )<br>
+      (<font color="blue">ctor</font>) GuildDiplomacyGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g, IComparer`1 currentComparer, <font color="blue">bool</font> ascending, <font color="blue">string</font> filter, <font color="blue">int</font> startNumber, <a href="GuildDisplayType.html">GuildDisplayType</a> display )<br>
+      (<font color="blue">ctor</font>) GuildDiplomacyGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g, <font color="blue">bool</font> ascending, <font color="blue">string</font> filter, <font color="blue">int</font> startNumber, List`1 list, <a href="TextDefinition.html">TextDefinition</a> lowerText )<br>
+      (<font color="blue">ctor</font>) GuildDiplomacyGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g, IComparer`1 currentComparer, <font color="blue">bool</font> ascending, <font color="blue">string</font> filter, <font color="blue">int</font> startNumber, List`1 list, <a href="TextDefinition.html">TextDefinition</a> lowerText )<br>
+      (<font color="blue">ctor</font>) GuildDiplomacyGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g, IComparer`1 currentComparer, <font color="blue">bool</font> ascending, <font color="blue">string</font> filter, <font color="blue">int</font> startNumber, <a href="GuildDisplayType.html">GuildDisplayType</a> display, List`1 list, <a href="TextDefinition.html">TextDefinition</a> lowerText )<br>
+      <font color="blue">bool</font> AllowAdvancedSearch( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> WillFilter( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> AdvancedSearch_Callback( <a href="GuildDisplayType.html">GuildDisplayType</a> display )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DrawEndingEntry( <font color="blue">int</font> itemNumber )<br>
+      <font color="blue">virtual</font> <a href="Gump.html">Gump</a> GetObjectInfoGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g, <a href="Guild.html">Guild</a> o )<br>
+      <font color="blue">virtual</font> <a href="Gump.html">Gump</a> GetResentGump( <a href="PlayerMobile.html">PlayerMobile</a> pm, <a href="Guild.html">Guild</a> g, IComparer`1 comparer, <font color="blue">bool</font> ascending, <font color="blue">string</font> filter, <font color="blue">int</font> startNumber )<br>
+      <font color="blue">virtual</font> <a href="TextDefinition.html">TextDefinition</a>[] GetValuesFor( <a href="Guild.html">Guild</a> g, <font color="blue">int</font> aryLength )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HasRelationship( <a href="Guild.html">Guild</a> g )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsFiltered( <a href="Guild.html">Guild</a> g, <font color="blue">string</font> filter )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnResponse( <a href="NetState.html">NetState</a> sender, <a href="RelayInfo.html">RelayInfo</a> info )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> PopulateGump()<br>
+   </body>
+</html>

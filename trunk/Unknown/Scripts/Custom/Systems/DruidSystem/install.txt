@@ -1,0 +1,13 @@
+Installation Instructions
+
+in the modified folders are scripts that should either replace your distro files or if yours are modified they should be merged with your files.
+
+\scripts\spells\base\spellregistry.cs
+\scripts\spells\base\initializer.cs
+\scripts\spells\base\reagent.cs
+\scripts\items\skill items\magical\spellbook.cs
+
+
+all other files should be placed in to your \scripts\custom directory
+
+then simply restart your shard and enjoy

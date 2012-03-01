@@ -1,0 +1,10 @@
+04/25/2009
+04:10AM
+
+1. Reduced the weight of ore so that players can carry more.
+2. Added maxitems/maxweight to players backpack to be more based on stats vs original UO.
+3. Tweaked some of the Settings for player advancement.  Very minor.
+4. Fixed some bugs if not all of the bugs with the samurai beginner quest thanks to the help of Vox.
+5. New server is fine tuned and quite operational.  I would say it is around a 174% increase in performance.  also went from 500max online host to 1000max online host. So I can support that many players at once.
+
+GM Darky

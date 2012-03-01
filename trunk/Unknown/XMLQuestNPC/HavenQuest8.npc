@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="yes"?>
+<XmlQuestNPC>
+  <NPC>
+    <Name>HavenQuest8</Name>
+    <Running>True</Running>
+    <ProximityRange>4</ProximityRange>
+    <AllowGhost>False</AllowGhost>
+    <SpeechPace>5</SpeechPace>
+    <ResetTime>1</ResetTime>
+    <ConfigFile>HavenQuest8</ConfigFile>
+    <SpeechEntries>6</SpeechEntries>
+  </NPC>
+  <SpeechEntry>
+    <EntryNumber>10</EntryNumber>
+    <ID>10</ID>
+    <Text>Hello!</Text>
+    <Condition>~GETONCARRIED,HavenQuest8,Visible=true</Condition>
+    <DependsOn>-2</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>20</EntryNumber>
+    <ID>20</ID>
+    <Text>Would you like to do something for me?</Text>
+    <Keywords>hi, Hi, Hello, Hail, Good day</Keywords>
+    <DependsOn>10</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>30</EntryNumber>
+    <ID>30</ID>
+    <Keywords>yes</Keywords>
+    <DependsOn>20</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>30</SpeechHue>
+    <Gump>GUMP,HavenQuest8,4/Will you bring me 100 logs in 30 minutes for a reward?;yes;ok</Gump>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>40</EntryNumber>
+    <ID>40</ID>
+    <Keywords>ok</Keywords>
+    <DependsOn>30</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+    <Gump>GUMP,HavenQuest8,3/You must bring me 100 logs in 30 mintes to get the reward.</Gump>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>50</EntryNumber>
+    <ID>50</ID>
+    <Keywords>accept</Keywords>
+    <Action>GIVE/&lt;questholder/expiration/0.5/name/HavenQuest8/notestring/I love wood so much no one loves wood more then me./objective1/COLLECT,Log,100/autoreward/true/rewardstring/@bag/ADD/bankcheck,1000/ADD/&lt;levelaxe/name/HavenSlayer/hue/302&gt;</Action>
+    <DependsOn>40</DependsOn>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>False</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+  <SpeechEntry>
+    <EntryNumber>0</EntryNumber>
+    <ID>0</ID>
+    <Pause>1</Pause>
+    <PrePause>-1</PrePause>
+    <LockConversation>True</LockConversation>
+    <IgnoreCarried>False</IgnoreCarried>
+    <AllowNPCTrigger>False</AllowNPCTrigger>
+    <SpeechStyle>Regular</SpeechStyle>
+    <SpeechHue>-1</SpeechHue>
+  </SpeechEntry>
+<SpeechEntry>
+   <EntryNumber>0</EntryNumber>
+   <ID>0</ID>
+   <Text>You are currently doing a quest.</Text>
+   <Condition>GETONCARRIED,HavenQuest8,Visible=true</Condition>
+   <DependsOn>-2</DependsOn>
+   <Pause>1</Pause>
+   <PrePause>-1</PrePause>
+   <LockConversation>True</LockConversation>
+   <IgnoreCarried>False</IgnoreCarried>
+   <AllowNPCTrigger>False</AllowNPCTrigger>
+   <SpeechStyle>Regular</SpeechStyle>
+   <SpeechHue>-1</SpeechHue>
+ </SpeechEntry>
+</XmlQuestNPC>

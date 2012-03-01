@@ -1,0 +1,9 @@
+05/07/2009
+10:03PM
+
+1. Started scripting the first portion of the Orcish Quest.
+2. Started working on the itemid bugs with crafted and store bought items.
+3. Still trying to fine tune the stat gain.  Since I have not seen any dex or int gains.
+4. Any quests that you have completed and recieved everything please report on the forums so that I know that the quest is 100% working.
+
+GM Darky

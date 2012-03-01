@@ -1,0 +1,13 @@
+Fisher Quest
+
+This is another small quest, but a nice easy addition to a shard. A player goes to the Provisioner shop in Britain, Trammel. On the east side of that shop ([go 1483 1669 0) you will find (if you used distro decoration) fish and fish steaks. The player finds a Legendary Fisher that an administrator spawned in that area.
+
+The player is sent on a quest to find a Theiving Serpentine. The Theiving Serpentine is located by two water holes ([go 1457 2432 0) in Trammel. After defeating the Theiving Serpentine, the player returns to the Legendary Fisher with a Golden Fish.
+
+After dropping the Golden Fish onto the Legendary Fisher, the player will receive one of 6 different items of clothing. Each item of clothing has a +20 Fishing. There is also a 10% chance for the player to receive a +5 to +20 fishing powerscroll. They will receive 1 or 6 pieces of Special Fishing clothing every time completed, however they only have a 10% chance to receive the powerscroll.
+
+This quest is probibly not of any value for shards that allow players to GM all skills. However, for those that do not, this is a great quest. This will allow a player, even with all their skill points filled, to fish at 20 to 120 skill points. This means that you will offer your players something new to do. And, it does not take away from their skill points to do it.
+
+Please feel free to customize any of the quest files to best suit your shard's needs.
+
+*UPDATE*: I have added a auto generator command. After placing your files, use the command [genfishingquest to have the script place the mobiles in their proper location.

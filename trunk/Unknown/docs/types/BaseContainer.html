@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseContainer</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BaseContainer : <a href="Container.html">Container</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="Armoire.html">Armoire</a>, <a href="Backpack.html">Backpack</a>, <a href="Bag.html">Bag</a>, <a href="Barrel.html">Barrel</a>, <a href="BaseBagBall.html">BaseBagBall</a>, <a href="BaseDecorationContainerArtifact.html">BaseDecorationContainerArtifact</a>, <a href="BaseQuiver.html">BaseQuiver</a>, <a href="Basket.html">Basket</a>, <a href="CherryArmoire.html">CherryArmoire</a>, <a href="Drawer.html">Drawer</a>, <a href="ElegantArmoire.html">ElegantArmoire</a>, <a href="EmptyBookcase.html">EmptyBookcase</a>, <a href="FancyArmoire.html">FancyArmoire</a>, <a href="FancyDrawer.html">FancyDrawer</a>, <a href="FullBookcase.html">FullBookcase</a>, <a href="GiftBox.html">GiftBox</a>, <a href="Keg.html">Keg</a>, <a href="MapleArmoire.html">MapleArmoire</a>, <a href="PackingBox.html">PackingBox</a>, <a href="PicnicBasket.html">PicnicBasket</a>, <a href="RedArmoire.html">RedArmoire</a>, <a href="ResourceBox.html">ResourceBox</a>, <a href="ShortCabinet.html">ShortCabinet</a>, <a href="StrongBox.html">StrongBox</a>, <a href="TallCabinet.html">TallCabinet</a>, <a href="TrapableContainer.html">TrapableContainer</a>, <a href="TrickOrTreatBag.html">TrickOrTreatBag</a></h4>
+      (<font color="blue">ctor</font>) BaseContainer( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) BaseContainer( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">int</font> DefaultMaxWeight( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckHold( <a href="Mobile.html">Mobile</a> m, <a href="Item.html">Item</a> item, <font color="blue">bool</font> message, <font color="blue">bool</font> checkItems, <font color="blue">int</font> plusItems, <font color="blue">int</font> plusWeight )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsAccessibleTo( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDropInto( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> item, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Open( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> TryDropItem( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped, <font color="blue">bool</font> sendFullMessage )<br>
+   </body>
+</html>

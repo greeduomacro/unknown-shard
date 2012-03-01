@@ -1,0 +1,15 @@
+04/30/2009
+10:15PM
+
+1. Tested the afkchecker on myself. All the player has to do is enter in the letter/number combination and it doesn't change.  Once you do it your fine.
+2. Finished writing the storyline of the next big chain quest.  Over 8 pages of story in a book I wrote.
+3. Edited the gains for Dex and Int.  They should be more noticable.  It seems like players have been mainly gaining str.
+4. Added new ItemID system that makes everything that you loot unidentified.  Adds to the RP effect and gives use to ItemID.
+5. Added around 25 more npcs with necro abilities for future quests.  They are not spawned yet.
+6. Added and tested out a necro stone to get reagents from. They Will be around the world.
+7. Added a bunch of housing addons that are going to be event related.
+8. Working on and testing out a Necro Vendor.
+9. Tested our the BlackLich which will also be used on later quests.
+10. Making a purpose of bola balls. :)
+
+GM Darky

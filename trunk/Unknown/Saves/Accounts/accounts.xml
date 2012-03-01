@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<accounts count="8">
+	<account>
+		<username>Dreadfull</username>
+		<newCryptPassword>E4-82-2B-16-6D-FE-D9-68-69-5E-95-47-D4-CD-3E-BC-A1-7C-FF-33</newCryptPassword>
+		<accessLevel>Owner</accessLevel>
+		<flags>2</flags>
+		<created>2007-10-25T06:39:23.078125-05:00</created>
+		<lastLogin>2011-05-12T20:40:34.6167963-05:00</lastLogin>
+		<totalGameTime>P5DT7H26M0.6063874S</totalGameTime>
+		<chars>
+			<char index="0">3880</char>
+		</chars>
+		<tags>
+			<tag name="motd">false</tag>
+			<tag name="CommandToolbar">Props|M Tele|Move|M Delete|Wipe|Who|Add|Normal|true|true</tag>
+			<tag name="ChatName">Dread</tag>
+		</tags>
+		<addressList count="7">
+			<ip>127.0.0.1</ip>
+			<ip>192.168.1.102</ip>
+			<ip>192.168.1.100</ip>
+			<ip>192.168.1.1</ip>
+			<ip>173.17.179.222</ip>
+			<ip>10.0.3.2</ip>
+			<ip>10.0.2.2</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>gillgalad</username>
+		<newCryptPassword>92-BB-B4-39-19-31-F2-0D-5F-0B-6C-C0-7A-79-6C-35-C8-70-FF-31</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-02-26T20:52:16.4523364-06:00</created>
+		<lastLogin>2009-03-25T23:02:31.3714285-05:00</lastLogin>
+		<totalGameTime>PT10H36M48.1909945S</totalGameTime>
+		<chars>
+			<char index="0">4355</char>
+		</chars>
+		<tags>
+			<tag name="motd">false</tag>
+		</tags>
+		<addressList count="1">
+			<ip>24.179.199.243</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>wolfv</username>
+		<newCryptPassword>B2-0A-9F-F0-29-56-99-E3-F7-D3-75-0A-68-8D-5E-31-5C-60-7B-A6</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-03-08T10:07:11.494232-05:00</created>
+		<lastLogin>2009-04-17T19:49:58.9210915-05:00</lastLogin>
+		<totalGameTime>P1DT14H33M38.0581132S</totalGameTime>
+		<chars>
+			<char index="0">4639</char>
+			<char index="1">7927</char>
+		</chars>
+		<comments>
+			<comment addedBy="AFK Checker" lastModified="2009-03-29T02:11:23.717569-05:00">3/29/2009 2:11:23 AM AFK Check-Wolfane: Passed! Retries=2/5 Seconds=60/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-29T02:11:37.271389-05:00">3/29/2009 2:11:37 AM AFK Check-Wolfane: **Failed** Retries=5/5 Seconds=70/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-29T02:11:42.3238-05:00">3/29/2009 2:11:42 AM AFK Check-Wolfane: **Failed** Retries=5/5 Seconds=74/90</comment>
+			<comment addedBy="System" lastModified="2009-04-03T04:13:43.3508055-05:00">Character #1 0xF3F "Wolfv" deleted by 173.18.30.228</comment>
+		</comments>
+		<tags>
+			<tag name="ChatName">wolfv</tag>
+			<tag name="motd">false</tag>
+			<tag name="LastAFKCheck">3/29/2009 2:10:08 AM</tag>
+			<tag name="LastAFKCheckBy">GM Darky</tag>
+			<tag name="numRewardsChosen">3</tag>
+		</tags>
+		<addressList count="3">
+			<ip>173.18.30.228</ip>
+			<ip>192.168.1.100</ip>
+			<ip>192.168.1.1</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>goldy</username>
+		<newCryptPassword>FC-C1-42-DA-0C-74-B8-A8-65-8A-8E-37-41-56-3C-B3-9D-00-EE-94</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-03-14T13:18:19.8594319-05:00</created>
+		<lastLogin>2009-05-11T22:49:26.3378496-05:00</lastLogin>
+		<totalGameTime>P3DT3H21M43.3100657S</totalGameTime>
+		<chars>
+			<char index="0">4024</char>
+			<char index="1">4612</char>
+			<char index="2">11059</char>
+		</chars>
+		<comments>
+			<comment addedBy="System" lastModified="2009-04-20T13:27:07.2079702-05:00">Character #2 0x23E6 "Valdan" deleted by 98.176.160.60</comment>
+		</comments>
+		<tags>
+			<tag name="numRewardsChosen">3</tag>
+			<tag name="motd">false</tag>
+		</tags>
+		<addressList count="3">
+			<ip>72.197.145.156</ip>
+			<ip>72.197.138.190</ip>
+			<ip>98.176.160.60</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>xtowers</username>
+		<newCryptPassword>94-98-92-93-76-3F-A0-53-40-3A-B2-AF-03-F9-0A-AF-01-7F-64-9D</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-03-25T15:46:55.7258575-05:00</created>
+		<lastLogin>2009-05-05T21:48:50.5326409-05:00</lastLogin>
+		<totalGameTime>P1DT10H15M58.1139014S</totalGameTime>
+		<chars>
+			<char index="0">6930</char>
+			<char index="1">4593</char>
+		</chars>
+		<comments>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.7906045-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.799393-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8003695-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.801346-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8023225-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8042755-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8042755-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=1/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.805252-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8062285-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.807205-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8081815-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=1/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.813064-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.815017-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8159935-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.81697-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8179465-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8198995-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.820876-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8218525-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.822829-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8335705-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8335705-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8355235-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8365-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8374765-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.838453-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8394295-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.840406-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8413825-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=1/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.842359-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.8433355-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-03-25T16:40:45.844312-05:00">3/25/2009 4:40:45 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8196547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8236547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8246547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8246547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8246547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8256547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8256547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8266547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8266547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8266547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8276547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8276547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8276547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8286547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8286547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8296547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8296547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8306547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8306547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8316547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8316547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8326547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8396547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8396547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8406547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8406547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8406547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8416547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8416547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8426547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8426547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T15:37:49.8426547-05:00">4/29/2009 3:37:49 PM AFK Check-Xtowers: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:38:45.7580996-05:00">4/29/2009 9:38:45 PM AFK Check-Xtowers: Passed! Retries=0/5 Seconds=46/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:39:10.7220914-05:00">4/29/2009 9:39:10 PM AFK Check-Xtowers: Passed! Retries=2/5 Seconds=65/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:39:34.0302521-05:00">4/29/2009 9:39:34 PM AFK Check-Xtowers: Passed! Retries=1/5 Seconds=83/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:39:52.3179089-05:00">4/29/2009 9:39:52 PM AFK Check-Xtowers: **Failed** Retries=3/5 Seconds=95/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:39:52.3189091-05:00">4/29/2009 9:39:52 PM AFK Check-Xtowers: **Failed** Retries=3/5 Seconds=95/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:39:57.2108873-05:00">4/29/2009 9:39:57 PM AFK Check-Xtowers: **Failed** Retries=2/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-04-29T21:39:57.2113874-05:00">4/29/2009 9:39:57 PM AFK Check-Xtowers: **Failed** Retries=1/5 Seconds=100/90</comment>
+		</comments>
+		<tags>
+			<tag name="ChatName">xtowers</tag>
+			<tag name="motd">false</tag>
+			<tag name="LastAFKCheck">4/29/2009 9:37:44 PM</tag>
+			<tag name="LastAFKCheckBy">GM Darky</tag>
+			<tag name="numRewardsChosen">3</tag>
+		</tags>
+		<addressList count="3">
+			<ip>75.168.235.109</ip>
+			<ip>97.116.15.86</ip>
+			<ip>75.168.238.152</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>Despized</username>
+		<newCryptPassword>91-46-74-88-91-8F-4A-49-68-AE-65-50-47-49-5A-F4-18-51-8E-CE</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-03-25T17:05:35.0448955-05:00</created>
+		<lastLogin>2011-05-12T04:23:28.9626339-05:00</lastLogin>
+		<totalGameTime>P1DT10H54M25.2086516S</totalGameTime>
+		<chars>
+			<char index="0">7404</char>
+		</chars>
+		<comments>
+			<comment addedBy="AFK Checker" lastModified="2009-04-30T18:52:23.5526076-05:00">4/30/2009 6:52:23 PM AFK Check-DirtyDuckling: Passed! Retries=0/5 Seconds=11/90</comment>
+		</comments>
+		<tags>
+			<tag name="motd">false</tag>
+			<tag name="numRewardsChosen">3</tag>
+			<tag name="LastAFKCheck">4/30/2009 6:52:07 PM</tag>
+			<tag name="LastAFKCheckBy">GM Darky</tag>
+		</tags>
+		<addressList count="3">
+			<ip>127.0.0.1</ip>
+			<ip>192.168.1.1</ip>
+			<ip>10.0.2.2</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>sunfiregt</username>
+		<newCryptPassword>29-4D-C5-85-F9-89-A0-A5-C2-02-25-53-7C-FF-0B-40-C1-FF-C6-3C</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-05-01T15:52:32.3688728-05:00</created>
+		<lastLogin>2009-05-03T16:40:31.5166328-05:00</lastLogin>
+		<totalGameTime>PT9H57M55.860125S</totalGameTime>
+		<chars>
+			<char index="0">4102</char>
+			<char index="1">11076</char>
+			<char index="2">11214</char>
+			<char index="3">15833</char>
+			<char index="4">16021</char>
+		</chars>
+		<tags>
+			<tag name="motd">false</tag>
+		</tags>
+		<addressList count="1">
+			<ip>67.191.179.99</ip>
+		</addressList>
+	</account>
+	<account>
+		<username>globalwar</username>
+		<newCryptPassword>E4-3C-96-31-6A-AA-C0-1A-52-C4-14-7E-D5-1E-02-62-E1-AD-82-4F</newCryptPassword>
+		<flags>2</flags>
+		<created>2009-05-08T22:21:44.4134509-05:00</created>
+		<lastLogin>2009-05-12T01:01:51.9788496-05:00</lastLogin>
+		<totalGameTime>PT11H11M41.186474S</totalGameTime>
+		<chars>
+			<char index="0">4082</char>
+		</chars>
+		<comments>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:43:06.7098496-05:00">5/11/2009 12:43:06 PM AFK Check-Globalwar: Passed! Retries=1/5 Seconds=53/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:43:25.4498496-05:00">5/11/2009 12:43:25 PM AFK Check-Globalwar: Passed! Retries=2/5 Seconds=68/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:03.5568496-05:00">5/11/2009 12:44:03 PM AFK Check-Globalwar: Passed! Retries=0/5 Seconds=98/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:03.7518496-05:00">5/11/2009 12:44:03 PM AFK Check-Globalwar: **Failed** Retries=2/5 Seconds=97/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:03.7528496-05:00">5/11/2009 12:44:03 PM AFK Check-Globalwar: **Failed** Retries=2/5 Seconds=97/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1378496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1378496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1388496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1388496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1398496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1398496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1398496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1398496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=0/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1408496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=1/5 Seconds=100/90</comment>
+			<comment addedBy="AFK Checker" lastModified="2009-05-11T12:44:06.1408496-05:00">5/11/2009 12:44:06 PM AFK Check-Globalwar: **Failed** Retries=1/5 Seconds=100/90</comment>
+		</comments>
+		<tags>
+			<tag name="LastAFKCheck">5/11/2009 12:42:00 PM</tag>
+			<tag name="LastAFKCheckBy">GM Darky</tag>
+		</tags>
+		<addressList count="1">
+			<ip>65.184.132.41</ip>
+		</addressList>
+	</account>
+</accounts>

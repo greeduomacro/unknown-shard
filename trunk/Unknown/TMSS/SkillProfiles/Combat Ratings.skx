@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMSkillProfile Name="Combat Ratings">
+	<Stats Ena="True" Frc="True" Sum="300" Str="300" Dex="300" Int="300" />
+	<Gumps Man="False" Use="True" Icn="5585" />
+	<Skills Ena="True" Pts="700" Frc="True" Key="True" CEn="False" CSm="20" WEn="True" Cnt="7" />
+	<SkillInfo skn="Archery" skv="100" ske="True" skw="1" skc="10" ski="31" />
+	<SkillInfo skn="Fencing" skv="100" ske="True" skw="1" skc="10" ski="42" />
+	<SkillInfo skn="Mace Fighting" skv="100" ske="True" skw="1" skc="10" ski="41" />
+	<SkillInfo skn="Parrying" skv="100" ske="True" skw="1" skc="10" ski="5" />
+	<SkillInfo skn="Swordsmanship" skv="100" ske="True" skw="1" skc="10" ski="40" />
+	<SkillInfo skn="Tactics" skv="100" ske="True" skw="1" skc="10" ski="27" />
+	<SkillInfo skn="Wrestling" skv="100" ske="True" skw="1" skc="10" ski="43" />
+</TMSkillProfile>

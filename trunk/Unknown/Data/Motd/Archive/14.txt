@@ -1,0 +1,8 @@
+04/13/2009
+06:11 PM
+
+1. Fixed Britain and Haven Quests 1-10.  Bug that would allow a player to have multiple quest books instead of just one.  Which would allow players to do  the quest once with 10 books and reap the rewards for only doing it once.
+2. Some prep work on relocating when the new server is built.
+3. Updated the list on the forums showing what players can make ingame. Tailoring is nearly finished.  Just have to put the materials.
+
+GM Darky

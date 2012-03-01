@@ -1,0 +1,20 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - QuestItem</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.Quests.html">Back to Server.Engines.Quests</a></h4>
+      <h2>QuestItem : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="EminosKatana.html">EminosKatana</a>, <a href="EnchantedPaints.html">EnchantedPaints</a>, <a href="HaochisKatana.html">HaochisKatana</a>, <a href="KronusScroll.html">KronusScroll</a>, <a href="NoteForZoel.html">NoteForZoel</a>, <a href="QuestDaemonBlood.html">QuestDaemonBlood</a>, <a href="QuestDaemonBone.html">QuestDaemonBone</a>, <a href="QuestFertileDirt.html">QuestFertileDirt</a>, <a href="SchmendrickScrollOfPower.html">SchmendrickScrollOfPower</a>, <a href="ScrollOfAbraxus.html">ScrollOfAbraxus</a></h4>
+      (<font color="blue">ctor</font>) QuestItem( <font color="blue">int</font> itemID )<br>
+      (<font color="blue">ctor</font>) QuestItem( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> Accepted( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanDrop( <a href="PlayerMobile.html">PlayerMobile</a> pm )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DropToItem( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> target, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DropToMobile( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DropToWorld( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <a href="DeathMoveResult.html">DeathMoveResult</a> OnParentDeath( <a href="Mobile.html">Mobile</a> parent )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

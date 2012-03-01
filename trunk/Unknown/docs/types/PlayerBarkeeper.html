@@ -1,0 +1,50 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - PlayerBarkeeper</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>PlayerBarkeeper : <a href="BaseVendor.html">BaseVendor</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a>, <a href="IVendor.html">IVendor</a></h2>
+      (<font color="blue">ctor</font>) PlayerBarkeeper( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) PlayerBarkeeper( <a href="Mobile.html">Mobile</a> owner, <a href="BaseHouse.html">BaseHouse</a> house )<br>
+      <font color="blue">bool</font> DisallowAllMoves( <font color="blue">get</font>; )<br>
+      <a href="BaseHouse.html">BaseHouse</a> House( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsActiveBuyer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsActiveSeller( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> NoHouseRestrictions( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Owner( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BarkeeperRumor.html">BarkeeperRumor</a>[] Rumors( <font color="blue">get</font>; )<br>
+      ArrayList SBInfos( <font color="blue">get</font>; )<br>
+      <a href="VendorShoeType.html">VendorShoeType</a> ShoeType( <font color="blue">get</font>; )<br>
+      <font color="blue">string</font> TipMessage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">void</font> BeginChangeAppearance( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> BeginChangeRumor( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> BeginChangeTip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> BeginChangeTitle( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> BeginManagement( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> CancelChangeTitle( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> ChangeGender( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckGold( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> Dismiss()<br>
+      <font color="blue">void</font> EndChangeKeyword( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> index, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> EndChangeRumor( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> index, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> EndChangeTip( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> EndChangeTitle( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> title, <font color="blue">bool</font> vendor )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> GetGender()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitBody()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitOutfit()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> InitSBInfo()<br>
+      <font color="blue">bool</font> IsOwner( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnBeforeDeath()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">void</font> RemoveRumor( <a href="Mobile.html">Mobile</a> from, <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> RemoveTip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> ShoutNews_Callback( <font color="blue">object</font> state )<br>
+      <font color="blue">void</font> UpgradeFromVersion0()<br>
+   </body>
+</html>

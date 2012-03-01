@@ -1,0 +1,34 @@
+3/4/2009
+1:00AM
+
+1. Added 1-7 Britain Newbie Quests.  Ready for testing.
+2. Added around 1600 new spawners which makes the world total mobiles over 30,000.
+3. Constructed a lot of the items for the upcoming elemental quests.
+4. Scripted Bucs Den Quests 1-3.
+5. Scripted Moonglows Quests 1-3.
+6. Added a lot of the Original UO Quests all around the world.
+7. All areas should be spawned accordingly now.
+8. Added special Naughty Wench.
+9. Added Webstone.
+10. Added full working piano.  Will be tested and possibly housable.
+11. Added some items for holloween.
+12. Testing out a new help menu by [helpme.
+13. Added trick and treat system for Holloween.
+14. Added FULL AoS Artifact suits/items.
+15. Added 3 christmas rares.
+16. Added new party radar system, to better see party members.
+17. Added big screen tv to rare house decor.
+18. Working on server bestiary site.  Which backbones in the server and displays ALL information on every monster in the server with alphabetical order.
+19. Added a few more ingame board games that UO is known for.
+20. Added sleepable beds that can be purchased.
+21. Added 8 player Bomberman game.
+22. Added Monster Nests to the Scripts.
+23. Added a ridable flying griffon.
+24. Added working cannons that do damage to housing.
+25. Added instance based raid dungeon system.  I will be adding plenty of dungeons.
+26. Added guards that can be killed.  To be easier on city raids.
+27. Added player government system.  Allowing players to actually control how cities are run to an extent.  Also allowing city wars or guilds to have certain guilds on KOS listings.
+
+
+GM Jesus
+Owner/Admin

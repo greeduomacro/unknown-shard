@@ -1,0 +1,43 @@
+3/2/2009
+8:35PM
+
+Restarted the server for the following additions.
+
+1. [mystat command for players to show some detailed information on your character.  I am still working on the background image and text color so it is a work in progress.
+
+2. Added a giant ship addon that players can own.
+
+3. Added 14 new ridable mounts that require the tiledata.mul file from the forums to be used.
+
+4. Fixed bugs with backpack of reduction.  Backpack that reduces the weight of items.
+
+5. Added Bank Token, event item. allows you to access your bank anywhere in the world.  Has a limit of charges.
+
+6. Also added bag of sending allows you to send items in your backpack to your bank.  Also has limited charges.
+
+7. Added "what is my status" command.  type it exactly as prompted.  It tells you creation date of your character.  Online time total.  And your current total online time for this current session.
+
+8. Added 6 more different reagents into the system.
+
+9. Added housing advertising, it has not been tested yet.
+
+10. Added Peerless system and all the items/quests required for it.
+
+11. Will be placing suggestion boxes in each town and 10 quests per down for basic beginner quests.
+
+12. Added ferret pet that loots items for you and talks to you among other things.
+
+13. Added some evolution enemies and evolution pets.
+
+14. Added werewolves to ridable pets.
+
+15. Added stat Potions. For event rewards.
+
+16. Added Ultima Online Housing adds for easier purchasing and selling of Housing. Also added them to the architect npc to be bought by users.
+
+17. [getpet command added which allows players to go to your pet for a feee if you loose it.
+
+That is all for today.
+
+GM Jesus
+Admin

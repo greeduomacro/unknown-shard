@@ -1,0 +1,91 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseBoat</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Multis.html">Back to Server.Multis</a></h4>
+      <h2>BaseBoat : <a href="BaseMulti.html">BaseMulti</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="LargeBoat.html">LargeBoat</a>, <a href="LargeDragonBoat.html">LargeDragonBoat</a>, <a href="MediumBoat.html">MediumBoat</a>, <a href="MediumDragonBoat.html">MediumDragonBoat</a>, <a href="SmallBoat.html">SmallBoat</a>, <a href="SmallDragonBoat.html">SmallDragonBoat</a></h4>
+<h4>Nested Types: <a href="DecayTimer2.html">DecayTimer</a>, <a href="DryDockResult.html">DryDockResult</a>, <a href="MoveTimer.html">MoveTimer</a>, <a href="TurnTimer.html">TurnTimer</a>, <a href="UpdateAllTimer.html">UpdateAllTimer</a></h4>
+      (<font color="blue">static</font>) ArrayList Boats( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> EventSink_WorldSave( <a href="WorldSaveEventArgs.html">WorldSaveEventArgs</a> e )<br>
+      (<font color="blue">static</font>) <a href="BaseBoat.html">BaseBoat</a> FindBoatAt( <a href="IPoint2D.html">IPoint2D</a> loc, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) <a href="Rectangle2D.html">Rectangle2D</a>[] GetWrapFor( <a href="Map.html">Map</a> m )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> IsValidLocation( <a href="Point3D.html">Point3D</a> p, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> UpdateAllComponents()<br>
+      (<font color="blue">ctor</font>) BaseBoat()<br>
+      (<font color="blue">ctor</font>) BaseBoat( <a href="Serial.html">Serial</a> serial )<br>
+      <font color="blue">bool</font> Anchored( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseDockedBoat.html">BaseDockedBoat</a> DockedBoat( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> EastID( <font color="blue">get</font>; )<br>
+      <a href="Direction.html">Direction</a> Facing( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HandlesOnSpeech( <font color="blue">get</font>; )<br>
+      <a href="Hold.html">Hold</a> Hold( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> HoldDistance( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsMoving( <font color="blue">get</font>; )<br>
+      <a href="MapItem.html">MapItem</a> MapItem( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> MarkOffset( <font color="blue">get</font>; )<br>
+      <a href="Direction.html">Direction</a> Moving( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NextNavPoint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NorthID( <font color="blue">get</font>; )<br>
+      <a href="BoatOrder.html">BoatOrder</a> Order( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> Owner( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point2D.html">Point2D</a> PortOffset( <font color="blue">get</font>; )<br>
+      <a href="Plank.html">Plank</a> PPlank( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ShipName( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> SouthID( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Speed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Plank.html">Plank</a> SPlank( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point2D.html">Point2D</a> StarboardOffset( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Status( <font color="blue">get</font>; )<br>
+      <a href="TillerMan.html">TillerMan</a> TillerMan( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> TillerManDistance( <font color="blue">get</font>; )<br>
+      DateTime TimeOfDecay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> WestID( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> AssociateMap( <a href="MapItem.html">MapItem</a> map )<br>
+      <font color="blue">void</font> BeginDryDock( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> BeginRename( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> CanCommand( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">bool</font> CanFit( <a href="Point3D.html">Point3D</a> p, <a href="Map.html">Map</a> map, <font color="blue">int</font> itemID )<br>
+      <font color="blue">bool</font> CheckDecay()<br>
+      <a href="DryDockResult.html">DryDockResult</a> CheckDryDock( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">bool</font> CheckKey( <font color="blue">uint</font> keyValue )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Contains( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">uint</font> CreateKeys( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">bool</font> DoMovement( <font color="blue">bool</font> message )<br>
+      <font color="blue">void</font> EndDryDock( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> EndRename( <a href="Mobile.html">Mobile</a> from, <font color="blue">string</font> newName )<br>
+      <a href="Point3D.html">Point3D</a> GetMarkedLocation()<br>
+      <a href="Direction.html">Direction</a> GetMovementFor( <font color="blue">int</font> x, <font color="blue">int</font> y, <font color="blue">out</font> <font color="blue">int</font> maxSpeed )<br>
+      <a href="Point3D.html">Point3D</a> GetRotatedLocation( <font color="blue">int</font> x, <font color="blue">int</font> y )<br>
+      <font color="blue">void</font> GiveName( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> GiveNavPoint()<br>
+      <font color="blue">bool</font> LowerAnchor( <font color="blue">bool</font> message )<br>
+      <font color="blue">bool</font> Move( <a href="Direction.html">Direction</a> dir, <font color="blue">int</font> speed, <font color="blue">bool</font> message )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">bool</font> OneMove( <a href="Direction.html">Direction</a> dir )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> old )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMapChange()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">bool</font> RaiseAnchor( <font color="blue">bool</font> message )<br>
+      <font color="blue">void</font> Refresh()<br>
+      <font color="blue">void</font> RemoveKeys( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> RemoveName( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> Rename( <font color="blue">string</font> newName )<br>
+      <a href="Point3D.html">Point3D</a> Rotate( <a href="Point3D.html">Point3D</a> p, <font color="blue">int</font> count )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">bool</font> SetFacing( <a href="Direction.html">Direction</a> facing )<br>
+      <font color="blue">void</font> SetName( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">bool</font> StartCourse( <font color="blue">bool</font> single, <font color="blue">bool</font> message )<br>
+      <font color="blue">bool</font> StartCourse( <font color="blue">string</font> navPoint, <font color="blue">bool</font> single, <font color="blue">bool</font> message )<br>
+      <font color="blue">bool</font> StartMove( <a href="Direction.html">Direction</a> dir, <font color="blue">bool</font> fast )<br>
+      <font color="blue">bool</font> StartMove( <a href="Direction.html">Direction</a> dir, <font color="blue">int</font> speed, TimeSpan interval, <font color="blue">bool</font> single, <font color="blue">bool</font> message )<br>
+      <font color="blue">bool</font> StartTurn( <font color="blue">int</font> offset, <font color="blue">bool</font> message )<br>
+      <font color="blue">bool</font> StopMove( <font color="blue">bool</font> message )<br>
+      <font color="blue">void</font> Teleport( <font color="blue">int</font> xOffset, <font color="blue">int</font> yOffset, <font color="blue">int</font> zOffset )<br>
+      <font color="blue">bool</font> Turn( <font color="blue">int</font> offset, <font color="blue">bool</font> message )<br>
+      <font color="blue">void</font> UpdateComponents()<br>
+   </body>
+</html>

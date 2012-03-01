@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - InhumanSpeech</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Misc.html">Back to Server.Misc</a></h4>
+      <h2>InhumanSpeech</h2>
+      (<font color="blue">static</font>) <a href="InhumanSpeech.html">InhumanSpeech</a> Lizardman( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <a href="InhumanSpeech.html">InhumanSpeech</a> Orc( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <a href="InhumanSpeech.html">InhumanSpeech</a> Ratman( <font color="blue">get</font>; )<br>
+      (<font color="blue">static</font>) <a href="InhumanSpeech.html">InhumanSpeech</a> Wisp( <font color="blue">get</font>; )<br>
+      (<font color="blue">ctor</font>) InhumanSpeech()<br>
+      <a href="IHSFlags.html">IHSFlags</a> Flags( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Hue( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font>[] Keywords( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font>[] Responses( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font>[] Syllables( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">string</font> ConstructSentance( <font color="blue">int</font> wordCount )<br>
+      <font color="blue">string</font> ConstructWord( <font color="blue">int</font> syllableCount )<br>
+      <font color="blue">string</font> GetRandomResponseWord( ArrayList keywordsFound )<br>
+      <font color="blue">string</font> GetRandomSyllable()<br>
+      <font color="blue">void</font> OnConstruct( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">void</font> OnDamage( <a href="Mobile.html">Mobile</a> mob, <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> OnDeath( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> mob, <a href="Mobile.html">Mobile</a> mover, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">bool</font> OnSpeech( <a href="Mobile.html">Mobile</a> mob, <a href="Mobile.html">Mobile</a> speaker, <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> SayRandomTranslate( <a href="Mobile.html">Mobile</a> mob, <font color="blue">string</font>[] sentancesInEnglish )<br>
+      <font color="blue">void</font> SaySentance( <a href="Mobile.html">Mobile</a> mob, <font color="blue">int</font> wordCount )<br>
+   </body>
+</html>

@@ -1,0 +1,236 @@
+##############################
+Log started on 2/26/2009 7:52:28 PM
+
+##############################
+Log started on 2/26/2009 7:57:00 PM
+
+##############################
+Log started on 2/26/2009 8:01:11 PM
+
+2/26/2009 8:03:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:03:13 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:03:18 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:03:19 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:03:21 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:03:22 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:03:22 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:07:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'motd '
+2/26/2009 8:07:50 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'motd '
+2/26/2009 8:11:55 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'motd '
+2/26/2009 8:13:58 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') changed XmlSpawner 0x400006AF 'HindQuest' [3668, 2471] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/HavenQuest1/loadconfig/true to xmlquestnpc,1/talktext/hi/configfile/HavenQuest1/loadconfig/true
+2/26/2009 8:19:08 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add ironingot'
+2/26/2009 8:19:10 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3666, 2475, 0) in Trammel: "ironingot"
+2/26/2009 8:19:10 PM: 127.0.0.1: Serials: 0x40000164; 
+2/26/2009 8:19:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 8:19:12 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000164 (IronIngot)
+2/26/2009 8:23:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:21 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:22 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:22 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:24 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:24 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:40 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') changed XmlSpawner 0x40000767 'BoarQuest' [3606, 2487] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/HavenQuest2/loadconfig/true to xmlquestnpc,1/talktext/hi/configfile/HavenQuest2/loadconfig/true
+2/26/2009 8:23:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:23:55 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') changed XmlSpawner 0x400003C4 'HavenQuest3' [3611, 2522] (Trammel) : xmlquestnpc,1/talktext/yes/configfile/HavenQuest3/loadconfig/true to xmlquestnpc,1/talktext/hi/configfile/HavenQuest3/loadconfig/true
+2/26/2009 8:24:45 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'where '
+2/26/2009 8:25:57 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'map' of 0x3 "GM Jesus" ('Dreadfull') to 'Trammel'
+2/26/2009 8:25:57 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Self Set map 1'
+2/26/2009 8:25:57 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Go 3703 2530 0'
+2/26/2009 8:26:10 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:26:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3696, 2522, 0) in Trammel: "xmlspawner"
+2/26/2009 8:26:11 PM: 127.0.0.1: Serials: 0x40000200; 
+2/26/2009 8:26:18 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000200 (XmlSpawner) to '1'
+2/26/2009 8:26:24 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000200 (XmlSpawner) to '1'
+2/26/2009 8:26:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'map' of 0x3 "GM Jesus" ('Dreadfull') to 'Trammel'
+2/26/2009 8:26:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Self Set map 1'
+2/26/2009 8:26:40 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Go 3615 2519 0'
+2/26/2009 8:26:51 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'map' of 0x3 "GM Jesus" ('Dreadfull') to 'Trammel'
+2/26/2009 8:26:51 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Self Set map 1'
+2/26/2009 8:26:51 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Go 3608 2489 0'
+2/26/2009 8:27:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'map' of 0x3 "GM Jesus" ('Dreadfull') to 'Trammel'
+2/26/2009 8:27:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Self Set map 1'
+2/26/2009 8:27:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Go 3668 2476 0'
+2/26/2009 8:27:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'map' of 0x3 "GM Jesus" ('Dreadfull') to 'Trammel'
+2/26/2009 8:27:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Self Set map 1'
+2/26/2009 8:27:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Go 3699 2525 0'
+2/26/2009 8:27:46 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 8:27:47 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000200 (XmlSpawner)
+2/26/2009 8:27:58 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3621 2552 0'
+2/26/2009 8:28:04 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:28:05 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3620, 2553, 0) in Trammel: "xmlspawner"
+2/26/2009 8:28:05 PM: 127.0.0.1: Serials: 0x40000201; 
+2/26/2009 8:28:18 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000201 (XmlSpawner) to '1'
+2/26/2009 8:28:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000201 (XmlSpawner) to '1'
+2/26/2009 8:28:56 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x40000201 'HavenQuest4' [3620, 2553] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest4/loadconfig true
+2/26/2009 8:29:09 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') changed XmlSpawner 0x40000201 'HavenQuest4' [3620, 2553] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest4/loadconfig true to xmlquestnpc,1/talktext/hi/configfile/HavenQuest4/loadconfig/true
+2/26/2009 8:29:27 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3623 2624 0'
+2/26/2009 8:29:30 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:29:32 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3622, 2625, 0) in Trammel: "xmlspawner"
+2/26/2009 8:29:32 PM: 127.0.0.1: Serials: 0x40000215; 
+2/26/2009 8:29:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000215 (XmlSpawner) to '1'
+2/26/2009 8:29:49 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000215 (XmlSpawner) to '1'
+2/26/2009 8:30:31 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x40000215 'HavenQuest5' [3622, 2625] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest5/loadconfig/true
+2/26/2009 8:30:50 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3680 2625 0'
+2/26/2009 8:30:53 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:30:55 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3681, 2625, 0) in Trammel: "xmlspawner"
+2/26/2009 8:30:55 PM: 127.0.0.1: Serials: 0x4000021D; 
+2/26/2009 8:31:13 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000021D (XmlSpawner) to '1'
+2/26/2009 8:31:17 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x4000021D (XmlSpawner) to '1'
+2/26/2009 8:31:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x4000021D 'HavenQuest6' [3681, 2625] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest6/loadconfig/true
+2/26/2009 8:31:59 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3701 2580 0'
+2/26/2009 8:32:02 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tele '
+2/26/2009 8:32:12 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:32:14 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3700, 2579, 20) in Trammel: "xmlspawner"
+2/26/2009 8:32:14 PM: 127.0.0.1: Serials: 0x4000022E; 
+2/26/2009 8:32:27 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000022E (XmlSpawner) to '1'
+2/26/2009 8:32:30 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x4000022E (XmlSpawner) to '1'
+2/26/2009 8:32:54 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x4000022E 'HavenQuest7' [3700, 2579] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest7/loadconfig/true
+2/26/2009 8:33:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3665 2560 0'
+2/26/2009 8:33:18 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:33:19 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3664, 2561, 0) in Trammel: "xmlspawner"
+2/26/2009 8:33:19 PM: 127.0.0.1: Serials: 0x40000239; 
+2/26/2009 8:33:34 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000239 (XmlSpawner) to '1'
+2/26/2009 8:33:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000239 (XmlSpawner) to '1'
+2/26/2009 8:34:03 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x40000239 'HavenQuest8' [3664, 2561] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest8/loadconfig/true
+2/26/2009 8:34:08 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+2/26/2009 8:34:27 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3703 2517 0'
+2/26/2009 8:34:31 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:34:32 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3704, 2518, 0) in Trammel: "xmlspawner"
+2/26/2009 8:34:32 PM: 127.0.0.1: Serials: 0x40000241; 
+2/26/2009 8:34:53 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x40000241 (XmlSpawner) to '1'
+2/26/2009 8:34:58 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x40000241 (XmlSpawner) to '1'
+2/26/2009 8:48:17 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add fletchertools'
+2/26/2009 8:48:19 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3703, 2517, 0) in Trammel: "fletchertools"
+2/26/2009 8:48:19 PM: 127.0.0.1: Serials: 0x40000248; 
+2/26/2009 8:48:28 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set uses 100'
+2/26/2009 8:48:34 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'props '
+2/26/2009 8:48:50 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set UsesRemaining 100'
+2/26/2009 8:48:53 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'UsesRemaining' of 0x40000248 (FletcherTools) to '100'
+2/26/2009 8:48:55 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 8:48:56 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000248 (FletcherTools)
+2/26/2009 8:49:46 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3665 2560 0'
+2/26/2009 8:51:07 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+2/26/2009 8:51:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'admin '
+2/26/2009 8:51:24 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting account blujmh
+2/26/2009 8:51:30 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting account briana
+2/26/2009 8:51:35 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting account Despized
+2/26/2009 8:51:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting account k-hound
+2/26/2009 8:51:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting account pyachthead
+2/26/2009 8:51:47 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting account selchow3
+2/26/2009 8:52:04 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') adding new account: briana
+2/26/2009 8:52:16 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') adding new account: gillgalad
+2/26/2009 8:52:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+2/26/2009 8:54:31 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3703 2517 0'
+2/26/2009 8:57:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add leatherchest'
+2/26/2009 8:57:21 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3704, 2517, 0) in Trammel: "leatherchest"
+2/26/2009 8:57:21 PM: 127.0.0.1: Serials: 0x4000025C; 
+2/26/2009 8:57:22 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 8:57:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x4000025C (LeatherChest)
+2/26/2009 8:58:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x40000241 'HavenQuest9' [3704, 2518] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest9/loadconfig/true
+2/26/2009 8:58:36 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3665 2560 0'
+2/26/2009 8:58:48 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+2/26/2009 8:59:04 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3682 2655 0'
+2/26/2009 8:59:09 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 8:59:12 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3683, 2654, 0) in Trammel: "xmlspawner"
+2/26/2009 8:59:12 PM: 127.0.0.1: Serials: 0x4000026C; 
+2/26/2009 8:59:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'SpawnRange' of 0x4000026C (XmlSpawner) to '1'
+2/26/2009 8:59:28 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'HomeRange' of 0x4000026C (XmlSpawner) to '1'
+2/26/2009 9:02:19 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add '
+2/26/2009 9:02:54 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelbroadsword'
+2/26/2009 9:02:56 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3682, 2656, 0) in Trammel: "levelbroadsword"
+2/26/2009 9:02:56 PM: 127.0.0.1: Serials: 0x40000273; 
+2/26/2009 9:03:00 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:03:00 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000273 (LevelBroadsword)
+2/26/2009 9:04:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add levelbroadsword'
+2/26/2009 9:04:12 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (3683, 2655, 0) in Trammel: "levelbroadsword"
+2/26/2009 9:04:12 PM: 127.0.0.1: Serials: 0x40000275; 
+2/26/2009 9:04:22 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2964'
+2/26/2009 9:04:26 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x40000275 (LevelBroadsword) to '2964'
+2/26/2009 9:04:30 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:04:32 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000275 (LevelBroadsword)
+2/26/2009 9:05:11 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x4000026C 'HavenQuest10' [3683, 2654] (Trammel) : xmlquestnpc,1/talktext/hi/configfile/HavenQuest10/loadconfig/true
+2/26/2009 9:05:17 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+##############################
+Log started on 2/26/2009 9:07:38 PM
+
+2/26/2009 9:10:52 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 1715 1064 0'
+2/26/2009 9:11:41 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Add ThinStoneWall'
+2/26/2009 9:11:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (1734, 1060, 0) in Trammel: "ThinStoneWall"
+2/26/2009 9:12:38 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'TileZ 0 static 87 set movable False hue 0 light {light}'
+2/26/2009 9:12:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building from (1736, 1059, 0) to (1737, 1067, 0) in Trammel: "static" "87" "set" "movable" "False" "hue" "0" "light" "{light}"
+2/26/2009 9:12:42 PM: 127.0.0.1: Serials: 0x400000E7; 0x400000E8; 0x400000E9; 0x400000EA; 0x400000EB; 0x400000EC; 0x400000ED; 0x400000F1; 0x400000F4; 0x4000013C; 0x4000013D; 0x4000013E; 0x4000013F; 0x40000140; 0x40000141; 0x40000142; 0x40000143; 0x40000144; 
+2/26/2009 9:13:21 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tile hue 0300'
+2/26/2009 9:13:27 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building from (1733, 1067, 5) to (1735, 1070, 20) in Trammel: "hue" "0300"
+2/26/2009 9:13:30 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tile hue 0300'
+2/26/2009 9:13:33 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building from (1730, 1068, 0) to (1732, 1069, 7) in Trammel: "hue" "0300"
+2/26/2009 9:13:34 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tile hue 0300'
+2/26/2009 9:13:36 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building from (1730, 1059, 0) to (1740, 1068, 2) in Trammel: "hue" "0300"
+2/26/2009 9:13:47 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'wipe '
+2/26/2009 9:13:50 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') wiping from (1729, 1059, 0) to (1741, 1068, 2) in Trammel (Items, Mobiles)
+2/26/2009 9:14:33 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'Inc X 300 Y -300'
+2/26/2009 9:14:51 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 1715 1064 0'
+2/26/2009 9:15:29 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'TileZ 0 static 87 set movable False hue 1 light {light}'
+2/26/2009 9:15:36 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building from (1735, 1059, 0) to (1737, 1067, 0) in Trammel: "static" "87" "set" "movable" "False" "hue" "1" "light" "{light}"
+2/26/2009 9:15:36 PM: 127.0.0.1: Serials: 0x4000014D; 0x4000014F; 0x40000150; 0x40000151; 0x40000152; 0x40000153; 0x40000154; 0x40000155; 0x40000156; 0x40000158; 0x40000159; 0x4000015A; 0x4000015B; 0x4000015C; 0x4000015D; 0x4000015E; 0x4000015F; 0x40000160; 0x40000161; 0x40000162; 0x40000163; 0x40000164; 0x40000165; 0x40000166; 0x40000167; 0x4000016B; 0x4000016C; 
+2/26/2009 9:15:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000161 (Static)
+2/26/2009 9:15:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:40 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000162 (Static)
+2/26/2009 9:15:40 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:40 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000163 (Static)
+2/26/2009 9:15:41 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:41 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000164 (Static)
+2/26/2009 9:15:41 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:41 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000165 (Static)
+2/26/2009 9:15:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000166 (Static)
+2/26/2009 9:15:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x4000016B (Static)
+2/26/2009 9:15:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x40000167 (Static)
+2/26/2009 9:15:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:15:44 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x4000016C (Static)
+2/26/2009 9:17:25 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 3770 1308 0'
+2/26/2009 9:17:35 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go haven'
+2/26/2009 9:17:37 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'where '
+2/26/2009 9:18:27 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go 1715 1064 0'
+2/26/2009 9:19:02 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add jailteleporter'
+2/26/2009 9:19:03 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (1723, 1061, 0) in Trammel: "jailteleporter"
+2/26/2009 9:19:03 PM: 127.0.0.1: Serials: 0x4000016D; 
+2/26/2009 9:19:27 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'set hue 2964'
+2/26/2009 9:19:29 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') set property 'hue' of 0x4000016D (JailTeleporter) to '2964'
+2/26/2009 9:19:45 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add jailslavedriver'
+2/26/2009 9:19:47 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (1722, 1067, 0) in Trammel: "jailslavedriver"
+2/26/2009 9:19:47 PM: 127.0.0.1: Serials: 0x2; 
+2/26/2009 9:19:57 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'remove '
+2/26/2009 9:19:58 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') deleting 0x2 "Nelek" (no account)
+2/26/2009 9:20:01 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'add xmlspawner'
+2/26/2009 9:20:02 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building at (1723, 1064, 0) in Trammel: "xmlspawner"
+2/26/2009 9:20:02 PM: 127.0.0.1: Serials: 0x40000178; 
+2/26/2009 9:20:15 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') added to XmlSpawner 0x40000178 'Jailer' [1723, 1064] (Trammel) : JailSlaveDriver
+2/26/2009 9:20:52 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'tile set name Jail'
+2/26/2009 9:20:56 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') building from (1731, 1059, 2) to (1739, 1068, 2) in Trammel: "set" "name" "Jail"
+2/26/2009 9:21:06 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+2/26/2009 9:21:09 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'go haven'
+2/26/2009 10:09:00 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload peerlessmap.xml'
+2/26/2009 10:09:20 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload PeerlessMap.xml'
+##############################
+Log started on 2/26/2009 10:39:33 PM
+
+2/26/2009 10:40:59 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload PeerlessMap.xml'
+2/26/2009 10:41:47 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload PeerlessMap.xml'
+2/26/2009 10:45:28 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload MalasPeerless.xml'
+2/26/2009 10:45:53 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload TramPeerless.xml'
+2/26/2009 10:46:12 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload IlsPeerless.xml'
+2/26/2009 10:46:25 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload IlshPeerless.xml'
+2/26/2009 10:46:39 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'xmlload FelPeerless.xml'
+2/26/2009 10:46:43 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+2/26/2009 10:47:42 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'motd '
+2/26/2009 10:50:23 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'motd '
+2/26/2009 10:50:32 PM: 127.0.0.1: Owner 0x3 "GM Jesus" ('Dreadfull') used command 'save '
+##############################
+Log started on 2/26/2009 11:12:18 PM
+

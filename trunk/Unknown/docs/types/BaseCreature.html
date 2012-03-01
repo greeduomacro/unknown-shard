@@ -1,0 +1,414 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BaseCreature</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Mobiles.html">Back to Server.Mobiles</a></h4>
+      <h2>BaseCreature : <a href="Mobile.html">Mobile</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a>, <a href="IHonorTarget.html">IHonorTarget</a></h2>
+<h4>Derived Types: <a href="Abomination.html">Abomination</a>, <a href="abscess.html">abscess</a>, <a href="Abscess1.html">Abscess</a>, <a href="AbysmalHorror.html">AbysmalHorror</a>, <a href="ACoil.html">ACoil</a>, <a href="Actor.html">Actor</a>, <a href="ADryad.html">ADryad</a>, <a href="AgapiteElemental.html">AgapiteElemental</a>, <a href="AHydra.html">AHydra</a>, <a href="AirElemental.html">AirElemental</a>, <a href="ALadyJennifyr.html">ALadyJennifyr</a>, <a href="Alligator.html">Alligator</a>, <a href="AMasterJonath.html">AMasterJonath</a>, <a href="Aminia.html">Aminia</a>, <a href="AncientLich.html">AncientLich</a>, <a href="AncientTreefellow.html">AncientTreefellow</a>, <a href="AncientWyrm.html">AncientWyrm</a>, <a href="AntLion.html">AntLion</a>, <a href="APutrefier.html">APutrefier</a>, <a href="ArcaneDaemon.html">ArcaneDaemon</a>, <a href="Archambeau.html">Archambeau</a>, <a href="ArcticOgreLord.html">ArcticOgreLord</a>, <a href="Artist.html">Artist</a>, <a href="ASaliva.html">ASaliva</a>, <a href="ATangle.html">ATangle</a>, <a href="AThrasher.html">AThrasher</a>, <a href="BaCaw.html">BaCaw</a>, <a href="BakeKitsune.html">BakeKitsune</a>, <a href="Balron.html">Balron</a>, <a href="BaseBioCreature.html">BaseBioCreature</a>, <a href="BaseCannonGuard.html">BaseCannonGuard</a>, <a href="BaseChampion.html">BaseChampion</a>, <a href="BaseEscortable.html">BaseEscortable</a>, <a href="BaseFactionGuard.html">BaseFactionGuard</a>, <a href="BaseFamiliar.html">BaseFamiliar</a>, <a href="BaseHire.html">BaseHire</a>, <a href="BaseMount.html">BaseMount</a>, <a href="BaseShieldGuard.html">BaseShieldGuard</a>, <a href="BaseVendor.html">BaseVendor</a>, <a href="BBC.html">BBC</a>, <a href="Betrayer.html">Betrayer</a>, <a href="BioCreature.html">BioCreature</a>, <a href="Bird.html">Bird</a>, <a href="BlackBear.html">BlackBear</a>, <a href="BlackLich.html">BlackLich</a>, <a href="BlackSolenInfiltratorQueen.html">BlackSolenInfiltratorQueen</a>, <a href="BlackSolenInfiltratorWarrior.html">BlackSolenInfiltratorWarrior</a>, <a href="BlackSolenQueen.html">BlackSolenQueen</a>, <a href="BlackSolenWarrior.html">BlackSolenWarrior</a>, <a href="BlackSolenWorker.html">BlackSolenWorker</a>, <a href="BladeSpirits.html">BladeSpirits</a>, <a href="BloodElemental.html">BloodElemental</a>, <a href="Boar.html">Boar</a>, <a href="Bogle.html">Bogle</a>, <a href="Bogling.html">Bogling</a>, <a href="BogThing.html">BogThing</a>, <a href="BoneDemon.html">BoneDemon</a>, <a href="BoneKnight.html">BoneKnight</a>, <a href="BoneMagi.html">BoneMagi</a>, <a href="BoogieWoogieWu.html">BoogieWoogieWu</a>, <a href="Brigand.html">Brigand</a>, <a href="BronzeElemental.html">BronzeElemental</a>, <a href="BrownBear.html">BrownBear</a>, <a href="BulbousPutrification.html">BulbousPutrification</a>, <a href="Bull.html">Bull</a>, <a href="BullFrog.html">BullFrog</a>, <a href="Cat.html">Cat</a>, <a href="Centaur.html">Centaur</a>, <a href="Changeling.html">Changeling</a>, <a href="ChaosDaemon.html">ChaosDaemon</a>, <a href="Chicken.html">Chicken</a>, <a href="ChickenElemental.html">ChickenElemental</a>, <a href="ChickenPaw.html">ChickenPaw</a>, <a href="ChickenPlucker.html">ChickenPlucker</a>, <a href="ChiefParoxysmus.html">ChiefParoxysmus</a>, <a href="Clone.html">Clone</a>, <a href="CopperElemental.html">CopperElemental</a>, <a href="CorporealBrume.html">CorporealBrume</a>, <a href="Corpser.html">Corpser</a>, <a href="Cougar.html">Cougar</a>, <a href="Cow.html">Cow</a>, <a href="Crane.html">Crane</a>, <a href="Crayma.html">Crayma</a>, <a href="CrazyChicken.html">CrazyChicken</a>, <a href="CrystalDaemon.html">CrystalDaemon</a>, <a href="CrystalElemental.html">CrystalElemental</a>, <a href="CrystalHydra.html">CrystalHydra</a>, <a href="CrystalLatticeSeeker.html">CrystalLatticeSeeker</a>, <a href="CrystalSeaSerpent.html">CrystalSeaSerpent</a>, <a href="CrystalVortex.html">CrystalVortex</a>, <a href="Cursed.html">Cursed</a>, <a href="CursedSoul.html">CursedSoul</a>, <a href="Cyclops.html">Cyclops</a>, <a href="Daemon.html">Daemon</a>, <a href="DarknightCreeper.html">DarknightCreeper</a>, <a href="DarkWisp.html">DarkWisp</a>, <a href="DeadlyImp.html">DeadlyImp</a>, <a href="DeathwatchBeetle.html">DeathwatchBeetle</a>, <a href="DeathwatchBeetleHatchling.html">DeathwatchBeetleHatchling</a>, <a href="DeepSeaSerpent.html">DeepSeaSerpent</a>, <a href="DemonKnight.html">DemonKnight</a>, <a href="Devourer.html">Devourer</a>, <a href="DireWolf.html">DireWolf</a>, <a href="DiseasedCat.html">DiseasedCat</a>, <a href="Dog.html">Dog</a>, <a href="Dolphin.html">Dolphin</a>, <a href="DomesticFerret.html">DomesticFerret</a>, <a href="Doppleganger.html">Doppleganger</a>, <a href="Dragon.html">Dragon</a>, <a href="DragonsFlameMage.html">DragonsFlameMage</a>, <a href="Drake.html">Drake</a>, <a href="DreadHorn.html">DreadHorn</a>, <a href="DreadSpider.html">DreadSpider</a>, <a href="DrowVenger.html">DrowVenger</a>, <a href="DryadA.html">DryadA</a>, <a href="DullCopperElemental.html">DullCopperElemental</a>, <a href="Dummy.html">Dummy</a>, <a href="Eagle.html">Eagle</a>, <a href="EarthElemental.html">EarthElemental</a>, <a href="Efreet.html">Efreet</a>, <a href="ElderGazer.html">ElderGazer</a>, <a href="ElfBrigand.html">ElfBrigand</a>, <a href="EliteNinja.html">EliteNinja</a>, <a href="EliteNinjaWarrior.html">EliteNinjaWarrior</a>, <a href="EnergyVortex.html">EnergyVortex</a>, <a href="EnslavedEntrappedSoul.html">EnslavedEntrappedSoul</a>, <a href="EnslavedGargoyle.html">EnslavedGargoyle</a>, <a href="Eole.html">Eole</a>, <a href="EtherealWarrior.html">EtherealWarrior</a>, <a href="Ettin.html">Ettin</a>, <a href="EvilBioEngineer.html">EvilBioEngineer</a>, <a href="EvilDruid.html">EvilDruid</a>, <a href="EvilDruidLord.html">EvilDruidLord</a>, <a href="EvilGenetecist.html">EvilGenetecist</a>, <a href="EvilHermit.html">EvilHermit</a>, <a href="EvilMage.html">EvilMage</a>, <a href="EvilMageLord.html">EvilMageLord</a>, <a href="EvilSquirrel.html">EvilSquirrel</a>, <a href="EvolutionBettle.html">EvolutionBettle</a>, <a href="EvolutionDeamon.html">EvolutionDeamon</a>, <a href="EvolutionDragon.html">EvolutionDragon</a>, <a href="Executioner.html">Executioner</a>, <a href="ExodusMinion.html">ExodusMinion</a>, <a href="ExodusOverseer.html">ExodusOverseer</a>, <a href="FanDancer.html">FanDancer</a>, <a href="FemaleFerret.html">FemaleFerret</a>, <a href="Ferret.html">Ferret</a>, <a href="Ferretagg.html">Ferretagg</a>, <a href="Ferretnon.html">Ferretnon</a>, <a href="FerretsFarm.html">FerretsFarm</a>, <a href="FetidEssence.html">FetidEssence</a>, <a href="FierceDragon.html">FierceDragon</a>, <a href="FireDragon.html">FireDragon</a>, <a href="FireElemental.html">FireElemental</a>, <a href="FireGargoyle.html">FireGargoyle</a>, <a href="FleshGolem.html">FleshGolem</a>, <a href="FleshRenderer.html">FleshRenderer</a>, <a href="FQSerpentine.html">FQSerpentine</a>, <a href="FrostOoze.html">FrostOoze</a>, <a href="FrostSpider.html">FrostSpider</a>, <a href="FrostTroll.html">FrostTroll</a>, <a href="Gaia.html">Gaia</a>, <a href="Gaman.html">Gaman</a>, <a href="Gargoyle.html">Gargoyle</a>, <a href="GargoyleDestroyer.html">GargoyleDestroyer</a>, <a href="GargoyleEnforcer.html">GargoyleEnforcer</a>, <a href="Gazer.html">Gazer</a>, <a href="GazerLarva.html">GazerLarva</a>, <a href="GeneticFailure.html">GeneticFailure</a>, <a href="Ghoul.html">Ghoul</a>, <a href="GiantBlackWidow.html">GiantBlackWidow</a>, <a href="GiantEarthElemental.html">GiantEarthElemental</a>, <a href="GiantIceWorm.html">GiantIceWorm</a>, <a href="GiantRat.html">GiantRat</a>, <a href="GiantSerpent.html">GiantSerpent</a>, <a href="GiantSpider.html">GiantSpider</a>, <a href="GiantToad.html">GiantToad</a>, <a href="Gibberling.html">Gibberling</a>, <a href="Gnaw.html">Gnaw</a>, <a href="Goat.html">Goat</a>, <a href="GoldenElemental.html">GoldenElemental</a>, <a href="Golem.html">Golem</a>, <a href="GolemController.html">GolemController</a>, <a href="GoreFiend.html">GoreFiend</a>, <a href="Gorilla.html">Gorilla</a>, <a href="GreaterDragon.html">GreaterDragon</a>, <a href="GreatHart.html">GreatHart</a>, <a href="GreyWolf.html">GreyWolf</a>, <a href="GrimmochDrummel.html">GrimmochDrummel</a>, <a href="GrimReaper.html">GrimReaper</a>, <a href="GrizzlyBear.html">GrizzlyBear</a>, <a href="Grobu.html">Grobu</a>, <a href="Guardian.html">Guardian</a>, <a href="GuardianOfTheMagics.html">GuardianOfTheMagics</a>, <a href="Gypsy.html">Gypsy</a>, <a href="HarborMaster.html">HarborMaster</a>, <a href="Harpy.html">Harpy</a>, <a href="Harrower.html">Harrower</a>, <a href="HarrowerTentacles.html">HarrowerTentacles</a>, <a href="HeadlessOne.html">HeadlessOne</a>, <a href="HellCat.html">HellCat</a>, <a href="HellHound.html">HellHound</a>, <a href="Henchman.html">Henchman</a>, <a href="Hephaistos.html">Hephaistos</a>, <a href="HighwaymanCaptainTR.html">HighwaymanCaptainTR</a>, <a href="Hind.html">Hind</a>, <a href="HolyFamiliar.html">HolyFamiliar</a>, <a href="HordeMinion.html">HordeMinion</a>, <a href="HumanBrigand.html">HumanBrigand</a>, <a href="Hydra.html">Hydra</a>, <a href="IceElemental.html">IceElemental</a>, <a href="IceFiend.html">IceFiend</a>, <a href="IceHound.html">IceHound</a>, <a href="IceSerpent.html">IceSerpent</a>, <a href="IceSnake.html">IceSnake</a>, <a href="IDamageableItem.html">IDamageableItem</a>, <a href="Imp.html">Imp</a>, <a href="Impaler.html">Impaler</a>, <a href="InjuredWolf.html">InjuredWolf</a>, <a href="InsaneDryad.html">InsaneDryad</a>, <a href="InvasionSpawn.html">InvasionSpawn</a>, <a href="Irk.html">Irk</a>, <a href="JackRabbit.html">JackRabbit</a>, <a href="JailSlaveDriver.html">JailSlaveDriver</a>, <a href="Juggernaut.html">Juggernaut</a>, <a href="JukaLord.html">JukaLord</a>, <a href="JukaMage.html">JukaMage</a>, <a href="JukaWarrior.html">JukaWarrior</a>, <a href="Jwilson.html">Jwilson</a>, <a href="Kappa.html">Kappa</a>, <a href="KazeKemono.html">KazeKemono</a>, <a href="KeyHolder.html">KeyHolder</a>, <a href="KhaldunRevenant.html">KhaldunRevenant</a>, <a href="KhaldunSummoner.html">KhaldunSummoner</a>, <a href="KhaldunZealot.html">KhaldunZealot</a>, <a href="KhalkistGoat.html">KhalkistGoat</a>, <a href="Kraken.html">Kraken</a>, <a href="LadyJennifyr.html">LadyJennifyr</a>, <a href="LadyLissith.html">LadyLissith</a>, <a href="LadyMarai.html">LadyMarai</a>, <a href="LadyMelisande.html">LadyMelisande</a>, <a href="LadyOfTheSnow.html">LadyOfTheSnow</a>, <a href="LadySabrix.html">LadySabrix</a>, <a href="LavaLizard.html">LavaLizard</a>, <a href="LavaSerpent.html">LavaSerpent</a>, <a href="LavaSnake.html">LavaSnake</a>, <a href="Leviathan.html">Leviathan</a>, <a href="Lich.html">Lich</a>, <a href="LichLord.html">LichLord</a>, <a href="LittleSucker.html">LittleSucker</a>, <a href="Lizardman.html">Lizardman</a>, <a href="Llama.html">Llama</a>, <a href="Lloth.html">Lloth</a>, <a href="LysanderGathenwale.html">LysanderGathenwale</a>, <a href="MadPainter.html">MadPainter</a>, <a href="MagiDragon.html">MagiDragon</a>, <a href="MagiElemental.html">MagiElemental</a>, <a href="Malefic.html">Malefic</a>, <a href="MantraEffervescence.html">MantraEffervescence</a>, <a href="MasterJonath.html">MasterJonath</a>, <a href="MasterMikael.html">MasterMikael</a>, <a href="MasterTheophilus.html">MasterTheophilus</a>, <a href="MeerCaptain.html">MeerCaptain</a>, <a href="MeerEternal.html">MeerEternal</a>, <a href="MeerMage.html">MeerMage</a>, <a href="MeerWarrior.html">MeerWarrior</a>, <a href="Miasma.html">Miasma</a>, <a href="MilitiaFighter.html">MilitiaFighter</a>, <a href="Minax1.html">Minax1</a>, <a href="Minotaur.html">Minotaur</a>, <a href="Moloch.html">Moloch</a>, <a href="Mongbat.html">Mongbat</a>, <a href="MonsterNestEntity.html">MonsterNestEntity</a>, <a href="MonstrousInterredGrizzle.html">MonstrousInterredGrizzle</a>, <a href="Mordrid.html">Mordrid</a>, <a href="MordridsMinion.html">MordridsMinion</a>, <a href="MorgBergen.html">MorgBergen</a>, <a href="MoundOfMaggots.html">MoundOfMaggots</a>, <a href="MountainGoat.html">MountainGoat</a>, <a href="Mummy.html">Mummy</a>, <a href="NecroBogle.html">NecroBogle</a>, <a href="NecroFleshGolem.html">NecroFleshGolem</a>, <a href="NecroGreaterSkeleton.html">NecroGreaterSkeleton</a>, <a href="NecroLich.html">NecroLich</a>, <a href="Necromancer.html">Necromancer</a>, <a href="NecroMummy.html">NecroMummy</a>, <a href="NecroShade.html">NecroShade</a>, <a href="NecroSkeletalDragon.html">NecroSkeletalDragon</a>, <a href="NecroSkeleton.html">NecroSkeleton</a>, <a href="NecroZombie.html">NecroZombie</a>, <a href="Ninja.html">Ninja</a>, <a href="Ogre.html">Ogre</a>, <a href="OgreLord.html">OgreLord</a>, <a href="Oni.html">Oni</a>, <a href="Ooshki.html">Ooshki</a>, <a href="OphidianArchmage.html">OphidianArchmage</a>, <a href="OphidianKnight.html">OphidianKnight</a>, <a href="OphidianMage.html">OphidianMage</a>, <a href="OphidianMatriarch.html">OphidianMatriarch</a>, <a href="OphidianWarrior.html">OphidianWarrior</a>, <a href="Oracle.html">Oracle</a>, <a href="Orc.html">Orc</a>, <a href="OrcBomber.html">OrcBomber</a>, <a href="OrcBrute.html">OrcBrute</a>, <a href="OrcCaptain.html">OrcCaptain</a>, <a href="OrcishLord.html">OrcishLord</a>, <a href="OrcishMage.html">OrcishMage</a>, <a href="OrcishNecromancer.html">OrcishNecromancer</a>, <a href="OrcScout.html">OrcScout</a>, <a href="PackHorse.html">PackHorse</a>, <a href="PackLlama.html">PackLlama</a>, <a href="Panther.html">Panther</a>, <a href="Parrot.html">Parrot</a>, <a href="PatchworkSkeleton.html">PatchworkSkeleton</a>, <a href="PegLeg.html">PegLeg</a>, <a href="Peraniese.html">Peraniese</a>, <a href="Phoenix.html">Phoenix</a>, <a href="Pig.html">Pig</a>, <a href="Pixie.html">Pixie</a>, <a href="PlagueBeast.html">PlagueBeast</a>, <a href="PlagueBeastLord.html">PlagueBeastLord</a>, <a href="PlagueSpawn.html">PlagueSpawn</a>, <a href="PoisonElemental.html">PoisonElemental</a>, <a href="PolarBear.html">PolarBear</a>, <a href="Poseidon.html">Poseidon</a>, <a href="PredatorHellCat.html">PredatorHellCat</a>, <a href="Protector.html">Protector</a>, <a href="ProxyGuadian.html">ProxyGuadian</a>, <a href="Putrifier.html">Putrifier</a>, <a href="Pyre.html">Pyre</a>, <a href="Pythie.html">Pythie</a>, <a href="Quagmire.html">Quagmire</a>, <a href="RabbidFerret.html">RabbidFerret</a>, <a href="Rabbit.html">Rabbit</a>, <a href="RaiJu.html">RaiJu</a>, <a href="RapingChicken.html">RapingChicken</a>, <a href="Rat.html">Rat</a>, <a href="RatFick.html">RatFick</a>, <a href="RatLick.html">RatLick</a>, <a href="RatLord.html">RatLord</a>, <a href="Ratman.html">Ratman</a>, <a href="RatmanArcher.html">RatmanArcher</a>, <a href="RatmanMage.html">RatmanMage</a>, <a href="Ravager.html">Ravager</a>, <a href="Reaper.html">Reaper</a>, <a href="ReaperMan.html">ReaperMan</a>, <a href="RedSolenInfiltratorQueen.html">RedSolenInfiltratorQueen</a>, <a href="RedSolenInfiltratorWarrior.html">RedSolenInfiltratorWarrior</a>, <a href="RedSolenQueen.html">RedSolenQueen</a>, <a href="RedSolenWarrior.html">RedSolenWarrior</a>, <a href="RedSolenWorker.html">RedSolenWorker</a>, <a href="RestlessSoul.html">RestlessSoul</a>, <a href="Revenant.html">Revenant</a>, <a href="RevenantLion.html">RevenantLion</a>, <a href="Ronin.html">Ronin</a>, <a href="RottingCorpse.html">RottingCorpse</a>, <a href="RuneBeetle.html">RuneBeetle</a>, <a href="Samurai.html">Samurai</a>, <a href="SandVortex.html">SandVortex</a>, <a href="Satyr.html">Satyr</a>, <a href="Savage.html">Savage</a>, <a href="SavageRider.html">SavageRider</a>, <a href="SavageShaman.html">SavageShaman</a>, <a href="Scorpion.html">Scorpion</a>, <a href="Sculptor.html">Sculptor</a>, <a href="SeaSerpent.html">SeaSerpent</a>, <a href="SerpentineDragon.html">SerpentineDragon</a>, <a href="SerpentsFangAssassin.html">SerpentsFangAssassin</a>, <a href="ServantOfSemidar.html">ServantOfSemidar</a>, <a href="Sewerrat.html">Sewerrat</a>, <a href="Shade.html">Shade</a>, <a href="ShadowDragon.html">ShadowDragon</a>, <a href="ShadowDrake.html">ShadowDrake</a>, <a href="ShadowFiend.html">ShadowFiend</a>, <a href="ShadowIronElemental.html">ShadowIronElemental</a>, <a href="ShadowKnight.html">ShadowKnight</a>, <a href="ShadowWisp.html">ShadowWisp</a>, <a href="ShadowWyrm.html">ShadowWyrm</a>, <a href="Sheep.html">Sheep</a>, <a href="Shepherd.html">Shepherd</a>, <a href="ShepherdsDog.html">ShepherdsDog</a>, <a href="ShepherdsSheep.html">ShepherdsSheep</a>, <a href="ShimmeringEffusion.html">ShimmeringEffusion</a>, <a href="Silk.html">Silk</a>, <a href="Silvani.html">Silvani</a>, <a href="SilverSerpent.html">SilverSerpent</a>, <a href="SirPatrick.html">SirPatrick</a>, <a href="SkeletalDragon.html">SkeletalDragon</a>, <a href="SkeletalGod.html">SkeletalGod</a>, <a href="SkeletalKnight.html">SkeletalKnight</a>, <a href="SkeletalMage.html">SkeletalMage</a>, <a href="SkeletalWarrior.html">SkeletalWarrior</a>, <a href="Skeleton.html">Skeleton</a>, <a href="SkitteringHopper.html">SkitteringHopper</a>, <a href="Slime.html">Slime</a>, <a href="Snake.html">Snake</a>, <a href="SnowElemental.html">SnowElemental</a>, <a href="SnowLeopard.html">SnowLeopard</a>, <a href="SpectralArmour.html">SpectralArmour</a>, <a href="Spectre.html">Spectre</a>, <a href="squirrel.html">squirrel</a>, <a href="Squirrel1.html">Squirrel</a>, <a href="StoneGargoyle.html">StoneGargoyle</a>, <a href="StoneHarpy.html">StoneHarpy</a>, <a href="StrongMongbat.html">StrongMongbat</a>, <a href="Succubus.html">Succubus</a>, <a href="SummonedAirElemental.html">SummonedAirElemental</a>, <a href="SummonedDaemon.html">SummonedDaemon</a>, <a href="SummonedEarthElemental.html">SummonedEarthElemental</a>, <a href="SummonedFireElemental.html">SummonedFireElemental</a>, <a href="SummonedPaladin.html">SummonedPaladin</a>, <a href="SummonedTreefellow.html">SummonedTreefellow</a>, <a href="SummonedWaterElemental.html">SummonedWaterElemental</a>, <a href="SwampTentacle.html">SwampTentacle</a>, <a href="Swoop.html">Swoop</a>, <a href="TalkingBaseCreature.html">TalkingBaseCreature</a>, <a href="Talon.html">Talon</a>, <a href="Talon2.html">Talon2</a>, <a href="Talon3.html">Talon3</a>, <a href="Talon4.html">Talon4</a>, <a href="Talon5.html">Talon5</a>, <a href="TavaraSewel.html">TavaraSewel</a>, <a href="TerathanAvenger.html">TerathanAvenger</a>, <a href="TerathanDrone.html">TerathanDrone</a>, <a href="TerathanMatriarch.html">TerathanMatriarch</a>, <a href="TerathanWarrior.html">TerathanWarrior</a>, <a href="TheGargoyle.html">TheGargoyle</a>, <a href="TheGuardian.html">TheGuardian</a>, <a href="Thrasher.html">Thrasher</a>, <a href="ThunderWyrm.html">ThunderWyrm</a>, <a href="TigersClawThief.html">TigersClawThief</a>, <a href="TimberWolf.html">TimberWolf</a>, <a href="Titan.html">Titan</a>, <a href="ToxicElemental.html">ToxicElemental</a>, <a href="TrainingDragon.html">TrainingDragon</a>, <a href="Travesty.html">Travesty</a>, <a href="TreasureEaters.html">TreasureEaters</a>, <a href="Treefellow.html">Treefellow</a>, <a href="Troglodyte.html">Troglodyte</a>, <a href="Troll.html">Troll</a>, <a href="TropicalBird.html">TropicalBird</a>, <a href="TsukiWolf.html">TsukiWolf</a>, <a href="UndeadKnight.html">UndeadKnight</a>, <a href="UnfrozenMummy.html">UnfrozenMummy</a>, <a href="UnholyFamiliar.html">UnholyFamiliar</a>, <a href="ValoriteElemental.html">ValoriteElemental</a>, <a href="VampireBat.html">VampireBat</a>, <a href="VenomDragon.html">VenomDragon</a>, <a href="VeriteElemental.html">VeriteElemental</a>, <a href="Virulent.html">Virulent</a>, <a href="VorpalBunny.html">VorpalBunny</a>, <a href="WailingBanshee.html">WailingBanshee</a>, <a href="Walrus.html">Walrus</a>, <a href="WandererOfTheVoid.html">WandererOfTheVoid</a>, <a href="WaterElemental.html">WaterElemental</a>, <a href="WaterGod.html">WaterGod</a>, <a href="WaterGuard.html">WaterGuard</a>, <a href="WBeast.html">WBeast</a>, <a href="Wench.html">Wench</a>, <a href="WFanalaon.html">WFanalaon</a>, <a href="WFresh.html">WFresh</a>, <a href="WhippingVine.html">WhippingVine</a>, <a href="WhiteWolf.html">WhiteWolf</a>, <a href="WhiteWyrm.html">WhiteWyrm</a>, <a href="Wisp.html">Wisp</a>, <a href="WMarine.html">WMarine</a>, <a href="WOdin.html">WOdin</a>, <a href="WOldSchool.html">WOldSchool</a>, <a href="WoodElfFighter.html">WoodElfFighter</a>, <a href="WoodElfLord.html">WoodElfLord</a>, <a href="Wraith.html">Wraith</a>, <a href="WWickedClown.html">WWickedClown</a>, <a href="WXerian.html">WXerian</a>, <a href="Wyvern.html">Wyvern</a>, <a href="WZinaga.html">WZinaga</a>, <a href="Yamandon.html">Yamandon</a>, <a href="YomotsuElder.html">YomotsuElder</a>, <a href="YomotsuPriest.html">YomotsuPriest</a>, <a href="YomotsuWarrior.html">YomotsuWarrior</a>, <a href="YoungNinja.html">YoungNinja</a>, <a href="YoungRonin.html">YoungRonin</a>, <a href="Zombie.html">Zombie</a></h4>
+<h4>Nested Types: <a href="Allegiance.html">Allegiance</a>, <a href="DeathAdderCharmTarget.html">DeathAdderCharmTarget</a>, <a href="FKEntry.html">FKEntry</a>, <a href="TameEntry.html">TameEntry</a>, <a href="TeachResult.html">TeachResult</a></h4>
+      (<font color="blue">static</font>) <font color="blue">bool</font> Summoning( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Cap( <font color="blue">ref</font> <font color="blue">int</font> val, <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      (<font color="blue">static</font>) List`1 GetLootingRights( List`1 damageEntries, <font color="blue">int</font> hitsMax )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> GetRandomAOSStats( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel, <font color="blue">out</font> <font color="blue">int</font> attributeCount, <font color="blue">out</font> <font color="blue">int</font> min, <font color="blue">out</font> <font color="blue">int</font> max )<br>
+      (<font color="blue">static</font>) <font color="blue">int</font> RandomMinMaxScaled( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> Summon( <a href="BaseCreature.html">BaseCreature</a> creature, <a href="Mobile.html">Mobile</a> caster, <a href="Point3D.html">Point3D</a> p, <font color="blue">int</font> sound, TimeSpan duration )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> Summon( <a href="BaseCreature.html">BaseCreature</a> creature, <font color="blue">bool</font> controlled, <a href="Mobile.html">Mobile</a> caster, <a href="Point3D.html">Point3D</a> p, <font color="blue">int</font> sound, TimeSpan duration )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TeleportPets( <a href="Mobile.html">Mobile</a> master, <a href="Point3D.html">Point3D</a> loc, <a href="Map.html">Map</a> map )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> TeleportPets( <a href="Mobile.html">Mobile</a> master, <a href="Point3D.html">Point3D</a> loc, <a href="Map.html">Map</a> map, <font color="blue">bool</font> onlyBonded )<br>
+      (<font color="blue">ctor</font>) BaseCreature( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BaseCreature( <a href="AIType.html">AIType</a> ai, <a href="FightMode.html">FightMode</a> mode, <font color="blue">int</font> iRangePerception, <font color="blue">int</font> iRangeFight, <font color="blue">double</font> dActiveSpeed, <font color="blue">double</font> dPassiveSpeed )<br>
+      <font color="blue">int</font> AbilityPoints( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> ActiveSpeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="AIType.html">AIType</a> AI( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseAI.html">BaseAI</a> AIObject( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AllowFemaleTamer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AllowMaleTamer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AllowMating( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> AllowNewPetFriend( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AlwaysAttackable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AlwaysMurderer( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> AutoDispel( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> AutoDispelChance( <font color="blue">get</font>; )<br>
+      DateTime BardEndTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> BardImmune( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> BardMaster( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> BardPacified( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> BardProvoked( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> BardTarget( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> BaseColdResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseEnergyResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BaseFireResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BasePhysicalResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BasePoisonResistance( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> BleedImmune( <font color="blue">get</font>; )<br>
+      TimeSpan BondingAbandonDelay( <font color="blue">get</font>; )<br>
+      DateTime BondingBegin( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan BondingDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BonusPetDamageScalar( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathAngerAnimation( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathAngerSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathColdDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BreathDamageDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BreathDamageScalar( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BreathEffectDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEffectDuration( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> BreathEffectExplodes( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> BreathEffectFixedDir( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEffectHue( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEffectItemID( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEffectRenderMode( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEffectSound( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEffectSpeed( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathEnergyDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathFireDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BreathMaxDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BreathMinDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathPhysicalDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathPoisonDamage( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> BreathRange( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> BreathStallTime( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanAngerOnTame( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanBreath( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanDestroyObstacles( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanDrop( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanMoveOverObstacles( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanOpenDoors( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanRegenHits( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanRegenMana( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanRegenStam( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanRummageCorpses( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> CanTeach( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ColdDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ColdResistSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Commandable( <font color="blue">get</font>; )<br>
+      <a href="Mobile.html">Mobile</a> ConstantFocus( <font color="blue">get</font>; )<br>
+      <a href="Point3D.html">Point3D</a> ControlDest( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Controlled( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> ControlMaster( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="OrderType.html">OrderType</a> ControlOrder( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ControlSlots( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> ControlTarget( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> CurrentSpeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="WayPoint.html">WayPoint</a> CurrentWayPoint( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DamageMax( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> DamageMin( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DeathAdderCharmable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Debug( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> DeleteCorpseOnDeath( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> DeleteOnRelease( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> DisallowAllMoves( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> DispelDifficulty( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> DispelFocus( <font color="blue">get</font>; )<br>
+      DateTime EndFleeTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> EnergyDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> EnergyResistSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Ethic.html">Ethic</a> EthicAllegiance( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Evolves( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Exp( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F0( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F6( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F7( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F8( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> F9( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Faction1.html">Faction</a> FactionAllegiance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> FactionSilverWorth( <font color="blue">get</font>; )<br>
+      <a href="FoodType.html">FoodType</a> FavoriteFood( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Feathers( <font color="blue">get</font>; )<br>
+      <a href="FightMode.html">FightMode</a> FightMode( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> FireBreathAttack( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> FireDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> FireResistSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> FocusMob( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="BaseAI.html">BaseAI</a> ForcedAI( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Form1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form6( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form7( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form8( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Form9( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 Friends( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Generation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> HasBreath( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Hides( <font color="blue">get</font>; )<br>
+      <a href="HideType.html">HideType</a> HideType( <font color="blue">get</font>; )<br>
+      <a href="Poison.html">Poison</a> HitPoison( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> HitPoisonChance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> HitsMax( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> HitsMaxSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point3D.html">Point3D</a> Home( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IgnoreYoungProtection( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> InitialInnocent( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsAnimatedDead( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsBondable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsBonded( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsDeadBondedPet( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsDeadPet( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsDispellable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsHouseSummonable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsParagon( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> IsScaredOfScaryThings( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsScaryToPets( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsStabled( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> LastOwner( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Level( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Loyalty( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> ManaMax( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> ManaMaxSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime MatingDelay( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> MaxLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Meat( <font color="blue">get</font>; )<br>
+      <a href="MeatType.html">MeatType</a> MeatType( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> MinTameSkill( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> NextLevel( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime NextReacquireTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> NoHouseRestrictions( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> NoKillAwards( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="OppositionGroup.html">OppositionGroup</a> OppositionGroup( <font color="blue">get</font>; )<br>
+      DateTime OwnerAbandonTime( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      List`1 Owners( <font color="blue">get</font>; )<br>
+      <a href="PackInstinct.html">PackInstinct</a> PackInstinct( <font color="blue">get</font>; )<br>
+      <font color="blue">double</font> PassiveSpeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PetPoisonAttack( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PhysicalDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> PhysicalResistanceSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> PlayerRangeSensitive( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> PoisonDamage( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Poison.html">Poison</a> PoisonImmune( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> PoisonResistSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RangeFight( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RangeHome( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RangePerception( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      TimeSpan ReacquireDelay( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ReacquireOnMovement( <font color="blue">get</font>; )<br>
+      <a href="HonorContext.html">HonorContext</a> ReceivedHonorContext( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> RemoveIfUntamed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RemoveStep( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> RoarAttack( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Scales( <font color="blue">get</font>; )<br>
+      <a href="ScaleType.html">ScaleType</a> ScaleType( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> ShouldCheckStatTimers( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Sound1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound6( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound7( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound8( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Sound9( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="InhumanSpeech.html">InhumanSpeech</a> SpeechType( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> StamMax( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> StamMaxSeed( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> StatLossAfterTame( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> SubdueBeforeTame( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Summoned( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      DateTime SummonEnd( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Mobile.html">Mobile</a> SummonMaster( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> Tamable( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <a href="Point2D.html">Point2D</a> TargetLocation( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">int</font> Team( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> TreasureMapChance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> TreasureMapLevel( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Uncalmable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> Unprovokable( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> UsesForm1( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm2( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm3( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm4( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm5( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm6( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm7( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm8( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> UsesForm9( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">double</font> WeaponAbilityChance( <font color="blue">get</font>; )<br>
+      <font color="blue">int</font> Wool( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddCustomContextEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">void</font> AddFollowers()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddLoot( <a href="LootPack.html">LootPack</a> pack )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddLoot( <a href="LootPack.html">LootPack</a> pack, <font color="blue">int</font> amount )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddNameProperties( <a href="ObjectPropertyList.html">ObjectPropertyList</a> list )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AddPetFriend( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> AddSpellAttack( Type type )<br>
+      <font color="blue">void</font> AddSpellDefense( Type type )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AggressiveAction( <a href="Mobile.html">Mobile</a> aggressor, <font color="blue">bool</font> criminal )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AlterDamageScalarFrom( <a href="Mobile.html">Mobile</a> caster, <font color="blue">ref</font> <font color="blue">double</font> scalar )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AlterDamageScalarTo( <a href="Mobile.html">Mobile</a> target, <font color="blue">ref</font> <font color="blue">double</font> scalar )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AlterMeleeDamageFrom( <a href="Mobile.html">Mobile</a> from, <font color="blue">ref</font> <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AlterMeleeDamageTo( <a href="Mobile.html">Mobile</a> to, <font color="blue">ref</font> <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AlterSpellDamageFrom( <a href="Mobile.html">Mobile</a> from, <font color="blue">ref</font> <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> AlterSpellDamageTo( <a href="Mobile.html">Mobile</a> to, <font color="blue">ref</font> <font color="blue">int</font> damage )<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> ApplyNameSuffix( <font color="blue">string</font> suffix )<br>
+      <font color="blue">virtual</font> <a href="ApplyPoisonResult.html">ApplyPoisonResult</a> ApplyPoison( <a href="Mobile.html">Mobile</a> from, <a href="Poison.html">Poison</a> poison )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BeginFlee( TimeSpan maxDuration )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> BreathComputeDamage()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathDamage_Callback( <font color="blue">object</font> state )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathDealDamage( <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathEffect_Callback( <font color="blue">object</font> state )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathPlayAngerAnimation()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathPlayAngerSound()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathPlayEffect( <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathPlayEffectSound()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathStallMovement()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> BreathStart( <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeControlledBy( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeDamaged()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeHarmful( <a href="Mobile.html">Mobile</a> target, <font color="blue">bool</font> message, <font color="blue">bool</font> ignoreOurBlessedness )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CanBeRenamedBy( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> ChangeAIToDefault()<br>
+      <font color="blue">void</font> ChangeAIType( <a href="AIType.html">AIType</a> NewAI )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckControlChance( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckFeed( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckFlee()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckFoodPreference( <a href="Item.html">Item</a> f )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckFoodPreference( <a href="Item.html">Item</a> fed, <a href="FoodType.html">FoodType</a> type, Type[] types )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckGold( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckIdle()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckPoisonImmunity( <a href="Mobile.html">Mobile</a> from, <a href="Poison.html">Poison</a> poison )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> CheckReflect( <a href="Mobile.html">Mobile</a> caster, <font color="blue">ref</font> <font color="blue">bool</font> reflect )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckTeach( <a href="SkillName.html">SkillName</a> skill, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> CheckTeachingMatch( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <a href="TeachResult.html">TeachResult</a> CheckTeachSkills( <a href="SkillName.html">SkillName</a> skill, <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> maxPointsToLearn, <font color="blue">ref</font> <font color="blue">int</font> pointsToLearn, <font color="blue">bool</font> doTeach )<br>
+      <font color="blue">int</font> ComputeBonusDamage( List`1 list, <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> CriminalAction( <font color="blue">bool</font> message )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Damage( <font color="blue">int</font> amount, <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">void</font> DebugSay( <font color="blue">string</font> text )<br>
+      <font color="blue">void</font> DebugSay( <font color="blue">string</font> format, <font color="blue">object</font>[] args )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Dispel( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> DoHarmful( <a href="Mobile.html">Mobile</a> target, <font color="blue">bool</font> indirect )<br>
+      <font color="blue">bool</font> FindMyName( <font color="blue">string</font> str, <font color="blue">bool</font> bWithAll )<br>
+      <font color="blue">void</font> ForceReacquire()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GenerateLoot()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GenerateLoot( <font color="blue">bool</font> spawning )<br>
+      <a href="Spell.html">Spell</a> GetAttackSpellRandom()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> GetContextMenuEntries( <a href="Mobile.html">Mobile</a> from, List`1 list )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetControlChance( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <a href="Mobile.html">Mobile</a> GetDamageMaster( <a href="Mobile.html">Mobile</a> damagee )<br>
+      <a href="Spell.html">Spell</a> GetDefenseSpellRandom()<br>
+      <font color="blue">virtual</font> <a href="Allegiance.html">Allegiance</a> GetEthicAllegiance( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">virtual</font> <a href="Allegiance.html">Allegiance</a> GetFactionAllegiance( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">double</font> GetHomeDistance()<br>
+      <a href="Mobile.html">Mobile</a> GetMaster()<br>
+      <a href="Spell.html">Spell</a> GetSpellSpecific( Type type )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetTeamSize( <font color="blue">int</font> iRange )<br>
+      <font color="blue">virtual</font> <font color="blue">double</font> GetValueFrom( <a href="Mobile.html">Mobile</a> m, <a href="FightMode.html">FightMode</a> acqType, <font color="blue">bool</font> bPlayerOnly )<br>
+      <font color="blue">virtual</font> <a href="WeaponAbility.html">WeaponAbility</a> GetWeaponAbility()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> HandlesOnSpeech( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsEnemy( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsFriend( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsHarmfulCriminal( <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsHumanInTown()<br>
+      <font color="blue">bool</font> IsHurt()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> IsPetFriend( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionBackoff()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionCombat()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionFlee()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionGuard()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionInteract()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnActionWander()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAfterDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnBeforeDeath()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnBeforeSpawn( <a href="Point3D.html">Point3D</a> location, <a href="Map.html">Map</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnCarve( <a href="Mobile.html">Mobile</a> from, <a href="Corpse.html">Corpse</a> corpse )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDamage( <font color="blue">int</font> amount, <a href="Mobile.html">Mobile</a> from, <font color="blue">bool</font> willKill )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDamagedBySpell( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDeath( <a href="Container.html">Container</a> c )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDelete()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnDoubleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragDrop( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnGaveMeleeAttack( <a href="Mobile.html">Mobile</a> defender )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnGoldGiven( <a href="Mobile.html">Mobile</a> from, <a href="Gold.html">Gold</a> dropped )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnGotMeleeAttack( <a href="Mobile.html">Mobile</a> attacker )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnKilledBy( <a href="Mobile.html">Mobile</a> mob )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnLocationChange( <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnMovement( <a href="Mobile.html">Mobile</a> m, <a href="Point3D.html">Point3D</a> oldLocation )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnMoveOver( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRegionChange( <a href="Region.html">Region</a> Old, <a href="Region.html">Region</a> New )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSectorActivate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSectorDeactivate()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSpeech( <a href="SpeechEventArgs.html">SpeechEventArgs</a> e )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnTeamChange()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnThink()<br>
+      <font color="blue">void</font> Pacify( <a href="Mobile.html">Mobile</a> master, DateTime endtime )<br>
+      <font color="blue">bool</font> PackArmor( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel )<br>
+      <font color="blue">bool</font> PackArmor( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel, <font color="blue">double</font> chance )<br>
+      <font color="blue">void</font> PackGem()<br>
+      <font color="blue">void</font> PackGem( <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> PackGem( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> PackGold( <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> PackGold( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> PackItem( <a href="Item.html">Item</a> item )<br>
+      <font color="blue">void</font> PackMagicItems( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel )<br>
+      <font color="blue">void</font> PackMagicItems( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel, <font color="blue">double</font> armorChance, <font color="blue">double</font> weaponChance )<br>
+      <font color="blue">void</font> PackNecroReg()<br>
+      <font color="blue">void</font> PackNecroReg( <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> PackNecroReg( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> PackNecroScroll( <font color="blue">int</font> index )<br>
+      <font color="blue">void</font> PackPotion()<br>
+      <font color="blue">void</font> PackReg( <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> PackReg( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> PackScroll( <font color="blue">int</font> circle )<br>
+      <font color="blue">void</font> PackScroll( <font color="blue">int</font> minCircle, <font color="blue">int</font> maxCircle )<br>
+      <font color="blue">bool</font> PackSlayer()<br>
+      <font color="blue">bool</font> PackSlayer( <font color="blue">double</font> chance )<br>
+      <font color="blue">void</font> PackStatue()<br>
+      <font color="blue">void</font> PackStatue( <font color="blue">int</font> amount )<br>
+      <font color="blue">void</font> PackStatue( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">bool</font> PackWeapon( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel )<br>
+      <font color="blue">bool</font> PackWeapon( <font color="blue">int</font> minLevel, <font color="blue">int</font> maxLevel, <font color="blue">double</font> chance )<br>
+      <font color="blue">void</font> Provoke( <a href="Mobile.html">Mobile</a> master, <a href="Mobile.html">Mobile</a> target, <font color="blue">bool</font> bSuccess )<br>
+      <font color="blue">void</font> ReleaseGuardDupeLock()<br>
+      <font color="blue">void</font> ReleaseGuardLock()<br>
+      <font color="blue">void</font> RemoveFollowers()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RemovePetFriend( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> ResurrectPet()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> RevealingAction()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Rummage()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">bool</font> SetControlMaster( <a href="Mobile.html">Mobile</a> m )<br>
+      <font color="blue">void</font> SetDamage( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetDamage( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetDamageType( <a href="ResistanceType.html">ResistanceType</a> type, <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetDamageType( <a href="ResistanceType.html">ResistanceType</a> type, <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetDex( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetDex( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetFameLevel( <font color="blue">int</font> level )<br>
+      <font color="blue">void</font> SetHits( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetHits( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetInt( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetInt( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetKarmaLevel( <font color="blue">int</font> level )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> SetLocation( <a href="Point3D.html">Point3D</a> newLocation, <font color="blue">bool</font> isTeleport )<br>
+      <font color="blue">void</font> SetMana( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetMana( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetResistance( <a href="ResistanceType.html">ResistanceType</a> type, <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetResistance( <a href="ResistanceType.html">ResistanceType</a> type, <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetSkill( <a href="SkillName.html">SkillName</a> name, <font color="blue">double</font> val )<br>
+      <font color="blue">void</font> SetSkill( <a href="SkillName.html">SkillName</a> name, <font color="blue">double</font> min, <font color="blue">double</font> max )<br>
+      <font color="blue">void</font> SetStam( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetStam( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SetStr( <font color="blue">int</font> val )<br>
+      <font color="blue">void</font> SetStr( <font color="blue">int</font> min, <font color="blue">int</font> max )<br>
+      <font color="blue">void</font> SpillAcid( TimeSpan duration, <font color="blue">int</font> minDamage, <font color="blue">int</font> maxDamage )<br>
+      <font color="blue">void</font> SpillAcid( TimeSpan duration, <font color="blue">int</font> minDamage, <font color="blue">int</font> maxDamage, <font color="blue">int</font> count )<br>
+      <font color="blue">void</font> SpillAcid( TimeSpan duration, <font color="blue">int</font> minDamage, <font color="blue">int</font> maxDamage, <a href="Mobile.html">Mobile</a> target )<br>
+      <font color="blue">void</font> SpillAcid( TimeSpan duration, <font color="blue">int</font> minDamage, <font color="blue">int</font> maxDamage, <a href="Mobile.html">Mobile</a> target, <font color="blue">int</font> count )<br>
+      <font color="blue">void</font> SpillAcid( TimeSpan duration, <font color="blue">int</font> minDamage, <font color="blue">int</font> maxDamage, <font color="blue">int</font> minAmount, <font color="blue">int</font> maxAmount )<br>
+      <font color="blue">void</font> SpillAcid( TimeSpan duration, <font color="blue">int</font> minDamage, <font color="blue">int</font> maxDamage, <a href="Mobile.html">Mobile</a> target, <font color="blue">int</font> minAmount, <font color="blue">int</font> maxAmount )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> StopFlee()<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> Teach( <a href="SkillName.html">SkillName</a> skill, <a href="Mobile.html">Mobile</a> m, <font color="blue">int</font> maxPointsToLearn, <font color="blue">bool</font> doTeach )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Turn( <font color="blue">int</font> iTurnSteps )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> TurnInternal( <font color="blue">int</font> iTurnSteps )<br>
+      <font color="blue">void</font> Unpacify()<br>
+   </body>
+</html>

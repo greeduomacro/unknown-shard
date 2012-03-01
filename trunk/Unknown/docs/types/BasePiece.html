@@ -1,0 +1,23 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - BasePiece</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Items.html">Back to Server.Items</a></h4>
+      <h2>BasePiece : <a href="Item.html">Item</a>, <a href="IEntity.html">IEntity</a>, <a href="IPoint3D.html">IPoint3D</a>, <a href="IPoint2D.html">IPoint2D</a>, IComparable, IComparable`1, <a href="IHued.html">IHued</a>, IComparable`1, <a href="ISerializable.html">ISerializable</a></h2>
+<h4>Derived Types: <a href="PieceBlackBishop.html">PieceBlackBishop</a>, <a href="PieceBlackChecker.html">PieceBlackChecker</a>, <a href="PieceBlackKing.html">PieceBlackKing</a>, <a href="PieceBlackKnight.html">PieceBlackKnight</a>, <a href="PieceBlackPawn.html">PieceBlackPawn</a>, <a href="PieceBlackQueen.html">PieceBlackQueen</a>, <a href="PieceBlackRook.html">PieceBlackRook</a>, <a href="PieceWhiteBishop.html">PieceWhiteBishop</a>, <a href="PieceWhiteChecker.html">PieceWhiteChecker</a>, <a href="PieceWhiteKing.html">PieceWhiteKing</a>, <a href="PieceWhiteKnight.html">PieceWhiteKnight</a>, <a href="PieceWhitePawn.html">PieceWhitePawn</a>, <a href="PieceWhiteQueen.html">PieceWhiteQueen</a>, <a href="PieceWhiteRook.html">PieceWhiteRook</a></h4>
+      (<font color="blue">ctor</font>) BasePiece( <a href="Serial.html">Serial</a> serial )<br>
+      (<font color="blue">ctor</font>) BasePiece( <font color="blue">int</font> itemID, <a href="BaseBoard.html">BaseBoard</a> board )<br>
+      <a href="BaseBoard.html">BaseBoard</a> Board( <font color="blue">get</font>; <font color="blue">set</font>; )<br>
+      <font color="blue">bool</font> CanTarget( <font color="blue">get</font>; )<br>
+      <font color="blue">bool</font> IsVirtualItem( <font color="blue">get</font>; )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DropToItem( <a href="Mobile.html">Mobile</a> from, <a href="Item.html">Item</a> target, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DropToMobile( <a href="Mobile.html">Mobile</a> from, <a href="Mobile.html">Mobile</a> target, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> DropToWorld( <a href="Mobile.html">Mobile</a> from, <a href="Point3D.html">Point3D</a> p )<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> GetLiftSound( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">bool</font> OnDragLift( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnSingleClick( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+   </body>
+</html>

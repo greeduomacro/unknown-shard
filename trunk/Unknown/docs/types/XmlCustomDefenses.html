@@ -1,0 +1,41 @@
+<html>
+   <head>
+      <title>RunUO Documentation - Class Overview - XmlCustomDefenses</title>
+   </head>
+   <body bgcolor="white" style="font-family: Courier New" text="#000000" link="#000000" vlink="#000000" alink="#808080">
+      <h4><a href="../namespaces/Server.Engines.XmlSpawner2.html">Back to Server.Engines.XmlSpawner2</a></h4>
+      <h2>XmlCustomDefenses : <a href="XmlAttachment.html">XmlAttachment</a>, <a href="IXmlAttachment.html">IXmlAttachment</a></h2>
+<h4>Nested Types: <a href="ActiveCombo1.html">ActiveCombo</a>, <a href="ComboDefense.html">ComboDefense</a>, <a href="ComboDefenses.html">ComboDefenses</a>, <a href="ComboTimer1.html">ComboTimer</a>, <a href="CustomDefenseGump.html">CustomDefenseGump</a>, <a href="CustomDefenseInfoGump.html">CustomDefenseInfoGump</a>, <a href="IconTypes1.html">IconTypes</a>, <a href="SpecialDefense.html">SpecialDefense</a>, <a href="SpecialDefenses.html">SpecialDefenses</a></h4>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddComboDefense( <font color="blue">string</font> name, <a href="ComboDefenses.html">ComboDefenses</a> id, <a href="SpecialDefenses.html">SpecialDefenses</a>[] sequence )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddDefense( <font color="blue">object</font> target, <a href="SpecialDefenses.html">SpecialDefenses</a> defense )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddSpecialDefense( <font color="blue">string</font> name, <font color="blue">string</font> description, <a href="SpecialDefenses.html">SpecialDefenses</a> id, <font color="blue">int</font> icon, TimeSpan duration, <font color="blue">int</font> mana, <font color="blue">int</font> stam, <font color="blue">int</font> hits, <font color="blue">int</font> karma, <font color="blue">int</font> minstr, <font color="blue">int</font> mindex, <font color="blue">int</font> minint, <a href="SkillName.html">SkillName</a>[] skills, <font color="blue">int</font>[] minlevel, Type[] reagents, <font color="blue">int</font>[] quantity )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> AddSpecialDefense( <font color="blue">string</font> name, <font color="blue">string</font> description, <a href="SpecialDefenses.html">SpecialDefenses</a> id, <font color="blue">int</font> icon, <a href="IconTypes1.html">IconTypes</a> itype, TimeSpan duration, <font color="blue">int</font> mana, <font color="blue">int</font> stam, <font color="blue">int</font> hits, <font color="blue">int</font> karma, <font color="blue">int</font> minstr, <font color="blue">int</font> mindex, <font color="blue">int</font> minint, <a href="SkillName.html">SkillName</a>[] skills, <font color="blue">int</font>[] minlevel, Type[] reagents, <font color="blue">int</font>[] quantity )<br>
+      (<font color="blue">static</font>) <font color="blue">bool</font> CheckRequirements( <a href="Mobile.html">Mobile</a> from, <a href="SpecialDefense.html">SpecialDefense</a> s )<br>
+      (<font color="blue">static</font>) <a href="ComboDefense.html">ComboDefense</a> GetComboDefense( <a href="ComboDefenses.html">ComboDefenses</a> id )<br>
+      (<font color="blue">static</font>) <a href="SpecialDefense.html">SpecialDefense</a> GetSpecialDefense( <a href="SpecialDefenses.html">SpecialDefenses</a> id )<br>
+      (<font color="blue">static</font>) <font color="blue">void</font> Initialize()<br>
+      (<font color="blue">ctor</font>) XmlCustomDefenses()<br>
+      (<font color="blue">ctor</font>) XmlCustomDefenses( <a href="ASerial.html">ASerial</a> serial )<br>
+      (<font color="blue">ctor</font>) XmlCustomDefenses( <font color="blue">string</font> name )<br>
+      (<font color="blue">ctor</font>) XmlCustomDefenses( <a href="SpecialDefenses.html">SpecialDefenses</a>[] defenselist )<br>
+      (<font color="blue">ctor</font>) XmlCustomDefenses( <a href="SpecialDefenses.html">SpecialDefenses</a> defense )<br>
+      (<font color="blue">ctor</font>) XmlCustomDefenses( <font color="blue">string</font> name, <font color="blue">int</font> nspecials )<br>
+      <font color="blue">bool</font> HasActiveCombos( <font color="blue">get</font>; )<br>
+      <font color="blue">void</font> AddSpecial( <a href="SpecialDefenses.html">SpecialDefenses</a> id )<br>
+      <font color="blue">void</font> CheckCombos( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven, <a href="SpecialDefense.html">SpecialDefense</a> s )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Deserialize( <a href="GenericReader.html">GenericReader</a> reader )<br>
+      <font color="blue">void</font> DoComboDefense( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven, <a href="ComboDefense.html">ComboDefense</a> combo )<br>
+      <font color="blue">void</font> DoComboTimer( <a href="Mobile.html">Mobile</a> from, TimeSpan delay )<br>
+      <font color="blue">int</font> DoSpecialDefense( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven, <a href="SpecialDefense.html">SpecialDefense</a> special )<br>
+      <font color="blue">void</font> FillComboList()<br>
+      <font color="blue">void</font> FillSpecialsList()<br>
+      <font color="blue">virtual</font> <font color="blue">int</font> OnArmorHit( <a href="Mobile.html">Mobile</a> attacker, <a href="Mobile.html">Mobile</a> defender, <a href="Item.html">Item</a> armor, <a href="BaseWeapon.html">BaseWeapon</a> weapon, <font color="blue">int</font> damageGiven )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnAttach()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnEquip( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">string</font> OnIdentify( <a href="Mobile.html">Mobile</a> from )<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> OnRemoved( <font color="blue">object</font> parent )<br>
+      <font color="blue">void</font> ResetCombos()<br>
+      <font color="blue">virtual</font> <font color="blue">void</font> Serialize( <a href="GenericWriter.html">GenericWriter</a> writer )<br>
+      <font color="blue">void</font> SetRandomSpecials( <font color="blue">int</font> count )<br>
+   </body>
+</html>
